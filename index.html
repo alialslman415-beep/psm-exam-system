@@ -233,7 +233,10 @@ options: [
 "High frequency, low severity risks"
 ],
 answer: 1,
-explanation: "Process safety focuses particularly on rare events that can have catastrophic consequences."
+explanation: "Process safety focuses particularly on rare events that can have catastrophic consequences.",
+element: "Element 1 – Process Safety Leadership",
+topic: "1.1 Process Safety Management Meaning",
+page: "Page 4"
 },
 
 {
@@ -871,7 +874,9 @@ function nextQuestion() {
         correct: q.answer,
 
         explanation: q.explanation,
-
+element: q.element,
+topic: q.topic,
+page: q.page,
         isCorrect: isCorrect
     });
 
@@ -995,13 +1000,19 @@ function showReview() {
             ""
         }
 
-        <div class="explanation">
+       <div class="explanation">
 
-        <strong>Explanation:</strong><br>
+<strong>Explanation:</strong><br>
+${item.explanation}
 
-        ${item.explanation}
+<br><br>
 
-        </div>
+<strong>📘 Reference:</strong><br>
+${item.element || "Reference not added yet"}<br>
+${item.topic || ""}<br>
+${item.page || ""}
+
+</div>
         `;
 
         review.appendChild(div);
