@@ -236,7 +236,38 @@ Element 4 – Fire and Explosion Protection
 <button onclick="closeBookCenter()">⬅ Back to Examination</button>
 
 </div>
-    
+<!-- BOOK CONTENT PAGE -->
+
+<div id="bookContentPage" class="hidden">
+
+    <h2 id="bookContentTitle">📘 PSM Study Center</h2>
+
+    <p>
+        Study the selected Process Safety Management element.
+    </p>
+
+    <hr>
+
+    <div id="bookContent">
+
+        <h3>Select an Element from the PSM Book Center</h3>
+
+        <p>
+            The study content, topics and book references
+            will appear here.
+        </p>
+
+    </div>
+
+    <br>
+
+    <button onclick="backToBookCenter()">
+        ← Back to Book Center
+    </button>
+
+</div>
+
+<br><br>    
 
 
 <!-- REVIEW -->
@@ -1092,25 +1123,120 @@ function closeBookCenter() {
 function openBookElement(elementNumber) {
 
     let title = "";
+    let content = "";
 
     if (elementNumber === 1) {
+
         title = "Element 1 – Process Safety Leadership";
+
+        content = `
+            <h3>Element 1 – Process Safety Leadership</h3>
+
+            <p><strong>1.1 Process Safety Management Meaning</strong></p>
+            <p>
+            Understand the meaning of process safety and how it differs
+            from personal safety.
+            </p>
+
+            <p><strong>1.2 Process Safety Leadership</strong></p>
+            <p>
+            Leadership commitment, accountability, competence,
+            resources and visible involvement in process safety.
+            </p>
+
+            <p><strong>1.3 Organisational Learning</strong></p>
+            <p>
+            Learning from incidents, near misses and internal or external
+            process safety information.
+            </p>
+
+            <p><strong>1.4 Management of Change</strong></p>
+            <p>
+            Identification, assessment and authorisation of changes
+            before implementation.
+            </p>
+
+            <p><strong>1.5 Worker Participation and Engagement</strong></p>
+            <p>
+            Effective consultation and involvement of workers in
+            process safety activities.
+            </p>
+
+            <p><strong>1.6 Competence</strong></p>
+            <p>
+            Ensuring workers have the appropriate knowledge,
+            skills and experience for process safety responsibilities.
+            </p>
+        `;
     }
 
     if (elementNumber === 2) {
+
         title = "Element 2 – Management of Process Risk";
+
+        content = `
+            <h3>Element 2 – Management of Process Risk</h3>
+
+            <p>
+            Topics will include hazard identification, HAZOP,
+            HAZID, FMEA, ETA, risk assessment, asset integrity,
+            permit-to-work, contractor management and shift handover.
+            </p>
+        `;
     }
 
     if (elementNumber === 3) {
+
         title = "Element 3 – Process Safety Hazard Control";
+
+        content = `
+            <h3>Element 3 – Process Safety Hazard Control</h3>
+
+            <p>
+            Topics will include SOPs, safe start-up and shutdown,
+            FARSI, steam and water hazards, electricity,
+            chemical reactions and bulk storage.
+            </p>
+        `;
     }
 
     if (elementNumber === 4) {
+
         title = "Element 4 – Fire and Explosion Protection";
+
+        content = `
+            <h3>Element 4 – Fire and Explosion Protection</h3>
+
+            <p>
+            Topics will include fire and explosion mechanisms,
+            protection systems, emergency preparedness,
+            dust explosions, BLEVE and fire-fighting systems.
+            </p>
+        `;
     }
 
-    alert(title + "\n\nBook content will be added here.");
+    document.getElementById("bookPage")
+        .classList.add("hidden");
+
+    document.getElementById("bookContentPage")
+        .classList.remove("hidden");
+
+    document.getElementById("bookContentTitle")
+        .innerText = title;
+
+    document.getElementById("bookContent")
+        .innerHTML = content;
 }
+    function backToBookCenter() {
+
+    document.getElementById("bookContentPage")
+        .classList.add("hidden");
+
+    document.getElementById("bookPage")
+        .classList.remove("hidden");
+}
+
+    
 </script>
 
 </body>
