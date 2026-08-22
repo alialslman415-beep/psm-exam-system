@@ -148,7 +148,7 @@ button:hover {
 <!-- LOGIN -->
 
 <div id="loginPage">
-
+<button onclick="showBookCenter()">📘 Book Center</button>
 <h2>Candidate Information</h2>
 
 <label>Candidate Name</label>
@@ -200,6 +200,42 @@ button:hover {
 <button onclick="showReview()">Review Answers</button>
 
 </div>
+<!-- BOOK CENTER -->
+
+<div id="bookPage" class="hidden">
+
+<h2>📘 PSM Book Center</h2>
+
+<p>Select an element to study:</p>
+
+<button onclick="openBookElement(1)">
+Element 1 – Process Safety Leadership
+</button>
+
+<br><br>
+
+<button onclick="openBookElement(2)">
+Element 2 – Management of Process Risk
+</button>
+
+<br><br>
+
+<button onclick="openBookElement(3)">
+Element 3 – Process Safety Hazard Control
+</button>
+
+<br><br>
+
+<button onclick="openBookElement(4)">
+Element 4 – Fire and Explosion Protection
+</button>
+
+<br><br>
+
+<button onclick="closeBookCenter()">⬅ Back to Examination</button>
+
+</div>
+    
 
 
 <!-- REVIEW -->
@@ -1030,7 +1066,50 @@ function backToResult() {
     document.getElementById("resultPage")
         .classList.remove("hidden");
 }
+/* BOOK CENTER */
 
+function showBookCenter() {
+
+    document.getElementById("loginPage")
+        .classList.add("hidden");
+
+    document.getElementById("bookPage")
+        .classList.remove("hidden");
+}
+
+
+function closeBookCenter() {
+
+    document.getElementById("bookPage")
+        .classList.add("hidden");
+
+    document.getElementById("loginPage")
+        .classList.remove("hidden");
+}
+
+
+function openBookElement(elementNumber) {
+
+    let title = "";
+
+    if (elementNumber === 1) {
+        title = "Element 1 – Process Safety Leadership";
+    }
+
+    if (elementNumber === 2) {
+        title = "Element 2 – Management of Process Risk";
+    }
+
+    if (elementNumber === 3) {
+        title = "Element 3 – Process Safety Hazard Control";
+    }
+
+    if (elementNumber === 4) {
+        title = "Element 4 – Fire and Explosion Protection";
+    }
+
+    alert(title + "\n\nBook content will be added here.");
+}
 </script>
 
 </body>
