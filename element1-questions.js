@@ -2014,5 +2014,405 @@ const element1Questions = [
   topic: "Competence",
   difficulty: "Medium",
   reference: "PSM Book – Element 1"
-}
+},
+{
+    question: "Senior management receives excellent personal injury statistics but several loss-of-containment events have occurred during the same year. What is the BEST conclusion?",
+    options: [
+        "The organisation has demonstrated excellent process safety performance",
+        "Personal safety statistics alone are insufficient to demonstrate effective process safety",
+        "Loss-of-containment events are mainly occupational safety issues",
+        "Process safety performance should only be reviewed after a major accident"
+    ],
+    answer: 1,
+    explanation: "Good personal injury performance does not necessarily mean that major accident hazards are being effectively controlled. Process safety requires specific attention to loss of containment and major hazard barriers.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Process Safety Performance",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "A refinery director regularly visits operational areas, asks operators about major accident hazards and follows up overdue safety-critical actions. What does this MOST strongly demonstrate?",
+    options: [
+        "Visible process safety leadership",
+        "Reactive monitoring only",
+        "Delegation of process safety responsibility",
+        "Dependence on administrative controls"
+    ],
+    answer: 0,
+    explanation: "Visible leadership includes active engagement with workers, understanding major hazards and ensuring that important process safety actions are completed.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Leadership",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "Following a serious process incident, an organisation completes an investigation but keeps the findings within the affected department. What important principle has MOST clearly been missed?",
+    options: [
+        "Inventory reduction",
+        "Organisational learning",
+        "Hazardous area classification",
+        "Mechanical isolation"
+    ],
+    answer: 1,
+    explanation: "Organisational learning requires lessons from incidents and near misses to be retained, communicated and applied where relevant across the organisation.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Organisational Learning",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "The Piper Alpha disaster involved a release of flammable LPG. Which underlying failures are MOST consistent with the lessons highlighted in the PSM Book?",
+    options: [
+        "Failure of PPE selection and poor housekeeping",
+        "Failure of permit-to-work, isolation and management controls",
+        "Failure to provide enough fire extinguishers",
+        "Failure to provide hearing protection"
+    ],
+    answer: 1,
+    explanation: "The PSM Book identifies failures in permit-to-work, lock-out/isolation and design/management arrangements as important underlying causes associated with Piper Alpha.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Piper Alpha",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "Why is Piper Alpha still frequently used as a process safety case study decades after the event?",
+    options: [
+        "Because it mainly demonstrated the importance of personal protective equipment",
+        "Because it demonstrated how multiple organisational and technical failures can combine into a catastrophic event",
+        "Because it was caused only by severe weather",
+        "Because it proved that offshore platforms cannot be operated safely"
+    ],
+    answer: 1,
+    explanation: "Piper Alpha demonstrates how weaknesses in management systems, communication, permits, isolation and design can combine and escalate into a major accident.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Piper Alpha",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "A board reviews process safety only after fires, explosions or major releases occur. What type of leadership approach does this MOST closely represent?",
+    options: [
+        "Proactive",
+        "Predictive",
+        "Reactive",
+        "Inherent"
+    ],
+    answer: 2,
+    explanation: "Waiting for an unwanted event before taking action is reactive. Effective process safety leadership should seek evidence of deteriorating controls before a major accident occurs.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Leadership",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "Buncefield, Texas City and the Macondo/Deepwater Horizon disaster all reinforced which major process safety lesson?",
+    options: [
+        "Engineering controls make leadership unnecessary",
+        "Major accident prevention requires both effective physical controls and strong leadership",
+        "Personal injury rates are the best predictor of catastrophic events",
+        "Major accidents cannot realistically be prevented"
+    ],
+    answer: 1,
+    explanation: "Major disasters demonstrated that technical systems alone are not enough. Leadership, culture, decision-making and management systems are essential to preventing catastrophic events.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Major Accident Lessons",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "A company has sufficient written procedures but routinely postpones safety-critical maintenance to achieve production targets. What does this MOST strongly indicate?",
+    options: [
+        "A positive process safety culture",
+        "A conflict between stated safety values and actual management priorities",
+        "Effective organisational learning",
+        "Successful competence management"
+    ],
+    answer: 1,
+    explanation: "Safety culture is influenced by what leaders actually prioritise. Repeatedly sacrificing safety-critical work for production sends a strong negative message.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Safety Culture",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "Which management behaviour would BEST support a positive process safety culture?",
+    options: [
+        "Discouraging workers from reporting minor process deviations",
+        "Rewarding production regardless of operating conditions",
+        "Encouraging reporting, questioning and discussion of process safety concerns",
+        "Limiting process safety information to senior managers"
+    ],
+    answer: 2,
+    explanation: "A positive culture encourages reporting, consultation, questioning and open communication about hazards without creating unnecessary fear of blame.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Safety Culture",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "An experienced operator is promoted to supervise a safety-critical process solely because they have worked at the plant for 20 years. What is the main weakness in this decision?",
+    options: [
+        "Experience should never be considered",
+        "Length of service alone does not demonstrate competence for the new role",
+        "Only academic qualifications demonstrate competence",
+        "Supervisors do not require process safety competence"
+    ],
+    answer: 1,
+    explanation: "Competence is based on an appropriate combination of knowledge, skills and experience relevant to the actual role, not years of service alone.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Competence",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "A safety-critical emergency task is rarely performed in normal operation. What is the BEST way to maintain worker competence for that task?",
+    options: [
+        "Assume competence will remain because workers were originally trained",
+        "Provide periodic refresher training, exercises and reassessment",
+        "Wait until a real emergency occurs",
+        "Replace the emergency procedure with a warning sign"
+    ],
+    answer: 1,
+    explanation: "Skills for rarely performed safety-critical activities can deteriorate. Refresher training, practice and reassessment help maintain competence.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Competence",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "Which sequence BEST represents effective competence management?",
+    options: [
+        "Recruit people, provide induction and assume competence permanently",
+        "Define competence requirements, develop people, assess competence and periodically review it",
+        "Check years of service, issue procedures and record attendance",
+        "Provide training only after an incident"
+    ],
+    answer: 1,
+    explanation: "Competence management is a continuing cycle involving defined requirements, development, assessment and periodic review.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Competence",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "A worker reports that a safety-critical alarm frequently activates without an obvious process problem. Their supervisor tells them to ignore it because it has happened many times before. What cultural problem is MOST concerning?",
+    options: [
+        "Excessive worker consultation",
+        "Normalisation of abnormal conditions",
+        "Overuse of engineering controls",
+        "Excessive management visibility"
+    ],
+    answer: 1,
+    explanation: "Repeated abnormal conditions can gradually become accepted as normal. This weakens sensitivity to warning signs and can increase major accident risk.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Safety Culture",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "A company investigates an incident at one refinery and discovers the same equipment design exists at five other sites. What should effective organisational learning lead to?",
+    options: [
+        "Action only at the refinery where the incident occurred",
+        "Communication and review across all potentially affected sites",
+        "Deletion of the incident record after corrective action",
+        "Disciplinary action against the original operator only"
+    ],
+    answer: 1,
+    explanation: "Lessons should be communicated to all areas that could benefit from them so similar weaknesses can be identified and corrected before recurrence.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Organisational Learning",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "Which argument for process safety management is being used when management states that workers and members of the public should not suffer preventable death or serious injury?",
+    options: [
+        "Financial",
+        "Moral",
+        "Production",
+        "Technical"
+    ],
+    answer: 1,
+    explanation: "Preventing needless death, injury and suffering is the moral reason for managing process safety.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Moral Case",
+    difficulty: "Easy",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "The Piper Alpha disaster caused major loss of life, enormous insured losses and reputational damage. Which process safety arguments does this demonstrate?",
+    options: [
+        "Moral and financial only",
+        "Financial only",
+        "Moral, financial and reputational consequences",
+        "Technical consequences only"
+    ],
+    answer: 2,
+    explanation: "Major accidents can cause fatalities, huge financial losses, interruption to production and lasting damage to organisational reputation.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Business Case",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "What was an important leadership lesson reinforced by the Buncefield disaster?",
+    options: [
+        "Senior leaders should focus only on personal injury rates",
+        "Process safety leadership requires active engagement with major accident hazards",
+        "Bulk storage facilities do not require board-level attention",
+        "Major accident prevention should be delegated entirely to operators"
+    ],
+    answer: 1,
+    explanation: "Buncefield reinforced the importance of senior leadership understanding and actively managing major accident hazards rather than delegating responsibility completely.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Buncefield",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "A chief executive says, 'Process safety is the responsibility of the HSE department.' What is the BEST response?",
+    options: [
+        "Correct, because technical departments should own all process risks",
+        "Incorrect, because leadership and line management must own process safety within their areas of responsibility",
+        "Correct, provided the HSE manager is competent",
+        "Incorrect only for offshore facilities"
+    ],
+    answer: 1,
+    explanation: "HSE specialists can advise and support, but responsibility for managing process safety must be integrated into leadership and operational management.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Leadership Responsibility",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "A company repeatedly experiences the same type of near miss at different sites despite completing investigations each time. What does this MOST strongly suggest?",
+    options: [
+        "Strong organisational learning",
+        "Weak organisational learning and failure to transfer lessons",
+        "Excessive use of leading indicators",
+        "Too much worker consultation"
+    ],
+    answer: 1,
+    explanation: "Repeated similar events at different locations indicate that lessons are not being effectively retained, communicated or implemented across the organisation.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Organisational Learning",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "Why can increased use of contractors create a long-term process safety concern?",
+    options: [
+        "Contractors can never be competent",
+        "Corporate knowledge of plant and processes may be lost when contractor personnel frequently change",
+        "Contractors cannot work under permit-to-work systems",
+        "Contractors are legally prohibited from operating process equipment"
+    ],
+    answer: 1,
+    explanation: "Frequent contractor turnover can result in loss of detailed site, equipment and process knowledge unless knowledge retention is actively managed.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Corporate Knowledge",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "The Deepwater Horizon/Macondo disaster is useful in process safety leadership training primarily because it demonstrated that:",
+    options: [
+        "Major accidents are caused only by equipment failure",
+        "Leadership decisions and management systems are important alongside physical barriers",
+        "Offshore operations should rely mainly on PPE",
+        "Process safety is unrelated to business decisions"
+    ],
+    answer: 1,
+    explanation: "Macondo reinforced that preventing catastrophic events requires effective leadership, management decisions and organisational controls as well as technical barriers.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Deepwater Horizon",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "At Texas City, workers were located in temporary accommodation within a vulnerable process area. Which management principle was MOST clearly relevant to preventing this exposure?",
+    options: [
+        "Keeping occupied buildings away from major explosion hazards",
+        "Increasing the number of portable fire extinguishers",
+        "Reducing shift handover time",
+        "Replacing active fire protection with PPE"
+    ],
+    answer: 0,
+    explanation: "The Texas City lessons included the importance of siting occupied temporary buildings outside areas vulnerable to major explosion consequences.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Texas City",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "Management reduces control-room staffing while operator workload and alarm demands increase. Which major accident lesson makes this particularly concerning?",
+    options: [
+        "Buncefield demonstrated that all alarms should be removed",
+        "Texas City highlighted workload, fatigue, training and supervision weaknesses",
+        "Piper Alpha proved staffing has no effect on process safety",
+        "Deepwater Horizon showed operators should work independently of management"
+    ],
+    answer: 1,
+    explanation: "The Texas City investigation identified concerns including staffing, workload, fatigue, training and supervision, all of which can weaken process control.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Texas City",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "Which action would BEST demonstrate that senior leaders genuinely understand major accident risk?",
+    options: [
+        "Review only total recordable injury rates once per year",
+        "Ask challenging questions about safety-critical barriers, overdue actions and major accident scenarios",
+        "Leave all process safety decisions to contractors",
+        "Focus board meetings exclusively on production performance"
+    ],
+    answer: 1,
+    explanation: "Effective process safety leaders maintain awareness of major hazards and challenge the health of barriers and risk-control systems.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Leadership",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+},
+{
+    question: "A plant has not suffered a major accident for 15 years. Management therefore concludes that current controls must be adequate. What is the BEST criticism of this reasoning?",
+    options: [
+        "Major accidents must occur at least once every ten years",
+        "Absence of a major accident does not prove that critical barriers are healthy",
+        "Only external regulators can judge barrier performance",
+        "Historical performance is more reliable than inspection and testing"
+    ],
+    answer: 1,
+    explanation: "Major accidents are low-frequency events. Organisations must actively verify barrier condition and performance rather than assuming safety from the absence of catastrophe.",
+    elementNumber: 1,
+    element: "Element 1 – Process Safety Leadership",
+    topic: "Process Safety Assurance",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 1"
+}  
 ]; 
