@@ -1775,5 +1775,405 @@ const element3Questions = [
   topic: "Bulk Storage Operations",
   difficulty: "Hard",
   reference: "PSM Book – Element 3"
-}
+},
+ {
+    question: "During normal operation, a reactor temperature begins to rise above the defined safe operating limit. The operator believes production can continue because no alarm has activated yet. What is the BEST action?",
+    options: [
+        "Continue until the high-high alarm activates",
+        "Increase production to complete the batch faster",
+        "Take the specified action to restore or shut down the process within the Safe Operating Envelope",
+        "Ignore the deviation if vessel pressure remains normal"
+    ],
+    answer: 2,
+    explanation: "Safe operating limits define conditions within which the process should operate. Exceeding a limit requires the specified corrective or shutdown response rather than waiting for another protection layer to activate.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Safe Operating Envelope",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "Why should operating procedures clearly state both normal operating limits and the consequences of deviation?",
+    options: [
+        "So operators can decide their own limits during each shift",
+        "So abnormal conditions can be recognised and appropriate corrective action taken before escalation",
+        "To eliminate the need for alarms and trips",
+        "Only to satisfy document-control requirements"
+    ],
+    answer: 1,
+    explanation: "Operators need to understand safe limits, the consequences of exceeding them and the actions required to return the process to a safe condition.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Operating Procedures",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "An operator repeatedly bypasses one step in an SOP because the normal method takes longer, and supervisors are aware of the practice. What is the MOST significant process safety concern?",
+    options: [
+        "The procedure contains too many pages",
+        "An unsafe deviation has become accepted as normal practice",
+        "The operator requires additional PPE",
+        "The process should automatically be classified as low risk"
+    ],
+    answer: 1,
+    explanation: "Routine deviation from an approved procedure can become normalised. Management awareness without corrective action can reinforce unsafe practice and weaken process safety culture.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "SOPs",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "Who should be involved when developing or significantly revising an operating procedure for a safety-critical process?",
+    options: [
+        "Only senior management",
+        "Only the document-control department",
+        "People with relevant operational and technical knowledge, including those who perform the task",
+        "Only external consultants"
+    ],
+    answer: 2,
+    explanation: "Operator involvement helps ensure procedures reflect actual plant conditions, hazards and practical operating requirements while appropriate technical input supports accuracy.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "SOPs",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "Why can process start-up present greater risk than stable normal operation?",
+    options: [
+        "All safety systems are unnecessary during start-up",
+        "Process conditions are changing and equipment may pass through unstable or abnormal states",
+        "Start-up always occurs without operating procedures",
+        "Hazardous materials are never present during normal operation"
+    ],
+    answer: 1,
+    explanation: "Start-up is a process transition. Conditions such as temperature, pressure, flow and equipment status are changing, which can create greater potential for deviations than stable operation.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Start-up and Shutdown",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "Before starting a process unit following major maintenance, which combination is MOST important?",
+    options: [
+        "Production target confirmed and workers available",
+        "Correct equipment status, completed isolations/reinstatement checks, available safety systems and competent personnel",
+        "Only the control-room alarm test completed",
+        "Only confirmation that maintenance personnel have left the site"
+    ],
+    answer: 1,
+    explanation: "Safe start-up requires confirmation that equipment is correctly configured, isolations are appropriately reinstated, safety-critical systems are available and competent personnel follow the required procedure.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Start-up and Shutdown",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "Steam is introduced rapidly into cold process pipework. Shortly afterwards, violent vibration and banging occur. Which hazard is MOST likely?",
+    options: [
+        "Dust explosion",
+        "Water hammer",
+        "BLEVE",
+        "Electrostatic discharge"
+    ],
+    answer: 1,
+    explanation: "Rapid steam introduction and condensate movement can create water hammer, producing severe pressure forces, vibration and potential mechanical damage.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Steam and Water Hazards",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "What is a key control when introducing steam into a cold system?",
+    options: [
+        "Introduce steam as rapidly as possible",
+        "Ensure controlled warming and effective condensate removal",
+        "Close all condensate drains",
+        "Increase pressure immediately to maximum operating pressure"
+    ],
+    answer: 1,
+    explanation: "Controlled warming and removal of condensate help prevent thermal stress and water hammer during steam introduction.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Steam",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "A flammable liquid is transferred through a hose into a tank at excessive velocity with splash filling. What process safety hazard is particularly increased?",
+    options: [
+        "Static electricity accumulation and discharge",
+        "Biological contamination",
+        "Loss of structural fire protection",
+        "Water hammer caused by steam"
+    ],
+    answer: 0,
+    explanation: "Fast movement and splash filling of flammable liquids can increase electrostatic charge generation and accumulation, creating a potential ignition source.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Static Electricity",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "What is the PRIMARY purpose of bonding during transfer of a flammable liquid between conductive equipment?",
+    options: [
+        "Increase liquid flow rate",
+        "Maintain the equipment at approximately the same electrical potential",
+        "Increase tank pressure",
+        "Prevent chemical reaction"
+    ],
+    answer: 1,
+    explanation: "Bonding electrically connects conductive items so that a dangerous potential difference is less likely to develop between them.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Bonding and Earthing",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "What is the PRIMARY purpose of earthing conductive equipment used with flammable substances?",
+    options: [
+        "Provide a path for accumulated electrical charge to dissipate safely to earth",
+        "Increase electrical resistance",
+        "Increase process temperature",
+        "Prevent all vapour formation"
+    ],
+    answer: 0,
+    explanation: "Earthing provides a conductive path that allows accumulated static charge to dissipate, reducing the likelihood of an incendive discharge.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Bonding and Earthing",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "A flammable atmosphere is present continuously or for long periods around a process location. Which hazardous-area classification is MOST consistent with this condition for gases or vapours?",
+    options: [
+        "Zone 0",
+        "Zone 1",
+        "Zone 2",
+        "Non-hazardous area"
+    ],
+    answer: 0,
+    explanation: "Zone 0 applies where an explosive gas atmosphere is present continuously, for long periods or frequently.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Hazardous Area Classification",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "During normal operation, a flammable gas atmosphere is likely to occur occasionally around a process release point. Which classification is MOST appropriate?",
+    options: [
+        "Zone 0",
+        "Zone 1",
+        "Zone 2",
+        "Safe area under all conditions"
+    ],
+    answer: 1,
+    explanation: "Zone 1 is used where an explosive gas atmosphere is likely to occur occasionally during normal operation.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Hazardous Area Classification",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "A flammable atmosphere is not likely during normal operation, and if it occurs it is expected to exist only for a short time. Which classification is MOST appropriate?",
+    options: [
+        "Zone 0",
+        "Zone 1",
+        "Zone 2",
+        "Zone 20"
+    ],
+    answer: 2,
+    explanation: "Zone 2 applies where an explosive gas atmosphere is not likely during normal operation and, if it does occur, will exist only for a short period.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Hazardous Area Classification",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "A chemical reaction releases heat faster as temperature increases. Cooling is then lost and the temperature begins rising rapidly. What is the MAIN concern?",
+    options: [
+        "Thermal runaway",
+        "Endothermic cooling",
+        "Water hammer",
+        "Vacuum collapse caused by draining"
+    ],
+    answer: 0,
+    explanation: "In an exothermic reaction, increasing temperature can increase reaction rate and heat generation. Loss of adequate heat removal can therefore lead to thermal runaway.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Thermal Runaway",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "Which statement BEST distinguishes an exothermic reaction from an endothermic reaction?",
+    options: [
+        "An exothermic reaction releases heat while an endothermic reaction absorbs heat",
+        "An exothermic reaction always requires oxygen while an endothermic reaction never does",
+        "An endothermic reaction always causes an explosion",
+        "There is no process safety difference between them"
+    ],
+    answer: 0,
+    explanation: "Exothermic reactions release heat to their surroundings, whereas endothermic reactions absorb heat. Understanding heat effects is important for process temperature control.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Chemical Reactions",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "A very cold liquid is suddenly introduced into hot process equipment. What failure mechanism should be considered?",
+    options: [
+        "Thermal shock caused by rapid temperature change",
+        "Dust deflagration",
+        "Electrostatic charging only",
+        "Biological corrosion only"
+    ],
+    answer: 0,
+    explanation: "Rapid temperature change can create differential thermal stresses in equipment and materials, potentially causing cracking or other damage.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Thermal Shock",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "A storage tank relies on a normal level gauge and a high-level alarm connected to the same measurement system. What additional safeguard would provide stronger protection against overfilling?",
+    options: [
+        "A larger tank label",
+        "An independent high-high level protection system",
+        "A second copy of the operating procedure",
+        "Additional PPE for the tanker driver"
+    ],
+    answer: 1,
+    explanation: "Independent high-level protection reduces dependence on the normal level-control system and can provide a separate layer against tank overfilling.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Tank Overfilling",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "A road tanker is unloading flammable liquid into a fixed storage tank. Which combination addresses two important process safety hazards during transfer?",
+    options: [
+        "Bonding/earthing and effective overfill protection",
+        "Hearing protection and additional lighting only",
+        "Higher transfer velocity and splash filling",
+        "Open tank venting beside an ignition source"
+    ],
+    answer: 0,
+    explanation: "Flammable-liquid transfer requires control of electrostatic ignition hazards as well as prevention of overfilling and loss of containment.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Road Tanker Transfer",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "A tanker driver begins unloading before confirming that the receiving tank has sufficient spare capacity. What major event could result?",
+    options: [
+        "Overfilling and loss of containment",
+        "Automatic reduction of static electricity",
+        "Improved vapour control",
+        "Elimination of ignition sources"
+    ],
+    answer: 0,
+    explanation: "Receiving capacity must be confirmed before transfer. Failure to do so can result in overfilling, release of hazardous material and possible fire or explosion.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Bulk Storage Operations",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "Liquid is pumped out of a closed storage tank faster than air or vapour can enter. Which hazard can develop?",
+    options: [
+        "Excessive internal vacuum and possible tank collapse",
+        "Thermal runaway",
+        "Dust explosion",
+        "BLEVE caused by external fire"
+    ],
+    answer: 0,
+    explanation: "Removing liquid without adequate vacuum relief can create negative pressure sufficient to deform or implode a tank.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Vacuum Protection",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "What is the PRIMARY function of a pressure relief device on process equipment?",
+    options: [
+        "Maintain production at maximum rate",
+        "Protect equipment from pressure exceeding its allowable limit",
+        "Prevent every possible process deviation",
+        "Replace normal process control"
+    ],
+    answer: 1,
+    explanation: "A pressure relief device provides protection against excessive pressure by relieving material when specified pressure conditions are reached.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Pressure Relief",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "A safety-critical trip has been bypassed to allow temporary operation. Which approach is MOST appropriate?",
+    options: [
+        "Leave the bypass in place until the next annual shutdown",
+        "Formally assess and authorise the bypass, apply compensating controls, communicate its status and restore protection as soon as practicable",
+        "Allow the operator to decide whether anyone needs to know",
+        "Remove the trip permanently because it interrupted production"
+    ],
+    answer: 1,
+    explanation: "Temporary impairment of a safety-critical protection system requires formal control, risk assessment, authorisation, communication, compensating measures and timely restoration.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Safety-Critical Systems",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "During transfer of a flammable liquid, the bonding cable becomes disconnected. No release has occurred and transfer is still in progress. What is the BEST response?",
+    options: [
+        "Continue because the liquid is already flowing",
+        "Increase transfer speed to finish quickly",
+        "Stop the transfer safely and restore the required electrostatic control before continuing",
+        "Ask the driver to hold the hose manually"
+    ],
+    answer: 2,
+    explanation: "Loss of a required electrostatic control can introduce an ignition hazard. The transfer should be stopped safely until the control is restored.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Static Electricity",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 3"
+},
+{
+    question: "A bulk storage tank containing a hazardous liquid is surrounded by a bund. What is the MAIN purpose of the bund?",
+    options: [
+        "Prevent the tank from overpressurising",
+        "Contain a significant liquid release and limit its spread",
+        "Prevent all vapour generation",
+        "Provide electrical earthing for the tank"
+    ],
+    answer: 1,
+    explanation: "Bunds provide secondary containment so that released liquid can be retained and its spread and consequences reduced.",
+    elementNumber: 3,
+    element: "Element 3 – Process Safety Hazard Control",
+    topic: "Bulk Storage",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 3"
+} 
 ];  
