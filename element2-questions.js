@@ -1599,4 +1599,5 @@ const element2Questions = [
   topic: "Risk Review",
   difficulty: "Medium",
   reference: "PSM Book – Element 2"
+}
 ]; 
