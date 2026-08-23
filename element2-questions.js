@@ -1599,5 +1599,405 @@ const element2Questions = [
   topic: "Risk Review",
   difficulty: "Medium",
   reference: "PSM Book – Element 2"
-}
+},
+ {
+    question: "During a HAZOP study, the team applies the guide word 'No' to the parameter 'Flow'. What deviation is being considered?",
+    options: [
+        "High flow",
+        "Reverse flow",
+        "No flow",
+        "Low pressure"
+    ],
+    answer: 2,
+    explanation: "In HAZOP, combining the guide word 'No' with the parameter 'Flow' produces the deviation 'No flow'.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "HAZOP",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A project team is at an early design stage and wants to identify a broad range of hazards before detailed process information is available. Which technique is MOST appropriate?",
+    options: [
+        "HAZID",
+        "Detailed HAZOP",
+        "Failure Mode and Effects Analysis",
+        "Permit-to-work audit"
+    ],
+    answer: 0,
+    explanation: "HAZID is particularly useful at an early stage to identify a broad range of hazards before detailed design information is available.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "HAZID",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A HAZOP team identifies 'More Pressure' in a reactor vessel. What should the team consider NEXT?",
+    options: [
+        "Only the financial cost of the deviation",
+        "Possible causes, consequences, existing safeguards and any required actions",
+        "Whether workers are wearing PPE",
+        "The annual accident frequency of the whole company"
+    ],
+    answer: 1,
+    explanation: "Once a deviation is identified, HAZOP systematically considers causes, consequences, safeguards and whether further action is required.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "HAZOP",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "An engineer wants to examine how failure of individual components could affect the operation of a safety-critical system. Which technique is MOST suitable?",
+    options: [
+        "HAZID",
+        "FMEA",
+        "Emergency drill",
+        "Job safety observation"
+    ],
+    answer: 1,
+    explanation: "FMEA systematically considers individual failure modes and their effects on equipment or system performance.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "FMEA",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A team starts with an initiating event and wants to examine the possible sequences of success or failure of protective systems that may follow. Which technique should they use?",
+    options: [
+        "Event Tree Analysis",
+        "HAZID",
+        "FMEA",
+        "Task observation"
+    ],
+    answer: 0,
+    explanation: "Event Tree Analysis starts with an initiating event and develops possible outcome sequences depending on whether subsequent protection succeeds or fails.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "ETA",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A risk assessment concludes that an additional safeguard would significantly reduce major accident risk at relatively low cost. Management rejects it solely because some risk will remain afterwards. Which principle is being misunderstood?",
+    options: [
+        "ALARP",
+        "Hazard identification",
+        "Shift handover",
+        "Permit suspension"
+    ],
+    answer: 0,
+    explanation: "ALARP does not require zero risk. Reasonably practicable measures should be implemented where the sacrifice is not grossly disproportionate to the risk reduction achieved.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "ALARP",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "Which statement BEST describes residual risk?",
+    options: [
+        "Risk before any controls are considered",
+        "Risk remaining after control measures have been applied",
+        "Risk that has been completely eliminated",
+        "Only the financial consequence of an accident"
+    ],
+    answer: 1,
+    explanation: "Residual risk is the level of risk that remains after relevant control measures have been implemented.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Risk Assessment",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A plant identifies a high-risk hazardous inventory. Which option is MOST closely aligned with elimination or inherent risk reduction?",
+    options: [
+        "Provide additional operator training",
+        "Reduce the quantity of hazardous material stored",
+        "Install additional warning signs",
+        "Increase the frequency of toolbox talks"
+    ],
+    answer: 1,
+    explanation: "Reducing hazardous inventory reduces the quantity available to participate in a major accident and is higher in the hierarchy than administrative controls.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Hierarchy of Controls",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A safety-critical pump is inspected only after it develops a fault. What is the main weakness in this asset integrity approach?",
+    options: [
+        "It relies mainly on reactive maintenance",
+        "It uses too much preventive maintenance",
+        "It eliminates equipment failure",
+        "It provides excessive independent protection"
+    ],
+    answer: 0,
+    explanation: "Safety-critical equipment should be managed throughout its life cycle using appropriate inspection, testing and maintenance rather than waiting for failure.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Asset Integrity",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "Inspection reveals significant corrosion in a safety-critical pressure vessel, but production wants to continue operation until the next planned shutdown. What should be the PRIMARY consideration?",
+    options: [
+        "Whether the production target can still be achieved",
+        "Whether continued operation remains within established safe integrity limits",
+        "Whether operators agree to work overtime",
+        "Whether the vessel exterior can be repainted"
+    ],
+    answer: 1,
+    explanation: "Continued operation must be justified against defined integrity and safe operating limits. Production needs should not override unacceptable equipment risk.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Asset Integrity",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "Why should calibration records for safety-critical instruments be traceable?",
+    options: [
+        "To demonstrate inspection and calibration history and provide an audit trail",
+        "Only to calculate maintenance cost",
+        "To eliminate the need for functional testing",
+        "To allow operators to bypass instruments"
+    ],
+    answer: 0,
+    explanation: "Traceable records provide evidence of calibration, maintenance and equipment history and support assurance that safety-critical devices remain reliable.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Asset Integrity",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A maintenance job requires opening process equipment that normally contains a hazardous chemical. What should be confirmed before work begins?",
+    options: [
+        "Only that the worker has PPE",
+        "Effective isolation and control of hazardous energy and material",
+        "That production can restart immediately",
+        "Only that a supervisor is nearby"
+    ],
+    answer: 1,
+    explanation: "Before intrusive maintenance, hazardous energy and substances must be effectively isolated and the required controls verified.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Isolation",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "For a hazardous process line requiring the highest confidence of positive mechanical isolation, which method generally provides the strongest physical separation?",
+    options: [
+        "Closing a control valve",
+        "Closing one manual valve",
+        "Installing a suitable blank or spade",
+        "Posting a warning sign"
+    ],
+    answer: 2,
+    explanation: "A correctly installed blank or spade provides positive physical separation and generally gives greater isolation security than relying solely on closed valves.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Isolation",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A permit-to-work has been issued for maintenance. During the job, the work scope changes significantly. What is the BEST action?",
+    options: [
+        "Continue because the original permit is still valid",
+        "Stop the affected work and reassess the changed conditions before authorising continuation",
+        "Allow the contractor to decide whether the change matters",
+        "Record the change only after the job is completed"
+    ],
+    answer: 1,
+    explanation: "A significant change in scope or conditions can invalidate the original risk assessment and permit controls. Work should be stopped and reassessed before continuing.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Permit-to-Work",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "What is the PRIMARY purpose of a permit-to-work system for high-risk process activities?",
+    options: [
+        "To replace the risk assessment",
+        "To provide formal control and communication for specified hazardous work",
+        "To transfer responsibility entirely to the worker",
+        "To record employee attendance"
+    ],
+    answer: 1,
+    explanation: "A permit-to-work is a formal control and communication system used to ensure specified hazardous work is properly authorised and performed under defined precautions.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Permit-to-Work",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "During shift handover, an outgoing operator forgets to mention that an important protection system has been temporarily bypassed. Why is this particularly serious?",
+    options: [
+        "The incoming shift may operate without knowing that a safety barrier is unavailable",
+        "It automatically cancels all maintenance activities",
+        "It reduces the amount of written paperwork",
+        "It only affects personal safety statistics"
+    ],
+    answer: 0,
+    explanation: "The incoming shift needs accurate information about abnormal conditions, overrides and unavailable safeguards so that the process can be operated safely.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Shift Handover",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "Which information is MOST important to communicate during a process plant shift handover?",
+    options: [
+        "Only routine production totals",
+        "Abnormal plant conditions, ongoing work, isolations, overrides and safety-critical issues",
+        "Only employee attendance",
+        "Personal conversations from the previous shift"
+    ],
+    answer: 1,
+    explanation: "Effective handover focuses on information that the incoming shift needs to understand the current condition of the plant and its safety-critical controls.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Shift Handover",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A company shortens paid shift-overlap time to increase productive working hours. Operators now exchange important plant information while walking out of the control room. What risk has MOST likely increased?",
+    options: [
+        "Loss of safety-critical information during handover",
+        "Excessive preventive maintenance",
+        "Overuse of inherent safety",
+        "Unnecessary equipment redundancy"
+    ],
+    answer: 0,
+    explanation: "Adequate time and suitable conditions are needed for effective handover. Rushed handovers increase the likelihood that important plant information will be missed.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Shift Handover",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A contractor is technically competent but has never worked at the client's chemical plant. What additional information is particularly important before work starts?",
+    options: [
+        "Only the contractor's company profit",
+        "Site-specific hazards, rules, emergency arrangements and relevant process risks",
+        "Only the worker's previous salary",
+        "The names of all senior managers"
+    ],
+    answer: 1,
+    explanation: "Technical competence alone is insufficient. Contractors must understand relevant site-specific hazards, controls, rules and emergency arrangements.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Contractor Management",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "Which action BEST demonstrates active monitoring of contractor process safety performance?",
+    options: [
+        "Checking performance only after the contract ends",
+        "Observing work, verifying compliance with controls and correcting deficiencies during the work",
+        "Relying only on the contractor's injury statistics",
+        "Assuming an experienced contractor requires no supervision"
+    ],
+    answer: 1,
+    explanation: "Active monitoring involves checking work and controls while activities are being performed so weaknesses can be identified and corrected before an incident.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Contractor Management",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A risk assessment identifies a possible catastrophic consequence with very low estimated likelihood. What is the BEST approach?",
+    options: [
+        "Ignore it because the likelihood is low",
+        "Consider both likelihood and severity and ensure suitable major accident controls are provided",
+        "Treat it as automatically acceptable",
+        "Replace the assessment with personal injury statistics"
+    ],
+    answer: 1,
+    explanation: "Risk considers both likelihood and consequence. A low-frequency event with catastrophic consequences can still require substantial risk-control measures.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Risk Assessment",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A team selects a risk-reduction measure because it is easy to implement, even though a reasonably practicable engineering control would provide much greater protection. What principle has been applied poorly?",
+    options: [
+        "Hierarchy of controls",
+        "Shift handover",
+        "Emergency evacuation",
+        "Competence assessment"
+    ],
+    answer: 0,
+    explanation: "Controls should be selected using the hierarchy, giving preference to measures that eliminate or reduce risk at source rather than defaulting to weaker administrative measures.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Hierarchy of Controls",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A HAZOP recommendation is recorded but remains open for several years without justification or review. What is the MAIN process safety concern?",
+    options: [
+        "The HAZOP meeting was too detailed",
+        "An identified risk-control weakness may remain unresolved",
+        "The organisation has too many leading indicators",
+        "The equipment automatically becomes safe with time"
+    ],
+    answer: 1,
+    explanation: "HAZOP actions need appropriate ownership, tracking and closure. Leaving recommendations unresolved can allow known risk-control weaknesses to persist.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "HAZOP Actions",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "After installing new risk controls, management immediately closes the risk assessment without checking performance. What important step is missing?",
+    options: [
+        "Verification that controls are effective and review of residual risk",
+        "Removal of all previous risk records",
+        "Replacement of engineering controls with PPE",
+        "Automatic reduction of the risk rating to zero"
+    ],
+    answer: 0,
+    explanation: "Risk management includes verifying that implemented controls work as intended and reviewing whether the remaining risk is acceptable.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Risk Review",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 2"
+},
+{
+    question: "A process has multiple independent safeguards preventing the same major accident. Why is independence between safeguards important?",
+    options: [
+        "So one common failure is less likely to defeat several layers at the same time",
+        "So maintenance is never required",
+        "So operators can ignore process deviations",
+        "So all safeguards can use the same sensor and power supply"
+    ],
+    answer: 0,
+    explanation: "Independent protection layers reduce the likelihood that a single failure or common cause will disable multiple safeguards simultaneously.",
+    elementNumber: 2,
+    element: "Element 2 – Management of Process Risk",
+    topic: "Layers of Protection",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 2"
+} 
 ]; 
