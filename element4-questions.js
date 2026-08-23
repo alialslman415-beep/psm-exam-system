@@ -1663,5 +1663,405 @@ const element4Questions = [
   topic: "Fire and Explosion Protection",
   difficulty: "Hard",
   reference: "PSM Book – Element 4"
-}
+},
+{
+    question: "A flammable liquid is released from process equipment and forms a pool. The liquid subsequently ignites. Which type of fire is MOST likely?",
+    options: [
+        "Jet fire",
+        "Pool fire",
+        "Dust fire",
+        "BLEVE"
+    ],
+    answer: 1,
+    explanation: "A pool fire occurs when a flammable or combustible liquid collects on a surface and the vapour above the liquid ignites.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Pool Fire",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "Flammable gas escapes continuously from a pressurised process line and immediately ignites. Which event is MOST likely?",
+    options: [
+        "Jet fire",
+        "Pool fire",
+        "Dust explosion",
+        "Boil-over"
+    ],
+    answer: 0,
+    explanation: "Ignition of a continuous pressurised release of flammable gas or vapour can produce a jet fire with intense directional thermal radiation.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Jet Fire",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "A large cloud of flammable vapour forms in an open process area and subsequently finds an ignition source. What major event should be considered?",
+    options: [
+        "Water hammer",
+        "Unconfined vapour cloud explosion",
+        "Thermal shock",
+        "Vacuum collapse"
+    ],
+    answer: 1,
+    explanation: "A sufficiently large flammable vapour cloud that mixes with air and subsequently ignites can produce an unconfined vapour cloud explosion.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "UVCE",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "A pressurised LPG vessel is exposed to an external fire. The vessel wall weakens while the liquid inside remains above its normal boiling point. What catastrophic event is of particular concern?",
+    options: [
+        "Dust deflagration",
+        "BLEVE",
+        "Water hammer",
+        "Electrostatic discharge"
+    ],
+    answer: 1,
+    explanation: "A BLEVE can occur when a vessel containing a pressurised liquefied substance fails catastrophically while the liquid is above its atmospheric boiling temperature.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "BLEVE",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "Which three components are required for the traditional fire triangle?",
+    options: [
+        "Fuel, oxygen and heat",
+        "Fuel, nitrogen and pressure",
+        "Oxygen, water and pressure",
+        "Heat, steam and electricity"
+    ],
+    answer: 0,
+    explanation: "The traditional fire triangle consists of fuel, oxygen and a source of heat or ignition.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Fire Triangle",
+    difficulty: "Easy",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "What additional component converts the fire triangle concept into the fire tetrahedron?",
+    options: [
+        "Pressure",
+        "Chemical chain reaction",
+        "Water",
+        "Containment"
+    ],
+    answer: 1,
+    explanation: "The fire tetrahedron adds the sustaining chemical chain reaction to fuel, oxygen and heat.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Fire Tetrahedron",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "What does the flash point of a flammable liquid indicate?",
+    options: [
+        "The temperature at which the liquid automatically explodes",
+        "The lowest temperature at which sufficient vapour is produced to ignite under specified test conditions",
+        "The maximum safe storage pressure",
+        "The temperature at which all liquid becomes vapour"
+    ],
+    answer: 1,
+    explanation: "Flash point indicates the lowest temperature at which a liquid produces sufficient vapour to form an ignitable mixture under specified conditions.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Flash Point",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "A vapour concentration is below its Lower Explosive Limit (LEL). Why will flame propagation normally not occur?",
+    options: [
+        "The mixture is too rich",
+        "The mixture is too lean",
+        "There is too much fuel",
+        "The pressure is always too high"
+    ],
+    answer: 1,
+    explanation: "Below the LEL there is insufficient fuel vapour in the mixture to support flame propagation.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Flammable Limits",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "A vapour concentration is above its Upper Explosive Limit (UEL). Which statement is MOST accurate?",
+    options: [
+        "The mixture is too lean to burn",
+        "The mixture is too rich to support normal flame propagation",
+        "Ignition is guaranteed",
+        "The atmosphere is permanently safe"
+    ],
+    answer: 1,
+    explanation: "Above the UEL the mixture contains too much fuel relative to oxygen to support normal flame propagation. Dilution with air can, however, bring it back into the flammable range.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Flammable Limits",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "Why should an atmosphere above the UEL NOT automatically be regarded as permanently safe?",
+    options: [
+        "Cooling always causes immediate explosion",
+        "Mixing or dilution with air can bring the concentration into the flammable range",
+        "The UEL applies only to solids",
+        "Oxygen has no effect on flammability"
+    ],
+    answer: 1,
+    explanation: "A fuel-rich atmosphere may become flammable when air enters and reduces the concentration into the range between the LEL and UEL.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Flammable Limits",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "Which is an example of ACTIVE fire protection?",
+    options: [
+        "Fire-resistant structural coating",
+        "Fire wall",
+        "Automatic sprinkler system",
+        "Fire-resistant compartment"
+    ],
+    answer: 2,
+    explanation: "Active fire protection requires detection, activation or operation. Automatic sprinkler systems are a typical active protection measure.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Active Fire Protection",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "Which is an example of PASSIVE fire protection?",
+    options: [
+        "Automatic sprinkler system",
+        "Firewater monitor",
+        "Fire-resistant coating applied to structural steel",
+        "Automatic fire alarm"
+    ],
+    answer: 2,
+    explanation: "Passive fire protection provides inherent resistance to fire without requiring activation, such as fireproofing applied to structural steel.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Passive Fire Protection",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "Why may structural steel require passive fire protection in a major hazard facility?",
+    options: [
+        "To prevent every possible ignition",
+        "To delay loss of structural strength during fire exposure",
+        "To increase the flammability of nearby materials",
+        "To replace emergency response arrangements"
+    ],
+    answer: 1,
+    explanation: "Steel can lose significant strength when heated. Passive fire protection delays heating and helps maintain structural integrity during fire exposure.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Passive Fire Protection",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "Combustible dust is dispersed in air inside an enclosed process vessel and an ignition source is introduced. What event should be considered?",
+    options: [
+        "Dust explosion",
+        "BLEVE",
+        "Water hammer",
+        "Thermal shock"
+    ],
+    answer: 0,
+    explanation: "A combustible dust cloud dispersed at an appropriate concentration in a confined space can explode if an effective ignition source is present.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Dust Explosion",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "Why can accumulated combustible dust on floors and structural surfaces create a severe secondary explosion hazard?",
+    options: [
+        "Deposited dust cannot burn",
+        "A primary explosion can disperse deposited dust, producing a much larger explosive cloud",
+        "Dust automatically removes ignition sources",
+        "Secondary explosions occur only outdoors"
+    ],
+    answer: 1,
+    explanation: "A smaller initial explosion can disturb accumulated dust and suspend it in air, creating conditions for a much larger secondary explosion.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Secondary Dust Explosion",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "Which control is particularly important for reducing the risk of secondary combustible dust explosions?",
+    options: [
+        "Effective housekeeping to prevent hazardous dust accumulation",
+        "Increasing the amount of deposited dust",
+        "Using compressed air routinely to disperse dust",
+        "Closing all emergency exits"
+    ],
+    answer: 0,
+    explanation: "Good housekeeping limits combustible dust deposits that could otherwise become airborne and fuel a severe secondary explosion.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Dust Explosion",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "What is the PRIMARY objective of hazardous-area classification?",
+    options: [
+        "Identify areas where explosive atmospheres may occur so suitable ignition controls and equipment can be selected",
+        "Predict the exact date of an explosion",
+        "Eliminate the need for process containment",
+        "Determine worker salary levels"
+    ],
+    answer: 0,
+    explanation: "Hazardous-area classification identifies locations where explosive atmospheres may occur and supports selection and control of suitable electrical and other potential ignition sources.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Hazardous Areas",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "A flammable gas detector activates in a process area before ignition occurs. What is the MOST important benefit of early detection?",
+    options: [
+        "It guarantees that a release cannot ignite",
+        "It allows protective actions to be initiated before the event escalates",
+        "It eliminates the need for isolation",
+        "It converts flammable gas into a non-hazardous substance"
+    ],
+    answer: 1,
+    explanation: "Early detection can initiate alarms, isolation, shutdown, ventilation or emergency actions before a release develops into a larger fire or explosion.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Fire and Gas Detection",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "Why are fire and gas detectors NOT sufficient as the only protection against major fires and explosions?",
+    options: [
+        "Detection occurs only after equipment has been repaired",
+        "Detection is one protection layer and should complement prevention, isolation, mitigation and emergency response",
+        "Gas detectors always create ignition sources",
+        "Detection systems cannot produce alarms"
+    ],
+    answer: 1,
+    explanation: "Effective major hazard control uses multiple layers. Detection helps identify developing events but should not replace containment, ignition control, isolation and mitigation.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Layers of Protection",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "A tabletop emergency exercise is being conducted for a hypothetical major toxic release. What is its PRIMARY purpose?",
+    options: [
+        "Physically evacuate every worker from the facility",
+        "Discuss and test roles, decisions, communications and response arrangements using a simulated scenario",
+        "Replace all practical emergency drills permanently",
+        "Test the mechanical strength of process equipment"
+    ],
+    answer: 1,
+    explanation: "Tabletop exercises allow participants to work through an emergency scenario and test plans, responsibilities, communication and decision-making without a full physical deployment.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Tabletop Exercises",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "What is an important advantage of a practical emergency drill compared with reviewing the emergency plan only on paper?",
+    options: [
+        "It can test how people, communications and emergency arrangements actually perform",
+        "It guarantees that no future emergency will occur",
+        "It removes the need for competent emergency personnel",
+        "It eliminates all process hazards"
+    ],
+    answer: 0,
+    explanation: "Practical drills provide evidence of how emergency arrangements work in practice and can reveal weaknesses that may not be apparent during document review.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Emergency Drills",
+    difficulty: "Medium",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "A toxic gas release occurs outside a building and the external atmosphere is temporarily more hazardous than the protected indoor environment. Which emergency strategy may be appropriate if specifically planned for this scenario?",
+    options: [
+        "Shelter-in-place",
+        "Immediately send everyone toward the release",
+        "Open all doors and windows",
+        "Disable the emergency alarm"
+    ],
+    answer: 0,
+    explanation: "Shelter-in-place may be appropriate for certain toxic release scenarios where remaining inside a suitable protected building provides lower exposure than immediate outdoor evacuation.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Shelter-in-Place",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "When deciding between evacuation and shelter-in-place during a toxic release, what should the decision be based on?",
+    options: [
+        "A predetermined emergency assessment considering the release, location, exposure pathways and available protection",
+        "Whichever option workers personally prefer",
+        "Always evacuation regardless of conditions",
+        "Always shelter-in-place regardless of conditions"
+    ],
+    answer: 0,
+    explanation: "Emergency plans should define appropriate protective actions based on credible scenarios, release characteristics, potential exposure and the protection available.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Emergency Response",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "After an emergency drill, several communication failures and unclear responsibilities are identified. What should the organisation do NEXT?",
+    options: [
+        "Ignore the findings because no real emergency occurred",
+        "Record lessons, assign corrective actions, improve the plan and verify completion",
+        "Cancel all future exercises",
+        "Discipline all participants automatically"
+    ],
+    answer: 1,
+    explanation: "Exercises should generate learning. Identified weaknesses should be recorded, corrected and followed through so emergency preparedness improves.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Emergency Preparedness",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+},
+{
+    question: "Which strategy BEST represents effective protection against process fires and explosions?",
+    options: [
+        "Depend mainly on PPE after ignition occurs",
+        "Prevent loss of containment, control ignition sources, detect developing events, limit escalation and maintain effective emergency response",
+        "Depend entirely on the fire brigade",
+        "Use emergency evacuation as the only control"
+    ],
+    answer: 1,
+    explanation: "Effective fire and explosion protection uses multiple layers: prevention of release, ignition control, detection, mitigation and emergency preparedness.",
+    elementNumber: 4,
+    element: "Element 4 – Fire and Explosion Protection",
+    topic: "Fire and Explosion Strategy",
+    difficulty: "Hard",
+    reference: "PSM Book – Element 4"
+}  
 ]; 
