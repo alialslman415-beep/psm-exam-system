@@ -2014,4 +2014,5 @@ const element1Questions = [
   topic: "Competence",
   difficulty: "Medium",
   reference: "PSM Book – Element 1"
+}
 ]; 
