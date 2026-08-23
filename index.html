@@ -161,9 +161,11 @@ button:hover {
 <p><strong>Pass Mark:</strong> 80%</p>
 <p><strong>Timer:</strong> No time limit</p>
 
-<button onclick="startExam()">Start Examination</button>
+<button id="startExamButton" onclick="startExam()" disabled>
+    🔒 Complete Reading Before Examination
+</button>
 <br><br>
-<button onclick="showBookCenter()">📘 PSM Book Center</button>
+<button onclick="showBookCenter()">📘 </button>
 </div>
 
 
@@ -205,10 +207,24 @@ button:hover {
 
 <div id="bookPage" class="hidden">
 
-<h2>📘 PSM Book Center</h2>
+<h2>📘 </h2>
 
 <p>Select an element to study:</p>
+<div id="readingProgressBox" style="margin:20px 0; padding:16px; border:1px solid #ccc; border-radius:10px;">
 
+    <h3>Reading Progress</h3>
+
+    <div style="background:#e5e5e5; border-radius:20px; overflow:hidden; height:24px;">
+        <div id="readingProgressBar"
+             style="width:0%; height:100%; background:#28a745; transition:0.4s;">
+        </div>
+    </div>
+
+    <p id="readingProgressText" style="margin-top:10px; font-weight:bold;">
+        0% Completed
+    </p>
+
+</div>
 <button onclick="openBookElement(1)">
 Element 1 – Process Safety Leadership
 </button>
@@ -250,7 +266,7 @@ Element 4 – Fire and Explosion Protection
 
     <div id="bookContent">
 
-        <h3>Select an Element from the PSM Book Center</h3>
+        <h3>Select an Element from the </h3>
 
         <p>
             The study content, topics and book references
@@ -636,6 +652,7 @@ function showBookCenter() {
 
     document.getElementById("bookPage")
         .classList.remove("hidden");
+    updateReadingProgress();
 }
 
 
@@ -4021,9 +4038,61 @@ if (elementNumber === 2) {
     document.getElementById("bookContentTitle")
         .innerText = title;
 
-    document.getElementById("bookContent")
-        .innerHTML = content;
+  document.getElementById("bookContent")
+    .innerHTML = content + `
+        <div style="margin-top:30px; text-align:center;">
+            <button onclick="markElementCompleted(${elementNumber})">
+                ✅ Mark Element as Completed
+            </button>
+        </div>
+    `; 
 }
+function markElementCompleted(elementNumber) {
+
+    let completedElements =
+        JSON.parse(localStorage.getItem("completedElements")) || [];
+
+    if (!completedElements.includes(elementNumber)) {
+        completedElements.push(elementNumber);
+
+        localStorage.setItem(
+            "completedElements",
+            JSON.stringify(completedElements)
+        );
+    }
+
+    updateReadingProgress();
+
+    alert("Element " + elementNumber + " completed successfully!");
+}
+
+function updateReadingProgress() {
+
+    let completedElements =
+        JSON.parse(localStorage.getItem("completedElements")) || [];
+
+    let percentage = completedElements.length * 25;
+
+    document.getElementById("readingProgressBar").style.width =
+        percentage + "%";
+
+    document.getElementById("readingProgressText").innerText =
+        percentage + "% Completed";
+const startButton = document.getElementById("startExamButton");
+
+if (percentage >= 100) {
+
+    startButton.disabled = false;
+    startButton.innerText = "✅ Start Examination";
+
+} else {
+
+    startButton.disabled = true;
+    startButton.innerText =
+        "🔒 Complete Reading Before Examination";
+}    
+}
+        
     function backToBookCenter() {
 
     document.getElementById("bookContentPage")
