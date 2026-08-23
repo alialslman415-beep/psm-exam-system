@@ -879,7 +879,7 @@ const element3Questions = [
   topic: "Bulk Storage Operations",
   difficulty: "Medium",
   reference: "PSM Book – Element 3"
-}
+},
 {
   question: "A procedure requires operators to work outside the normal operating limits during a special operation. What is MOST important?",
   options: [
