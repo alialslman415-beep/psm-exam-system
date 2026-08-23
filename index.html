@@ -3278,18 +3278,739 @@ if (elementNumber === 2) {
 
     if (elementNumber === 4) {
 
-        title = "Element 4 – Fire and Explosion Protection";
+       title = "Element 4 – Fire and Explosion Protection";
 
-        content = `
-            <h3>Element 4 – Fire and Explosion Protection</h3>
+    content = `
 
-            <p>
-            Topics will include fire and explosion mechanisms,
-            protection systems, emergency preparedness,
-            dust explosions, BLEVE and fire-fighting systems.
-            </p>
-        `;
-    }
+    <h2>Element 4 – Fire and Explosion Protection</h2>
+
+    <p><strong>Element Reference:</strong> PSM Book – Element 4, Pages 105–129</p>
+
+    <hr>
+
+    <h3>Learning Outcomes</h3>
+
+    <p>After studying this element, the learner should be able to:</p>
+
+    <ul>
+        <li>Explain fire and explosion hazards in the process industries.</li>
+        <li>Explain suitable controls to prevent and minimise fire and explosion consequences.</li>
+        <li>Explain how combustible dusts can produce explosions and how they are controlled.</li>
+        <li>Explain the purpose, contents and implementation of emergency plans.</li>
+    </ul>
+
+    <hr>
+
+    <h2>4.1 Fire Hazards</h2>
+
+    <h3>The Fire Triangle</h3>
+
+    <p>
+    Fire requires three essential components:
+    <strong>fuel, oxygen and heat (ignition).</strong>
+    If one of these components is removed, sustained combustion cannot occur.
+    </p>
+
+    <ul>
+        <li><strong>Fuel:</strong> combustible solids, liquids, gases or vapours.</li>
+        <li><strong>Oxygen:</strong> normally supplied by air, but may also come from oxidising substances.</li>
+        <li><strong>Heat:</strong> sufficient energy to ignite the fuel.</li>
+    </ul>
+
+    <h3>Common Ignition Sources</h3>
+
+    <ul>
+        <li>Smoking.</li>
+        <li>Grinding and cutting sparks.</li>
+        <li>Electrical faults and short circuits.</li>
+        <li>Electrostatic discharge.</li>
+        <li>Naked flames.</li>
+        <li>Arc welding.</li>
+        <li>Hot surfaces.</li>
+        <li>Mechanical friction.</li>
+        <li>Lightning.</li>
+    </ul>
+
+    <h3>Heat Transfer</h3>
+
+    <p>Fire can spread through three main heat-transfer mechanisms:</p>
+
+    <ul>
+        <li><strong>Conduction:</strong> heat transfer through solid material.</li>
+        <li><strong>Convection:</strong> heat transfer through moving liquids or gases.</li>
+        <li><strong>Radiation:</strong> heat transfer by electromagnetic energy without direct contact.</li>
+    </ul>
+
+    <h3>Flammable Limits</h3>
+
+    <p>
+    A flammable gas or vapour normally burns only when its concentration in air
+    lies within a defined range.
+    </p>
+
+    <ul>
+        <li><strong>LFL / LEL:</strong> the lowest concentration capable of ignition.</li>
+        <li><strong>UFL / UEL:</strong> the highest concentration capable of ignition.</li>
+    </ul>
+
+    <p>
+    Below the LEL the mixture is too lean.
+    Above the UEL the mixture is too rich.
+    Between the limits the mixture may ignite if an ignition source is present.
+    </p>
+
+    <div class="important">
+        <strong>Exam Point:</strong><br>
+        The dangerous concentration is normally the range
+        <strong>between the LEL and UEL</strong>.
+    </div>
+
+    <h3>Oxygen Enrichment</h3>
+
+    <p>
+    Oxygen-enriched atmospheres can make materials easier to ignite and can
+    significantly increase the intensity of combustion.
+    </p>
+
+    <h3>Jet Fire</h3>
+
+    <p>
+    A jet fire occurs when flammable gas, vapour or liquid escapes under pressure
+    and ignites. The resulting flame has significant direction and momentum.
+    </p>
+
+    <p>
+    Jet fires can produce very high heat loads and may rapidly damage nearby
+    equipment or structures.
+    </p>
+
+    <h3>Pool Fire</h3>
+
+    <p>
+    A pool fire occurs when flammable liquid collects on a surface and the vapour
+    above the liquid ignites.
+    </p>
+
+    <p>
+    Bunding can help restrict the spread of the liquid and therefore limit
+    the size and movement of the pool fire.
+    </p>
+
+    <h3>BLEVE</h3>
+
+    <p>
+    BLEVE means <strong>Boiling Liquid Expanding Vapour Explosion</strong>.
+    </p>
+
+    <p>
+    It can occur when a vessel containing a pressurised liquid is heated or
+    otherwise weakened and then ruptures. The sudden pressure release produces
+    rapidly expanding vapour and a powerful explosion.
+    </p>
+
+    <p>
+    If the contents are flammable, the released material may also ignite,
+    greatly increasing the consequences.
+    </p>
+
+    <div class="important">
+        <strong>Exam Point:</strong><br>
+        BLEVE is fundamentally a pressure-vessel rupture involving a pressurised liquid.
+        The liquid does not have to be flammable for the mechanical BLEVE to occur.
+    </div>
+
+    <h3>Confined Vapour Cloud Explosion (CVCE)</h3>
+
+    <p>
+    A CVCE occurs when a flammable vapour cloud ignites within a confined or
+    substantially enclosed area.
+    </p>
+
+    <p>
+    Confinement can increase pressure and produce severe blast effects.
+    </p>
+
+    <h3>Unconfined Vapour Cloud Explosion (UVCE)</h3>
+
+    <p>
+    A UVCE occurs when a large flammable vapour cloud forms in a relatively
+    open area and later finds an ignition source.
+    </p>
+
+    <p>
+    Wind and atmospheric conditions influence cloud movement and dispersion.
+    The Buncefield incident is a well-known example of a major vapour-cloud explosion.
+    </p>
+
+    <hr>
+
+    <h2>4.2 Fire and Explosion Control</h2>
+
+    <h3>Detection Systems</h3>
+
+    <p>
+    Early detection allows a response before an incident escalates.
+    </p>
+
+    <p>Common systems include:</p>
+
+    <ul>
+        <li>Flammable gas or leak detectors.</li>
+        <li>Smoke detectors.</li>
+        <li>Heat detectors.</li>
+        <li>Flame detectors.</li>
+    </ul>
+
+    <h3>Passive Fire Protection (PFP)</h3>
+
+    <p>
+    Passive fire protection does not normally need activation by a person
+    or control system.
+    </p>
+
+    <p>Its purposes can include:</p>
+
+    <ul>
+        <li>Maintaining structural stability during fire exposure.</li>
+        <li>Reducing heat transfer to equipment.</li>
+        <li>Preventing or delaying spread of fire and smoke.</li>
+        <li>Protecting escape routes and critical areas.</li>
+    </ul>
+
+    <p>Examples include:</p>
+
+    <ul>
+        <li>Fire-resistant cladding.</li>
+        <li>Fire walls.</li>
+        <li>Fire doors.</li>
+        <li>Intumescent coatings.</li>
+        <li>Fire-resistant seals.</li>
+    </ul>
+
+    <h3>Intumescent Protection</h3>
+
+    <p>
+    Intumescent materials expand when heated and form an insulating protective
+    layer that helps reduce heat transfer and fire spread.
+    </p>
+
+    <h3>Active Fire Protection (AFP)</h3>
+
+    <p>
+    Active fire protection detects, controls or extinguishes a fire using
+    equipment or systems that operate automatically or manually.
+    </p>
+
+    <p>Examples include:</p>
+
+    <ul>
+        <li>Automatic sprinklers.</li>
+        <li>Deluge systems.</li>
+        <li>Foam systems.</li>
+        <li>Gas extinguishing systems.</li>
+        <li>Portable fire extinguishers.</li>
+    </ul>
+
+    <h3>Water Systems</h3>
+
+    <p>
+    Water may be used for extinguishing some fires and for cooling exposed
+    equipment to reduce escalation from radiant heat.
+    </p>
+
+    <h3>Foam Systems</h3>
+
+    <p>
+    Foam is particularly useful for many flammable-liquid pool fires.
+    It forms a blanket over the liquid surface and reduces contact between
+    the fuel vapour and oxygen.
+    </p>
+
+    <p>
+    Foam is generally less suited to a high-momentum jet fire.
+    </p>
+
+    <h3>Dry Chemical Systems</h3>
+
+    <p>
+    Dry chemical powder can be effective on hydrocarbon fires,
+    including some jet and running liquid fires.
+    </p>
+
+    <p>
+    A limitation is that hot material may re-ignite after the powder
+    has extinguished the flame.
+    </p>
+
+    <h3>Inert Gas Systems</h3>
+
+    <p>
+    Inert gas extinguishing systems reduce oxygen concentration and can be
+    suitable for enclosed equipment areas, including electrical rooms.
+    </p>
+
+    <p>
+    The major personnel hazard is oxygen depletion and asphyxiation.
+    </p>
+
+    <h3>Hazardous Area Classification</h3>
+
+    <p>For flammable gases and vapours:</p>
+
+    <ul>
+        <li><strong>Zone 0:</strong> explosive atmosphere present continuously, frequently or for long periods.</li>
+        <li><strong>Zone 1:</strong> explosive atmosphere likely to occur occasionally during normal operation.</li>
+        <li><strong>Zone 2:</strong> explosive atmosphere not likely during normal operation and, if it occurs, exists only briefly.</li>
+    </ul>
+
+    <p>For combustible dusts:</p>
+
+    <ul>
+        <li><strong>Zone 20:</strong> dust cloud explosive atmosphere present continuously, frequently or for long periods.</li>
+        <li><strong>Zone 21:</strong> dust cloud explosive atmosphere likely occasionally during normal operation.</li>
+        <li><strong>Zone 22:</strong> dust cloud explosive atmosphere unlikely during normal operation and, if present, exists only briefly.</li>
+    </ul>
+
+    <h3>Equipment Selection</h3>
+
+    <p>
+    Electrical and mechanical equipment used in classified areas must be
+    suitable for the expected explosive atmosphere so that it does not become
+    an ignition source.
+    </p>
+
+    <h3>Explosion Protection Systems</h3>
+
+    <ul>
+        <li><strong>Atmosphere control:</strong> inerting to prevent an ignitable mixture.</li>
+        <li><strong>Pressure relief / explosion venting:</strong> release pressure safely before destructive pressure develops.</li>
+        <li><strong>Explosion suppression:</strong> detect early pressure rise and rapidly introduce suppressant.</li>
+        <li><strong>Automatic isolation:</strong> stop fuel feeding the event.</li>
+        <li><strong>Flame arrestors:</strong> allow gas flow while preventing flame propagation.</li>
+    </ul>
+
+    <h3>Flame Arrestors</h3>
+
+    <p>
+    Flame arrestors are designed to prevent flame from travelling through
+    piping or vent systems into other parts of the process.
+    </p>
+
+    <h3>Tank Farm Fire Protection</h3>
+
+    <p>
+    Tank farms may use fixed or portable water and foam systems, including
+    deluge and monitors.
+    </p>
+
+    <p>
+    Cooling water can also protect adjacent tanks from radiant heat and reduce
+    escalation.
+    </p>
+
+    <h3>Lightning Protection</h3>
+
+    <p>
+    Lightning protection systems provide a controlled conductive path to earth
+    so that lightning energy can be safely dissipated.
+    </p>
+
+    <div class="important">
+        <strong>Key Message:</strong><br>
+        Effective fire and explosion protection usually requires several layers:
+        prevention, detection, isolation, protection, mitigation and emergency response.
+    </div>
+
+    <hr>
+
+    <h2>4.3 Dust Explosions</h2>
+
+    <h3>Combustible Dust</h3>
+
+    <p>
+    Fine particles of some combustible materials can form explosive mixtures
+    when dispersed in air.
+    </p>
+
+    <p>Examples include:</p>
+
+    <ul>
+        <li>Flour.</li>
+        <li>Sugar.</li>
+        <li>Grain.</li>
+        <li>Coal dust.</li>
+        <li>Milk powder.</li>
+        <li>Many process powders.</li>
+    </ul>
+
+    <h3>Dust Pentagon</h3>
+
+    <p>
+    A dust explosion requires five conditions:
+    </p>
+
+    <ol>
+        <li><strong>Fuel</strong> – combustible dust.</li>
+        <li><strong>Oxygen</strong>.</li>
+        <li><strong>Ignition source</strong>.</li>
+        <li><strong>Dispersion</strong> – dust suspended in air.</li>
+        <li><strong>Confinement</strong>.</li>
+    </ol>
+
+    <div class="important">
+        <strong>Exam Point:</strong><br>
+        Fire triangle = Fuel + Oxygen + Heat.<br>
+        Dust pentagon adds <strong>Dispersion + Confinement</strong>.
+    </div>
+
+    <h3>Factors Affecting Dust Explosion Risk</h3>
+
+    <ul>
+        <li>Particle size.</li>
+        <li>Dust concentration.</li>
+        <li>Degree of dispersion.</li>
+        <li>Minimum ignition energy.</li>
+        <li>Temperature.</li>
+        <li>Humidity.</li>
+        <li>Confinement.</li>
+    </ul>
+
+    <h3>Primary Explosion</h3>
+
+    <p>
+    A primary dust explosion normally occurs inside process equipment,
+    such as a silo, extraction system or transfer system.
+    </p>
+
+    <h3>Secondary Explosion</h3>
+
+    <p>
+    The initial explosion can disturb accumulated dust on floors,
+    structures or equipment.
+    </p>
+
+    <p>
+    This newly suspended dust can ignite and cause a much larger secondary
+    explosion.
+    </p>
+
+    <div class="important">
+        <strong>Exam Point:</strong><br>
+        This is why good housekeeping is critical:
+        accumulated dust can feed a devastating secondary explosion.
+    </div>
+
+    <h3>Dust Explosion Prevention</h3>
+
+    <p>The preferred approach is:</p>
+
+    <ol>
+        <li>Eliminate or reduce the dust hazard where possible.</li>
+        <li>Prevent an explosive atmosphere from forming.</li>
+        <li>Control ignition sources.</li>
+        <li>Provide mitigation where residual risk remains.</li>
+    </ol>
+
+    <h3>Elimination or Reduction at Source</h3>
+
+    <p>
+    Where possible, materials may be handled as larger granules,
+    wet products, slurries, pastes or emulsions to reduce fine dust generation.
+    </p>
+
+    <h3>Dust Extraction</h3>
+
+    <p>
+    Local extraction can capture dust at source and prevent its release
+    into the workplace or process area.
+    </p>
+
+    <h3>Good Housekeeping</h3>
+
+    <p>
+    Dust deposits should not be allowed to accumulate.
+    Suitable cleaning methods such as correctly rated vacuum systems or damp
+    cleaning may be preferable to dry sweeping, which can create a dust cloud.
+    </p>
+
+    <h3>Inerting</h3>
+
+    <p>
+    Enclosed processes may sometimes be inerted with gases such as nitrogen
+    to reduce oxygen concentration below that needed for combustion.
+    </p>
+
+    <h3>Explosion Venting</h3>
+
+    <p>
+    Explosion vents provide a designed weak point so that rapidly increasing
+    pressure can be discharged to a safe location.
+    </p>
+
+    <h3>Explosion Suppression</h3>
+
+    <p>
+    Suppression systems detect the early stages of an explosion and quickly
+    introduce suppressant before the explosion fully develops.
+    </p>
+
+    <h3>Explosion Isolation</h3>
+
+    <p>
+    Connected process equipment may require isolation systems to prevent
+    an explosion or flame from propagating from one vessel or process section
+    to another.
+    </p>
+
+    <hr>
+
+    <h2>4.4 Emergency Preparedness</h2>
+
+    <h3>Purpose of an Emergency Plan</h3>
+
+    <p>
+    Even with strong preventive controls, emergencies can still occur.
+    Emergency planning ensures that the required actions, resources,
+    responsibilities and communications are established before an event happens.
+    </p>
+
+    <p>
+    The objective is to protect people, control escalation and reduce
+    on-site and off-site consequences.
+    </p>
+
+    <h3>Possible Emergency Scenarios</h3>
+
+    <ul>
+        <li>Fire.</li>
+        <li>Explosion.</li>
+        <li>Toxic release.</li>
+        <li>Chemical spill.</li>
+        <li>Major loss of containment.</li>
+        <li>Medical emergency.</li>
+        <li>Severe weather or flooding.</li>
+        <li>Security-related emergencies where relevant.</li>
+    </ul>
+
+    <h3>Developing the Emergency Plan</h3>
+
+    <p>
+    Planning should be based on realistic foreseeable scenarios and the
+    potential consequences identified through risk assessment.
+    </p>
+
+    <p>Those involved may include:</p>
+
+    <ul>
+        <li>Operators.</li>
+        <li>Supervisors.</li>
+        <li>Engineers.</li>
+        <li>HSE specialists.</li>
+        <li>Senior management.</li>
+        <li>Emergency services and external authorities where relevant.</li>
+    </ul>
+
+    <h3>Resources</h3>
+
+    <p>
+    Emergency resources should reflect the likelihood and consequences
+    of potential incidents.
+    </p>
+
+    <p>Resources may include:</p>
+
+    <ul>
+        <li>Emergency control centre.</li>
+        <li>Fire-fighting equipment.</li>
+        <li>Rescue equipment.</li>
+        <li>First aid and medical facilities.</li>
+        <li>Breathing apparatus.</li>
+        <li>Radios and emergency communications.</li>
+        <li>Site plans and process drawings.</li>
+        <li>Safety Data Sheets.</li>
+    </ul>
+
+    <h3>On-Site Emergency Plan</h3>
+
+    <p>
+    An on-site plan describes the internal response actions to be carried out
+    by site personnel.
+    </p>
+
+    <h3>Off-Site Emergency Plan</h3>
+
+    <p>
+    An off-site plan coordinates the response of external agencies and may
+    include actions affecting neighbouring communities, roads and public services.
+    </p>
+
+    <p>
+    Where both plans are required, they should be compatible and coordinated.
+    </p>
+
+    <h3>Alarm and Warning Systems</h3>
+
+    <p>
+    Workers and others at risk must be able to recognise emergency warnings
+    and understand the required response.
+    </p>
+
+    <p>
+    Different alarms may be needed for different scenarios, such as fire
+    or toxic-gas release.
+    </p>
+
+    <h3>Evacuation and Shelter</h3>
+
+    <p>
+    The correct emergency response depends on the hazard.
+    </p>
+
+    <p>
+    A fire may require evacuation to an assembly point, while a toxic release
+    may sometimes make shelter-in-place or movement to a gas refuge safer
+    than going outside.
+    </p>
+
+    <h3>Emergency Shut-down</h3>
+
+    <p>
+    The plan should identify how critical plant, electrical systems,
+    fuel supplies, chemical systems, drains and other services can be safely
+    isolated or shut down.
+    </p>
+
+    <h3>Accounting for Personnel</h3>
+
+    <p>
+    A reliable system is needed to determine who is on site and whether
+    everyone has reached a safe location.
+    </p>
+
+    <p>
+    This may involve manual or electronic roll-call arrangements.
+    </p>
+
+    <h3>Information Management</h3>
+
+    <p>
+    Accurate information is essential during an incident.
+    Important information may include:
+    </p>
+
+    <ul>
+        <li>Current incident status.</li>
+        <li>Hazardous substances involved.</li>
+        <li>Process and equipment information.</li>
+        <li>Decisions and actions taken.</li>
+        <li>Casualty information.</li>
+        <li>Communications with regulators and emergency services.</li>
+    </ul>
+
+    <h3>Tabletop Exercises</h3>
+
+    <p>
+    A tabletop exercise is a classroom-based emergency scenario in which
+    participants discuss what information they need and what actions they
+    would take.
+    </p>
+
+    <p>
+    It is useful for testing decision-making, roles and communication without
+    conducting a full practical drill.
+    </p>
+
+    <h3>Practical Drills</h3>
+
+    <p>
+    Practical exercises test whether emergency arrangements work in realistic
+    conditions.
+    </p>
+
+    <p>These may include:</p>
+
+    <ul>
+        <li>Evacuation drills.</li>
+        <li>Emergency response team drills.</li>
+        <li>Spill or tanker-response exercises.</li>
+        <li>Full-site exercises involving external agencies.</li>
+    </ul>
+
+    <h3>Competence of Emergency Teams</h3>
+
+    <p>
+    Incident commanders and emergency team members require appropriate
+    knowledge, skills, authority and training.
+    </p>
+
+    <p>
+    Emergency leadership requires the ability to assess information,
+    make decisions under pressure and coordinate people without unnecessarily
+    exposing responders to danger.
+    </p>
+
+    <div class="important">
+        <strong>Key Message:</strong><br>
+        An emergency plan is only effective if people understand it,
+        resources are available and the arrangements are regularly tested.
+    </div>
+
+    <hr>
+
+    <h2>Element 4 – Key Revision Points</h2>
+
+    <ul>
+        <li>The fire triangle consists of fuel, oxygen and heat.</li>
+        <li>Heat transfers by conduction, convection and radiation.</li>
+        <li>A flammable mixture normally exists between the LEL and UEL.</li>
+        <li>Oxygen enrichment can greatly increase combustion risk.</li>
+        <li>A jet fire involves a pressurised release that ignites.</li>
+        <li>A pool fire burns above a pool of released flammable liquid.</li>
+        <li>BLEVE means Boiling Liquid Expanding Vapour Explosion.</li>
+        <li>CVCE occurs in a confined area; UVCE occurs in a relatively unconfined area.</li>
+        <li>Passive fire protection does not normally require activation.</li>
+        <li>Active fire protection includes sprinklers, deluge, foam and extinguishing systems.</li>
+        <li>Zone 0 has a higher likelihood/duration of explosive gas atmosphere than Zone 1 or Zone 2.</li>
+        <li>Dust zones are 20, 21 and 22.</li>
+        <li>The dust pentagon adds dispersion and confinement to the fire triangle.</li>
+        <li>Secondary dust explosions may be much more destructive than the initial explosion.</li>
+        <li>Good housekeeping helps prevent secondary dust explosions.</li>
+        <li>Explosion venting relieves pressure to a safe location.</li>
+        <li>Emergency plans should consider both on-site and off-site consequences where relevant.</li>
+        <li>Emergency responses may involve evacuation, shelter or emergency shut-down depending on the hazard.</li>
+        <li>Tabletop exercises test emergency decision-making in a theoretical scenario.</li>
+        <li>Practical drills test whether emergency arrangements work in real conditions.</li>
+    </ul>
+
+    <div class="important">
+        <strong>Element 4 Exam Focus:</strong><br><br>
+
+        Pay particular attention to:
+        Fire triangle,
+        LEL / UEL,
+        jet fire,
+        pool fire,
+        BLEVE,
+        CVCE / UVCE,
+        passive versus active fire protection,
+        hazardous area zones,
+        explosion protection,
+        dust pentagon,
+        primary and secondary dust explosions,
+        housekeeping,
+        emergency plans,
+        tabletop exercises,
+        practical drills,
+        evacuation,
+        shelter-in-place,
+        and emergency response competence.
+    </div>
+
+    <p><strong>End of Element 4 – Fire and Explosion Protection</strong></p>
+
+    `;
+
+}  
 
     document.getElementById("bookPage")
         .classList.add("hidden");
