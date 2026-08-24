@@ -165,7 +165,11 @@ button:hover {
     🔒 Complete Reading Before Examination
 </button>
 <br><br>
-<button onclick="showBookCenter()">📘 </button>
+<button id="element1PracticeButton" onclick="startElement1Practice()">
+  📝 Element 1 Practice Test
+</button>
+    
+    <button onclick="showBookCenter()">📘 </button>
 </div>
 
 
@@ -310,7 +314,7 @@ const QUESTIONS_PER_EXAM = 40;
 const PASS_MARK = 80;
 
 const questionBank = [
-  ...element1Questions,
+...element1Questions.map(q => ({ ...q, elementNumber: 1 })),
   ...element2Questions,
   ...element3Questions,
   ...element4Questions
@@ -404,6 +408,39 @@ const selectedQuestions =
 
     showQuestion();
 }
+function startElement1Practice() {
+
+  const name =
+    document.getElementById("candidateName").value.trim();
+
+  const id =
+    document.getElementById("candidateID").value.trim();
+
+  if (!name || !id) {
+    alert("Please enter Candidate Name and ID.");
+    return;
+  }
+
+  if (typeof getElement1ExamQuestions !== "function") {
+    alert("Element 1 question bank is not loaded.");
+    return;
+  }
+
+  questions = getElement1ExamQuestions(25)
+    .map(q => prepareQuestion(q));
+
+  currentQuestion = 0;
+  score = 0;
+  candidateAnswers = [];
+
+  document.getElementById("loginPage")
+    .classList.add("hidden");
+
+  document.getElementById("examPage")
+    .classList.remove("hidden");
+
+  showQuestion();
+}        
 
 
 /* SHOW QUESTION */
