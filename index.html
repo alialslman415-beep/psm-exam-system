@@ -205,7 +205,7 @@ button:hover {
 <p id="statusResult"></p>
 
 <button onclick="showReview()">Review Answers</button>
-
+<button onclick="backToMainPage()">⬅ Back to Main Page</button>
 </div>
 <!-- BOOK CENTER -->
 
@@ -680,6 +680,24 @@ function backToResult() {
     document.getElementById("resultPage")
         .classList.remove("hidden");
 }
+function backToMainPage() {
+
+  document.getElementById("resultPage")
+    .classList.add("hidden");
+
+  document.getElementById("reviewPage")
+    .classList.add("hidden");
+
+  document.getElementById("examPage")
+    .classList.add("hidden");
+
+  document.getElementById("bookPage")
+    .classList.add("hidden");
+
+  document.getElementById("loginPage")
+    .classList.remove("hidden");
+} 
+        
 /* BOOK CENTER */
 
 function showBookCenter() {
