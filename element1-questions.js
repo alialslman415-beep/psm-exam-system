@@ -1,2418 +1,1236 @@
 const element1Questions = [
 
-{
-  question: "Process safety mainly deals with which type of risk?",
-  options: [
-    "High frequency, high severity risks",
-    "Low frequency, high severity risks",
-    "Low frequency, low severity risks",
-    "High frequency, low severity risks"
-  ],
-  answer: 1,
-  explanation: "Process safety is particularly concerned with low-frequency events that can have major or catastrophic consequences.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Management Meaning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which statement BEST describes process safety?",
-  options: [
-    "Preventing minor injuries during routine work",
-    "Managing hazards that could cause major accidents involving hazardous substances or energy",
-    "Monitoring employee attendance",
-    "Providing personal protective equipment only"
-  ],
-  answer: 1,
-  explanation: "Process safety focuses on preventing major accident events arising from loss of control of hazardous substances or energy.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Management Meaning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which example is MOST closely associated with process safety rather than personal safety?",
-  options: [
-    "A worker receiving a minor hand cut",
-    "A worker slipping on a wet floor",
-    "A major release of flammable material from process equipment",
-    "An employee developing a blister"
-  ],
-  answer: 2,
-  explanation: "A major release of flammable material is a process safety event because it can escalate into fire, explosion or multiple casualties.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Management Meaning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why can good personal safety performance give a misleading picture of process safety performance?",
-  options: [
-    "Personal safety statistics always measure major accident hazards",
-    "A site may have few occupational injuries while major process hazards remain poorly controlled",
-    "Process safety incidents occur every day",
-    "Personal safety and process safety are identical"
-  ],
-  answer: 1,
-  explanation: "Low injury rates do not necessarily demonstrate effective control of major accident hazards.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Management Meaning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which consequence is MOST characteristic of a major process safety event?",
-  options: [
-    "A paper cut",
-    "Temporary office discomfort",
-    "Multiple fatalities and significant environmental damage",
-    "A minor housekeeping observation"
-  ],
-  answer: 2,
-  explanation: "Major process safety events can result in multiple fatalities, major property loss and significant environmental consequences.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Management Meaning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What is a key responsibility of senior leadership in process safety?",
-  options: [
-    "Delegate all process safety matters to operators",
-    "Provide direction, resources and visible commitment",
-    "Focus only on production targets",
-    "Respond only after a major accident"
-  ],
-  answer: 1,
-  explanation: "Effective process safety leadership requires visible commitment, adequate resources, clear direction and accountability.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which action BEST demonstrates visible process safety leadership?",
-  options: [
-    "Reviewing process safety only after an accident",
-    "Regularly visiting operations and discussing major hazard controls with workers",
-    "Leaving all safety decisions to contractors",
-    "Reducing maintenance to increase production"
-  ],
-  answer: 1,
-  explanation: "Visible leadership includes active engagement with the workforce and attention to the effectiveness of major hazard controls.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Production pressure is causing repeated delays to safety-critical maintenance. What should effective process safety leadership do FIRST?",
-  options: [
-    "Accept the delays because production has priority",
-    "Assess the increased risk and ensure appropriate action is taken",
-    "Remove the maintenance records",
-    "Wait until equipment fails"
-  ],
-  answer: 1,
-  explanation: "Leadership should recognise conflicts between production and process safety and ensure risks from delayed safety-critical work are properly controlled.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which factor is MOST likely to strengthen process safety culture?",
-  options: [
-    "Management consistently demonstrating that process safety is a core value",
-    "Ignoring minor warning signs",
-    "Rewarding production regardless of risk",
-    "Discouraging employees from reporting concerns"
-  ],
-  answer: 0,
-  explanation: "Consistent leadership behaviour demonstrates organisational priorities and helps establish a positive process safety culture.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why is accountability important in process safety management?",
-  options: [
-    "It ensures responsibilities and expectations are clearly understood",
-    "It removes the need for competence",
-    "It allows hazards to be ignored",
-    "It transfers all responsibility to contractors"
-  ],
-  answer: 0,
-  explanation: "Clear accountability helps ensure that people understand their process safety responsibilities and are held responsible for fulfilling them.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What is the PRIMARY purpose of organisational learning in process safety?",
-  options: [
-    "To repeat previous operating practices without review",
-    "To identify lessons and prevent recurrence of unwanted events",
-    "To reduce incident reporting",
-    "To replace risk assessment"
-  ],
-  answer: 1,
-  explanation: "Organisational learning uses experience from incidents, near misses and other information to improve controls and prevent recurrence.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which source can provide useful organisational learning BEFORE a similar incident occurs at your own site?",
-  options: [
-    "Major accident reports from other organisations",
-    "Only your company's injury statistics",
-    "Employee attendance records",
-    "Payroll information"
-  ],
-  answer: 0,
-  explanation: "External incident information allows organisations to learn from events elsewhere before experiencing the same failure themselves.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Several similar process near misses occur but none causes injury. What is the BEST response?",
-  options: [
-    "Ignore them because no one was injured",
-    "Investigate the underlying causes and identify corrective actions",
-    "Wait for a major accident before investigating",
-    "Delete the reports"
-  ],
-  answer: 1,
-  explanation: "Repeated near misses can indicate weaknesses in process safety controls and should be investigated for underlying causes.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "After an incident investigation identifies several recommendations, what is MOST important for organisational learning?",
-  options: [
-    "File the report without further action",
-    "Track recommendations to effective completion",
-    "Keep the findings only within the investigation team",
-    "Change the incident classification"
-  ],
-  answer: 1,
-  explanation: "Learning is ineffective unless recommendations are implemented, tracked and checked for effectiveness.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What should an organisation do with relevant lessons learned from a major incident?",
-  options: [
-    "Communicate them to people who can use the information",
-    "Restrict them permanently to senior management",
-    "Discard them after the investigation closes",
-    "Use them only for insurance purposes"
-  ],
-  answer: 0,
-  explanation: "Relevant lessons need to be communicated so that workers and decision-makers can apply them to prevent recurrence.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What is the main purpose of Management of Change (MOC)?",
-  options: [
-    "To prevent all changes to a process",
-    "To identify and control risks introduced by change before implementation",
-    "To approve only financial changes",
-    "To replace operating procedures"
-  ],
-  answer: 1,
-  explanation: "MOC provides a structured process for identifying, assessing, authorising and controlling risks arising from changes.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A plant proposes replacing a process chemical with a different chemical. What should happen BEFORE the change is implemented?",
-  options: [
-    "Implement it immediately if the new chemical is cheaper",
-    "Assess the process safety implications through the MOC process",
-    "Wait until operators complain",
-    "Update documents only after an incident"
-  ],
-  answer: 1,
-  explanation: "Changing a process chemical may introduce new hazards and therefore requires assessment and authorisation before implementation.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which change would MOST clearly require consideration under Management of Change?",
-  options: [
-    "Replacing equipment with an identical item to the same specification",
-    "Changing a process operating temperature beyond the established operating range",
-    "Cleaning an office desk",
-    "Replacing printer paper"
-  ],
-  answer: 1,
-  explanation: "A change to an established process operating condition can alter process hazards and should be formally assessed.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A temporary bypass of a safety-critical trip is required. Which approach is BEST?",
-  options: [
-    "Bypass it without recording the change",
-    "Control it through an authorised change process with risk assessment and defined duration",
-    "Leave it bypassed permanently",
-    "Ask an operator to remember the bypass"
-  ],
-  answer: 1,
-  explanation: "Temporary changes to safety-critical systems need formal control, risk assessment, authorisation and defined restoration arrangements.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why should operating procedures be reviewed following a relevant process change?",
-  options: [
-    "To ensure they accurately reflect the changed process and controls",
-    "To make the procedures longer",
-    "To avoid training workers",
-    "To remove process limits"
-  ],
-  answer: 0,
-  explanation: "Documentation and procedures must remain consistent with the actual plant configuration and operating requirements.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What is a key benefit of worker participation in process safety?",
-  options: [
-    "Workers can contribute practical knowledge about how work is actually performed",
-    "It removes management accountability",
-    "It eliminates the need for procedures",
-    "It prevents workers from reporting problems"
-  ],
-  answer: 0,
-  explanation: "Workers often have detailed practical knowledge of tasks, equipment and operating conditions that can improve hazard identification and controls.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which approach BEST represents effective consultation with workers?",
-  options: [
-    "Management makes the decision and informs workers afterward",
-    "Workers are given an opportunity to provide input before relevant decisions are finalised",
-    "Workers are discouraged from questioning procedures",
-    "Only external consultants are permitted to discuss hazards"
-  ],
-  answer: 1,
-  explanation: "Effective consultation is a two-way process in which workers can contribute before decisions affecting their safety are finalised.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Operators repeatedly report that an alarm is frequently activating without an obvious process problem. What should management do?",
-  options: [
-    "Tell operators to ignore the alarm",
-    "Investigate the concern and assess whether the alarm system or process requires action",
-    "Disable every alarm on the unit",
-    "Stop workers from submitting reports"
-  ],
-  answer: 1,
-  explanation: "Worker concerns about abnormal plant behaviour should be taken seriously and investigated as part of effective process safety engagement.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which combination BEST describes competence for a process safety role?",
-  options: [
-    "Knowledge only",
-    "Experience only",
-    "Knowledge, skills and appropriate experience",
-    "Length of employment only"
-  ],
-  answer: 2,
-  explanation: "Competence requires an appropriate combination of knowledge, skills and experience for the responsibilities being performed.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A newly trained operator has passed a classroom course for a safety-critical process task. What is the BEST way to confirm competence?",
-  options: [
-    "Assume the training certificate alone proves competence",
-    "Assess the operator's ability to perform the task correctly in practice",
-    "Allow unrestricted work immediately without supervision",
-    "Use years of age as the competence criterion"
-  ],
-  answer: 1,
-  explanation: "Training contributes to competence, but competence should also be assessed by confirming that the person can apply the required knowledge and skills in practice.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},  {
-  question: "Which action MOST strongly demonstrates management commitment to process safety?",
-  options: [
-    "Reviewing only occupational injury statistics",
-    "Providing adequate competent people, time and financial resources",
-    "Reducing inspection frequency to save money",
-    "Allowing production targets to override safety concerns"
-  ],
-  answer: 1,
-  explanation: "Leadership commitment is demonstrated through the provision of sufficient human, financial and physical resources to manage major hazards.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A senior manager regularly asks operators about major accident hazards during plant visits. What does this MOST clearly demonstrate?",
-  options: [
-    "Visible process safety leadership",
-    "Breakdown maintenance",
-    "Contractor monitoring",
-    "Emergency response"
-  ],
-  answer: 0,
-  explanation: "Visible leadership includes direct engagement with workers and active interest in major hazard controls.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Who should understand the major process hazards when making decisions about production, maintenance and investment?",
-  options: [
-    "Senior leaders and relevant managers",
-    "Only external auditors",
-    "Only new employees",
-    "Visitors to the site"
-  ],
-  answer: 0,
-  explanation: "Leaders making decisions that affect process risk need sufficient understanding of the major hazards and consequences.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which situation BEST indicates weak process safety leadership?",
-  options: [
-    "Safety-critical maintenance is properly funded",
-    "Major hazard performance is reviewed by senior management",
-    "Repeated equipment defects are accepted because repair would interrupt production",
-    "Workers are encouraged to report process concerns"
-  ],
-  answer: 2,
-  explanation: "Accepting known safety-critical defects for production reasons indicates that process safety is not being given appropriate priority.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which statement about delegation and accountability is MOST accurate?",
-  options: [
-    "Senior management can delegate tasks but retains overall accountability",
-    "Delegating a task removes all accountability from management",
-    "Only operators are accountable for process safety",
-    "Contractors automatically become accountable for the entire plant"
-  ],
-  answer: 0,
-  explanation: "Specific responsibilities can be delegated, but overall process safety accountability remains with senior management.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which of the following would BEST support continuous improvement in process safety?",
-  options: [
-    "Regular review of performance, incidents and control effectiveness",
-    "Keeping procedures unchanged indefinitely",
-    "Ignoring external industry learning",
-    "Reducing audit activity"
-  ],
-  answer: 0,
-  explanation: "Continuous improvement requires regular review of performance and learning from experience so that controls and systems can be strengthened.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which is the BEST example of a leading process safety indicator?",
-  options: [
-    "Number of major fires last year",
-    "Percentage of safety-critical inspections completed on time",
-    "Number of fatalities",
-    "Number of loss-of-containment events"
-  ],
-  answer: 1,
-  explanation: "Leading indicators monitor preventive activities and control performance before a major event occurs.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which is the BEST example of a lagging process safety indicator?",
-  options: [
-    "Percentage of overdue inspection tasks",
-    "Number of process loss-of-containment events",
-    "Percentage of workers assessed as competent",
-    "Number of planned audits completed"
-  ],
-  answer: 1,
-  explanation: "Lagging indicators measure events or consequences that have already occurred.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why should organisations investigate the root causes of process safety incidents?",
-  options: [
-    "To identify deeper management and system weaknesses",
-    "To identify only the person closest to the incident",
-    "To avoid changing procedures",
-    "To reduce reporting requirements"
-  ],
-  answer: 0,
-  explanation: "Root-cause investigation goes beyond immediate failures and identifies underlying organisational and management weaknesses.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "An investigation concludes that an operator opened the wrong valve. What should investigators consider NEXT?",
-  options: [
-    "Only disciplinary action",
-    "Why the system allowed the error to occur, including training, procedures and design",
-    "Closing the investigation immediately",
-    "Removing the incident record"
-  ],
-  answer: 1,
-  explanation: "Effective investigation should examine deeper causes such as competence, procedures, supervision and equipment design rather than stopping at the immediate human error.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What is meant by corporate memory in process safety?",
-  options: [
-    "The personal memory of the plant manager",
-    "The organisation's retained knowledge of incidents, design decisions, changes and lessons learned",
-    "The annual leave schedule",
-    "The list of current contractors"
-  ],
-  answer: 1,
-  explanation: "Corporate memory is the retained organisational knowledge needed to avoid repeating previous mistakes when personnel change.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "How can an organisation BEST protect important process safety knowledge when experienced employees retire?",
-  options: [
-    "Rely only on informal conversations",
-    "Document critical design information, incident learning and reasons for important decisions",
-    "Delete old records",
-    "Stop updating procedures"
-  ],
-  answer: 1,
-  explanation: "Formal documentation helps preserve corporate memory and critical process safety knowledge.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What is the main purpose of benchmarking in process safety?",
-  options: [
-    "To compare performance with similar organisations and identify good practice",
-    "To replace legal requirements",
-    "To eliminate risk assessment",
-    "To rank employees by attendance"
-  ],
-  answer: 0,
-  explanation: "Benchmarking compares performance and practices with similar organisations to identify improvement opportunities.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which source would provide useful external process safety learning?",
-  options: [
-    "Industry accident investigation reports",
-    "Office stationery records",
-    "Employee holiday requests",
-    "Parking allocation records"
-  ],
-  answer: 0,
-  explanation: "Industry accident reports and regulator or professional-body information can provide important external lessons.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which document is an important source of process safety information?",
-  options: [
-    "Piping and Instrumentation Diagram (P&ID)",
-    "Staff cafeteria menu",
-    "Travel request form",
-    "Office seating plan"
-  ],
-  answer: 0,
-  explanation: "P&IDs contain important information about the actual process equipment, piping and instrumentation configuration.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A pump is replaced with another model having a significantly higher discharge pressure. What should happen?",
-  options: [
-    "Treat it as an identical replacement",
-    "Evaluate the change through the MOC process",
-    "Install it without reviewing downstream equipment",
-    "Update paperwork only after start-up"
-  ],
-  answer: 1,
-  explanation: "A non-identical replacement that changes process capability may introduce new hazards and should be controlled through MOC.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which item should be reviewed as part of an MOC assessment?",
-  options: [
-    "Effects on process hazards and existing safeguards",
-    "Only the cost of the change",
-    "Only the supplier's delivery date",
-    "Only the appearance of the new equipment"
-  ],
-  answer: 0,
-  explanation: "MOC should identify how a proposed change affects hazards, safeguards, procedures, competence and process safety information.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why must temporary process changes have a defined end date or review period?",
-  options: [
-    "To prevent temporary arrangements from remaining indefinitely without reassessment",
-    "To reduce documentation",
-    "To avoid management approval",
-    "To increase production rates"
-  ],
-  answer: 0,
-  explanation: "Temporary changes need defined duration and restoration or review arrangements so that risk is not allowed to remain uncontrolled.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Following an approved process modification, which action should occur BEFORE affected workers operate the changed system?",
-  options: [
-    "Relevant procedures and information should be updated and workers trained",
-    "Workers should learn by trial and error",
-    "No communication is required",
-    "Only senior management needs to understand the change"
-  ],
-  answer: 0,
-  explanation: "Affected personnel must understand the change, revised procedures and new hazards before operating the modified process.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which of the following is MOST likely to require MOC?",
-  options: [
-    "Changing an alarm trip set point",
-    "Replacing a damaged sign with an identical sign",
-    "Refilling an office printer",
-    "Changing a meeting room"
-  ],
-  answer: 0,
-  explanation: "Changing an alarm or trip set point may alter the effectiveness of a process safety safeguard and requires formal assessment.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why should workers be consulted when developing operating procedures?",
-  options: [
-    "They can provide practical knowledge of how the task is actually performed",
-    "It eliminates management responsibility",
-    "It makes competence unnecessary",
-    "It guarantees that procedures never need revision"
-  ],
-  answer: 0,
-  explanation: "Workers can identify practical issues, task variations and hazards that may not be apparent from design documents alone.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which is an example of a formal worker engagement method?",
-  options: [
-    "Safety committee",
-    "Ignoring worker concerns",
-    "Management-only meetings",
-    "Preventing workers from reviewing risk assessments"
-  ],
-  answer: 0,
-  explanation: "Safety committees are a recognised formal mechanism for worker consultation and participation.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which behaviour would MOST weaken worker engagement?",
-  options: [
-    "Management asks for suggestions and responds to them",
-    "Workers participate in risk assessments",
-    "Reported concerns are repeatedly ignored without explanation",
-    "Workers are involved in procedure reviews"
-  ],
-  answer: 2,
-  explanation: "Ignoring concerns damages trust and discourages workers from contributing important process safety information.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A training matrix is MOST useful for:",
-  options: [
-    "Showing competence and training requirements for different roles",
-    "Recording production output only",
-    "Replacing competence assessment",
-    "Recording employee salaries"
-  ],
-  answer: 0,
-  explanation: "A training matrix helps identify required competence for roles and whether individuals have completed or demonstrated those requirements.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why should competence be reassessed periodically?",
-  options: [
-    "Skills and knowledge may deteriorate or requirements may change",
-    "Training certificates automatically remain sufficient forever",
-    "Only new employees need competence checks",
-    "Reassessment removes the need for supervision"
-  ],
-  answer: 0,
-  explanation: "Competence can change over time as knowledge fades, roles change, processes are modified or standards are revised.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which action MOST strongly demonstrates management commitment to process safety?",
-  options: [
-    "Reviewing only occupational injury statistics",
-    "Providing adequate competent people, time and financial resources",
-    "Reducing inspection frequency to save money",
-    "Allowing production targets to override safety concerns"
-  ],
-  answer: 1,
-  explanation: "Leadership commitment is demonstrated through the provision of sufficient human, financial and physical resources to manage major hazards.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A senior manager regularly asks operators about major accident hazards during plant visits. What does this MOST clearly demonstrate?",
-  options: [
-    "Visible process safety leadership",
-    "Breakdown maintenance",
-    "Contractor monitoring",
-    "Emergency response"
-  ],
-  answer: 0,
-  explanation: "Visible leadership includes direct engagement with workers and active interest in major hazard controls.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Who should understand the major process hazards when making decisions about production, maintenance and investment?",
-  options: [
-    "Senior leaders and relevant managers",
-    "Only external auditors",
-    "Only new employees",
-    "Visitors to the site"
-  ],
-  answer: 0,
-  explanation: "Leaders making decisions that affect process risk need sufficient understanding of the major hazards and consequences.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which situation BEST indicates weak process safety leadership?",
-  options: [
-    "Safety-critical maintenance is properly funded",
-    "Major hazard performance is reviewed by senior management",
-    "Repeated equipment defects are accepted because repair would interrupt production",
-    "Workers are encouraged to report process concerns"
-  ],
-  answer: 2,
-  explanation: "Accepting known safety-critical defects for production reasons indicates that process safety is not being given appropriate priority.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which statement about delegation and accountability is MOST accurate?",
-  options: [
-    "Senior management can delegate tasks but retains overall accountability",
-    "Delegating a task removes all accountability from management",
-    "Only operators are accountable for process safety",
-    "Contractors automatically become accountable for the entire plant"
-  ],
-  answer: 0,
-  explanation: "Specific responsibilities can be delegated, but overall process safety accountability remains with senior management.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which of the following would BEST support continuous improvement in process safety?",
-  options: [
-    "Regular review of performance, incidents and control effectiveness",
-    "Keeping procedures unchanged indefinitely",
-    "Ignoring external industry learning",
-    "Reducing audit activity"
-  ],
-  answer: 0,
-  explanation: "Continuous improvement requires regular review of performance and learning from experience so that controls and systems can be strengthened.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which is the BEST example of a leading process safety indicator?",
-  options: [
-    "Number of major fires last year",
-    "Percentage of safety-critical inspections completed on time",
-    "Number of fatalities",
-    "Number of loss-of-containment events"
-  ],
-  answer: 1,
-  explanation: "Leading indicators monitor preventive activities and control performance before a major event occurs.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which is the BEST example of a lagging process safety indicator?",
-  options: [
-    "Percentage of overdue inspection tasks",
-    "Number of process loss-of-containment events",
-    "Percentage of workers assessed as competent",
-    "Number of planned audits completed"
-  ],
-  answer: 1,
-  explanation: "Lagging indicators measure events or consequences that have already occurred.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why should organisations investigate the root causes of process safety incidents?",
-  options: [
-    "To identify deeper management and system weaknesses",
-    "To identify only the person closest to the incident",
-    "To avoid changing procedures",
-    "To reduce reporting requirements"
-  ],
-  answer: 0,
-  explanation: "Root-cause investigation goes beyond immediate failures and identifies underlying organisational and management weaknesses.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "An investigation concludes that an operator opened the wrong valve. What should investigators consider NEXT?",
-  options: [
-    "Only disciplinary action",
-    "Why the system allowed the error to occur, including training, procedures and design",
-    "Closing the investigation immediately",
-    "Removing the incident record"
-  ],
-  answer: 1,
-  explanation: "Effective investigation should examine deeper causes such as competence, procedures, supervision and equipment design rather than stopping at the immediate human error.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What is meant by corporate memory in process safety?",
-  options: [
-    "The personal memory of the plant manager",
-    "The organisation's retained knowledge of incidents, design decisions, changes and lessons learned",
-    "The annual leave schedule",
-    "The list of current contractors"
-  ],
-  answer: 1,
-  explanation: "Corporate memory is the retained organisational knowledge needed to avoid repeating previous mistakes when personnel change.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "How can an organisation BEST protect important process safety knowledge when experienced employees retire?",
-  options: [
-    "Rely only on informal conversations",
-    "Document critical design information, incident learning and reasons for important decisions",
-    "Delete old records",
-    "Stop updating procedures"
-  ],
-  answer: 1,
-  explanation: "Formal documentation helps preserve corporate memory and critical process safety knowledge.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What is the main purpose of benchmarking in process safety?",
-  options: [
-    "To compare performance with similar organisations and identify good practice",
-    "To replace legal requirements",
-    "To eliminate risk assessment",
-    "To rank employees by attendance"
-  ],
-  answer: 0,
-  explanation: "Benchmarking compares performance and practices with similar organisations to identify improvement opportunities.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which source would provide useful external process safety learning?",
-  options: [
-    "Industry accident investigation reports",
-    "Office stationery records",
-    "Employee holiday requests",
-    "Parking allocation records"
-  ],
-  answer: 0,
-  explanation: "Industry accident reports and regulator or professional-body information can provide important external lessons.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which document is an important source of process safety information?",
-  options: [
-    "Piping and Instrumentation Diagram (P&ID)",
-    "Staff cafeteria menu",
-    "Travel request form",
-    "Office seating plan"
-  ],
-  answer: 0,
-  explanation: "P&IDs contain important information about the actual process equipment, piping and instrumentation configuration.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A pump is replaced with another model having a significantly higher discharge pressure. What should happen?",
-  options: [
-    "Treat it as an identical replacement",
-    "Evaluate the change through the MOC process",
-    "Install it without reviewing downstream equipment",
-    "Update paperwork only after start-up"
-  ],
-  answer: 1,
-  explanation: "A non-identical replacement that changes process capability may introduce new hazards and should be controlled through MOC.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which item should be reviewed as part of an MOC assessment?",
-  options: [
-    "Effects on process hazards and existing safeguards",
-    "Only the cost of the change",
-    "Only the supplier's delivery date",
-    "Only the appearance of the new equipment"
-  ],
-  answer: 0,
-  explanation: "MOC should identify how a proposed change affects hazards, safeguards, procedures, competence and process safety information.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why must temporary process changes have a defined end date or review period?",
-  options: [
-    "To prevent temporary arrangements from remaining indefinitely without reassessment",
-    "To reduce documentation",
-    "To avoid management approval",
-    "To increase production rates"
-  ],
-  answer: 0,
-  explanation: "Temporary changes need defined duration and restoration or review arrangements so that risk is not allowed to remain uncontrolled.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Following an approved process modification, which action should occur BEFORE affected workers operate the changed system?",
-  options: [
-    "Relevant procedures and information should be updated and workers trained",
-    "Workers should learn by trial and error",
-    "No communication is required",
-    "Only senior management needs to understand the change"
-  ],
-  answer: 0,
-  explanation: "Affected personnel must understand the change, revised procedures and new hazards before operating the modified process.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which of the following is MOST likely to require MOC?",
-  options: [
-    "Changing an alarm trip set point",
-    "Replacing a damaged sign with an identical sign",
-    "Refilling an office printer",
-    "Changing a meeting room"
-  ],
-  answer: 0,
-  explanation: "Changing an alarm or trip set point may alter the effectiveness of a process safety safeguard and requires formal assessment.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why should workers be consulted when developing operating procedures?",
-  options: [
-    "They can provide practical knowledge of how the task is actually performed",
-    "It eliminates management responsibility",
-    "It makes competence unnecessary",
-    "It guarantees that procedures never need revision"
-  ],
-  answer: 0,
-  explanation: "Workers can identify practical issues, task variations and hazards that may not be apparent from design documents alone.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which is an example of a formal worker engagement method?",
-  options: [
-    "Safety committee",
-    "Ignoring worker concerns",
-    "Management-only meetings",
-    "Preventing workers from reviewing risk assessments"
-  ],
-  answer: 0,
-  explanation: "Safety committees are a recognised formal mechanism for worker consultation and participation.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which behaviour would MOST weaken worker engagement?",
-  options: [
-    "Management asks for suggestions and responds to them",
-    "Workers participate in risk assessments",
-    "Reported concerns are repeatedly ignored without explanation",
-    "Workers are involved in procedure reviews"
-  ],
-  answer: 2,
-  explanation: "Ignoring concerns damages trust and discourages workers from contributing important process safety information.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A training matrix is MOST useful for:",
-  options: [
-    "Showing competence and training requirements for different roles",
-    "Recording production output only",
-    "Replacing competence assessment",
-    "Recording employee salaries"
-  ],
-  answer: 0,
-  explanation: "A training matrix helps identify required competence for roles and whether individuals have completed or demonstrated those requirements.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why should competence be reassessed periodically?",
-  options: [
-    "Skills and knowledge may deteriorate or requirements may change",
-    "Training certificates automatically remain sufficient forever",
-    "Only new employees need competence checks",
-    "Reassessment removes the need for supervision"
-  ],
-  answer: 0,
-  explanation: "Competence can change over time as knowledge fades, roles change, processes are modified or standards are revised.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which factor should be considered when determining whether a person is competent for a process safety role?",
-  options: [
-    "Knowledge, practical skill and relevant experience",
-    "Length of service only",
-    "Job title only",
-    "Attendance at one training session only"
-  ],
-  answer: 0,
-  explanation: "Competence requires an appropriate combination of knowledge, practical ability and experience, not just time served or training attendance.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A worker has completed classroom training but repeatedly makes errors during a safety-critical task. What is the BEST conclusion?",
-  options: [
-    "The worker is competent because training was completed",
-    "The worker's practical competence has not yet been demonstrated",
-    "No further supervision is required",
-    "The procedure should be removed"
-  ],
-  answer: 1,
-  explanation: "Training attendance does not by itself demonstrate competence. Correct practical performance must also be assessed.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which action BEST supports competence development for a newly appointed operator?",
-  options: [
-    "Structured training, supervised practice and assessment",
-    "Immediate unsupervised work",
-    "Relying only on previous job title",
-    "Avoiding reassessment"
-  ],
-  answer: 0,
-  explanation: "Competence develops through training, supervised practical experience and assessment against required standards.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why is refresher training important in process safety?",
-  options: [
-    "To maintain knowledge and address changes in equipment, procedures or standards",
-    "To replace all practical assessment",
-    "To increase paperwork",
-    "To remove the need for supervision"
-  ],
-  answer: 0,
-  explanation: "Refresher training helps maintain knowledge and ensures workers remain current when processes, equipment or requirements change.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which statement BEST describes competence management?",
-  options: [
-    "A systematic approach to defining, developing, assessing and maintaining required competence",
-    "A one-time induction process",
-    "A payroll activity",
-    "A method of removing procedures"
-  ],
-  answer: 0,
-  explanation: "Competence management systematically ensures that people performing process safety roles have and maintain the required capability.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which leadership decision is MOST likely to increase process safety risk?",
-  options: [
-    "Deferring safety-critical maintenance without adequate risk assessment",
-    "Providing competent technical support",
-    "Reviewing major hazard indicators",
-    "Funding preventive maintenance"
-  ],
-  answer: 0,
-  explanation: "Deferring safety-critical maintenance without proper risk control can weaken safeguards and increase major accident risk.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What should senior leaders do when process safety indicators show a worsening trend?",
-  options: [
-    "Investigate the causes and ensure corrective action",
-    "Ignore the trend if there has been no major accident",
-    "Stop collecting the data",
-    "Focus only on production output"
-  ],
-  answer: 0,
-  explanation: "Worsening indicators may show deterioration in safeguards or management systems and should trigger investigation and action.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which is the BEST example of management demonstrating that safety takes priority over production?",
-  options: [
-    "Stopping production when a critical safeguard is unavailable and risk is unacceptable",
-    "Continuing operation regardless of risk",
-    "Removing alarms to avoid shutdowns",
-    "Delaying all maintenance until failure"
-  ],
-  answer: 0,
-  explanation: "Stopping or restricting production when critical protection is unavailable demonstrates that process safety is treated as a genuine priority.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why is process safety leadership needed at all organisational levels?",
-  options: [
-    "Because decisions at different levels can affect major hazard controls",
-    "Because only managers can identify hazards",
-    "Because workers have no process safety responsibilities",
-    "Because procedures are unnecessary"
-  ],
-  answer: 0,
-  explanation: "Decisions by leaders, supervisors and workers can all influence the effectiveness of process safety controls.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A manager knows that a critical protective system is unreliable but takes no action because it has never failed during an accident. What does this indicate?",
-  options: [
-    "Weak process safety leadership",
-    "Good risk management",
-    "Effective organisational learning",
-    "Strong competence management"
-  ],
-  answer: 0,
-  explanation: "Known weaknesses in critical protection should be addressed before an accident occurs; ignoring them reflects poor leadership and risk management.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What is the BEST reason for sharing lessons learned from major incidents with other organisations?",
-  options: [
-    "Others may prevent similar failures before experiencing the same accident",
-    "To increase production targets",
-    "To remove legal responsibilities",
-    "To replace internal investigations"
-  ],
-  answer: 0,
-  explanation: "Major process accidents are relatively rare, so sharing lessons allows the wider industry to prevent recurrence.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which action would MOST reduce organisational learning?",
-  options: [
-    "Failing to communicate investigation findings to affected departments",
-    "Tracking corrective actions",
-    "Reviewing external accident reports",
-    "Updating risk assessments"
-  ],
-  answer: 0,
-  explanation: "If lessons are not communicated, the organisation cannot effectively apply them to prevent recurrence.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A similar near miss has occurred three times in one year. What does this MOST strongly indicate?",
-  options: [
-    "Previous corrective actions may have been ineffective",
-    "The events should no longer be reported",
-    "The risk is automatically acceptable",
-    "No investigation is required"
-  ],
-  answer: 0,
-  explanation: "Repeated events suggest that underlying causes have not been fully addressed or previous actions were ineffective.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which activity BEST supports organisational learning from external sources?",
-  options: [
-    "Reviewing regulator and industry safety alerts",
-    "Ignoring incidents outside the company",
-    "Using only internal production data",
-    "Stopping all benchmarking"
-  ],
-  answer: 0,
-  explanation: "Regulator and industry alerts can provide important lessons from incidents and emerging risks outside the organisation.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why should incident recommendations be checked after implementation?",
-  options: [
-    "To confirm that the actions are actually effective",
-    "To remove the incident from records",
-    "To increase paperwork only",
-    "To avoid future investigations"
-  ],
-  answer: 0,
-  explanation: "Corrective action should be verified to ensure it has successfully addressed the identified causes and reduced risk.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A process modification has been physically completed, but revised drawings are not yet available. What is the BEST action?",
-  options: [
-    "Ensure process safety information is updated before normal operation proceeds",
-    "Ignore the drawings permanently",
-    "Ask operators to remember the changes",
-    "Remove old drawings without replacement"
-  ],
-  answer: 0,
-  explanation: "Process safety information must accurately reflect the actual plant configuration so that operation and maintenance can be performed safely.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which stakeholder should normally be involved in reviewing a process change?",
-  options: [
-    "Relevant operations, engineering, maintenance and safety personnel",
-    "Only the purchasing department",
-    "Only visitors",
-    "Only external suppliers"
-  ],
-  answer: 0,
-  explanation: "Changes should be reviewed by people with relevant technical, operational and safety knowledge.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A temporary hose is installed to bypass failed process pipework. What is the MOST important management requirement?",
-  options: [
-    "Formal assessment, authorisation, monitoring and a defined removal date",
-    "No documentation because it is temporary",
-    "Allow the arrangement to remain indefinitely",
-    "Inform only the contractor"
-  ],
-  answer: 0,
-  explanation: "Temporary changes can create significant risk and must be formally controlled through MOC.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which document should be updated when a process change affects valve and instrumentation configuration?",
-  options: [
-    "P&ID",
-    "Canteen menu",
-    "Payroll report",
-    "Office floor plan"
-  ],
-  answer: 0,
-  explanation: "P&IDs must reflect changes to process piping, valves and instrumentation so that plant information remains accurate.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What is the MOST important reason for authorising process changes before implementation?",
-  options: [
-    "To confirm that risks have been assessed and acceptable controls are in place",
-    "To slow down projects",
-    "To prevent workers from contributing",
-    "To avoid updating procedures"
-  ],
-  answer: 0,
-  explanation: "Formal authorisation confirms that appropriate technical and risk reviews have been completed before implementation.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which statement BEST describes effective worker engagement?",
-  options: [
-    "Workers are actively involved in discussions and decisions relevant to process safety",
-    "Workers receive information but cannot provide feedback",
-    "Only managers discuss hazards",
-    "Consultation occurs only after accidents"
-  ],
-  answer: 0,
-  explanation: "Effective engagement means workers participate actively and contribute their practical knowledge to process safety decisions.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A risk assessment team includes only managers and no operators. What important information may be missed?",
-  options: [
-    "Detailed practical knowledge of how the task is actually performed",
-    "Company logo requirements",
-    "Payroll information",
-    "Annual leave records"
-  ],
-  answer: 0,
-  explanation: "Operators often know practical task conditions, deviations and hazards that may not be obvious from procedures or management-level review.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which action would BEST encourage workers to report process safety concerns?",
-  options: [
-    "Responding constructively and providing feedback on reported concerns",
-    "Punishing every person who reports a problem",
-    "Ignoring reports",
-    "Removing reporting channels"
-  ],
-  answer: 0,
-  explanation: "Constructive response and feedback build trust and encourage continued worker participation.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What is the main limitation of worker consultation?",
-  options: [
-    "It requires time and effective management to be useful",
-    "Workers never have useful information",
-    "It eliminates technical assessment",
-    "It makes procedures unnecessary"
-  ],
-  answer: 0,
-  explanation: "Consultation is valuable, but it needs time, structure and management commitment to be effective.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which method is MOST appropriate for maintaining competence for emergency duties?",
-  options: [
-    "Periodic drills, training and reassessment",
-    "Reading a procedure once",
-    "Relying only on years of service",
-    "Avoiding practical exercises"
-  ],
-  answer: 0,
-  explanation: "Emergency competence should be maintained through practice, drills, training and periodic reassessment.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which person requires the MOST detailed process-specific competence?",
-  options: [
-    "An operator controlling a hazardous process unit",
-    "A visitor attending a short meeting",
-    "An office receptionist with no process duties",
-    "A delivery driver remaining outside the process area"
-  ],
-  answer: 0,
-  explanation: "Operators responsible for controlling hazardous processes require detailed knowledge and competence in site-specific hazards and controls.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},  
-{
-  question: "A manager notices that several safety-critical maintenance tasks are overdue. What should be done FIRST?",
-  options: [
-    "Assess the process safety risk and prioritise the necessary actions",
-    "Wait until the next annual audit",
-    "Delete the overdue tasks from the system",
-    "Continue operation without reviewing the risk"
-  ],
-  answer: 0,
-  explanation: "Overdue safety-critical maintenance may weaken important safeguards, so the risk should be assessed and appropriate action taken.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which behaviour BEST shows a positive process safety culture?",
-  options: [
-    "Workers feel able to report concerns without fear",
-    "Production problems are always hidden",
-    "Near misses are not reported",
-    "Safety issues are discussed only after accidents"
-  ],
-  answer: 0,
-  explanation: "A positive culture encourages open reporting and discussion of process safety concerns.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A supervisor tells operators to continue production even though a critical alarm is not working. What is the MAIN concern?",
-  options: [
-    "Production may be slower",
-    "An important process safety safeguard may be unavailable",
-    "The alarm may use more electricity",
-    "Operators may finish work early"
-  ],
-  answer: 1,
-  explanation: "A failed critical alarm may reduce the ability to detect abnormal conditions before they escalate.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why should senior management review process safety performance regularly?",
-  options: [
-    "To identify weaknesses and ensure improvement actions are taken",
-    "To replace all risk assessments",
-    "To reduce communication with workers",
-    "To focus only on personal injury statistics"
-  ],
-  answer: 0,
-  explanation: "Regular management review helps identify deteriorating performance and ensures that necessary corrective actions receive attention.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which situation BEST shows a conflict between production and process safety?",
-  options: [
-    "A shutdown is delayed despite a known serious equipment defect",
-    "Operators attend refresher training",
-    "A risk assessment is reviewed",
-    "A safety meeting is held"
-  ],
-  answer: 0,
-  explanation: "Continuing production despite a serious known defect can indicate that production is being prioritised over process safety.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Process Safety Leadership",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A major accident occurs at another company using similar equipment. What should your organisation do?",
-  options: [
-    "Review the incident and determine whether similar weaknesses exist",
-    "Ignore it because it happened at another company",
-    "Wait for the same accident to happen internally",
-    "Review only personal injury statistics"
-  ],
-  answer: 0,
-  explanation: "External incidents provide an opportunity to identify and correct similar weaknesses before an accident occurs internally.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "What is the MAIN value of reporting near misses?",
-  options: [
-    "They can reveal weaknesses before a major accident occurs",
-    "They prove that no hazards exist",
-    "They replace incident investigations",
-    "They are useful only when someone is injured"
-  ],
-  answer: 0,
-  explanation: "Near misses can provide early warning of weaknesses in equipment, procedures or management systems.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "An incident investigation identifies poor shift handover as a contributing factor. What should happen NEXT?",
-  options: [
-    "Improve the handover arrangements and check that the improvement is effective",
-    "Blame the outgoing operator only",
-    "Stop recording handovers",
-    "Close the investigation without action"
-  ],
-  answer: 0,
-  explanation: "Learning requires corrective action to address identified weaknesses and verification that the action is effective.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why should lessons from incidents be included in training where relevant?",
-  options: [
-    "To help workers understand how failures occurred and how recurrence can be prevented",
-    "To make training longer only",
-    "To replace operating procedures",
-    "To avoid investigating future incidents"
-  ],
-  answer: 0,
-  explanation: "Relevant incident learning can strengthen worker understanding of hazards, failures and preventive controls.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which action BEST demonstrates that an organisation has learned from an incident?",
-  options: [
-    "Corrective actions are implemented and their effectiveness is verified",
-    "The investigation report is stored but never used",
-    "Only the incident statistics are changed",
-    "The incident is no longer discussed"
-  ],
-  answer: 0,
-  explanation: "Real organisational learning requires lessons to result in effective improvements, not simply documentation.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Organisational Learning",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A company plans to increase the maximum operating pressure of a process vessel. What should be done BEFORE the change?",
-  options: [
-    "Assess the change through the Management of Change process",
-    "Increase the pressure immediately",
-    "Ask operators to monitor it informally",
-    "Wait until the next shutdown"
-  ],
-  answer: 0,
-  explanation: "Changing an operating limit may affect equipment integrity and process risk and should be formally assessed before implementation.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A new raw material is proposed for an existing process. Which question is MOST important during MOC?",
-  options: [
-    "Does the new material introduce different hazards or process conditions?",
-    "Is its packaging more attractive?",
-    "Is the supplier's office nearby?",
-    "Is the material name shorter?"
-  ],
-  answer: 0,
-  explanation: "A new material may change chemical hazards, reactions, operating conditions or required safeguards.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why should affected workers be informed about an approved process change?",
-  options: [
-    "They need to understand new hazards, controls and operating requirements",
-    "Only managers need information about changes",
-    "It removes the need for updated procedures",
-    "It allows risk assessment to be skipped"
-  ],
-  answer: 0,
-  explanation: "People affected by a change need sufficient information and training to operate or maintain the changed process safely.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A temporary change has reached its approved expiry date. What should happen?",
-  options: [
-    "Remove it, restore the original arrangement, or formally review and reauthorise it",
-    "Leave it indefinitely without review",
-    "Delete the MOC record",
-    "Allow operators to decide individually"
-  ],
-  answer: 0,
-  explanation: "Temporary changes require controlled closure, restoration or formal reassessment if they need to continue.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which change is LEAST likely to require a formal MOC?",
-  options: [
-    "Replacing a component with an identical replacement to the same specification",
-    "Changing a process chemical",
-    "Changing a safety trip setting",
-    "Increasing an operating pressure limit"
-  ],
-  answer: 0,
-  explanation: "A true replacement-in-kind normally does not introduce a new process change, whereas the other examples can alter process risk.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Management of Change",
-  difficulty: "Hard",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Operators are asked for comments on a new procedure, but management ignores all comments without review. Is this effective consultation?",
-  options: [
-    "No, consultation should be a meaningful two-way process",
-    "Yes, because workers were given the document",
-    "Yes, because management always knows best",
-    "No, because workers should write procedures alone"
-  ],
-  answer: 0,
-  explanation: "Effective consultation requires genuine consideration of worker input rather than simply providing information.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "When is worker involvement MOST useful in a process risk assessment?",
-  options: [
-    "During hazard identification and review of how work is actually performed",
-    "Only after all decisions have been finalised",
-    "Only after an accident",
-    "It is never useful"
-  ],
-  answer: 0,
-  explanation: "Worker involvement during hazard identification provides practical information about actual tasks, deviations and operating conditions.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which management response BEST encourages future reporting of safety concerns?",
-  options: [
-    "Investigate the concern and provide feedback to the worker",
-    "Ignore the concern",
-    "Criticise the worker for reporting it",
-    "Remove the reporting system"
-  ],
-  answer: 0,
-  explanation: "Taking concerns seriously and providing feedback encourages trust and continued worker participation.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Why can experienced operators make an important contribution to process safety reviews?",
-  options: [
-    "They often understand practical operating problems and abnormal conditions",
-    "They automatically replace engineers",
-    "They do not need procedures",
-    "They are responsible for all management decisions"
-  ],
-  answer: 0,
-  explanation: "Experienced operators can contribute practical knowledge of normal and abnormal operating conditions.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A worker reports a recurring process deviation but receives no response. What is a likely consequence?",
-  options: [
-    "Workers may become less willing to report future concerns",
-    "Worker engagement will automatically improve",
-    "The deviation becomes safe",
-    "Process risk is eliminated"
-  ],
-  answer: 0,
-  explanation: "Failure to respond to concerns can reduce trust and discourage future reporting.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Worker Participation and Engagement",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "An experienced operator is transferred to a process unit that uses unfamiliar equipment. What should management do?",
-  options: [
-    "Assess the operator's competence for the new role and provide any necessary training",
-    "Assume competence because the operator is experienced",
-    "Allow immediate unsupervised operation",
-    "Provide only a site map"
-  ],
-  answer: 0,
-  explanation: "Competence is task and process specific. Previous experience does not automatically demonstrate competence for unfamiliar equipment.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which evidence BEST demonstrates that training has resulted in competence?",
-  options: [
-    "Successful practical assessment against defined performance criteria",
-    "Attendance at the training course only",
-    "Signing the attendance sheet",
-    "Length of the training presentation"
-  ],
-  answer: 0,
-  explanation: "Practical assessment provides evidence that the individual can correctly apply the required knowledge and skills.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A contractor will perform safety-critical maintenance on process equipment. What should the company verify?",
-  options: [
-    "The contractor has the required competence for the work",
-    "The contractor has worked for another company before",
-    "The contractor has brought personal tools",
-    "The contractor arrived early"
-  ],
-  answer: 0,
-  explanation: "People performing safety-critical work must have appropriate competence regardless of whether they are employees or contractors.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Easy",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "A competent operator has not performed a rare emergency task for several years. What is the BEST action?",
-  options: [
-    "Provide refresher training or practice and reassess competence where necessary",
-    "Assume competence can never deteriorate",
-    "Remove the emergency procedure",
-    "Wait for a real emergency to test the operator"
-  ],
-  answer: 0,
-  explanation: "Skills for rarely performed safety-critical tasks can deteriorate, so refresher training and practice may be necessary.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-  question: "Which approach BEST supports long-term process safety competence?",
-  options: [
-    "Define required competence, train people, assess performance and periodically review competence",
-    "Provide induction training once and never reassess",
-    "Use job title as the only evidence of competence",
-    "Depend only on years of service"
-  ],
-  answer: 0,
-  explanation: "Competence management is a continuing cycle of defining requirements, development, assessment and review.",
-  elementNumber: 1,
-  element: "Element 1 – Process Safety Leadership",
-  topic: "Competence",
-  difficulty: "Medium",
-  reference: "PSM Book – Element 1"
-},
-{
-    question: "Senior management receives excellent personal injury statistics but several loss-of-containment events have occurred during the same year. What is the BEST conclusion?",
+  {
+    id: 1,
+    question: "Which statement best describes process safety?",
     options: [
-        "The organisation has demonstrated excellent process safety performance",
-        "Personal safety statistics alone are insufficient to demonstrate effective process safety",
-        "Loss-of-containment events are mainly occupational safety issues",
-        "Process safety performance should only be reviewed after a major accident"
+      "The prevention of minor workplace injuries only",
+      "The prevention and control of major accident hazards",
+      "The management of office safety",
+      "The use of PPE as the primary safety system"
     ],
     answer: 1,
-    explanation: "Good personal injury performance does not necessarily mean that major accident hazards are being effectively controlled. Process safety requires specific attention to loss of containment and major hazard barriers.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Process Safety Performance",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "A refinery director regularly visits operational areas, asks operators about major accident hazards and follows up overdue safety-critical actions. What does this MOST strongly demonstrate?",
+    explanation: "Process safety focuses on preventing and controlling major accident hazards and high-consequence events.",
+    topic: "1.1 Process Safety Management Meaning",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 2,
+    question: "Which statement best distinguishes process safety from personal safety?",
     options: [
-        "Visible process safety leadership",
-        "Reactive monitoring only",
-        "Delegation of process safety responsibility",
-        "Dependence on administrative controls"
+      "There is no significant difference between the two",
+      "Process safety applies only to managers",
+      "Personal safety is concerned mainly with explosions",
+      "Process safety focuses on major accident hazards, while personal safety often focuses on individual injuries"
+    ],
+    answer: 3,
+    explanation: "Process safety focuses on major accident hazards, whereas personal safety commonly addresses individual workplace injuries.",
+    topic: "1.1 Process Safety Management Meaning",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 3,
+    question: "Why must senior leaders understand the major hazards associated with their processes?",
+    options: [
+      "Because only senior leaders carry out maintenance",
+      "Because operators are not responsible for process safety",
+      "Because their decisions can significantly affect process safety risk",
+      "Because process safety is primarily a financial issue"
+    ],
+    answer: 2,
+    explanation: "Leadership decisions involving maintenance, staffing, investment and operations can significantly influence major accident risk.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 4,
+    question: "Process safety leadership should consider hazards during which stages of the plant life cycle?",
+    options: [
+      "Design, commissioning, operation and decommissioning",
+      "Operation only",
+      "Construction and operation only",
+      "Commissioning only"
     ],
     answer: 0,
-    explanation: "Visible leadership includes active engagement with workers, understanding major hazards and ensuring that important process safety actions are completed.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Leadership",
-    difficulty: "Medium",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "Following a serious process incident, an organisation completes an investigation but keeps the findings within the affected department. What important principle has MOST clearly been missed?",
+    explanation: "Process safety hazards and controls need consideration throughout the plant life cycle.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 5,
+    question: "Which action best demonstrates visible process safety leadership?",
     options: [
-        "Inventory reduction",
-        "Organisational learning",
-        "Hazardous area classification",
-        "Mechanical isolation"
+      "Reviewing process safety only after a major accident",
+      "Senior managers actively visiting sites and discussing major process risks",
+      "Leaving all process safety decisions to operators",
+      "Focusing exclusively on production targets"
     ],
     answer: 1,
-    explanation: "Organisational learning requires lessons from incidents and near misses to be retained, communicated and applied where relevant across the organisation.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Organisational Learning",
-    difficulty: "Medium",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "The Piper Alpha disaster involved a release of flammable LPG. Which underlying failures are MOST consistent with the lessons highlighted in the PSM Book?",
+    explanation: "Visible leaders actively engage with process safety and demonstrate that major hazard control is a genuine priority.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 6,
+    question: "Why should individuals with process safety responsibilities be held accountable?",
     options: [
-        "Failure of PPE selection and poor housekeeping",
-        "Failure of permit-to-work, isolation and management controls",
-        "Failure to provide enough fire extinguishers",
-        "Failure to provide hearing protection"
-    ],
-    answer: 1,
-    explanation: "The PSM Book identifies failures in permit-to-work, lock-out/isolation and design/management arrangements as important underlying causes associated with Piper Alpha.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Piper Alpha",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "Why is Piper Alpha still frequently used as a process safety case study decades after the event?",
-    options: [
-        "Because it mainly demonstrated the importance of personal protective equipment",
-        "Because it demonstrated how multiple organisational and technical failures can combine into a catastrophic event",
-        "Because it was caused only by severe weather",
-        "Because it proved that offshore platforms cannot be operated safely"
-    ],
-    answer: 1,
-    explanation: "Piper Alpha demonstrates how weaknesses in management systems, communication, permits, isolation and design can combine and escalate into a major accident.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Piper Alpha",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "A board reviews process safety only after fires, explosions or major releases occur. What type of leadership approach does this MOST closely represent?",
-    options: [
-        "Proactive",
-        "Predictive",
-        "Reactive",
-        "Inherent"
+      "Because accountability eliminates the need for training",
+      "Because all incidents should be blamed on individuals",
+      "Because everyone with process safety responsibilities has a role in preventing major accidents",
+      "Because managers have no responsibility for worker actions"
     ],
     answer: 2,
-    explanation: "Waiting for an unwanted event before taking action is reactive. Effective process safety leadership should seek evidence of deteriorating controls before a major accident occurs.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Leadership",
-    difficulty: "Medium",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "Buncefield, Texas City and the Macondo/Deepwater Horizon disaster all reinforced which major process safety lesson?",
+    explanation: "People with process safety responsibilities should be accountable for carrying out those responsibilities effectively.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 7,
+    question: "Following an incident, which approach is most consistent with effective process safety leadership?",
     options: [
-        "Engineering controls make leadership unnecessary",
-        "Major accident prevention requires both effective physical controls and strong leadership",
-        "Personal injury rates are the best predictor of catastrophic events",
-        "Major accidents cannot realistically be prevented"
+      "Avoid investigation if nobody was injured",
+      "Focus only on the immediate unsafe act",
+      "Immediately blame the nearest operator",
+      "Investigate root causes and wider management or system failures"
     ],
-    answer: 1,
-    explanation: "Major disasters demonstrated that technical systems alone are not enough. Leadership, culture, decision-making and management systems are essential to preventing catastrophic events.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Major Accident Lessons",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "A company has sufficient written procedures but routinely postpones safety-critical maintenance to achieve production targets. What does this MOST strongly indicate?",
+    answer: 3,
+    explanation: "Effective investigation looks beyond immediate actions to identify underlying organisational and management causes.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 8,
+    question: "Which types of resources should leadership provide to support effective process safety management?",
     options: [
-        "A positive process safety culture",
-        "A conflict between stated safety values and actual management priorities",
-        "Effective organisational learning",
-        "Successful competence management"
-    ],
-    answer: 1,
-    explanation: "Safety culture is influenced by what leaders actually prioritise. Repeatedly sacrificing safety-critical work for production sends a strong negative message.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Safety Culture",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "Which management behaviour would BEST support a positive process safety culture?",
-    options: [
-        "Discouraging workers from reporting minor process deviations",
-        "Rewarding production regardless of operating conditions",
-        "Encouraging reporting, questioning and discussion of process safety concerns",
-        "Limiting process safety information to senior managers"
-    ],
-    answer: 2,
-    explanation: "A positive culture encourages reporting, consultation, questioning and open communication about hazards without creating unnecessary fear of blame.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Safety Culture",
-    difficulty: "Medium",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "An experienced operator is promoted to supervise a safety-critical process solely because they have worked at the plant for 20 years. What is the main weakness in this decision?",
-    options: [
-        "Experience should never be considered",
-        "Length of service alone does not demonstrate competence for the new role",
-        "Only academic qualifications demonstrate competence",
-        "Supervisors do not require process safety competence"
-    ],
-    answer: 1,
-    explanation: "Competence is based on an appropriate combination of knowledge, skills and experience relevant to the actual role, not years of service alone.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Competence",
-    difficulty: "Medium",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "A safety-critical emergency task is rarely performed in normal operation. What is the BEST way to maintain worker competence for that task?",
-    options: [
-        "Assume competence will remain because workers were originally trained",
-        "Provide periodic refresher training, exercises and reassessment",
-        "Wait until a real emergency occurs",
-        "Replace the emergency procedure with a warning sign"
-    ],
-    answer: 1,
-    explanation: "Skills for rarely performed safety-critical activities can deteriorate. Refresher training, practice and reassessment help maintain competence.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Competence",
-    difficulty: "Medium",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "Which sequence BEST represents effective competence management?",
-    options: [
-        "Recruit people, provide induction and assume competence permanently",
-        "Define competence requirements, develop people, assess competence and periodically review it",
-        "Check years of service, issue procedures and record attendance",
-        "Provide training only after an incident"
-    ],
-    answer: 1,
-    explanation: "Competence management is a continuing cycle involving defined requirements, development, assessment and periodic review.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Competence",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "A worker reports that a safety-critical alarm frequently activates without an obvious process problem. Their supervisor tells them to ignore it because it has happened many times before. What cultural problem is MOST concerning?",
-    options: [
-        "Excessive worker consultation",
-        "Normalisation of abnormal conditions",
-        "Overuse of engineering controls",
-        "Excessive management visibility"
-    ],
-    answer: 1,
-    explanation: "Repeated abnormal conditions can gradually become accepted as normal. This weakens sensitivity to warning signs and can increase major accident risk.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Safety Culture",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "A company investigates an incident at one refinery and discovers the same equipment design exists at five other sites. What should effective organisational learning lead to?",
-    options: [
-        "Action only at the refinery where the incident occurred",
-        "Communication and review across all potentially affected sites",
-        "Deletion of the incident record after corrective action",
-        "Disciplinary action against the original operator only"
-    ],
-    answer: 1,
-    explanation: "Lessons should be communicated to all areas that could benefit from them so similar weaknesses can be identified and corrected before recurrence.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Organisational Learning",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "Which argument for process safety management is being used when management states that workers and members of the public should not suffer preventable death or serious injury?",
-    options: [
-        "Financial",
-        "Moral",
-        "Production",
-        "Technical"
-    ],
-    answer: 1,
-    explanation: "Preventing needless death, injury and suffering is the moral reason for managing process safety.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Moral Case",
-    difficulty: "Easy",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "The Piper Alpha disaster caused major loss of life, enormous insured losses and reputational damage. Which process safety arguments does this demonstrate?",
-    options: [
-        "Moral and financial only",
-        "Financial only",
-        "Moral, financial and reputational consequences",
-        "Technical consequences only"
-    ],
-    answer: 2,
-    explanation: "Major accidents can cause fatalities, huge financial losses, interruption to production and lasting damage to organisational reputation.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Business Case",
-    difficulty: "Medium",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "What was an important leadership lesson reinforced by the Buncefield disaster?",
-    options: [
-        "Senior leaders should focus only on personal injury rates",
-        "Process safety leadership requires active engagement with major accident hazards",
-        "Bulk storage facilities do not require board-level attention",
-        "Major accident prevention should be delegated entirely to operators"
-    ],
-    answer: 1,
-    explanation: "Buncefield reinforced the importance of senior leadership understanding and actively managing major accident hazards rather than delegating responsibility completely.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Buncefield",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "A chief executive says, 'Process safety is the responsibility of the HSE department.' What is the BEST response?",
-    options: [
-        "Correct, because technical departments should own all process risks",
-        "Incorrect, because leadership and line management must own process safety within their areas of responsibility",
-        "Correct, provided the HSE manager is competent",
-        "Incorrect only for offshore facilities"
-    ],
-    answer: 1,
-    explanation: "HSE specialists can advise and support, but responsibility for managing process safety must be integrated into leadership and operational management.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Leadership Responsibility",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "A company repeatedly experiences the same type of near miss at different sites despite completing investigations each time. What does this MOST strongly suggest?",
-    options: [
-        "Strong organisational learning",
-        "Weak organisational learning and failure to transfer lessons",
-        "Excessive use of leading indicators",
-        "Too much worker consultation"
-    ],
-    answer: 1,
-    explanation: "Repeated similar events at different locations indicate that lessons are not being effectively retained, communicated or implemented across the organisation.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Organisational Learning",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "Why can increased use of contractors create a long-term process safety concern?",
-    options: [
-        "Contractors can never be competent",
-        "Corporate knowledge of plant and processes may be lost when contractor personnel frequently change",
-        "Contractors cannot work under permit-to-work systems",
-        "Contractors are legally prohibited from operating process equipment"
-    ],
-    answer: 1,
-    explanation: "Frequent contractor turnover can result in loss of detailed site, equipment and process knowledge unless knowledge retention is actively managed.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Corporate Knowledge",
-    difficulty: "Medium",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "The Deepwater Horizon/Macondo disaster is useful in process safety leadership training primarily because it demonstrated that:",
-    options: [
-        "Major accidents are caused only by equipment failure",
-        "Leadership decisions and management systems are important alongside physical barriers",
-        "Offshore operations should rely mainly on PPE",
-        "Process safety is unrelated to business decisions"
-    ],
-    answer: 1,
-    explanation: "Macondo reinforced that preventing catastrophic events requires effective leadership, management decisions and organisational controls as well as technical barriers.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Deepwater Horizon",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "At Texas City, workers were located in temporary accommodation within a vulnerable process area. Which management principle was MOST clearly relevant to preventing this exposure?",
-    options: [
-        "Keeping occupied buildings away from major explosion hazards",
-        "Increasing the number of portable fire extinguishers",
-        "Reducing shift handover time",
-        "Replacing active fire protection with PPE"
+      "Human, financial and physical resources",
+      "Financial resources only",
+      "Human resources only",
+      "Physical equipment only"
     ],
     answer: 0,
-    explanation: "The Texas City lessons included the importance of siting occupied temporary buildings outside areas vulnerable to major explosion consequences.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Texas City",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "Management reduces control-room staffing while operator workload and alarm demands increase. Which major accident lesson makes this particularly concerning?",
+    explanation: "Effective process safety management requires adequate human, financial and physical resources.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 9,
+    question: "What is one important benefit of a just culture in process safety?",
     options: [
-        "Buncefield demonstrated that all alarms should be removed",
-        "Texas City highlighted workload, fatigue, training and supervision weaknesses",
-        "Piper Alpha proved staffing has no effect on process safety",
-        "Deepwater Horizon showed operators should work independently of management"
+      "All incidents are treated as individual misconduct",
+      "Workers are more willing to report mistakes and near misses",
+      "Management no longer needs incident investigations",
+      "Workers can ignore procedures without consequences"
     ],
     answer: 1,
-    explanation: "The Texas City investigation identified concerns including staffing, workload, fatigue, training and supervision, all of which can weaken process control.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Texas City",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "Which action would BEST demonstrate that senior leaders genuinely understand major accident risk?",
+    explanation: "A just culture supports reporting and organisational learning while maintaining appropriate accountability.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 10,
+    question: "Why is organisational learning particularly important in process safety?",
     options: [
-        "Review only total recordable injury rates once per year",
-        "Ask challenging questions about safety-critical barriers, overdue actions and major accident scenarios",
-        "Leave all process safety decisions to contractors",
-        "Focus board meetings exclusively on production performance"
+      "Only regulators need to learn from accidents",
+      "Learning is required only after fatalities",
+      "Major accidents are relatively rare, so organisations should learn from both internal and external events",
+      "Major accidents occur every day in most organisations"
+    ],
+    answer: 2,
+    explanation: "Organisations should learn from their own experience and relevant events elsewhere in the industry.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 11,
+    question: "Which is an example of an internal source of process safety information?",
+    options: [
+      "An industry association publication",
+      "An external regulator's safety alert",
+      "A Chemical Safety Board investigation from another company",
+      "Incident and near-miss investigation records"
+    ],
+    answer: 3,
+    explanation: "Incident and near-miss records are important internal sources of process safety learning.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 12,
+    question: "Which is an example of an external source of process safety information?",
+    options: [
+      "A safety bulletin issued by a regulator or industry body",
+      "A company's internal shift log",
+      "A worker's internal training record",
+      "A local maintenance checklist"
+    ],
+    answer: 0,
+    explanation: "Regulators and industry bodies can provide valuable external process safety information and lessons.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 13,
+    question: "What is the main purpose of investigating process safety incidents and near misses?",
+    options: [
+      "To satisfy insurance requirements only",
+      "To identify causes, learn lessons and prevent recurrence",
+      "To identify someone to discipline in every case",
+      "To avoid changing existing risk assessments"
     ],
     answer: 1,
-    explanation: "Effective process safety leaders maintain awareness of major hazards and challenge the health of barriers and risk-control systems.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Leadership",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-},
-{
-    question: "A plant has not suffered a major accident for 15 years. Management therefore concludes that current controls must be adequate. What is the BEST criticism of this reasoning?",
+    explanation: "Investigation supports learning by identifying causes and actions needed to prevent recurrence.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 14,
+    question: "What is the primary purpose of Management of Change (MOC)?",
     options: [
-        "Major accidents must occur at least once every ten years",
-        "Absence of a major accident does not prove that critical barriers are healthy",
-        "Only external regulators can judge barrier performance",
-        "Historical performance is more reliable than inspection and testing"
+      "To replace normal operating procedures",
+      "To speed up production changes regardless of risk",
+      "To ensure changes are assessed, controlled and authorised before implementation",
+      "To allow temporary changes without documentation"
+    ],
+    answer: 2,
+    explanation: "MOC is used to understand and control the safety implications of proposed changes before implementation.",
+    topic: "1.4 Management of Change",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 15,
+    question: "Which types of changes should an effective MOC system consider?",
+    options: [
+      "Permanent changes only",
+      "Temporary changes only",
+      "Only changes involving new buildings",
+      "Both temporary and permanent changes"
+    ],
+    answer: 3,
+    explanation: "Both temporary and permanent changes may affect major accident risk and require appropriate control.",
+    topic: "1.4 Management of Change",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 16,
+    question: "A temporary bypass pipe is proposed while equipment is repaired. What should happen before the bypass is installed?",
+    options: [
+      "The implications of the change should be assessed through the MOC process",
+      "The bypass should be installed immediately because it is temporary",
+      "Only verbal approval is required",
+      "No risk assessment is required if production continues"
+    ],
+    answer: 0,
+    explanation: "Temporary modifications require appropriate assessment and authorisation before implementation.",
+    topic: "1.4 Management of Change",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 17,
+    question: "What major process safety lesson is associated with the Flixborough disaster?",
+    options: [
+      "PPE is the most important control for major accidents",
+      "Temporary plant modifications require effective Management of Change",
+      "Shift handover is unnecessary when experienced workers are present",
+      "Temporary equipment does not require engineering review"
     ],
     answer: 1,
-    explanation: "Major accidents are low-frequency events. Organisations must actively verify barrier condition and performance rather than assuming safety from the absence of catastrophe.",
-    elementNumber: 1,
-    element: "Element 1 – Process Safety Leadership",
-    topic: "Process Safety Assurance",
-    difficulty: "Hard",
-    reference: "PSM Book – Element 1"
-}  
-]; 
+    explanation: "Flixborough highlighted the serious risks associated with inadequately assessed temporary plant modifications.",
+    topic: "1.4 Management of Change",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 18,
+    question: "What is an important benefit of involving workers in process safety risk assessments?",
+    options: [
+      "They make management approval unnecessary",
+      "They automatically eliminate all hazards",
+      "They can provide practical knowledge about how work is actually carried out",
+      "They remove the need for competent risk assessors"
+    ],
+    answer: 2,
+    explanation: "Workers can contribute valuable practical knowledge of hazards, operating conditions and actual work practices.",
+    topic: "1.5 Worker Engagement",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 19,
+    question: "Which statement best describes effective worker consultation?",
+    options: [
+      "It involves workers only after decisions have been made",
+      "It replaces the need for management responsibility",
+      "It is management issuing instructions without feedback",
+      "It is a two-way exchange in which workers can contribute and management responds"
+    ],
+    answer: 3,
+    explanation: "Effective consultation requires genuine two-way communication and meaningful worker involvement.",
+    topic: "1.5 Worker Engagement",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 20,
+    question: "Which statement provides the best evidence that a worker is competent?",
+    options: [
+      "The worker consistently performs the required task correctly to the required standard",
+      "The worker attended a training course",
+      "The worker signed an attendance sheet",
+      "The worker has worked for the company for many years"
+    ],
+    answer: 0,
+    explanation: "Competence requires appropriate knowledge, skills and experience demonstrated through satisfactory task performance.",
+    topic: "1.6 Competence",
+    difficulty: "Medium"
+  },
+  {
+    id: 21,
+    question: "Which statement best describes competence in process safety?",
+    options: [
+      "Attendance at a training course only",
+      "A combination of knowledge, skills and practical experience",
+      "Length of service only",
+      "Possession of a certificate only"
+    ],
+    answer: 1,
+    explanation: "Competence requires appropriate knowledge, skills and experience and should be demonstrated in practice.",
+    topic: "1.6 Competence",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 22,
+    question: "Why is training attendance alone insufficient evidence of competence?",
+    options: [
+      "Because training records are not useful",
+      "Because only supervisors can be competent",
+      "Because the worker must also demonstrate the ability to perform the task correctly",
+      "Because experience is always more important than knowledge"
+    ],
+    answer: 2,
+    explanation: "Training is one part of competence; the person must also demonstrate satisfactory task performance.",
+    topic: "1.6 Competence",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 23,
+    question: "What is a common purpose of a training matrix?",
+    options: [
+      "To identify production targets",
+      "To record only employee attendance",
+      "To replace all competence assessments",
+      "To show the competence and training requirements for different roles"
+    ],
+    answer: 3,
+    explanation: "A training matrix helps identify and track training and competence requirements for different roles.",
+    topic: "1.6 Competence",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 24,
+    question: "Why may emergency situations require additional competence?",
+    options: [
+      "Because workers may need to diagnose and act correctly under increased pressure",
+      "Because procedures are not required during emergencies",
+      "Because only managers respond to emergencies",
+      "Because emergency work is always simpler than normal operation"
+    ],
+    answer: 0,
+    explanation: "Abnormal and emergency situations may require workers to make correct decisions and take appropriate actions under pressure.",
+    topic: "1.6 Competence",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 25,
+    question: "What should an organisation do when a competence gap is identified?",
+    options: [
+      "Ignore the gap if the worker is experienced",
+      "Provide appropriate training, development or other measures to close the gap",
+      "Transfer all responsibility to the worker",
+      "Remove all process safety duties permanently"
+    ],
+    answer: 1,
+    explanation: "Identified competence gaps should be addressed through suitable training, development, supervision or other appropriate measures.",
+    topic: "1.6 Competence",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 26,
+    question: "Which action best supports continual improvement in process safety competence?",
+    options: [
+      "One induction course at the start of employment only",
+      "Stopping refresher training",
+      "Periodic assessment and reassessment of competence",
+      "Using the same competence requirements forever"
+    ],
+    answer: 2,
+    explanation: "Competence should be maintained and reviewed because roles, processes and requirements can change.",
+    topic: "1.6 Competence",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 27,
+    question: "Which statement best describes effective process safety leadership?",
+    options: [
+      "Leaders focus only on personal safety statistics",
+      "Leaders become involved only after a major incident",
+      "Leaders delegate all responsibility and avoid operational involvement",
+      "Leaders set expectations, provide resources and remain visibly engaged"
+    ],
+    answer: 3,
+    explanation: "Effective leadership requires visible commitment, adequate resources, clear expectations and active engagement.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 28,
+    question: "Why should process safety responsibilities be clearly defined?",
+    options: [
+      "So people understand what they are expected to do and can be held accountable",
+      "So only senior managers need to understand process safety",
+      "So workers can avoid responsibility for major hazards",
+      "So incident investigations are unnecessary"
+    ],
+    answer: 0,
+    explanation: "Clearly defined responsibilities help people understand their duties and support effective accountability.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 29,
+    question: "Which example best represents a leading process safety action?",
+    options: [
+      "Counting injuries after they occur",
+      "Ensuring overdue safety-critical maintenance is completed",
+      "Recording the number of major accidents from last year",
+      "Calculating compensation costs after an incident"
+    ],
+    answer: 1,
+    explanation: "Leading actions are proactive and aim to prevent failures before major events occur.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 30,
+    question: "What is the main value of setting process safety objectives and targets?",
+    options: [
+      "They replace risk assessment",
+      "They guarantee that incidents cannot occur",
+      "They provide direction and a basis for monitoring improvement",
+      "They eliminate the need for leadership"
+    ],
+    answer: 2,
+    explanation: "Objectives and targets provide direction and allow process safety improvement to be monitored.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 31,
+    question: "Which statement best describes benchmarking in process safety?",
+    options: [
+      "Comparing only personal injury rates",
+      "Replacing internal audits with external data",
+      "Copying another organisation's procedures without assessment",
+      "Comparing performance or practices with suitable organisations to identify improvement opportunities"
+    ],
+    answer: 3,
+    explanation: "Benchmarking allows organisations to compare performance and practices and identify opportunities for improvement.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 32,
+    question: "Why should lessons from major accidents be shared across the process industry?",
+    options: [
+      "Because the potential benefit extends beyond the organisation where the incident occurred",
+      "Because all organisations use identical equipment",
+      "Because external incidents are more important than internal incidents",
+      "Because regulators are solely responsible for learning"
+    ],
+    answer: 0,
+    explanation: "Sharing lessons allows other organisations to recognise similar weaknesses and help prevent recurrence.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 33,
+    question: "A near miss involved a loss of containment but caused no injury. What is the best response?",
+    options: [
+      "Ignore it because no one was hurt",
+      "Investigate its causes and potential consequences and share the lessons learned",
+      "Only remind the operator to be more careful",
+      "Record it without further action"
+    ],
+    answer: 1,
+    explanation: "A significant near miss can reveal weaknesses in major accident controls and should be investigated and used for learning.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 34,
+    question: "Which statement best describes a root cause?",
+    options: [
+      "The immediate physical consequence only",
+      "The final injury caused by the incident",
+      "An underlying organisational or management condition that allowed the event to occur",
+      "The first person who noticed the problem"
+    ],
+    answer: 2,
+    explanation: "Root causes are underlying conditions that allow immediate causes and failures to develop.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 35,
+    question: "Which type of information is most useful for preserving organisational learning?",
+    options: [
+      "Personal notes kept by one worker",
+      "Verbal memory only",
+      "Informal conversations without records",
+      "Documented investigation findings, lessons learned and updated procedures"
+    ],
+    answer: 3,
+    explanation: "Documented information helps preserve corporate memory and prevents important lessons from being lost.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 36,
+    question: "When should a proposed process change be assessed under MOC?",
+    options: [
+      "Before the change is implemented",
+      "Only after the change has caused a problem",
+      "Only when the change is permanent",
+      "After production has restarted"
+    ],
+    answer: 0,
+    explanation: "The implications of a proposed change should be assessed before implementation.",
+    topic: "1.4 Management of Change",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 37,
+    question: "Why is hazard identification required during Management of Change?",
+    options: [
+      "To reduce the amount of documentation required",
+      "To identify new hazards or increases in existing risk before the change is made",
+      "To confirm that all changes are automatically safe",
+      "To eliminate the need for technical approval"
+    ],
+    answer: 1,
+    explanation: "A change may introduce new hazards or alter existing risks, so these implications need to be identified and assessed.",
+    topic: "1.4 Management of Change",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 38,
+    question: "Which change would normally require consideration under an MOC process?",
+    options: [
+      "Replacing office stationery",
+      "Ordering routine cleaning supplies",
+      "Changing a safety-critical trip setting",
+      "Changing the colour of a noticeboard"
+    ],
+    answer: 2,
+    explanation: "Changing a safety-critical setting can alter the effectiveness of a safeguard and therefore requires appropriate change control.",
+    topic: "1.4 Management of Change",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 39,
+    question: "Why should affected workers be informed and trained before a significant process change is introduced?",
+    options: [
+      "So management can transfer all responsibility to workers",
+      "So technical review is no longer needed",
+      "So the MOC process can be cancelled",
+      "So they understand the changed hazards, controls and procedures"
+    ],
+    answer: 3,
+    explanation: "Workers affected by a change need to understand any new hazards, controls and operating requirements.",
+    topic: "1.4 Management of Change",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 40,
+    question: "Which statement best describes effective worker engagement in process safety?",
+    options: [
+      "Workers are actively involved in identifying hazards, developing controls and improving procedures",
+      "Workers receive information but are not asked for input",
+      "Workers are consulted only after incidents",
+      "Worker involvement replaces management responsibility"
+    ],
+    answer: 0,
+    explanation: "Effective worker engagement is active and two-way and uses workers' practical knowledge to improve process safety.",
+    topic: "1.5 Worker Engagement",
+    difficulty: "Easy"
+  },
+    {
+    id: 41,
+    question: "What is a key responsibility of senior management in process safety?",
+    options: [
+      "Delegating all process safety responsibility to operators",
+      "Ensuring adequate resources are available to manage major accident hazards",
+      "Focusing only on personal injury statistics",
+      "Reducing maintenance whenever production demand increases"
+    ],
+    answer: 1,
+    explanation: "Senior management should ensure adequate human, financial and physical resources are available for effective process safety management.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Easy"
+  },
+
+  {
+    id: 42,
+    question: "A senior manager repeatedly postpones safety-critical maintenance to meet production targets. What is the main process safety concern?",
+    options: [
+      "The decision affects only personal safety",
+      "Maintenance has no relationship with process safety",
+      "The decision may increase the likelihood of a major accident",
+      "The decision is acceptable if no incident has occurred"
+    ],
+    answer: 2,
+    explanation: "Delaying safety-critical maintenance can weaken safeguards and increase major accident risk.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 43,
+    question: "Why should leaders seek expert process safety advice when making important business decisions?",
+    options: [
+      "Because experts should make all business decisions",
+      "Because operators should not participate in safety decisions",
+      "Because expert advice removes management accountability",
+      "Because commercial decisions may have significant process safety implications"
+    ],
+    answer: 3,
+    explanation: "Business decisions involving staffing, equipment, maintenance and operations can affect major accident risk.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 44,
+    question: "Which behaviour would most strongly indicate poor process safety culture?",
+    options: [
+      "Workers routinely bypass procedures to maintain production",
+      "Workers report near misses",
+      "Managers discuss major hazards during site visits",
+      "Safety-critical maintenance is properly planned"
+    ],
+    answer: 0,
+    explanation: "Routine acceptance of shortcuts can indicate that production is being prioritised over effective process safety controls.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 45,
+    question: "What is the main purpose of process safety performance indicators?",
+    options: [
+      "To measure employee attendance only",
+      "To provide information about how effectively major accident risks are being controlled",
+      "To replace risk assessments",
+      "To eliminate the need for audits"
+    ],
+    answer: 1,
+    explanation: "Process safety indicators help management monitor the effectiveness and condition of major hazard controls.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 46,
+    question: "Which of the following is the best example of a proactive process safety indicator?",
+    options: [
+      "Number of major fires that occurred last year",
+      "Cost of damage following an explosion",
+      "Percentage of safety-critical inspections completed on time",
+      "Number of injuries caused by a previous incident"
+    ],
+    answer: 2,
+    explanation: "Completion of safety-critical inspections is proactive because it monitors preventive controls before an event occurs.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 47,
+    question: "An organisation discovers that the same type of near miss has occurred several times at different sites. What should management do?",
+    options: [
+      "Investigate only the most recent event",
+      "Ignore the events because no injuries occurred",
+      "Treat each event only as an individual operator error",
+      "Identify common underlying causes and share corrective actions across the organisation"
+    ],
+    answer: 3,
+    explanation: "Repeated events can indicate systemic weaknesses that require organisation-wide learning and corrective action.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 48,
+    question: "Why is corporate memory important in process safety?",
+    options: [
+      "It helps prevent important safety knowledge and lessons being lost over time",
+      "It replaces formal procedures",
+      "It eliminates the need for training",
+      "It allows organisations to avoid documenting incidents"
+    ],
+    answer: 0,
+    explanation: "Corporate memory preserves important knowledge of hazards, incidents and lessons when personnel or organisational structures change.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 49,
+    question: "Which action best demonstrates organisational learning following an incident?",
+    options: [
+      "Filing the investigation report without further action",
+      "Updating relevant risk assessments, procedures and training based on the findings",
+      "Discussing the incident informally and making no changes",
+      "Waiting for a similar incident before taking action"
+    ],
+    answer: 1,
+    explanation: "Organisational learning requires investigation findings to be converted into suitable improvements and actions.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 50,
+    question: "Why should organisations learn from incidents that occur in other companies?",
+    options: [
+      "Because external incidents always have identical causes",
+      "Because internal incidents do not provide useful information",
+      "Because similar hazards and management failures may exist within their own operations",
+      "Because only external investigations identify root causes"
+    ],
+    answer: 2,
+    explanation: "External incidents may reveal hazards and weaknesses that are also relevant to another organisation.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 51,
+    question: "A process engineer proposes changing the operating temperature of a reactor. What should happen first?",
+    options: [
+      "The temperature should be changed and reviewed later",
+      "Only the operator needs to approve the change",
+      "No review is needed if the equipment remains the same",
+      "The proposed change should be assessed through the Management of Change process"
+    ],
+    answer: 3,
+    explanation: "Changes in operating conditions may affect hazards and safeguards and should be assessed before implementation.",
+    topic: "1.4 Management of Change",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 52,
+    question: "Which of the following is an important part of an effective MOC process?",
+    options: [
+      "Defining the technical basis and safety implications of the proposed change",
+      "Implementing the change before assessing the risk",
+      "Avoiding documentation for temporary changes",
+      "Obtaining approval only after commissioning"
+    ],
+    answer: 0,
+    explanation: "The technical basis and safety implications of a proposed change should be understood before implementation.",
+    topic: "1.4 Management of Change",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 53,
+    question: "A temporary modification has reached its authorised expiry date but is still required. What is the most appropriate action?",
+    options: [
+      "Leave it indefinitely because it has operated without an incident",
+      "Formally review and reauthorise it through the MOC system, or restore the original arrangement",
+      "Remove its documentation but keep the modification",
+      "Allow the operator to decide whether it remains"
+    ],
+    answer: 1,
+    explanation: "Temporary changes require formal control and review and should not become uncontrolled permanent modifications.",
+    topic: "1.4 Management of Change",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 54,
+    question: "Why should drawings and operating procedures be updated following an approved plant modification?",
+    options: [
+      "To reduce the need for worker training",
+      "To eliminate future risk assessments",
+      "To ensure documentation accurately reflects the changed plant and operating arrangements",
+      "To allow further modifications without MOC"
+    ],
+    answer: 2,
+    explanation: "Current documentation is necessary so workers and future assessments are based on the actual plant configuration.",
+    topic: "1.4 Management of Change",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 55,
+    question: "Which statement best describes meaningful worker participation?",
+    options: [
+      "Workers are informed only after decisions have been finalised",
+      "Workers make all process safety decisions without management",
+      "Workers participate only after a major accident",
+      "Workers are given suitable information and an opportunity to influence relevant process safety decisions"
+    ],
+    answer: 3,
+    explanation: "Meaningful participation gives workers suitable information and genuine opportunities to contribute to relevant decisions.",
+    topic: "1.5 Worker Engagement",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 56,
+    question: "During a risk assessment, an experienced operator identifies a hazard not considered by the engineering team. What is the best response?",
+    options: [
+      "Evaluate the operator's concern and incorporate it into the assessment where appropriate",
+      "Ignore it because the operator is not an engineer",
+      "Wait until an incident occurs before considering it",
+      "Remove the operator from the assessment team"
+    ],
+    answer: 0,
+    explanation: "Operators can provide valuable practical knowledge of how processes and tasks are actually carried out.",
+    topic: "1.5 Worker Engagement",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 57,
+    question: "Which factor is most likely to discourage workers from reporting process safety concerns?",
+    options: [
+      "Visible management commitment",
+      "Fear of blame or disciplinary action for raising problems",
+      "Effective two-way communication",
+      "A positive reporting culture"
+    ],
+    answer: 1,
+    explanation: "A blame-oriented culture can discourage reporting and prevent management from learning about hazards and near misses.",
+    topic: "1.5 Worker Engagement",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 58,
+    question: "A newly trained operator passes a written test but cannot safely perform a critical task without assistance. What does this indicate?",
+    options: [
+      "The written test alone proves competence",
+      "Further assessment is unnecessary",
+      "Competence has not yet been fully demonstrated",
+      "The operating procedure should be removed"
+    ],
+    answer: 2,
+    explanation: "Competence requires demonstrated ability to apply knowledge and skills correctly in practice.",
+    topic: "1.6 Competence",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 59,
+    question: "Why should contractor competence be considered in process safety management?",
+    options: [
+      "Because contractors are responsible only for personal safety",
+      "Because contractor competence is entirely the contractor's concern",
+      "Because contractors never work on safety-critical equipment",
+      "Because contractor activities can affect major accident hazards and safety-critical systems"
+    ],
+    answer: 3,
+    explanation: "Contractors may carry out safety-critical work, so their competence can directly affect major accident risk.",
+    topic: "1.6 Competence",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 60,
+    question: "Which approach provides the strongest assurance of competence for a safety-critical role?",
+    options: [
+      "Defined competence standards, appropriate training, practical assessment and periodic reassessment",
+      "A single induction session",
+      "Length of service alone",
+      "A signed training attendance sheet"
+    ],
+    answer: 0,
+    explanation: "Competence assurance requires defined standards and evidence of satisfactory performance, supported by training and reassessment.",
+    topic: "1.6 Competence",
+    difficulty: "Medium"
+  },
+   {
+    id: 61,
+    question: "A plant has achieved excellent personal injury statistics for several years. However, safety-critical inspections are increasingly overdue. What should management conclude?",
+    options: [
+      "The plant has excellent process safety because injury rates are low",
+      "Good personal safety performance does not necessarily demonstrate effective control of major accident hazards",
+      "Safety-critical inspections can be delayed while injury rates remain low",
+      "Process safety performance should be measured only after a major accident"
+    ],
+    answer: 1,
+    explanation: "Personal safety indicators alone may not reveal deterioration in major accident controls. Overdue safety-critical inspections can indicate increasing process safety risk.",
+    topic: "1.1 Process Safety Management Meaning",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 62,
+    question: "During a site visit, a director asks operators about major hazards, checks whether safety-critical maintenance is overdue and follows up concerns raised by workers. What does this best demonstrate?",
+    options: [
+      "Transfer of management responsibility to operators",
+      "A reactive approach to process safety",
+      "Visible and active process safety leadership",
+      "Personal safety monitoring only"
+    ],
+    answer: 2,
+    explanation: "Visible leadership includes engaging with workers, understanding major hazards, challenging weaknesses and following up process safety concerns.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 63,
+    question: "Production is behind schedule and a manager suggests bypassing a safety-critical protection system for several days. What is the most appropriate response?",
+    options: [
+      "Bypass it because production targets have priority",
+      "Allow the operator to decide without documentation",
+      "Bypass it as long as no previous incident has occurred",
+      "Do not bypass it without formal assessment and authorisation through the appropriate change and risk-control process"
+    ],
+    answer: 3,
+    explanation: "Changes affecting safety-critical safeguards can significantly alter major accident risk and require formal assessment and authorisation.",
+    topic: "1.4 Management of Change",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 64,
+    question: "A company investigates a loss-of-containment incident and concludes only that an operator opened the wrong valve. What important step may be missing?",
+    options: [
+      "Investigation of underlying organisational and management causes",
+      "Immediate replacement of every valve",
+      "Cancellation of all operator training",
+      "Removal of the incident from company records"
+    ],
+    answer: 0,
+    explanation: "Stopping at the immediate human error may miss underlying causes such as poor procedures, inadequate competence, design or management weaknesses.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 65,
+    question: "A worker reports that an operating procedure no longer matches how the modified plant actually works. What is the best response?",
+    options: [
+      "Tell the worker to continue using the old procedure",
+      "Investigate the discrepancy and ensure the plant documentation and procedures accurately reflect the approved configuration",
+      "Ignore the concern because the plant is operating",
+      "Remove the procedure without replacing it"
+    ],
+    answer: 1,
+    explanation: "Accurate procedures and documentation are important for safe operation and should reflect the actual approved plant configuration.",
+    topic: "1.4 Management of Change",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 66,
+    question: "Several experienced employees are due to retire from a high-hazard facility. What process safety concern should management address?",
+    options: [
+      "Only the cost of recruiting replacements",
+      "The number of annual leave days remaining",
+      "Potential loss of organisational knowledge and competence",
+      "Whether the employees have personal injury records"
+    ],
+    answer: 2,
+    explanation: "Loss of experienced personnel can result in loss of important process knowledge and corporate memory unless knowledge is captured and transferred.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 67,
+    question: "A major accident occurs at another company using a similar process to yours. Your organisation has never experienced such an event. What should you do?",
+    options: [
+      "Take no action because the accident occurred elsewhere",
+      "Wait until your organisation experiences the same event",
+      "Assume your existing controls must be adequate",
+      "Review the external lessons and determine whether similar vulnerabilities exist in your own operations"
+    ],
+    answer: 3,
+    explanation: "Effective organisational learning includes learning from relevant external incidents before similar failures occur internally.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 68,
+    question: "Which situation provides the strongest evidence of a positive reporting culture?",
+    options: [
+      "Workers openly report near misses and hazards without unreasonable fear of blame",
+      "Workers hide minor events to protect performance statistics",
+      "Only managers are permitted to report process safety concerns",
+      "Near misses are recorded only when equipment is damaged"
+    ],
+    answer: 0,
+    explanation: "A positive reporting culture encourages workers to raise hazards, errors and near misses so the organisation can learn.",
+    topic: "1.5 Worker Engagement",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 69,
+    question: "An operator suggests a safer method for carrying out a routine process task. What is the best management response?",
+    options: [
+      "Reject it because procedures can never be changed",
+      "Evaluate the suggestion and involve relevant workers in determining whether the improvement should be adopted",
+      "Adopt it immediately without risk assessment",
+      "Ignore it unless a regulator requests the change"
+    ],
+    answer: 1,
+    explanation: "Worker engagement should encourage practical contributions while ensuring proposed changes are properly assessed.",
+    topic: "1.5 Worker Engagement",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 70,
+    question: "A competent operator is transferred to a process unit that uses different equipment and operating procedures. What should management do?",
+    options: [
+      "Assume competence automatically transfers to every process",
+      "Allow independent operation immediately because the worker is experienced",
+      "Assess the competence requirements for the new role and provide any necessary training or supervision",
+      "Require no assessment unless an incident occurs"
+    ],
+    answer: 2,
+    explanation: "Competence is related to the specific role and task. Experience in one area does not automatically demonstrate competence in another.",
+    topic: "1.6 Competence",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 71,
+    question: "Which management decision would present the greatest process safety concern?",
+    options: [
+      "Changing the office furniture supplier",
+      "Updating administrative stationery",
+      "Changing the colour of employee identification cards",
+      "Reducing safety-critical staffing without assessing the effect on major accident risk"
+    ],
+    answer: 3,
+    explanation: "Changes to staffing in safety-critical operations can affect the ability to control major hazards and should be properly assessed.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 72,
+    question: "A temporary plant modification was installed six months ago and everyone now treats it as permanent, but no formal review was completed. What is the main concern?",
+    options: [
+      "The temporary change has escaped effective MOC control",
+      "Temporary modifications automatically become permanent after six months",
+      "No review is necessary if production has continued",
+      "Only permanent equipment purchases require MOC"
+    ],
+    answer: 0,
+    explanation: "Temporary changes should have defined controls, duration and review arrangements and should not become uncontrolled permanent modifications.",
+    topic: "1.4 Management of Change",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 73,
+    question: "During an emergency exercise, an operator cannot correctly respond to an abnormal process condition despite having completed the required training course. What should this indicate to management?",
+    options: [
+      "The operator must be competent because the course was completed",
+      "Training completion alone has not demonstrated the required competence",
+      "Emergency exercises are not relevant to competence",
+      "The training record should be deleted"
+    ],
+    answer: 1,
+    explanation: "Competence requires the ability to apply knowledge and skills effectively in practice, not simply completion of training.",
+    topic: "1.6 Competence",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 74,
+    question: "Workers repeatedly raise the same process safety concern, but management provides no response. What is the likely effect?",
+    options: [
+      "Worker participation will automatically improve",
+      "The process safety culture will necessarily strengthen",
+      "Worker trust and future engagement may decline",
+      "The hazard will be considered controlled"
+    ],
+    answer: 2,
+    explanation: "Consultation must be meaningful. Failure to respond can reduce trust and discourage workers from raising future concerns.",
+    topic: "1.5 Worker Engagement",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 75,
+    question: "A company completes incident investigations but repeatedly fails to implement the resulting recommendations. What does this indicate?",
+    options: [
+      "Excellent process safety performance",
+      "An effective Management of Change system",
+      "Strong competence assurance",
+      "Weakness in converting organisational learning into effective action"
+    ],
+    answer: 3,
+    explanation: "Investigation alone is insufficient. Lessons need to result in suitable actions that are implemented and followed through.",
+    topic: "1.3 Organisational Learning",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 76,
+    question: "A proposed modification is technically safe but changes how operators perform a safety-critical task. What else should be considered before implementation?",
+    options: [
+      "The effect on procedures, training and worker competence",
+      "Only the purchase cost of the modification",
+      "Whether the modification improves the appearance of the plant",
+      "Nothing else because the engineering design is safe"
+    ],
+    answer: 0,
+    explanation: "MOC should consider human and organisational implications as well as technical hazards.",
+    topic: "1.4 Management of Change",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 77,
+    question: "Which statement best reflects senior management accountability for process safety?",
+    options: [
+      "Delegating a task removes all management accountability",
+      "Senior management remains accountable for ensuring effective process safety arrangements even when specific tasks are delegated",
+      "Only operators are accountable for major accident prevention",
+      "Contractors automatically assume management accountability when they enter the site"
+    ],
+    answer: 1,
+    explanation: "Specific tasks can be delegated, but leadership remains accountable for establishing and resourcing effective process safety arrangements.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 78,
+    question: "An organisation wants to determine whether its process safety competence system remains effective. Which approach is most appropriate?",
+    options: [
+      "Check only whether workers attended induction",
+      "Assume experienced personnel remain competent indefinitely",
+      "Periodically review competence requirements and reassess personnel against them",
+      "Review competence only following a major accident"
+    ],
+    answer: 2,
+    explanation: "Competence requirements and performance should be periodically reviewed because roles, processes and technology can change.",
+    topic: "1.6 Competence",
+    difficulty: "Medium"
+  },
+
+  {
+    id: 79,
+    question: "A site has detailed process safety procedures, but supervisors routinely allow shortcuts to increase production. What is the most significant weakness?",
+    options: [
+      "The procedures are automatically effective because they are written",
+      "The issue concerns personal safety only",
+      "No action is required unless a major accident occurs",
+      "The actual safety culture and leadership behaviour do not support the documented arrangements"
+    ],
+    answer: 3,
+    explanation: "Written systems alone are insufficient. Leadership behaviour and organisational culture must support the required process safety standards.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Hard"
+  },
+
+  {
+    id: 80,
+    question: "Following several process safety warning signs, management must choose between continuing production and shutting down temporarily to restore safety-critical controls. What should have priority?",
+    options: [
+      "Maintaining adequate control of major accident hazards",
+      "Production output regardless of the condition of safeguards",
+      "Avoiding maintenance expenditure",
+      "Protecting short-term production statistics"
+    ],
+    answer: 0,
+    explanation: "Production objectives should not override the need to maintain effective control of major accident hazards and safety-critical safeguards.",
+    topic: "1.2 Process Safety Leadership",
+    difficulty: "Hard"
+  }
+
+];
+
+function shuffleArray(items) {
+  const array = [...items];
+
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+
+  return array;
+}
+
+function getElement1ExamQuestions(count = 25) {
+  const selected = shuffleArray(element1Questions)
+    .slice(0, Math.min(count, element1Questions.length));
+
+  return selected.map((q) => {
+    const choices = q.options.map((text, index) => ({
+      text: text,
+      isCorrect: index === q.answer
+    }));
+
+    const shuffledChoices = shuffleArray(choices);
+
+    return {
+      ...q,
+      options: shuffledChoices.map(choice => choice.text),
+      answer: shuffledChoices.findIndex(choice => choice.isCorrect)
+    };
+  });
+}
+
+if (typeof window !== "undefined") {
+  window.element1Questions = element1Questions;
+  window.getElement1ExamQuestions = getElement1ExamQuestions;
+}
