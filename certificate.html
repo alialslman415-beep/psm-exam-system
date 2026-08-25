@@ -78,7 +78,7 @@
   if (id) document.getElementById('candidateId').textContent = id;
   if (percentage) document.getElementById('score').textContent = percentage + '%';
   document.getElementById('issueDate').textContent = date || new Date().toLocaleDateString('en-GB');
-  document.getElementById('certificateNo').textContent = cert || ('PSM-' + Date.now().toString().slice(-8));
+  document.getElementById('certificateNo').textContent = cert || ('PSM-' + new Date().getFullYear() + '-' + id); 
 })();
 </script>
 </body>
