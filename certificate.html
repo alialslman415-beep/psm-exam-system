@@ -70,12 +70,13 @@
   const name = p.get('name');
   const id = p.get('id');
   const score = p.get('score');
+  const percentage = p.get('percentage');
   const cert = p.get('cert');
   const date = p.get('date');
 
   if (name) document.getElementById('studentName').textContent = name;
   if (id) document.getElementById('candidateId').textContent = id;
-  if (score) document.getElementById('score').textContent = score.includes('%') ? score : score + '%';
+  if (percentage) document.getElementById('score').textContent = percentage + '%';
   document.getElementById('issueDate').textContent = date || new Date().toLocaleDateString('en-GB');
   document.getElementById('certificateNo').textContent = cert || ('PSM-' + Date.now().toString().slice(-8));
 })();
