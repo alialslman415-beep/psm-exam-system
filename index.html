@@ -206,6 +206,9 @@ button:hover {
 
 <button onclick="showReview()">Review Answers</button>
 <button onclick="backToMainPage()">⬅ Back to Main Page</button>
+<button id="certificateButton" onclick="openCertificate()" style="display:none;">
+  🎓 Issue Certificate
+</button>   
 </div>
 <!-- BOOK CENTER -->
 
@@ -320,7 +323,7 @@ const questionBank = [
   ...element4Questions
 ];
 
-function shuffle(array) {
+ shuffle(array) {
 
     const newArray = [...array];
 
@@ -585,11 +588,20 @@ function finishExam() {
 
         statusElement.className = "pass";
 
+        const certificateButton = document.getElementById("certificateButton");
+
+if (questions.length === 40) {
+  certificateButton.style.display = "inline-block";
+} else {
+  certificateButton.style.display = "none";
+}
+
     } else {
 
         statusElement.innerText = "FAIL";
 
         statusElement.className = "fail";
+  document.getElementById("certificateButton").style.display = "none";      
     }
 }
 
@@ -680,7 +692,29 @@ function backToResult() {
     document.getElementById("resultPage")
         .classList.remove("hidden");
 }
-function backToMainPage() {
+
+function openCertificate() {
+  const name = document.getElementById("candidateName").value.trim();
+  const id = document.getElementById("candidateID").value.trim();
+
+  const percentage = Math.round((score / questions.length) * 100);
+
+  if (questions.length !== 40 || percentage < PASS_MARK) {
+    alert("Certificate is available only after passing the 40-question final examination.");
+    return;
+  }
+
+  const params = new URLSearchParams({
+    name: name,
+    id: id,
+    score: score,
+    total: questions.length,
+    percentage: percentage
+  });
+
+  window.open("certificate.html?" + params.toString(), "_blank");
+}        
+        function backToMainPage() {
 
   document.getElementById("resultPage")
     .classList.add("hidden");
