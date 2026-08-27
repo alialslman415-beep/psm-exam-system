@@ -1999,5 +1999,69 @@ const element2Questions = [
     topic: "Layers of Protection",
     difficulty: "Hard",
     reference: "PSM Book – Element 2"
+}, 
+ {
+  question: "Which of the following is an example of planned preventive maintenance?",
+  options: [
+    "Daily visual inspections of process plant",
+    "Greasing of pump bearings",
+    "Regular sampling of product",
+    "Testing of stack emissions"
+  ],
+  answer: 1,
+  explanation: "Greasing pump bearings is a planned maintenance activity carried out before equipment failure occurs.",
+  elementNumber: 2,
+  element: "Element 2 - Management of Process Risk",
+  topic: "Maintenance Strategies",
+  difficulty: "Medium",
+  reference: "NEBOSH PSM1 Sample Assessment Question"
+},
+{
+  question: "A maintenance team uses vibration monitoring on a rotating pump to identify deterioration before failure occurs. Which maintenance strategy is being applied?",
+  options: [
+    "Breakdown maintenance",
+    "Condition monitoring",
+    "Corrective maintenance after failure",
+    "Emergency maintenance"
+  ],
+  answer: 1,
+  explanation: "Condition monitoring uses information such as vibration, noise or thermal imaging to identify deterioration before equipment fails.",
+  elementNumber: 2,
+  element: "Element 2 - Management of Process Risk",
+  topic: "Maintenance Strategies",
+  difficulty: "Medium",
+  reference: "PSM Book - Element 2"
+},
+{
+  question: "During which phase of the asset integrity life cycle should functional testing demonstrate that design standards have been achieved and that the process performs as intended?",
+  options: [
+    "Design",
+    "Commissioning",
+    "Operations",
+    "Decommissioning"
+  ],
+  answer: 1,
+  explanation: "During commissioning, functional testing is used to demonstrate that design standards have been achieved and that the process performs as intended.",
+  elementNumber: 2,
+  element: "Element 2 - Management of Process Risk",
+  topic: "Asset Integrity Life Cycle",
+  difficulty: "Medium",
+  reference: "PSM Book - Element 2"
+},
+{
+  question: "Why is breakdown maintenance generally unsuitable as the primary maintenance strategy for safety-critical equipment?",
+  options: [
+    "It requires equipment to be inspected continuously during normal operation",
+    "It relies on equipment failure occurring before repair or replacement is carried out",
+    "It requires all equipment to be replaced at predetermined intervals",
+    "It prevents condition monitoring from being used on rotating equipment"
+  ],
+  answer: 1,
+  explanation: "Breakdown maintenance is reactive because repair or replacement takes place after failure, making it generally unsuitable as the primary strategy for safety-critical equipment.",
+  elementNumber: 2,
+  element: "Element 2 - Management of Process Risk",
+  topic: "Maintenance Strategies",
+  difficulty: "Hard",
+  reference: "PSM Book - Element 2"
 } 
 ]; 
