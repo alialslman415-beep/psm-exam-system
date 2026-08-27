@@ -170,7 +170,10 @@ button:hover {
 </button>
 <button id="element2PracticeButton" onclick="startElement2Practice()">
     📝 Element 2 Practice Test
-</button>    
+</button>  
+  <button id="element3PracticeButton" onclick="startElement3Practice()">
+    📝 Element 3 Practice Test
+</button>  
     <button onclick="showBookCenter()">📘 </button>
 </div>
 
@@ -482,6 +485,41 @@ function startElement2Practice() {
 
     showQuestion();
 }
+function startElement3Practice() {
+
+    const name =
+        document.getElementById("candidateName").value.trim();
+
+    const id =
+        document.getElementById("candidateID").value.trim();
+
+    if (!name || !id) {
+        alert("Please enter Candidate Name and ID.");
+        return;
+    }
+
+    if (typeof element3Questions === "undefined") {
+        alert("Element 3 question bank is not loaded.");
+        return;
+    }
+
+    questions = [...element3Questions]
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 25)
+        .map(q => prepareQuestion(q));
+
+    currentQuestion = 0;
+    score = 0;
+    candidateAnswers = [];
+
+    document.getElementById("loginPage")
+        .classList.add("hidden");
+
+    document.getElementById("examPage")
+        .classList.remove("hidden");
+
+    showQuestion();
+}        
 
 /* SHOW QUESTION */
 
