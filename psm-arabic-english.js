@@ -24,7 +24,9 @@ topics: [
     {
         number: "1.1",
         title: "Process Safety Management Meaning",
-        titleArabic: "معنى إدارة سلامة العمليات"
+       titleArabic: "معنى إدارة سلامة العمليات",
+content: `
+`
     },
     {
         number: "1.2",
