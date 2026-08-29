@@ -315,7 +315,22 @@ Element 4 – Fire and Explosion Protection
     </button>
 
 </div>    
-    
+ <!-- ARABIC + TECHNICAL ENGLISH TOPIC 1.1 PAGE -->
+
+<div id="arabicEnglishTopic11Page" class="hidden" dir="rtl">
+
+    <h2>1.1 – Process Safety Management Meaning</h2>
+    <h3>معنى إدارة سلامة العمليات</h3>
+
+    <div id="arabicEnglishTopic11Content"></div>
+
+    <br><br>
+
+    <button onclick="backToArabicEnglishElement1()">
+        ← العودة إلى مواضيع Element 1
+    </button>
+
+</div>   
 <!-- BOOK CONTENT PAGE -->
 
 <div id="bookContentPage" class="hidden">
@@ -942,7 +957,9 @@ let topicsHtml = `
 
 element1.topics.forEach(topic => {
     topicsHtml += `
-        <button style="width:100%; margin:8px 0;">
+        <button
+    style="width:100%; margin:8px 0;"
+    onclick="${topic.number === '1.1' ? "openArabicEnglishTopic11()" : ""}">
             <strong>${topic.number} - ${topic.title}</strong>
             <br>
             ${topic.titleArabic}
@@ -955,7 +972,23 @@ topicsHtml += `</div>`;
 document.getElementById("arabicEnglishElement1Content")
     .innerHTML = topicsHtml;
 }
-        
+
+function openArabicEnglishTopic11() {
+
+    document.getElementById("arabicEnglishElement1Page")
+        .classList.add("hidden");
+
+    document.getElementById("arabicEnglishTopic11Page")
+        .classList.remove("hidden");
+}    
+function backToArabicEnglishElement1() {
+
+    document.getElementById("arabicEnglishTopic11Page")
+        .classList.add("hidden");
+
+    document.getElementById("arabicEnglishElement1Page")
+        .classList.remove("hidden");
+}        
 function closeBookCenter() {
 
     document.getElementById("bookPage")
