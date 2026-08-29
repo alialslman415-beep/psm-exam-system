@@ -924,9 +924,36 @@ function closeArabicEnglishBook() {
 function openArabicEnglishElement1() {
 
     document.getElementById("arabicEnglishBookPage")
-        .classList.add("hidden");
+    .classList.add("hidden");
 
-    alert("Element 1 – Arabic + Technical English is ready for content.");
+document.getElementById("arabicEnglishElement1Page")
+    .classList.remove("hidden");
+
+const element1 = psmArabicEnglish.element1;
+
+let topicsHtml = `
+    <div style="text-align:right;">
+        ${element1.introduction}
+
+        <hr>
+
+        <h3>مواضيع الوحدة الأولى</h3>
+`;
+
+element1.topics.forEach(topic => {
+    topicsHtml += `
+        <button style="width:100%; margin:8px 0;">
+            <strong>${topic.number} - ${topic.title}</strong>
+            <br>
+            ${topic.titleArabic}
+        </button>
+    `;
+});
+
+topicsHtml += `</div>`;
+
+document.getElementById("arabicEnglishElement1Content")
+    .innerHTML = topicsHtml;
 }
         
 function closeBookCenter() {
