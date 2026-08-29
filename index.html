@@ -275,6 +275,30 @@ Element 4 – Fire and Explosion Protection
 <button onclick="closeBookCenter()">⬅ Back to Examination</button>
 
 </div>
+    
+<!-- ARABIC + TECHNICAL ENGLISH BOOK -->
+<div id="arabicEnglishBookPage" class="hidden" dir="rtl">    
+  <h2>🇸🇦 PSM ARABIC + TECHNICAL ENGLISH 🇬🇧</h2>
+
+    <p>
+        شرح عربي متكامل مع المحافظة على المصطلحات الفنية
+        باللغة الإنجليزية.
+    </p>
+
+    <button onclick="openArabicEnglishElement1()">
+        Element 1 – Process Safety Leadership
+        <br>
+        الوحدة الأولى – قيادة سلامة العمليات
+    </button>
+
+    <br><br>
+
+    <button onclick="closeArabicEnglishBook()">
+        ← العودة إلى الصفحة الرئيسية
+    </button>
+
+</div>
+    
 <!-- BOOK CONTENT PAGE -->
 
 <div id="bookContentPage" class="hidden">
@@ -869,9 +893,25 @@ function showArabicEnglishBook() {
     document.getElementById("loginPage")
         .classList.add("hidden");
 
-    alert("PSM ARABIC + TECHNICAL ENGLISH – Element 1 coming next.");
+document.getElementById("arabicEnglishBookPage")
+    .classList.remove("hidden");
 }
+function closeArabicEnglishBook() {
 
+    document.getElementById("arabicEnglishBookPage")
+        .classList.add("hidden");
+
+    document.getElementById("loginPage")
+        .classList.remove("hidden");
+}
+function openArabicEnglishElement1() {
+
+    document.getElementById("arabicEnglishBookPage")
+        .classList.add("hidden");
+
+    alert("Element 1 – Arabic + Technical English is ready for content.");
+}
+        
 function closeBookCenter() {
 
     document.getElementById("bookPage")
