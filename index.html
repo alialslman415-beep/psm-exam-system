@@ -315,14 +315,14 @@ Element 4 – Fire and Explosion Protection
     </button>
 
 </div>    
- <!-- ARABIC + TECHNICAL ENGLISH TOPIC 1.1 PAGE -->
+ <!-- ARABIC + TECHNICAL ENGLISH TOPIC PAGE -->
 
-<div id="arabicEnglishTopic11Page" class="hidden" dir="rtl">
+<div id="arabicEnglishTopicPage" class="hidden" dir="rtl">
 
-    <h2>1.1 – Process Safety Management Meaning</h2>
-    <h3>معنى إدارة سلامة العمليات</h3>
+    <h2 id="arabicEnglishTopicTitle"></h2>
+    <h3 id="arabicEnglishTopicTitleArabic"></h3>
 
-    <div id="arabicEnglishTopic11Content"></div>
+    <div id="arabicEnglishTopicContent"></div>
 
     <br><br>
 
@@ -959,7 +959,7 @@ element1.topics.forEach(topic => {
     topicsHtml += `
         <button
     style="width:100%; margin:8px 0;"
-    onclick="${topic.number === '1.1' ? "openArabicEnglishTopic11()" : ""}">
+    onclick="openArabicEnglishTopic('${topic.number}')">
             <strong>${topic.number} - ${topic.title}</strong>
             <br>
             ${topic.titleArabic}
@@ -973,22 +973,36 @@ document.getElementById("arabicEnglishElement1Content")
     .innerHTML = topicsHtml;
 }
 
-function openArabicEnglishTopic11() {
+function openArabicEnglishTopic(topicNumber) {
+
+    const topic = psmArabicEnglish.element1.topics
+        .find(item => item.number === topicNumber);
+
+    if (!topic) return;
 
     document.getElementById("arabicEnglishElement1Page")
         .classList.add("hidden");
 
-    document.getElementById("arabicEnglishTopic11Page")
+    document.getElementById("arabicEnglishTopicPage")
         .classList.remove("hidden");
-}    
+
+    document.getElementById("arabicEnglishTopicTitle")
+        .innerText = topic.number + " – " + topic.title;
+
+    document.getElementById("arabicEnglishTopicTitleArabic")
+        .innerText = topic.titleArabic;
+
+    document.getElementById("arabicEnglishTopicContent")
+        .innerHTML = topic.content || "<p>سيتم إضافة المحتوى قريبًا.</p>";
+}
 function backToArabicEnglishElement1() {
 
-    document.getElementById("arabicEnglishTopic11Page")
+    document.getElementById("arabicEnglishTopicPage")
         .classList.add("hidden");
 
     document.getElementById("arabicEnglishElement1Page")
         .classList.remove("hidden");
-}        
+}
 function closeBookCenter() {
 
     document.getElementById("bookPage")
