@@ -5,8 +5,8 @@ const psmArabicEnglish = {
         titleArabic: "الوحدة الأولى – قيادة سلامة العمليات",
 
         introduction: `
-            <h2>Element 1 – Process Safety Leadership</h2>
-            <h3>الوحدة الأولى – قيادة سلامة العمليات</h3>
+            
+            
 
             <p>
                 مرحبًا بك في الوحدة الأولى من برنامج
