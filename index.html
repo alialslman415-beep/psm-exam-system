@@ -182,7 +182,7 @@ button:hover {
     📝 Element 4 Practice Test
 </button>
     <button onclick="showBookCenter()">📘 PSM ENGLISH</button>
-
+<button onclick="showArabicEnglishBook()">🇸🇦 PSM ARABIC + TECHNICAL ENGLISH 🇬🇧</button>
  </div>   
 
 <!-- EXAM -->
@@ -864,7 +864,13 @@ function showBookCenter() {
         .classList.remove("hidden");
     updateReadingProgress();
 }
+function showArabicEnglishBook() {
 
+    document.getElementById("loginPage")
+        .classList.add("hidden");
+
+    alert("PSM ARABIC + TECHNICAL ENGLISH – Element 1 coming next.");
+}
 
 function closeBookCenter() {
 
