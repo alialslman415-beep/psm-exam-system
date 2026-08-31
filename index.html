@@ -1017,7 +1017,24 @@ function closeArabicEnglishBook() {
     document.getElementById("loginPage")
         .classList.remove("hidden");
 }
+
+function backToArabicEnglishBook() {
+
+    document.getElementById("arabicEnglishElement1Page")
+        .classList.add("hidden");
+
+    document.getElementById("arabicEnglishElement2Page")
+        .classList.add("hidden");
+
+    document.getElementById("arabicEnglishTopicPage")
+        .classList.add("hidden");
+
+    document.getElementById("arabicEnglishBookPage")
+        .classList.remove("hidden");
+}   
+     
 let currentArabicEnglishElement = 1;     
+     
 function openArabicEnglishElement1() {
 
     document.getElementById("arabicEnglishBookPage")
