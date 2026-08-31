@@ -1150,6 +1150,29 @@ content: `
 `,        
     }
 ] 
+    },
+
+    element2: {
+        title: "Element 2 – Management of Process Risk",
+        titleArabic: "الوحدة الثانية – إدارة مخاطر العمليات",
+
+        introduction: `
+            <p>
+                مرحبًا بك في الوحدة الثانية من برنامج
+                <strong>Process Safety Management (PSM)</strong>.
+            </p>
+
+            <p>
+                في هذه الوحدة سيتم شرح كيفية
+                <strong>إدارة مخاطر العمليات (Management of Process Risk)</strong>
+                باستخدام أنظمة وتقنيات تساعد على تحديد الأخطار،
+                تقييم المخاطر، والتحكم فيها بطريقة منظمة.
+            </p>
+        `,
+
+        topics: [
+
+        ]
     }
 
 };
