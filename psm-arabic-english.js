@@ -401,22 +401,753 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
     {
         number: "1.3",
         title: "Organisational Learning",
-        titleArabic: "التعلّم التنظيمي"
+       titleArabic: "التعلّم التنظيمي",
+ content: `
+<div style="text-align:right; line-height:1.9;">
+
+<h3>🎯 الهدف التعليمي | Learning Objective</h3>
+
+<p>
+في نهاية هذا الموضوع سيكون المتدرب قادرًا على شرح أهمية
+<strong>التعلّم التنظيمي (Organisational Learning)</strong>
+في سلامة العمليات، وفهم أهمية التحقيق في الحوادث والأحداث الوشيكة،
+والاحتفاظ بالمعرفة المؤسسية، ومشاركة الدروس المستفادة والاستفادة من
+<strong>Benchmarking</strong>
+ومصادر معلومات سلامة العمليات.
+</p>
+
+<hr>
+
+<h3>1️⃣ أهمية التعلّم من الأحداث ذات العواقب الفعلية أو المحتملة | The Significance of Learning Lessons from Incidences of Actual or Potential Consequence</h3>
+
+<p>
+تتعلم المنظمات الفعالة ليس فقط من الحوادث الكبرى،
+بل أيضًا من الأحداث التي كان من الممكن أن تؤدي إلى عواقب خطيرة
+<strong>(Potential Consequences)</strong>.
+</p>
+
+<p>
+قد يحدث على سبيل المثال
+<strong>Loss of Containment (LOC)</strong>
+دون إصابات لأن المنطقة كانت خالية في ذلك الوقت.
+عدم وقوع إصابة لا يعني أن الحدث بسيط؛
+فقد تكون احتمالية وقوع حادث كبير موجودة، ولكن الظروف حالت دون ذلك.
+</p>
+
+<p>
+لذلك يجب التعامل مع
+<strong>Near Misses</strong>
+والأحداث ذات العواقب المحتملة بجدية،
+وتحديد أسبابها والتعلّم منها قبل أن تتكرر بعواقب أشد.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🧠 Corporate Amnesia | فقدان الذاكرة المؤسسية</strong><br><br>
+قد تكرر المنظمة أخطاء حدثت قبل سنوات عندما تفشل في الاحتفاظ
+بالدروس المستفادة ونقلها إلى العاملين الجدد.
+ولهذا يجب تحويل الخبرة والدروس السابقة إلى معرفة مؤسسية موثقة.
+</div>
+
+<hr>
+
+<h3>2️⃣ أسباب وفوائد التحقيق في الحوادث والأحداث | The Reasons for and Benefits of Accident and Incident Investigation</h3>
+
+<p>
+الهدف الأساسي من
+<strong>Accident and Incident Investigation</strong>
+ليس فقط معرفة ما حدث، بل فهم لماذا حدث ومنع تكراره.
+كما يجب أن يأخذ التحقيق في الاعتبار العواقب المحتملة للحدث،
+وليس فقط الضرر الذي وقع فعليًا.
+</p>
+
+<h4>🔎 Immediate Cause vs Root Cause</h4>
+
+<div style="overflow-x:auto; margin:18px 0;">
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+<tr>
+<th style="border:1px solid #ccc; padding:10px;">Term</th>
+<th style="border:1px solid #ccc; padding:10px;">المعنى</th>
+</tr>
+<tr>
+<td style="border:1px solid #ccc; padding:10px;"><strong>Immediate Cause</strong></td>
+<td style="border:1px solid #ccc; padding:10px;">
+الفعل أو الحالة غير الآمنة المرتبطة مباشرة بوقوع الحدث أو النتيجة.
+</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc; padding:10px;"><strong>Root Cause</strong></td>
+<td style="border:1px solid #ccc; padding:10px;">
+السبب الأساسي أو الخلل التنظيمي أو الإداري الذي سمح بوجود الحالة أو الفعل غير الآمن.
+</td>
+</tr>
+</table>
+</div>
+
+<h4>📌 لماذا نحقق؟ | Reasons for Investigation</h4>
+
+<ul>
+<li>تحديد الأسباب الجذرية والأسباب الكامنة.</li>
+<li>منع تكرار الحادث أو الحدث.</li>
+<li>تحديث <strong>Risk Assessments</strong> بناءً على الدروس المستفادة.</li>
+<li>توثيق تفاصيل الحدث للاستخدام المستقبلي.</li>
+<li>المساعدة في الوفاء بالمتطلبات النظامية ذات العلاقة.</li>
+<li>اكتشاف الأنماط والاتجاهات – <strong>Patterns and Trends</strong>.</li>
+<li>إظهار التزام المنظمة بالتعلّم والتحسين.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+التحقيق الجيد لا يتوقف عند السؤال:
+<strong>What happened?</strong><br>
+بل ينتقل إلى:
+<strong>Why did it happen, and how do we prevent recurrence?</strong>
+</div>
+
+<hr>
+
+<h3>3️⃣ عمليات إدارية موثقة للاحتفاظ بالمعرفة المؤسسية | Documented Management Processes to Retain Corporate Knowledge</h3>
+
+<p>
+تعتمد المنظمة على الأفراد، لكن المعرفة المهمة لا ينبغي أن تبقى
+فقط في ذاكرة أشخاص محددين.
+فعند انتقال الموظفين أو تقاعد أصحاب الخبرة قد تضيع معلومات مهمة
+إذا لم تكن موثقة.
+</p>
+
+<p>
+لذلك يجب
+<strong>Capture, Record and Disseminate</strong>
+المعلومات المهمة والدروس المستفادة والأسباب التي بُنيت عليها القرارات.
+</p>
+
+<p>
+ومن الأمثلة المهمة على المعلومات التي يجب الاحتفاظ بها:
+<strong>Original Design Specifications</strong>
+وسجلات التعديلات التي أُجريت على المنشأة والعمليات
+<strong>Plant Modifications</strong>.
+</p>
+
+<hr>
+
+<h3>4️⃣ مشاركة الدروس المستفادة مع المنظمات ذات العلاقة | Arrangements with Other Relevant Organisations in Sharing Lessons Learnt</h3>
+
+<p>
+الحوادث الكبرى نادرة نسبيًا، ولذلك فإن اعتماد المنظمة فقط على
+خبرتها الداخلية يحد من فرص التعلّم.
+يمكن الاستفادة من الحوادث والأحداث الوشيكة التي تقع في منشآت أخرى
+تستخدم عمليات أو معدات مشابهة.
+</p>
+
+<p>
+تبادل
+<strong>Lessons Learnt</strong>
+يساعد القطاع ككل على اكتشاف أوجه الضعف واتخاذ إجراءات وقائية
+قبل تكرار نفس الحادث في منشأة أخرى.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Learning from Others</strong><br><br>
+لا تحتاج المنظمة إلى انتظار وقوع حادث لديها حتى تتعلم.
+حادث وقع في منشأة أخرى قد يكون إنذارًا مبكرًا وفرصة لتحسين
+الضوابط داخل منشأتك.
+</div>
+
+<hr>
+
+<h3>5️⃣ الغرض من المقارنة المرجعية واستخدامها | Purpose and Use of Benchmarking</h3>
+
+<p>
+<strong>Benchmarking</strong>
+هو مقارنة أداء المنظمة بأداء منظمات أخرى باستخدام معايير
+ومؤشرات متفق عليها.
+</p>
+
+<p>
+يمكن أن تشمل المقارنة مؤشرات مثل عدد أحداث
+<strong>Loss of Containment</strong>
+خلال فترة محددة أو بالنسبة إلى عدد ساعات العمل.
+وهذا يساعد المنظمة على معرفة موقع أدائها مقارنة بمستوى القطاع.
+</p>
+
+<p>
+كما يمكن استخدام Benchmarking للاستفادة من الممارسات والإجراءات
+الناجحة لدى المنظمات الأخرى، مثل أنظمة
+<strong>Management of Change (MOC)</strong>
+و
+<strong>Permit to Work (PTW)</strong>.
+</p>
+
+<hr>
+
+<h3>6️⃣ مصادر معلومات إدارة سلامة العمليات | Sources of Process Safety Management Information</h3>
+
+<p>
+معلومات سلامة العمليات ضرورية للتشغيل والصيانة الآمنة،
+ويجب أن تكون:
+<strong>Documented, Reliable, Current and Easily Available</strong>
+للأشخاص الذين يحتاجون إليها.
+</p>
+
+<h4>🏭 Internal Sources | المصادر الداخلية</h4>
+
+<ul>
+<li><strong>Safety Data Sheets (SDS)</strong></li>
+<li><strong>Process Design Criteria</strong></li>
+<li><strong>Process Flow Diagrams (PFD)</strong></li>
+<li><strong>Safe Operating Procedures (SOPs)</strong></li>
+<li><strong>Inspection, Audit and Investigation Reports</strong></li>
+<li><strong>Maintenance Records</strong></li>
+<li><strong>Piping and Instrumentation Diagrams (P&amp;IDs)</strong></li>
+<li><strong>Process Control Systems</strong></li>
+<li><strong>Relief System Designs</strong></li>
+<li><strong>Fire Detection and Protection Plans</strong></li>
+</ul>
+
+<h4>🌐 External Sources | المصادر الخارجية</h4>
+
+<p>
+يمكن كذلك الاستفادة من معلومات المصنعين،
+والتشريعات والمعايير،
+والجهات التنظيمية،
+والجمعيات المهنية والصناعية،
+والمؤسسات الدولية ذات العلاقة بسلامة العمليات.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+معلومة Process Safety قد تكون صحيحة ولكنها غير مفيدة إذا كانت
+قديمة أو غير موثقة أو لا يستطيع الشخص الذي يحتاج إليها الوصول إليها.
+لذلك يجب أن تكون المعلومات:
+<strong>Reliable + Current + Accessible</strong>.
+</div>
+
+</div>
+`,       
     },
     {
         number: "1.4",
         title: "Management of Change",
-        titleArabic: "إدارة التغيير"
+       titleArabic: "إدارة التغيير",
+ content: `
+<div style="text-align:right; line-height:1.9;">
+
+<h3>🎯 الهدف التعليمي | Learning Objective</h3>
+
+<p>
+في نهاية هذا الموضوع سيكون المتدرب قادرًا على شرح أهمية
+<strong>إدارة التغيير (Management of Change – MOC)</strong>
+وكيفية التحكم في التغييرات الفنية والتشغيلية والتنظيمية
+حتى لا تؤدي إلى إدخال أخطار جديدة أو زيادة مستوى المخاطر الحالية.
+</p>
+
+<hr>
+
+<h3>1️⃣ إجراءات التحكم في إدارة التغيير | Management of Change Control Measures</h3>
+
+<p>
+يُعد
+<strong>Management of Change (MOC)</strong>
+من العناصر الأساسية في سلامة العمليات.
+فأي تغيير في المعدات أو الأنظمة أو ظروف التشغيل قد يؤدي إلى
+نتائج غير متوقعة إذا لم تتم مراجعته وتقييم مخاطره قبل التنفيذ.
+</p>
+
+<p>
+وتوضح حادثة
+<strong>Flixborough</strong>
+أهمية ذلك؛ حيث أدت تعديلات أُجريت دون تقييم هندسي ومخاطر كافٍ
+إلى فشل خطير وانفجار كارثي.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+حتى التغيير الذي يتم بنية تحسين التشغيل قد يتحول إلى مصدر خطر
+إذا لم يخضع لعملية
+<strong>MOC</strong>
+منظمة وموثقة.
+</div>
+
+<h4>📄 Formal Documented System | نظام رسمي موثق</h4>
+
+<p>
+يجب أن تكون عملية إدارة التغيير نظامًا رسميًا وموثقًا
+يحدد كيفية اقتراح التغيير ومراجعته واعتماده وتنفيذه وتسجيله.
+</p>
+
+<h4>⚠️ Requirement for Hazard and Risk Analysis | تحليل الأخطار والمخاطر</h4>
+
+<p>
+قبل تنفيذ أي تغيير يجب إجراء
+<strong>Hazard Identification</strong>
+و
+<strong>Risk Assessment</strong>
+لفهم تأثيره على سلامة العملية.
+</p>
+
+<p>
+يهدف هذا التقييم إلى التأكد من أن التغيير لا يؤدي إلى:
+</p>
+
+<ul>
+<li>إدخال أخطار جديدة – <strong>New Hazards</strong>.</li>
+<li>زيادة المخاطر الموجودة بالفعل.</li>
+<li>تجاوز حدود التشغيل الآمن – <strong>Safe Operating Envelope</strong>.</li>
+<li>إضعاف الأنظمة أو الأجهزة الحرجة للسلامة.</li>
+</ul>
+
+<p>
+ويجب أن تشمل عملية MOC التغييرات
+<strong>Permanent</strong>
+و
+<strong>Temporary</strong>
+وكذلك تغييرات الأجهزة والبرامج
+<strong>Hardware and Software Changes</strong>.
+</p>
+
+<h4>📝 Supporting Documentation | الوثائق الداعمة</h4>
+
+<p>
+قد تحتاج عملية MOC إلى مراجعة وثائق مثل:
+</p>
+
+<ul>
+<li><strong>Original Process Design Criteria</strong></li>
+<li><strong>Existing Process Drawings</strong></li>
+<li>مواصفات المعدات الميكانيكية والكهربائية المقترحة.</li>
+<li>تفاصيل أنظمة الإنذار والإيقاف – <strong>Trips and Alarms</strong>.</li>
+<li><strong>Risk Assessments</strong> أو <strong>HAZOP</strong>.</li>
+</ul>
+
+<h4>✅ Process for All Changes to be Authorised | اعتماد جميع التغييرات</h4>
+
+<p>
+يجب ألا يتم تنفيذ التغيير قبل مروره بعملية اعتماد واضحة.
+وينبغي أن يتم تقديم طلب التغيير مسبقًا ومراجعته من الجهات ذات العلاقة،
+مثل الهندسة والتشغيل والصيانة والصحة والسلامة.
+</p>
+
+<p>
+كما يجب أن يحصل التغيير على
+<strong>Final Approval</strong>
+من الشخص أو الجهة المخولة،
+وخاصة في التغييرات المهمة التي تؤثر على
+<strong>Safety Critical Systems</strong>.
+</p>
+
+<h4>📚 Changes Documented | توثيق التغييرات</h4>
+
+<p>
+بعد اعتماد وتنفيذ التغيير يجب تحديث السجلات والوثائق المرتبطة بالعملية.
+</p>
+
+<ul>
+<li>الاحتفاظ بملف MOC كسجل رسمي.</li>
+<li>تحديث الرسومات والوثائق الفنية.</li>
+<li>تحديث <strong>P&amp;IDs</strong> عند الحاجة.</li>
+<li>تحديث إجراءات التشغيل والأدلة الفنية.</li>
+<li>الاحتفاظ بالمعلومات للرجوع إليها مستقبلًا.</li>
+</ul>
+
+<h4>🤝 Consult and Inform | التشاور والإبلاغ</h4>
+
+<p>
+التغيير الفعال لا يجب أن يكون قرارًا فرديًا فقط.
+ينبغي التشاور مع الأشخاص المتأثرين بالتغيير
+وإبلاغهم بوضوح بما سيتم تغييره وتأثيره على العمل.
+</p>
+
+<p>
+ويشمل ذلك بشكل خاص العاملين في
+<strong>Operations</strong>
+و
+<strong>Maintenance</strong>
+وأي جهة أخرى تتأثر بالتغيير.
+</p>
+
+<h4>🎓 Training | التدريب</h4>
+
+<p>
+يجب تدريب العاملين على متطلبات
+<strong>MOC</strong>
+ومتى يجب استخدامه وكيفية الحصول على الموافقات اللازمة.
+</p>
+
+<p>
+أما الأشخاص المشاركون في عملية مراجعة واعتماد التغيير،
+فيجب أن يحصلوا على تدريب إضافي يضمن امتلاكهم
+<strong>Competence</strong>
+المناسبة لاتخاذ القرار.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🔄 MOC Summary</strong><br><br>
+<strong>Propose → Assess → Consult → Authorise → Implement → Document → Train</strong><br><br>
+أي تغيير مؤثر على العملية يجب أن يمر بمراجعة منظمة قبل تنفيذه.
+</div>
+
+</div>
+`,       
     },
     {
         number: "1.5",
         title: "Worker Engagement",
-        titleArabic: "مشاركة العاملين"
+        titleArabic: "مشاركة العاملين",
+  content: `
+<div style="text-align:right; line-height:1.9;">
+
+<h3>🎯 الهدف التعليمي | Learning Objective</h3>
+
+<p>
+في نهاية هذا الموضوع سيكون المتدرب قادرًا على شرح أهمية
+<strong>مشاركة العاملين (Worker Engagement)</strong>
+في سلامة العمليات، وفهم فوائد وحدود التشاور،
+وطرق إشراك العاملين، ولماذا يجب إعطاء المشاركة أولوية داخل المنظمة.
+</p>
+
+<hr>
+
+<h3>1️⃣ الفوائد والقيود | Benefits and Limitations</h3>
+
+<p>
+يساعد التشاور مع العاملين
+<strong>(Consultation)</strong>
+على الاستفادة من خبرتهم العملية في التشغيل والصيانة،
+فهم غالبًا الأقرب إلى تفاصيل العمل الفعلية والمخاطر اليومية.
+</p>
+
+<p>
+كما أن إشراك العاملين والمقاولين في قضايا
+<strong>Process Safety</strong>
+يمكن أن يحسن جودة القرارات ويزيد الالتزام بالإجراءات والضوابط.
+</p>
+
+<h4>✅ Benefits | الفوائد</h4>
+
+<ul>
+<li>تحسين العلاقة بين الإدارة والعاملين والمقاولين.</li>
+<li>إظهار التزام الإدارة بسلامة العمليات.</li>
+<li>تعزيز التعاون وتحسين <strong>Safety Culture</strong>.</li>
+<li>زيادة شعور العاملين بالمشاركة والمسؤولية.</li>
+<li>رفع احتمالية الالتزام بالإجراءات وأنظمة العمل.</li>
+<li>الاستفادة من الخبرة العملية في التشغيل والمخاطر وقابلية الصيانة.</li>
+</ul>
+
+<h4>⚠️ Limitations | القيود</h4>
+
+<ul>
+<li>ليست كل القرارات قابلة للتشاور الكامل.</li>
+<li>عملية التشاور قد تستغرق وقتًا.</li>
+<li>بعض القرارات العاجلة قد تحتاج إلى سرعة في التنفيذ.</li>
+<li>الاجتماعات سيئة الإدارة قد تتحول إلى نقاشات غير فعالة بعيدًا عن مخاطر Process Safety الأساسية.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Term – Consultation</strong><br><br>
+التشاور هو
+<strong>Two-Way Exchange of Information</strong>
+أي تبادل المعلومات في اتجاهين بين الإدارة والعاملين،
+وليس مجرد إبلاغ العاملين بقرار تم اتخاذه مسبقًا.
+</div>
+
+<hr>
+
+<h3>2️⃣ أنواع المشاركين وأدوارهم ومسؤولياتهم | Types of Consultees and Their Roles / Responsibilities</h3>
+
+<p>
+يمكن للمنظمة استخدام عدة وسائل لإشراك العاملين في قضايا السلامة،
+ويجب اختيار الوسيلة التي تحقق تواصلًا فعليًا وليس مجرد نقل معلومات.
+</p>
+
+<ul>
+<li>
+<strong>Safety Committees</strong> – لجان السلامة التي تجمع ممثلي العاملين والإدارة.
+</li>
+
+<li>
+<strong>Discussion Groups</strong> – مجموعات النقاش لمناقشة موضوعات محددة.
+</li>
+
+<li>
+<strong>Safety Circles</strong> – مجموعات غير رسمية لتبادل الأفكار ومناقشة مشكلات السلامة.
+</li>
+
+<li>
+<strong>Departmental Meetings</strong> – الاجتماعات الإدارية أو اجتماعات الفرق التي تتضمن موضوعات السلامة.
+</li>
+
+<li>
+<strong>Email and Web-Based Forums</strong> – وسائل التواصل الإلكترونية التي تتيح للعاملين طرح الملاحظات والمخاوف.
+</li>
+</ul>
+
+<p>
+يجب أن تضمن هذه الوسائل وصول ملاحظات العاملين إلى الإدارة
+وأن تتم متابعة القضايا والإجراءات الناتجة عنها.
+</p>
+
+<hr>
+
+<h3>3️⃣ ضرورة إشراك العاملين | Necessity of Including Workers</h3>
+
+<p>
+إشراك العاملين يعطي المنظمة صورة أكثر واقعية عن كيفية تنفيذ العمل فعليًا.
+فعندما يشارك العاملون في
+<strong>Risk Assessments</strong>
+يمكنهم تقديم معلومات عملية قد لا تظهر في الإجراءات المكتوبة وحدها.
+</p>
+
+<p>
+كما أن مشاركتهم في تطوير
+<strong>Procedures</strong>
+و
+<strong>Safe Systems of Work</strong>
+تزيد فرص تقبل هذه الأنظمة والالتزام بها عند تطبيقها.
+</p>
+
+<p>
+ويمكن أن تكون خبرة العاملين وممثليهم مهمة أيضًا أثناء:
+</p>
+
+<ul>
+<li><strong>Accident and Incident Investigations</strong></li>
+<li><strong>Workplace Inspections</strong></li>
+<li>مراجعة المخاطر والضوابط.</li>
+<li>تطوير وتحسين إجراءات التشغيل.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+العامل الذي ينفذ المهمة يوميًا قد يرى مخاطر أو مشكلات تشغيلية
+لا تظهر للإدارة من خلال التقارير وحدها.
+ولهذا فإن
+<strong>Worker Engagement</strong>
+مصدر مهم للمعلومات العملية.
+</div>
+
+<hr>
+
+<h3>4️⃣ يجب أن تكون مشاركة العاملين أولوية | Engagement with Workers Should Be a Priority</h3>
+
+<p>
+إذا كانت المنظمة تعتبر مشاركة العاملين عنصرًا مهمًا في سلامة العمليات،
+فيجب أن يظهر ذلك في طريقة الإدارة للموضوع.
+</p>
+
+<p>
+يمكن للإدارة إظهار التزامها من خلال:
+</p>
+
+<ul>
+<li>جدولة اجتماعات التشاور مسبقًا والالتزام بمواعيدها.</li>
+<li>حضور الإدارة والمشاركة الفعلية في الاجتماعات.</li>
+<li>متابعة الإجراءات الناتجة عن الاجتماعات حتى الإغلاق.</li>
+<li>استخدام اجتماعات مثل <strong>Town Hall Meetings</strong> أو Plant Stand-Downs عند الحاجة.</li>
+<li>التأكد من وصول المعلومات إلى العاملين في مختلف الأقسام والمواقع.</li>
+</ul>
+
+<h4>📊 Monitoring Worker Engagement | متابعة فعالية المشاركة</h4>
+
+<p>
+مثل أي عنصر مهم في نظام إدارة السلامة،
+يجب مراجعة وتدقيق عملية
+<strong>Worker Consultation and Engagement</strong>.
+</p>
+
+<p>
+ويمكن قياس الفعالية من خلال مؤشرات مثل:
+</p>
+
+<ul>
+<li>عدد الاجتماعات المخطط لها مقارنة بعدد الاجتماعات التي عُقدت فعليًا.</li>
+<li>مستوى الحضور وتمثيل الأقسام المختلفة.</li>
+<li>دقة محاضر الاجتماعات.</li>
+<li>نسبة إغلاق الإجراءات الناتجة عن الاجتماعات.</li>
+<li>مدى وصول المعلومات إلى العاملين وفعالية التواصل.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🤝 Worker Engagement Summary</strong><br><br>
+<strong>Consult → Listen → Involve → Act → Feedback</strong><br><br>
+المشاركة الفعالة لا تنتهي بسماع رأي العاملين؛
+بل يجب أن تتبعها إجراءات واضحة وتغذية راجعة.
+</div>
+
+</div>
+`,      
     },
     {
         number: "1.6",
         title: "Competence",
-        titleArabic: "الكفاءة"
+      titleArabic: "الكفاءة",
+content: `
+<div style="text-align:right; line-height:1.9;">
+
+<h3>🎯 الهدف التعليمي | Learning Objective</h3>
+
+<p>
+في نهاية هذا الموضوع سيكون المتدرب قادرًا على شرح معنى
+<strong>الكفاءة (Competence)</strong>
+وأهميتها في سلامة العمليات، وفهم كيفية تطوير وإدارة الكفاءة
+للعاملين الذين يؤدون مهامًا حرجة للسلامة.
+</p>
+
+<hr>
+
+<h3>1️⃣ معنى الكفاءة | The Meaning of Competence</h3>
+
+<p>
+الكفاءة لا تعني مجرد حضور دورة تدريبية أو الحصول على شهادة.
+إنها مزيج من:
+</p>
+
+<ul>
+<li><strong>Knowledge</strong> – المعرفة.</li>
+<li><strong>Skills</strong> – المهارات.</li>
+<li><strong>Experience</strong> – الخبرة العملية.</li>
+<li>القدرة على أداء المهمة بالمستوى المطلوب بصورة منتظمة.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Term – Competence</strong><br><br>
+الكفاءة هي القدرة على تنفيذ المسؤوليات والمهام وفق
+<strong>Recognised Standard</strong>
+بصورة مستمرة، باستخدام المعرفة والمهارات والخبرة المناسبة.
+</div>
+
+<hr>
+
+<h3>2️⃣ دور الكفاءة في العمل والسلوك الآمن | The Role of Competence in Safe Working and Behaviours</h3>
+
+<p>
+يحتاج العاملون إلى التدريب والكفاءة المناسبة حتى يتمكنوا من تنفيذ
+مهامهم بطريقة آمنة ومتسقة.
+ويشمل ذلك العمل التشغيلي اليومي بالإضافة إلى المهام الحرجة مثل:
+</p>
+
+<ul>
+<li><strong>Permit to Work (PTW)</strong></li>
+<li><strong>Isolation and Lock-Out</strong></li>
+<li><strong>Emergency Response</strong></li>
+<li><strong>Safe Operating Procedures</strong></li>
+<li>التعامل مع الظروف التشغيلية غير الطبيعية.</li>
+</ul>
+
+<p>
+عندما تكون المعايير واضحة والعاملون مؤهلين،
+يقل الاعتماد على الاجتهاد الفردي وتصبح طريقة تنفيذ العمل
+أكثر اتساقًا وقابلية للمراقبة.
+</p>
+
+<h4>✅ Benefits of Training | فوائد التدريب</h4>
+
+<ul>
+<li>مساعدة العاملين الجدد على فهم متطلبات الوظيفة بسرعة أكبر.</li>
+<li>نقل طريقة العمل الصحيحة بدلًا من العادات والممارسات غير الآمنة.</li>
+<li>تقليل الأخطاء أثناء تنفيذ المهام.</li>
+<li>تحسين الالتزام بإجراءات العمل الآمن.</li>
+<li>المساهمة في تطوير العاملين ومسارهم المهني.</li>
+</ul>
+
+<hr>
+
+<h3>3️⃣ أنظمة إدارة الكفاءة | Competency Management Systems</h3>
+
+<p>
+لا يحتاج جميع العاملين إلى نفس المهارات.
+يجب أولًا تحديد
+<strong>Process Safety Critical Tasks</strong>
+ثم تحديد مستوى المعرفة والمهارة والخبرة المطلوبة لكل وظيفة.
+</p>
+
+<p>
+يمكن استخدام
+<strong>Task Analysis</strong>
+لتقسيم المهمة إلى خطوات وتحديد الأخطاء البشرية المحتملة
+والمهارات المطلوبة لتنفيذ كل خطوة بصورة آمنة.
+</p>
+
+<h4>📊 Training Matrix | مصفوفة التدريب</h4>
+
+<p>
+تستخدم العديد من المنظمات
+<strong>Training Matrix</strong>
+لتحديد التدريب والكفاءة المطلوبة لكل وظيفة،
+مثل التدريب على PTW والعزل وتقييم المخاطر وMOC ومكافحة الحريق.
+</p>
+
+<h4>🧩 Competence Management Framework</h4>
+
+<ul>
+<li>وجود سياسة واضحة والتزام من الإدارة العليا.</li>
+<li>تحديد الحد الأدنى لمتطلبات Process Safety Competence في المنشأة.</li>
+<li>اختيار وتوظيف الأشخاص ذوي المهارات المناسبة.</li>
+<li>تحليل احتياجات الكفاءة وتحديد <strong>Competence Gaps</strong>.</li>
+<li>التدريب والتطوير والمحافظة على الكفاءة.</li>
+<li>تقييم وإعادة تقييم الكفاءة – <strong>Assessment and Re-assessment</strong>.</li>
+<li>تحديد متطلبات خاصة للكفاءة أثناء حالات الطوارئ.</li>
+<li>تعزيز المسؤولية الشخصية والالتزام بتطوير الكفاءة.</li>
+<li>المراجعة والتحسين المستمر لنظام إدارة الكفاءة.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>⚠️ Important</strong><br><br>
+<strong>Training ≠ Competence</strong><br>
+حضور التدريب وحده لا يثبت الكفاءة.
+يجب التأكد من قدرة الشخص فعليًا على تنفيذ المهمة
+بالطريقة والمستوى المطلوبين.
+</div>
+
+<hr>
+
+<h3>4️⃣ برامج التدريب والتطوير المرتبطة بمخاطر سلامة العمليات | Training and Development Programmes Applicable to Process Safety Risk</h3>
+
+<p>
+يجب أن يتناسب التدريب مع مستوى المسؤولية ونوع العمل.
+فالاحتياجات التدريبية تختلف بين القادة والمديرين والمشرفين
+والمهندسين والمشغلين والفنيين.
+</p>
+
+<ul>
+<li>
+<strong>Process Safety Leaders:</strong>
+فهم مسؤوليات القيادة والقرارات المرتبطة بمخاطر الحوادث الكبرى.
+</li>
+
+<li>
+<strong>Managers, Supervisors, Designers and Safety Personnel:</strong>
+فهم أساسيات ومتطلبات Process Safety Management.
+</li>
+
+<li>
+<strong>Operators and Technicians:</strong>
+فهم تفصيلي للأخطار والضوابط المرتبطة بالموقع والعمليات التي يعملون عليها.
+</li>
+</ul>
+
+<p>
+ولا يجب أن يقتصر التدريب على
+<strong>Normal Operations</strong>
+فقط، بل يجب أن يشمل أيضًا:
+</p>
+
+<ul>
+<li><strong>Non-Routine Operations</strong></li>
+<li>التغييرات المرتبطة بـ <strong>Management of Change (MOC)</strong></li>
+<li><strong>Emergency Situations</strong></li>
+<li><strong>Safe Shutdown</strong></li>
+<li>التمارين والتطبيقات العملية عند الحاجة.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎓 Competence Summary</strong><br><br>
+<strong>Define → Train → Practice → Assess → Re-assess → Improve</strong><br><br>
+الهدف ليس أن يكون الشخص قد تلقى تدريبًا،
+بل أن يكون قادرًا على أداء المهمة الحرجة للسلامة
+بالمستوى المطلوب بصورة ثابتة.
+</div>
+
+</div>
+`,        
     }
 ] 
     }
