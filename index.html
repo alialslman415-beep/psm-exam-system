@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+HGH<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -296,7 +296,15 @@ Element 4 – Fire and Explosion Protection
     </button>
 
     <br><br>
+ 
+<button onclick="openArabicEnglishElement2()">
+    Element 2 – Management of Process Risk
+    <br>
+    الوحدة الثانية – إدارة مخاطر العمليات
+</button>
 
+<br><br>
+ 
     <button onclick="closeArabicEnglishBook()">
         ← العودة إلى الصفحة الرئيسية
     </button>
@@ -343,6 +351,51 @@ Element 4 – Fire and Explosion Protection
     </button>
 
 </div>    
+
+ <!-- ARABIC + TECHNICAL ENGLISH ELEMENT 2 PAGE -->
+
+<div id="arabicEnglishElement2Page" class="hidden" dir="rtl">
+
+    <h2>Element 2 – Management of Process Risk</h2>
+    <h3>الوحدة الثانية – إدارة مخاطر العمليات</h3>
+<!-- ELEMENT 2 VISUAL OVERVIEW -->
+<div style="text-align:center; margin:25px 0;">
+    <img src="element2-management-of-process-risk.png"
+         alt="Element 2 - Management of Process Risk"
+         style="width:100%; max-width:1200px; height:auto; border-radius:16px; box-shadow:0 6px 18px rgba(0,0,0,0.18);">
+</div>
+ 
+<!-- ELEMENT 2 CASE STUDY VIDEO -->
+<div style="text-align:center; margin:30px 0;">
+
+    <h3>🎬 Case Study – Piper Alpha Disaster 1988</h3>
+
+    <p>
+        <strong>Management of Process Risk – Lessons from a Major Process Safety Disaster</strong>
+    </p>
+
+    <video controls
+        preload="metadata"
+        style="width:100%; max-width:1000px; border-radius:16px; box-shadow:0 6px 18px rgba(0,0,0,0.18);">
+
+        <source src="PIPER ALPHA DISASTER 1988.mp4"
+                type="video/mp4">
+
+        Your browser does not support the video tag.
+    </video>
+
+</div>
+ 
+    <div id="arabicEnglishElement2Content"></div>
+
+    <br><br>
+
+    <button onclick="backToArabicEnglishBook()">
+        ← العودة إلى قائمة الكتاب
+    </button>
+
+</div>
+ 
  <!-- ARABIC + TECHNICAL ENGLISH TOPIC PAGE -->
 
 <div id="arabicEnglishTopicPage" class="hidden" dir="rtl">
@@ -354,8 +407,8 @@ Element 4 – Fire and Explosion Protection
 
     <br><br>
 
-    <button onclick="backToArabicEnglishElement1()">
-        ← العودة إلى مواضيع Element 1
+  <button onclick="backToArabicEnglishCurrentElement()">
+      ← العودة إلى مواضيع الوحدة
     </button>
 
 </div>   
@@ -964,6 +1017,7 @@ function closeArabicEnglishBook() {
     document.getElementById("loginPage")
         .classList.remove("hidden");
 }
+let currentArabicEnglishElement = 1;     
 function openArabicEnglishElement1() {
 
     document.getElementById("arabicEnglishBookPage")
@@ -1000,9 +1054,72 @@ topicsHtml += `</div>`;
 document.getElementById("arabicEnglishElement1Content")
     .innerHTML = topicsHtml;
 }
+     
+function openArabicEnglishElement2() {
 
-function openArabicEnglishTopic(topicNumber) {
+    document.getElementById("arabicEnglishBookPage")
+        .classList.add("hidden");
 
+    document.getElementById("arabicEnglishElement2Page")
+        .classList.remove("hidden");
+
+    const element2 = psmArabicEnglish.element2;
+
+    let topicsHtml = `
+        <div style="text-align:right;">
+            ${element2.introduction}
+
+            <hr>
+
+            <h3>مواضيع الوحدة الثانية</h3>
+        </div>
+    `;
+
+    element2.topics.forEach(topic => {
+        topicsHtml += `
+            <button
+                style="width:100%; margin:8px 0;"
+                onclick="openArabicEnglishElement2Topic('${topic.number}')">
+                <strong>${topic.number} - ${topic.title}</strong>
+                <br>
+                ${topic.titleArabic}
+            </button>
+        `;
+    });
+
+    document.getElementById("arabicEnglishElement2Content")
+        .innerHTML = topicsHtml;
+}
+     
+function openArabicEnglishElement2Topic(topicNumber) {
+ 
+currentArabicEnglishElement = 2;
+ 
+    const topic = psmArabicEnglish.element2.topics
+        .find(item => item.number === topicNumber);
+
+    if (!topic) return;
+
+    document.getElementById("arabicEnglishElement2Page")
+        .classList.add("hidden");
+
+    document.getElementById("arabicEnglishTopicPage")
+        .classList.remove("hidden");
+
+    document.getElementById("arabicEnglishTopicTitle")
+        .innerText = `${topic.number} - ${topic.title}`;
+
+    document.getElementById("arabicEnglishTopicTitleArabic")
+        .innerText = topic.titleArabic;
+
+    document.getElementById("arabicEnglishTopicContent")
+        .innerHTML = topic.content || "<p>سيتم إضافة المحتوى قريبًا.</p>";
+}     
+     
+function openArabicEnglishTopic(topicNumber) {     
+ 
+currentArabicEnglishElement = 1;
+ 
     const topic = psmArabicEnglish.element1.topics
         .find(item => item.number === topicNumber);
 
@@ -1023,6 +1140,25 @@ function openArabicEnglishTopic(topicNumber) {
     document.getElementById("arabicEnglishTopicContent")
         .innerHTML = topic.content || "<p>سيتم إضافة المحتوى قريبًا.</p>";
 }
+
+function backToArabicEnglishCurrentElement() {
+
+    document.getElementById("arabicEnglishTopicPage")
+        .classList.add("hidden");
+
+    if (currentArabicEnglishElement === 2) {
+
+        document.getElementById("arabicEnglishElement2Page")
+            .classList.remove("hidden");
+
+    } else {
+
+        document.getElementById("arabicEnglishElement1Page")
+            .classList.remove("hidden");
+
+    }
+}
+     
 function backToArabicEnglishElement1() {
 
     document.getElementById("arabicEnglishTopicPage")
