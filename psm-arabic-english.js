@@ -1171,6 +1171,42 @@ content: `
         `,
 
         topics: [
+  {
+    number: "2.1",
+    title: "Establishing a Process Safety Management System",
+    titleArabic: "إنشاء نظام إدارة سلامة العمليات",
+    content: ""
+},
+{
+    number: "2.2",
+    title: "Risk Management Techniques Used Within the Process Industries",
+    titleArabic: "تقنيات إدارة المخاطر المستخدمة في الصناعات العملية",
+    content: ""
+},
+{
+    number: "2.3",
+    title: "Asset Management and Maintenance Strategies",
+    titleArabic: "إدارة الأصول واستراتيجيات الصيانة",
+    content: ""
+},
+{
+    number: "2.4",
+    title: "Role, Purpose and Features of a Permit-to-Work System",
+    titleArabic: "دور وغرض وخصائص نظام تصريح العمل",
+    content: ""
+},
+{
+    number: "2.5",
+    title: "Safe Shift Handover",
+    titleArabic: "التسليم والاستلام الآمن للورديات",
+    content: ""
+},
+{
+    number: "2.6",
+    title: "Contractor Management",
+    titleArabic: "إدارة المقاولين",
+    content: ""
+}          
 
         ]
     }
