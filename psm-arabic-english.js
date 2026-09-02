@@ -4652,7 +4652,705 @@ Engineering Controls → Administrative Controls
     number: "2.3",
     title: "Asset Management and Maintenance Strategies",
     titleArabic: "إدارة الأصول واستراتيجيات الصيانة",
-    content: ""
+content: `
+<div style="text-align:right; line-height:1.9;">
+
+<h3>🎯 الهدف التعليمي | Learning Objective</h3>
+
+<p>
+في نهاية هذا الموضوع سيكون المتدرب قادرًا على شرح أهمية
+<strong>Asset Management and Maintenance Strategies</strong>
+في المحافظة على سلامة المعدات والمنشآت خلال دورة حياتها،
+وفهم العلاقة بين
+<strong>Asset Integrity</strong>
+والصيانة والفحص واختيار المعدات المناسبة وعمليات المعايرة.
+</p>
+
+<hr>
+
+<h3>1️⃣ مراعاة معايير سلامة الأصول |
+Consideration of Integrity Standards</h3>
+
+<p>
+عند تصميم أو تحديد مواصفات معدات العمليات
+<strong>(Process Equipment)</strong>
+يجب مراعاة جميع الأنشطة التي ستقوم بها المعدة طوال فترة استخدامها.
+</p>
+
+<p>
+فمثلًا لا يكفي أن تكون المضخة
+<strong>Fit-for-Purpose</strong>
+من حيث الضغط ومعدل التدفق فقط،
+بل يجب أيضًا أن تكون مناسبة للمواد التي ستنقلها،
+وأن تسمح بإجراء أعمال التنظيف والعزل والصيانة
+والإزالة وإعادة التركيب بطريقة آمنة.
+</p>
+
+<h4>📐 Design Standards | معايير التصميم</h4>
+
+<p>
+عند تحديد المعدات يجب مراعاة
+<strong>Design Standards</strong>
+المناسبة، مثل:
+</p>
+
+<ul>
+<li><strong>EN Standards</strong> – المعايير الأوروبية ذات الصلة.</li>
+<li><strong>Process Safety Standards</strong> – معايير سلامة العمليات.</li>
+<li><strong>Pipe Pressure Ratings</strong> – تصنيفات ضغط الأنابيب.</li>
+<li><strong>Welding Standards</strong> – معايير اللحام.</li>
+</ul>
+
+<p>
+وقد تكون هناك حاجة إلى
+<strong>Expert Advice</strong>
+لضمان اتخاذ القرارات الصحيحة أثناء مرحلة التصميم.
+</p>
+
+<h4>🔍 Inspection and Maintenance Access |
+إمكانية الفحص والصيانة</h4>
+
+<p>
+حيثما أمكن، يجب أن تسمح المنشأة بإجراء
+<strong>Inspection and Visual Maintenance</strong>
+دون التأثير على التشغيل الآمن للمعدات،
+مثل إمكانية إزالة الأغطية والحواجز
+<strong>(Covers and Guards)</strong>
+بصورة آمنة.
+</p>
+
+<p>
+كما يجب التفكير في متطلبات العزل منذ مرحلة التصميم.
+فإذا كانت هناك حاجة إلى العزل،
+يمكن أن يتضمن التصميم
+<strong>Lockable Electrical Isolators</strong>
+وصمامات تصريف مناسبة لتوفير
+<strong>Double Block and Bleed Isolation</strong>.
+</p>
+
+<div style="padding:15px; border:2px solid #a8cf45; border-radius:10px; margin:18px 0;">
+<strong>🔑 KEY TERM – Double Block and Bleed</strong><br><br>
+
+<strong>Double Block and Bleed</strong><br><br>
+
+طريقة لعزل خط يحتوي على مادة كيميائية أو مادة عملية،
+وذلك بإغلاق وقفل أو تأمين
+<strong>Two Inline Valves</strong>
+ثم فتح خط تصريف أو تنفيس
+<strong>(Drain / Vent Line)</strong>
+بين الصمامين.
+<br><br>
+
+ويساعد ذلك على التأكد من أن أي تسرب يمر عبر أحد صمامات العزل
+لا يصل إلى نهاية الخط التي يتم عندها تنفيذ العمل.
+</div>
+
+<hr>
+
+<h3>2️⃣ عواقب الفشل في إدارة سلامة الأصول |
+Consequences of Failing to Manage the Integrity of Assets</h3>
+
+<div style="padding:15px; border:2px solid #a8cf45; border-radius:10px; margin:18px 0;">
+<strong>🔑 KEY TERMS</strong><br><br>
+
+<strong>Asset | الأصل</strong><br>
+عنصر من المعدات أو جزء من منشأة الإنتاج
+<strong>(An Item of Equipment or an Area of Production Plant)</strong>.
+<br><br>
+
+<strong>Asset Integrity | سلامة الأصول</strong><br>
+قدرة المعدة أو الأصل على العمل بكفاءة وفعالية
+<strong>Over its Entire Lifespan</strong>
+مع المحافظة على صحة وسلامة الأشخاص المعرضين له،
+بما في ذلك حماية البيئة.
+</div>
+
+<p>
+إذا لم تتم صيانة الأصول بصورة صحيحة،
+فقد تظهر عيوب وأعطال يمكن أن تؤدي إلى عواقب خطيرة
+على الصحة والسلامة واستمرارية العملية.
+</p>
+
+<p>ومن الأمثلة:</p>
+
+<ul>
+<li>
+المعدات التالفة أو المتآكلة أو المعيبة قد تفشل وتسبب
+<strong>Leaks / Loss of Containment</strong>.
+</li>
+
+<li>
+فشل بعض المعدات قد يؤثر على أداء العملية؛
+فمثلًا فشل نظام الزيت الساخن
+<strong>(Hot Oil System)</strong>
+قد يؤدي إلى فشل العملية،
+كما أن فشل نظام التبريد قد يؤدي إلى
+<strong>Runaway Reaction</strong>.
+</li>
+
+<li>
+قد تصبح المنشأة غير فعالة
+ويتأثر الإنتاج
+<strong>(Production)</strong>.
+</li>
+
+<li>
+قد تفشل أنظمة السلامة مثل
+<strong>Fire Suppression Systems</strong>
+في العمل عند الحاجة إليها.
+</li>
+</ul>
+
+<p>
+لذلك يكون من الأكثر فعالية المحافظة على المعدات باستخدام
+<strong>Preventive Maintenance</strong>
+بدلًا من السماح لها بالتدهور حتى نقطة الانهيار
+ثم إصلاحها بعد وقوع الفشل.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+برنامج
+<strong>Effective Asset Integrity Management</strong>
+ضروري للمحافظة على موثوقية المعدات ومنع الأعطال التي يمكن
+أن تتطور إلى حوادث سلامة عمليات.
+</div>
+
+<hr>
+
+<h3>3️⃣ اختيار المعدات المناسبة لبيئة التشغيل |
+Selection of Equipment for the Operating Environment</h3>
+
+<p>
+قد يكون لبيئة التشغيل تأثير مباشر على سلامة المعدات،
+ولذلك يجب اختيار المعدات بما يتناسب مع الظروف التي ستعمل فيها.
+</p>
+
+<p>
+على سبيل المثال، في
+<strong>Potentially Flammable Atmosphere</strong>
+حيث يمكن أن تؤدي الأبخرة أو الغبار إلى حريق أو انفجار،
+يجب اختيار المعدات المناسبة والمعتمدة لهذه البيئة.
+</p>
+
+<div style="padding:15px; border:2px solid #a8cf45; border-radius:10px; margin:18px 0;">
+<strong>🔑 KEY TERM – ATEX</strong><br><br>
+
+<strong>ATEX</strong><br><br>
+
+يُستخدم مصطلح
+<strong>ATEX</strong>
+عادةً للإشارة إلى توجيهين أوروبيين
+<strong>(EU Directives)</strong>
+يتعلقان بالتحكم في الأجواء القابلة للانفجار
+<strong>(Explosive Atmospheres)</strong>.
+<br><br>
+
+ويرتبط الاسم بالمصطلح الفرنسي
+<strong>ATmosphères EXplosibles</strong>.
+<br><br>
+
+المعدات المعتمدة
+<strong>ATEX-Approved Equipment</strong>
+تكون مناسبة للاستخدام في الأجواء القابلة للانفجار
+وفق المتطلبات المطبقة عليها.
+</div>
+
+<p>
+ولا يقتصر اختيار المعدات على مخاطر الاشتعال فقط.
+فقد تؤدي بيئة التشغيل نفسها إلى تلف المعدات.
+</p>
+
+<p>
+على سبيل المثال:
+</p>
+
+<ul>
+<li>
+المعدات المستخدمة في الخارج يجب أن تكون مناسبة لمقاومة
+<strong>Water / Weather Exposure</strong>.
+</li>
+
+<li>
+في البيئات التي تحتوي على مواد كيميائية أكّالة
+<strong>(Corrosive Chemicals)</strong>
+يجب اختيار مواد تتحمل التآكل.
+</li>
+
+<li>
+في البيئات المالحة
+<strong>(Salty Atmospheres)</strong>
+قد تتآكل الأجزاء المعدنية المكشوفة إذا لم تتم حمايتها أو معالجتها بصورة مناسبة.
+</li>
+</ul>
+
+<hr>
+
+<h3>4️⃣ سلامة الأصول خلال دورة الحياة |
+Asset Integrity Throughout the Life Cycle</h3>
+
+<p>
+يجب إدارة
+<strong>Asset Integrity</strong>
+خلال دورة حياة الأصل كاملة،
+من التصميم الأولي وحتى إخراج المنشأة من الخدمة.
+</p>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2.1;">
+<strong>
+Phase 1 – Design
+<br>↓<br>
+Phase 2 – Procurement, Construction, Installation and Testing
+<br>↓<br>
+Phase 3 – Commissioning
+<br>↓<br>
+Phase 4 – Operations
+<br>↓<br>
+Phase 5 – Modifications
+<br>↓<br>
+Phase 6 – Decommissioning
+</strong>
+</div>
+
+<h4>Phase 1 – Design | التصميم</h4>
+
+<p>
+الهدف هو تصميم المنشأة بحيث تحقق السلامة وسلامة الأصول
+طوال دورة حياة العملية.
+</p>
+
+<ul>
+<li><strong>Safety Studies</strong> – دراسات السلامة.</li>
+<li><strong>Maintenance and Inspection Strategies</strong>.</li>
+<li>تحديد فلسفات التصميم والصيانة والفحص والتشغيل.</li>
+<li><strong>Design Review by Verifier</strong> – مراجعة التصميم بواسطة جهة تحقق مناسبة.</li>
+</ul>
+
+<h4>Phase 2 – Procurement, Construction, Installation and Testing</h4>
+
+<p>
+الهدف هو تنفيذ التصميم وفق المتطلبات المحددة،
+مع تطبيق
+<strong>Quality Assurance</strong>
+لضمان اكتمال الإنشاء بصورة صحيحة.
+</p>
+
+<ul>
+<li>تطوير خطط الشراء والجودة.</li>
+<li>الحصول على سجلات الفحص والاختبارات.</li>
+<li><strong>Document Completion and Handover</strong>.</li>
+</ul>
+
+<h4>Phase 3 – Commissioning | التشغيل التجريبي</h4>
+
+<p>
+تهدف هذه المرحلة إلى إجراء الاختبارات الوظيفية
+لإثبات تحقيق معايير التصميم
+وأن العملية تعمل كما هو مقصود.
+</p>
+
+<ul>
+<li><strong>Commissioning and Functional Testing</strong> مقابل معايير التصميم.</li>
+<li>اعتماد أو توقيع الاختبارات بواسطة مهندسي Commissioning.</li>
+<li><strong>Verification by an External Competent Person</strong>.</li>
+<li><strong>Handover to Operations</strong> – التسليم للتشغيل.</li>
+</ul>
+
+<h4>Phase 4 – Operations | التشغيل</h4>
+
+<p>
+الهدف هو تشغيل المنشأة ضمن
+<strong>Design Intent</strong>.
+</p>
+
+<ul>
+<li><strong>Ongoing Risk Assessment</strong>.</li>
+<li><strong>Maintenance and Inspection</strong>.</li>
+<li><strong>Monitoring of Control Measures</strong>.</li>
+<li><strong>Verification</strong>.</li>
+</ul>
+
+<h4>Phase 5 – Modifications | التعديلات</h4>
+
+<p>
+يجب تنفيذ التعديلات بطريقة مخططة وموثقة
+ومبنية على تقييم المخاطر
+<strong>(Planned, Documented and Risk-Assessed)</strong>.
+</p>
+
+<p>
+ويجب تحديد الأخطار الإضافية المحتملة
+وتأثير التغيير على التشغيل والصيانة
+والمخططات والإجراءات،
+مع اتخاذ الإجراءات اللازمة لضمان بقاء المخاطر ضمن
+<strong>ALARP</strong>.
+</p>
+
+<p>
+ويُعد
+<strong>Management of Change (MOC)</strong>
+من الأدوات الرئيسية للإدارة المناسبة للتغييرات.
+</p>
+
+<h4>Phase 6 – Decommissioning | إخراج المنشأة من الخدمة</h4>
+
+<p>
+تعني هذه المرحلة إزالة المنشأة من التشغيل،
+ومن أهم متطلباتها:
+</p>
+
+<ul>
+<li><strong>Safety Studies</strong>.</li>
+<li><strong>Development of Decommissioning Strategies</strong>.</li>
+<li><strong>Development of a Decommissioning Plan</strong>.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus – Asset Life Cycle</strong><br><br>
+
+<strong>
+Design → Procurement / Construction / Installation / Testing →
+Commissioning → Operations → Modifications → Decommissioning
+</strong>
+</div>
+
+<hr>
+
+<h3>5️⃣ وثائق صيانة المنشأة |
+Plant Maintenance Documentation</h3>
+
+<p>
+يجب الاحتفاظ بسجلات الصيانة بعناية
+<strong>(Maintenance Records)</strong>
+لأن بعض هذه السجلات قد تكون مطلوبة بموجب القانون
+أو لأغراض إثبات حالة المعدات وسجل الصيانة والفحص.
+</p>
+
+<p>
+ومن أمثلة السجلات التي يشير إليها المصدر:
+</p>
+
+<ul>
+<li><strong>Pressure Systems</strong> – أنظمة الضغط.</li>
+<li><strong>Legionella Control</strong> – سجلات التحكم في الليجيونيلا.</li>
+<li><strong>LEV Testing</strong> – اختبار Local Exhaust Ventilation.</li>
+<li><strong>Lifting Equipment</strong> – معدات الرفع.</li>
+</ul>
+
+<p>
+يمكن أن تكون السجلات
+<strong>Paper or Electronic</strong>
+ولكن يجب أن تكون قابلة للتتبع
+<strong>(Traceable)</strong>.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+
+وجود سجل واضح وقابل للتتبع يساعد على إثبات
+ما تم فحصه أو صيانته،
+ومتى تم ذلك، ويساعد على متابعة حالة الأصل بمرور الوقت.
+</div>
+
+<hr>
+
+<h3>6️⃣ استراتيجية الصيانة والفحص القائمة على المخاطر |
+Risk-Based Maintenance and Inspection Strategy</h3>
+
+<p>
+يعرض المصدر ثلاث استراتيجيات رئيسية للصيانة والفحص:
+</p>
+
+<h4>🔴 Breakdown Maintenance | صيانة الأعطال</h4>
+
+<p>
+تُعد
+<strong>Breakdown Maintenance</strong>
+طريقة شديدة التفاعل
+<strong>(Highly Reactive)</strong>.
+</p>
+
+<p>
+حيث يتم إصلاح أو استبدال المعدات بعد أن تفشل أثناء الاستخدام.
+وهي ليست استراتيجية وقائية؛
+فالمؤشر الأساسي على وجود المشكلة هو حدوث فشل المعدة نفسها.
+</p>
+
+<h4>🟠 Condition Monitoring | مراقبة الحالة</h4>
+
+<p>
+في
+<strong>Condition Monitoring</strong>
+يتم مراقبة مؤشرات يمكن أن توضح أن المعدات بدأت تتدهور
+أو لم تعد تعمل كما هو مقصود،
+وذلك قبل حدوث الفشل الفعلي.
+</p>
+
+<p>
+ومن الأمثلة:
+</p>
+
+<ul>
+<li>
+مراقبة
+<strong>Motor Noise Levels</strong>
+للمساعدة في اكتشاف تآكل المحامل.
+</li>
+
+<li>
+استخدام
+<strong>Thermography / Thermal Imaging</strong>
+لاكتشاف
+<strong>Hot Spots</strong>
+التي قد تشير إلى مناطق معرضة لارتفاع الحرارة.
+</li>
+</ul>
+
+<h4>🟢 Planned Preventive Maintenance |
+الصيانة الوقائية المخططة</h4>
+
+<p>
+تُعد
+<strong>Planned Preventive Maintenance</strong>
+استراتيجية استباقية حقيقية
+<strong>(Proactive Maintenance System)</strong>.
+</p>
+
+<p>
+يتم إجراء عمليات الفحص والتحقق
+<strong>Before Failures Occur</strong>
+لتقليل مخاطر فشل المعدات وتأثيراته على المنشأة.
+</p>
+
+<p>
+وقد تشمل:
+</p>
+
+<ul>
+<li><strong>Periodic Inspection</strong> – الفحص الدوري.</li>
+<li><strong>Planned Maintenance Activities</strong> – أعمال الصيانة المخططة.</li>
+<li><strong>Non-Destructive Testing (NDT)</strong> – الاختبارات غير الإتلافية.</li>
+<li>إجراءات تصحيح أي أوجه قصور يتم تحديدها.</li>
+</ul>
+
+<div style="overflow-x:auto; margin:18px 0;">
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+
+<tr>
+<th style="border:1px solid #ccc; padding:9px;">Strategy</th>
+<th style="border:1px solid #ccc; padding:9px;">Approach</th>
+<th style="border:1px solid #ccc; padding:9px;">When?</th>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Breakdown Maintenance</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Reactive</td>
+<td style="border:1px solid #ccc; padding:9px;">After Failure</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Condition Monitoring</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Predictive / Condition-Based</td>
+<td style="border:1px solid #ccc; padding:9px;">Detect Deterioration Before Failure</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Planned Preventive Maintenance</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Proactive</td>
+<td style="border:1px solid #ccc; padding:9px;">Before Failure</td>
+</tr>
+
+</table>
+</div>
+
+<h4>🎛️ Risk-Based Calibration of Instrumentation |
+معايرة أجهزة القياس القائمة على المخاطر</h4>
+
+<p>
+تُعد
+<strong>Instrument Calibration</strong>
+نشاطًا أساسيًا في صناعات العمليات.
+وإهمال المعايرة يمكن أن يؤدي إلى:
+</p>
+
+<ul>
+<li>عدم تحقيق متطلبات نظام الجودة.</li>
+<li>مخاطر على العاملين والعملاء.</li>
+<li>ضعف جودة المنتج وفقدان السمعة.</li>
+<li>عدم الالتزام بالتشريعات واحتمال فقدان <strong>Licence to Operate</strong>.</li>
+<li><strong>Unexpected Downtime</strong> – توقف غير متوقع.</li>
+<li><strong>Economic Losses</strong> – خسائر اقتصادية.</li>
+</ul>
+
+<p>
+يمكن أن تنحرف دقة أجهزة القياس بمرور الوقت
+<strong>(Instrument Drift)</strong>.
+وقد تتأثر سرعة هذا الانحراف بعوامل مثل:
+</p>
+
+<ul>
+<li><strong>Environmental Conditions</strong>.</li>
+<li><strong>Extreme Temperatures</strong>.</li>
+<li><strong>Changing Seasons</strong>.</li>
+<li><strong>Humidity</strong>.</li>
+<li>كثرة استخدام الجهاز.</li>
+<li>استخدام الجهاز في العمليات الحرجة.</li>
+</ul>
+
+<p>
+لذلك يجب وضع سياسة مناسبة تضمن
+<strong>Routine Calibration</strong>
+حتى يستطيع الجهاز إجراء القياس بالدقة المطلوبة.
+</p>
+
+<h4>🧪 أمثلة على الأجهزة التي تتطلب المعايرة</h4>
+
+<p>
+تساعد أجهزة القياس في التأكد من أن المنشأة تعمل داخل
+<strong>Safe Operating Envelope</strong>
+من خلال مراقبة متغيرات مثل:
+</p>
+
+<ul>
+<li><strong>Flow</strong> – التدفق.</li>
+<li><strong>Temperature</strong> – درجة الحرارة.</li>
+<li><strong>Pressure</strong> – الضغط.</li>
+<li><strong>pH Levels</strong> – الرقم الهيدروجيني.</li>
+</ul>
+
+<p>
+ويجب وضع إجراءات صيانة تضمن معايرة
+<strong>Instrumentation Sensors and Transmitters</strong>
+مع الاحتفاظ
+<strong>Appropriate Audit Trail</strong>.
+</p>
+
+<p>ومن الأمثلة الأخرى:</p>
+
+<ul>
+<li>
+<strong>Hydrocarbon Leak Detectors / Gas Detectors</strong>
+يجب صيانتها ومعايرتها لضمان اكتشاف أي تهديد للعملية أو العاملين.
+</li>
+
+<li>
+<strong>Oxygen and Gas Detectors</strong>
+للمساعدة في الدخول والعمل الآمن داخل
+<strong>Confined Spaces</strong>.
+</li>
+
+<li>
+<strong>Voltage Detectors</strong>
+للتأكد من أن المعدات المعزولة والمقفلة
+<strong>(Isolated and Locked Off)</strong>
+غير مكهربة.
+</li>
+
+<li>
+<strong>Temporary Pressure Gauges</strong>
+المستخدمة أثناء
+<strong>Shutdown Maintenance</strong>
+والاختبارات الهوائية والهيدروستاتيكية
+<strong>(Pneumatic and Hydrostatic Testing)</strong>.
+</li>
+</ul>
+
+<h4>🌍 Environmental Monitoring | المراقبة البيئية</h4>
+
+<p>
+يجب أيضًا مراقبة الانبعاثات
+<strong>(Emissions)</strong>
+لإثبات الالتزام بالمتطلبات البيئية.
+</p>
+
+<p>
+ولكي تكون نتائج أجهزة القياس والمراقبة موثوقة،
+يجب إثبات دقتها من خلال
+<strong>Regular Calibration</strong>.
+</p>
+
+<p>
+قد يؤدي فشل برنامج المعايرة إلى أضرار بيئية،
+ومخالفات أو غرامات،
+وفي أسوأ الحالات قد تتعرض المنشأة للإغلاق
+<strong>(Shutdown)</strong>
+أو تفقد
+<strong>Licence to Operate</strong>.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus – Maintenance & Calibration</strong><br><br>
+
+<strong>Breakdown Maintenance</strong>
+→ Reactive → بعد حدوث الفشل.
+<br><br>
+
+<strong>Condition Monitoring</strong>
+→ اكتشاف علامات التدهور قبل الفشل.
+<br><br>
+
+<strong>Planned Preventive Maintenance</strong>
+→ Proactive → الفحص والصيانة قبل حدوث الفشل.
+<br><br>
+
+<strong>Calibration</strong>
+→ التأكد من أن أجهزة القياس تعطي نتائج بالدقة المطلوبة.
+<br><br>
+
+يجب استخدام التفكير القائم على المخاطر
+<strong>(Risk-Based Thinking)</strong>
+عند تحديد أهمية وتكرار معايرة الأجهزة.
+</div>
+
+<hr>
+
+<h3>✅ Final Summary – 2.3</h3>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+
+<strong>Asset Integrity</strong>
+→ المحافظة على قدرة الأصل على أداء وظيفته بأمان طوال عمره التشغيلي.
+<br><br>
+
+<strong>Integrity Standards</strong>
+→ يجب مراعاتها منذ التصميم واختيار المعدات.
+<br><br>
+
+<strong>Operating Environment</strong>
+→ يجب اختيار المعدات بما يناسب مخاطر وخصائص البيئة، بما في ذلك ATEX.
+<br><br>
+
+<strong>Asset Life Cycle</strong>
+→ Design → Procurement / Construction / Installation / Testing →
+Commissioning → Operations → Modifications → Decommissioning.
+<br><br>
+
+<strong>Maintenance Documentation</strong>
+→ يجب أن تكون السجلات محفوظة وقابلة للتتبع.
+<br><br>
+
+<strong>Maintenance Strategy</strong>
+→ Breakdown → Condition Monitoring → Planned Preventive Maintenance.
+<br><br>
+
+<strong>Instrumentation Calibration</strong>
+→ عنصر أساسي لضمان دقة القياسات والمحافظة على التشغيل داخل
+Safe Operating Envelope.
+
+</div>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center;">
+<strong style="font-size:18px;">
+✅ Element 2.3 – Asset Management and Maintenance Strategies
+</strong>
+<br><br>
+إدارة سلامة الأصول والصيانة الفعالة تساعد على منع الأعطال،
+المحافظة على موثوقية المعدات،
+وتقليل احتمالية حوادث سلامة العمليات.
+</div>
+
+</div>
+`
 },
 {
     number: "2.4",
