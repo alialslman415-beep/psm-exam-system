@@ -2473,8 +2473,2178 @@ Application of Risk Management Tools to Identify and Assess Process Safety Risk<
 Threats → Prevention → Top Event → Mitigation → Consequences
 </strong>
 </div>
+<h3>6️⃣ دراسة المخاطر وقابلية التشغيل |
+Hazard and Operability Study (HAZOP)</h3>
+
+<p>
+تُعد
+<strong>HAZOP – Hazard and Operability Study</strong>
+من تقنيات تقييم المخاطر المتقدمة، وقد استُخدمت في صناعات العمليات
+منذ ستينيات القرن الماضي.
+وهي طريقة منظمة ومفصلة لتحليل العملية بهدف تحديد الحالات التي قد
+تنحرف فيها العملية عن
+<strong>Design Intent</strong>
+وتؤدي إلى مخاطر أو مشاكل تشغيلية.
+</p>
+
+<p>
+يتم تنفيذ دراسة
+<strong>HAZOP</strong>
+عادةً بواسطة فريق متعدد التخصصات
+<strong>(Multidisciplinary Team)</strong>
+ويُفضّل أن يقوده شخص مستقل لديه خبرة في إدارة جلسات HAZOP.
+</p>
+
+<h4>👥 HAZOP Team | فريق الدراسة</h4>
+
+<p>
+قد يضم الفريق أشخاصًا من تخصصات مختلفة مثل:
+</p>
+
+<ul>
+<li><strong>Design Engineers</strong> – مهندسو التصميم.</li>
+<li><strong>Process Engineers</strong> – مهندسو العمليات.</li>
+<li><strong>Safety Professionals</strong> – مختصو السلامة.</li>
+<li><strong>Operators</strong> – المشغلون.</li>
+<li><strong>Maintenance Personnel</strong> – أفراد الصيانة.</li>
+<li>وأي تخصصات أخرى مرتبطة بالعملية محل الدراسة.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+قوة
+<strong>HAZOP</strong>
+تأتي من جمع خبرات مختلفة داخل فريق واحد،
+بحيث يتم فحص العملية من أكثر من زاوية وليس من منظور تخصص واحد فقط.
+</div>
+
+<h4>🧩 Bottom-Up Technique | أسلوب من أسفل إلى أعلى</h4>
+
+<p>
+تُعد
+<strong>HAZOP</strong>
+تقنية
+<strong>Bottom-Up</strong>
+لأنها تبدأ من أجزاء محددة داخل النظام أو العملية،
+ثم تبحث في كيفية انحراف كل جزء عن الغرض التصميمي.
+</p>
+
+<p>
+يتم تقسيم العملية إلى أجزاء صغيرة تسمى:
+<strong>Nodes</strong>.
+وقد تكون الـ Node جزءًا من خط أنابيب أو وعاء أو نظام تشغيل محدد.
+</p>
+
+<h4>📐 المعلومات المستخدمة في HAZOP</h4>
+
+<p>
+من أهم الوثائق المستخدمة أثناء الدراسة:
+</p>
+
+<ul>
+<li>
+<strong>Piping and Instrumentation Diagrams (P&amp;ID)</strong>
+– مخططات الأنابيب وأجهزة القياس والتحكم.
+</li>
+
+<li>
+معلومات التصميم والتشغيل الخاصة بالنظام.
+</li>
+
+<li>
+بيانات المعدات وأجهزة التحكم والحماية.
+</li>
+
+</ul>
+
+<h4>⚙️ Parameters | المتغيرات</h4>
+
+<p>
+لكل
+<strong>Node</strong>
+يتم اختيار متغير أو أكثر لفحصه، مثل:
+</p>
+
+<ul>
+<li><strong>Flow</strong> – التدفق.</li>
+<li><strong>Temperature</strong> – درجة الحرارة.</li>
+<li><strong>Pressure</strong> – الضغط.</li>
+<li><strong>Level</strong> – المستوى.</li>
+</ul>
+
+<h4>🔑 Guide Words | الكلمات الإرشادية</h4>
+
+<p>
+بعد اختيار
+<strong>Parameter</strong>
+تُستخدم مجموعة من
+<strong>Guide Words</strong>
+للبحث عن الانحرافات الممكنة.
+</p>
+
+<p>
+من الكلمات الشائعة:
+</p>
+
+<ul>
+<li><strong>No</strong> – لا يوجد.</li>
+<li><strong>Less</strong> – أقل.</li>
+<li><strong>More</strong> – أكثر.</li>
+</ul>
+
+<p>
+ويتم دمج
+<strong>Guide Word</strong>
+مع
+<strong>Parameter</strong>
+لتكوين
+<strong>Deviation</strong>.
+</p>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:18px 0; text-align:center;">
+
+<strong>
+Guide Word + Parameter = Deviation
+</strong>
+
+<br><br>
+
+<strong>No + Flow = No Flow</strong><br>
+<strong>Less + Flow = Less Flow</strong><br>
+<strong>More + Flow = More Flow</strong>
+
+</div>
+
+<h4>🔍 تحليل الانحراف | Deviation Analysis</h4>
+
+<p>
+بعد تحديد الانحراف، يقوم الفريق بتحليل:
+</p>
+
+<ul>
+<li>
+<strong>Cause</strong>
+– ما السبب الذي قد يؤدي إلى هذا الانحراف؟
+</li>
+
+<li>
+<strong>Consequence</strong>
+– ماذا قد يحدث إذا وقع الانحراف؟
+</li>
+
+<li>
+<strong>Existing Controls / Safeguards</strong>
+– ما الضوابط أو وسائل الحماية الموجودة حاليًا؟
+</li>
+
+<li>
+<strong>Action / Recommendation</strong>
+– ما الإجراء أو التحسين المطلوب؟
+</li>
+</ul>
+
+<p>
+وقد تؤدي نتائج الدراسة إلى إجراءات مثل:
+</p>
+
+<ul>
+<li>تعديلات في التصميم.</li>
+<li>إضافة أو تحسين أنظمة الحماية.</li>
+<li>تحسين الصيانة.</li>
+<li>تعديل إجراءات التشغيل.</li>
+<li>تحسين أجهزة القياس والإنذار.</li>
+</ul>
+
+<h4>📊 مثال مبسط على HAZOP | Simplified HAZOP Example</h4>
+
+<div style="overflow-x:auto; margin:18px 0;">
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+
+<tr>
+<th style="border:1px solid #ccc; padding:9px;">Parameter</th>
+<th style="border:1px solid #ccc; padding:9px;">Guide Word</th>
+<th style="border:1px solid #ccc; padding:9px;">Deviation</th>
+<th style="border:1px solid #ccc; padding:9px;">Cause</th>
+<th style="border:1px solid #ccc; padding:9px;">Consequence</th>
+<th style="border:1px solid #ccc; padding:9px;">Action</th>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;">Temperature</td>
+<td style="border:1px solid #ccc; padding:9px;">More</td>
+<td style="border:1px solid #ccc; padding:9px;">More Temperature</td>
+<td style="border:1px solid #ccc; padding:9px;">More Flow of Hot Water</td>
+<td style="border:1px solid #ccc; padding:9px;">Scald</td>
+<td style="border:1px solid #ccc; padding:9px;">Install Thermostatic Valve</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;">Temperature</td>
+<td style="border:1px solid #ccc; padding:9px;">Less</td>
+<td style="border:1px solid #ccc; padding:9px;">Less Temperature</td>
+<td style="border:1px solid #ccc; padding:9px;">Boiler Too Low</td>
+<td style="border:1px solid #ccc; padding:9px;">Discomfort</td>
+<td style="border:1px solid #ccc; padding:9px;">Maintenance by Trained Operator</td>
+</tr>
+
+</table>
+</div>
+
+<p>
+يتم عادةً تسجيل نتائج
+<strong>HAZOP</strong>
+في جدول منظم والاحتفاظ بها كدليل على أن الدراسة تمت
+وأن الانحرافات والإجراءات المطلوبة تم توثيقها.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus – HAZOP</strong><br><br>
+
+<strong>HAZOP = Structured + Team-Based + Bottom-Up</strong>
+<br><br>
+
+<strong>P&amp;ID → Nodes → Parameters → Guide Words → Deviations → Causes → Consequences → Controls → Actions</strong>
+<br><br>
+
+الهدف هو تحديد
+<strong>Deviations from Design Intent</strong>
+ثم فهم أسبابها ونتائجها وتحديد الضوابط أو الإجراءات المطلوبة.
+</div>
 
 <hr>
+<h3>7️⃣ تحديد الأخطار |
+Hazard Identification (HAZID)</h3>
+
+<p>
+تُعد
+<strong>HAZID – Hazard Identification</strong>
+دراسة منظمة تعتمد على فريق عمل
+<strong>(Structured, Team-Based Approach)</strong>
+وتهدف إلى تحديد الأخطار، والعواقب المحتملة،
+ومتطلبات تقليل المخاطر
+<strong>(Risk Reduction Requirements)</strong>
+قبل إجراء تغييرات على العمليات أو المنشأة القائمة.
+</p>
+
+<p>
+يمكن أيضًا تنفيذ
+<strong>HAZID</strong>
+في مرحلة
+<strong>Design Stage</strong>
+باستخدام الرسومات والمعلومات المتاحة،
+وذلك لتحديد الأخطار في مرحلة مبكرة قبل بدء التشغيل.
+</p>
+
+<h4>🔼 Top-Down Technique | أسلوب من أعلى إلى أسفل</h4>
+
+<p>
+على عكس
+<strong>HAZOP</strong>
+الذي يعتمد على
+<strong>Bottom-Up Technique</strong>،
+تُعد
+<strong>HAZID</strong>
+تقنية
+<strong>Top-Down</strong>.
+</p>
+
+<p>
+يتم تنظيم الدراسة باستخدام
+<strong>Keywords</strong>
+تعتمد على نوع الأخطار التي يراد تجنبها، مثل:
+</p>
+
+<ul>
+<li><strong>Toxic Release</strong> – انبعاث مادة سامة.</li>
+<li><strong>Overtemperature</strong> – ارتفاع درجة الحرارة.</li>
+<li><strong>Overpressure</strong> – زيادة الضغط.</li>
+<li><strong>Explosion</strong> – الانفجار.</li>
+</ul>
+
+<p>
+ثم يتم تطبيق هذه الكلمات على العملية أو النظام ككل
+لمعرفة كيف يمكن أن يتحقق الخطر
+<strong>(Hazard Realisation)</strong>
+داخل العملية محل الدراسة.
+</p>
+
+<h4>🏭 Process and Non-Process Hazards |
+أخطار العمليات والأخطار غير المرتبطة مباشرة بالعملية</h4>
+
+<p>
+لا تقتصر دراسة
+<strong>HAZID</strong>
+على
+<strong>Process Safety Hazards</strong>
+فقط، بل يمكنها أيضًا تحديد
+<strong>Non-Process Hazards</strong>
+مثل:
+</p>
+
+<ul>
+<li><strong>Transport Hazards</strong> – مخاطر النقل.</li>
+<li><strong>Manual Handling</strong> – مخاطر المناولة اليدوية.</li>
+</ul>
+
+<p>
+وبعد تحديد هذه الأخطار يمكن إدخالها ضمن عملية
+<strong>Risk Assessment</strong>
+لتقييمها وتحديد إجراءات التحكم المناسبة.
+</p>
+
+<h4>👥 HAZID Team | فريق HAZID</h4>
+
+<p>
+كما هو الحال في
+<strong>HAZOP</strong>،
+يجب أن يضم فريق HAZID مجموعة مناسبة من الأشخاص ذوي الخبرة.
+ويكون حجم الفريق عادةً حوالي
+<strong>Three to Six Members</strong>
+بالإضافة إلى
+<strong>Facilitator</strong>
+و
+<strong>Scribe</strong>.
+</p>
+
+<p>
+يعتمد تكوين الفريق على طبيعة التقييم،
+ولكن من المفيد أن يضم أشخاصًا لديهم خبرة في:
+</p>
+
+<ul>
+<li><strong>Operations</strong> – التشغيل.</li>
+<li><strong>Engineering</strong> – الهندسة.</li>
+<li><strong>Safety</strong> – السلامة.</li>
+</ul>
+
+<p>
+وفي حالة المنشآت القديمة
+<strong>(Older Installations)</strong>
+قد يكون من المفيد وجود
+<strong>Senior Operator</strong>
+لديه معرفة جيدة بالعملية
+<strong>(Process Knowledge)</strong>
+وكيفية تشغيلها.
+</p>
+
+<p>
+كما يمكن دعم الفريق عند الحاجة بتخصصات مثل:
+</p>
+
+<ul>
+<li>Structural Engineering – الهندسة الإنشائية.</li>
+<li>Construction – الإنشاءات.</li>
+<li>Electrical – الكهرباء.</li>
+<li>Machinery – المعدات والآلات.</li>
+<li>Process Design – تصميم العمليات.</li>
+</ul>
+
+<h4>📐 Information and Drawings Used in HAZID |
+المعلومات والرسومات المستخدمة</h4>
+
+<p>
+قد تستخدم دراسة
+<strong>HAZID</strong>
+مجموعة من الرسومات والمعلومات المهمة، مثل:
+</p>
+
+<ul>
+
+<li>
+<strong>Escape Route Drawings</strong>
+– مخططات مسارات الهروب.
+</li>
+
+<li>
+<strong>Process Flow Diagrams (PFD)</strong>
+– مخططات تدفق العملية.
+</li>
+
+<li>
+<strong>Piping and Instrumentation Diagrams (P&amp;ID)</strong>
+– مخططات الأنابيب وأجهزة القياس والتحكم.
+</li>
+
+</ul>
+
+<p>
+وتساعد هذه الرسومات على تحديد مواقع معدات وأنظمة السلامة المهمة مثل:
+</p>
+
+<ul>
+<li><strong>Emergency Shutdown Valves</strong> – صمامات الإيقاف الطارئ.</li>
+<li><strong>Relief / Blowdown Valves</strong> – صمامات التنفيس وتخفيض الضغط.</li>
+<li><strong>Deluge Valves</strong> – صمامات أنظمة الغمر بالمياه.</li>
+<li><strong>Fire Extinguishers</strong> – طفايات الحريق.</li>
+</ul>
+
+<h4>⚠️ Safety Objectives | أهداف السلامة</h4>
+
+<p>
+تهدف
+<strong>HAZID</strong>
+إلى تحديد الآليات أو الطرق التي يمكن من خلالها
+الإخلال بأهداف السلامة
+<strong>(Safety Objectives)</strong>.
+</p>
+
+<p>
+وقد تكون أسباب الإخلال مرتبطة بـ:
+</p>
+
+<ul>
+<li><strong>Hardware</strong> – المعدات أو المكونات المادية.</li>
+<li><strong>Mechanical Failure</strong> – الفشل الميكانيكي.</li>
+<li><strong>Software</strong> – أنظمة البرمجيات والتحكم.</li>
+<li><strong>Management Systems</strong> – أنظمة الإدارة.</li>
+<li><strong>Procedures</strong> – الإجراءات.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>📌 Example</strong><br><br>
+
+قد يكون أحد أهداف السلامة هو
+<strong>Containment of Fluids</strong>
+– الحفاظ على احتواء السوائل.
+<br><br>
+
+وقد يتم الإخلال بهذا الهدف نتيجة:
+<strong>Impact</strong> أو
+<strong>Corrosion</strong> أو
+<strong>Fatigue</strong>،
+مما قد يؤدي في النهاية إلى
+<strong>Loss of Containment (LOC)</strong>.
+</div>
+
+<h4>📊 HAZID Assessment Process | عملية تقييم HAZID</h4>
+
+<p>
+بعد جلسات
+<strong>HAZID</strong>
+يكون من الضروري تقييم الأحداث أو الأخطار المحددة
+من حيث:
+</p>
+
+<ul>
+<li><strong>Consequence</strong> – شدة العواقب.</li>
+<li><strong>Frequency</strong> – معدل أو تكرار الحدوث.</li>
+</ul>
+
+<p>
+ثم يتم ترتيب القيم النهائية
+<strong>(Ranked)</strong>
+وفق معايير محددة مسبقًا
+<strong>(Pre-Determined Criteria)</strong>
+وتحديد الأولويات
+<strong>(Prioritised)</strong>.
+</p>
+
+<p>
+بعد ذلك يمكن استخدام القائمة النهائية للأحداث أو الأخطار
+كأساس لإجراء:
+</p>
+
+<ul>
+<li><strong>Fire Safety Case</strong>.</li>
+<li><strong>Integrated and Objective Safety Studies</strong>.</li>
+<li>دراسات سلامة أخرى أكثر تفصيلًا حسب الحاجة.</li>
+</ul>
+
+<h4>📝 Simplified HAZID Example | مثال مبسط</h4>
+
+<div style="overflow-x:auto; margin:18px 0;">
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+
+<tr>
+<th style="border:1px solid #ccc; padding:8px;">Guide Word</th>
+<th style="border:1px solid #ccc; padding:8px;">Event</th>
+<th style="border:1px solid #ccc; padding:8px;">Cause</th>
+<th style="border:1px solid #ccc; padding:8px;">Consequence</th>
+<th style="border:1px solid #ccc; padding:8px;">Control / Mitigation</th>
+<th style="border:1px solid #ccc; padding:8px;">Action Required</th>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:8px;">
+Failure of Pressure Vessel
+</td>
+
+<td style="border:1px solid #ccc; padding:8px;">
+Leaking Flange
+</td>
+
+<td style="border:1px solid #ccc; padding:8px;">
+Gasket Failure
+</td>
+
+<td style="border:1px solid #ccc; padding:8px;">
+Loss of Containment
+</td>
+
+<td style="border:1px solid #ccc; padding:8px;">
+Likely to be Progressive if Corrosion
+</td>
+
+<td style="border:1px solid #ccc; padding:8px;">
+Review Reliability of Fitted Gaskets
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:8px;">
+Failure of Flanged Weld
+</td>
+
+<td style="border:1px solid #ccc; padding:8px;">
+Leaking Oil Line
+</td>
+
+<td style="border:1px solid #ccc; padding:8px;">
+Corrosion or Impact
+</td>
+
+<td style="border:1px solid #ccc; padding:8px;">
+Catastrophic Failure / Large LOC
+</td>
+
+<td style="border:1px solid #ccc; padding:8px;">
+NDT Inspection
+</td>
+
+<td style="border:1px solid #ccc; padding:8px;">
+Review Welding Protocols and Post-Welding NDT
+</td>
+</tr>
+
+</table>
+</div>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus – HAZID</strong><br><br>
+
+<strong>HAZID = Structured + Team-Based + Top-Down</strong>
+<br><br>
+
+يستخدم
+<strong>Keywords</strong>
+لتحديد كيفية تحقق الأخطار،
+ويشمل
+<strong>Process and Non-Process Hazards</strong>.
+<br><br>
+
+<strong>
+HAZID → Identify Hazards → Causes → Consequences →
+Controls → Rank → Prioritise → Actions
+</strong>
+<br><br>
+
+وتذكر الفرق المهم:
+<br>
+<strong>HAZOP → Bottom-Up</strong>
+<br>
+<strong>HAZID → Top-Down</strong>
+</div>
+
+<hr>
+<h3>8️⃣ تحليل أنماط الفشل وتأثيراتها |
+Failure Mode Effect Analysis (FMEA)</h3>
+
+<p>
+يُستخدم
+<strong>FMEA – Failure Mode Effect Analysis</strong>
+كأسلوب منظم لدراسة الطرق المختلفة التي يمكن أن يفشل بها
+نظام أو معدة أو أحد مكونات العملية،
+ثم تحليل التأثيرات أو العواقب المحتملة الناتجة عن هذا الفشل.
+</p>
+
+<p>
+يساعد هذا الأسلوب على تحديد حالات الفشل المهمة،
+وتقييم خطورتها، وفهم أسبابها،
+وتحديد الضوابط الموجودة والإجراءات الإضافية المطلوبة
+لتقليل احتمالية الفشل أو الحد من تأثيراته.
+</p>
+
+<p>
+تُنفذ دراسة
+<strong>FMEA</strong>
+عادةً بواسطة
+<strong>Multidisciplinary Team</strong>
+وتعتمد على جلسة تحليل منظمة يتم فيها دراسة مكونات النظام
+وتسجيل النتائج في جدول
+<strong>(Tabular Format)</strong>.
+</p>
+
+<h4>🔍 العناصر الرئيسية في FMEA |
+Main Elements of FMEA</h4>
+
+<p>
+يقوم الفريق بتحليل مجموعة من العناصر لكل مكون أو نظام تتم دراسته:
+</p>
+
+<ul>
+
+<li>
+<strong>Failure Mode</strong><br>
+الطريقة التي يمكن أن يفشل بها النظام أو المكون.
+</li>
+
+<li>
+<strong>Effect</strong><br>
+ما الذي سيحدث نتيجة حدوث هذا الفشل؟
+</li>
+
+<li>
+<strong>Severity</strong><br>
+ما مدى شدة تأثير الفشل على الأشخاص أو العملية أو المنشأة؟
+</li>
+
+<li>
+<strong>Cause</strong><br>
+ما الأسباب المحتملة التي قد تؤدي إلى حدوث
+<strong>Failure Mode</strong>؟
+</li>
+
+<li>
+<strong>Occurrence</strong><br>
+ما مدى احتمالية أو تكرار حدوث هذا الفشل؟
+</li>
+
+<li>
+<strong>Detection Mode</strong><br>
+ما الضوابط الموجودة حاليًا لاكتشاف العيب قبل حدوث الفشل،
+أو اكتشافه إذا وقع؟
+</li>
+
+<li>
+<strong>Detection</strong><br>
+ما احتمالية أن يصل الفشل إلى المستخدم أو العملية
+دون أن يتم اكتشافه؟
+</li>
+
+</ul>
+
+<h4>🔢 Risk Priority Number (RPN) |
+رقم أولوية المخاطر</h4>
+
+<p>
+يمكن استخدام
+<strong>Risk Priority Number (RPN)</strong>
+للمساعدة في ترتيب حالات الفشل حسب الأولوية.
+</p>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:18px 0; text-align:center;">
+
+<strong style="font-size:20px;">
+RPN = Severity × Occurrence × Detection
+</strong>
+
+<br><br>
+
+<strong>
+Severity × Occurrence × Detection
+</strong>
+
+</div>
+
+<p>
+تساعد قيمة
+<strong>RPN</strong>
+الفريق على تحديد حالات الفشل التي تحتاج إلى اهتمام أكبر،
+بحيث يمكن
+<strong>Prioritise Actions</strong>
+وتركيز الموارد على المخاطر ذات الأولوية الأعلى.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Important</strong><br><br>
+
+ارتفاع قيمة
+<strong>RPN</strong>
+يشير إلى ضرورة إعطاء حالة الفشل اهتمامًا أكبر
+عند ترتيب الإجراءات حسب الأولوية.
+</div>
+
+<h4>📋 Severity Criteria | معايير شدة العواقب</h4>
+
+<p>
+عند تحديد
+<strong>Severity</strong>
+يجب أن يستخدم جميع أعضاء فريق التقييم
+نفس المعايير المحددة مسبقًا
+<strong>(Pre-Determined Criteria)</strong>
+لضمان الاتساق في عملية التقييم.
+</p>
+
+<p>
+ويعرض المصدر مثالًا لمقياس شدة من خمس درجات:
+</p>
+
+<div style="overflow-x:auto; margin:18px 0;">
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+
+<tr>
+<th style="border:1px solid #ccc; padding:9px;">Severity</th>
+<th style="border:1px solid #ccc; padding:9px;">Example Criteria</th>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>1</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">
+Minor Incident – No Injury or Pollution
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>2</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">
+Minor Injury / Small Spill
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>3</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">
+Loss of Containment / Major Injury
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>4</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">
+Major Incident, such as Fire or Pollution Event with Very High Potential
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>5</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">
+Fatality
+</td>
+</tr>
+
+</table>
+</div>
+
+<h4>🛠️ Recommended Actions | الإجراءات الموصى بها</h4>
+
+<p>
+بعد تقييم حالة الفشل وتحديد
+<strong>RPN</strong>
+يتم تحديد الإجراءات المطلوبة لمعالجة المخاطر.
+</p>
+
+<p>
+ويجب أن تتضمن عملية FMEA:
+</p>
+
+<ul>
+
+<li>
+<strong>Recommended Actions</strong><br>
+ما الإجراء الموصى به؟
+</li>
+
+<li>
+<strong>Responsible Person</strong><br>
+من المسؤول عن تنفيذ الإجراء؟
+</li>
+
+<li>
+<strong>Actions Taken</strong><br>
+ما الإجراء الذي تم تنفيذه فعليًا؟
+</li>
+
+<li>
+<strong>Prioritisation</strong><br>
+استخدام قيم RPN للمساعدة في ترتيب الإجراءات حسب الأولوية.
+</li>
+
+</ul>
+
+<h4>🔄 FMEA Improvement Cycle |
+دورة التحسين في FMEA</h4>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2.1;">
+
+<strong>
+Identify Failure Modes and Effects
+<br>↓<br>
+Rank Severity
+<br>↓<br>
+Identify Potential Causes
+<br>↓<br>
+Rank Occurrence
+<br>↓<br>
+Identify Existing Process Controls
+<br>↓<br>
+Rank Detection
+<br>↓<br>
+Calculate RPN
+<br>↓<br>
+Prioritise Actions
+<br>↓<br>
+Take Action on High-Priority RPNs
+<br>↓<br>
+Recalculate RPN
+</strong>
+
+</div>
+
+<p>
+بعد تنفيذ الإجراءات التصحيحية أو التحسينية،
+يمكن إعادة حساب
+<strong>RPN</strong>
+للتأكد من أن مستوى المخاطر قد انخفض
+وأن الإجراءات المتخذة حققت التحسين المطلوب.
+</p>
+
+<h4>📊 Simplified FMEA Table | جدول FMEA مبسط</h4>
+
+<div style="overflow-x:auto; margin:18px 0;">
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+
+<tr>
+<th style="border:1px solid #ccc; padding:8px;">Item</th>
+<th style="border:1px solid #ccc; padding:8px;">Component</th>
+<th style="border:1px solid #ccc; padding:8px;">Failure Mode</th>
+<th style="border:1px solid #ccc; padding:8px;">Effect</th>
+<th style="border:1px solid #ccc; padding:8px;">RPN</th>
+<th style="border:1px solid #ccc; padding:8px;">Action Required</th>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:8px;">Pump System</td>
+<td style="border:1px solid #ccc; padding:8px;">Pump</td>
+<td style="border:1px solid #ccc; padding:8px;">Seal Failure</td>
+<td style="border:1px solid #ccc; padding:8px;">Loss of Containment</td>
+<td style="border:1px solid #ccc; padding:8px;">Calculated RPN</td>
+<td style="border:1px solid #ccc; padding:8px;">Review Controls / Maintenance</td>
+</tr>
+
+</table>
+</div>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus – FMEA</strong><br><br>
+
+<strong>
+FMEA = Failure Mode → Effect → Severity → Cause →
+Occurrence → Detection → RPN → Action
+</strong>
+
+<br><br>
+
+<strong>
+RPN = Severity × Occurrence × Detection
+</strong>
+
+<br><br>
+
+تُستخدم قيمة
+<strong>RPN</strong>
+للمساعدة في
+<strong>Prioritising Actions</strong>.
+
+<br><br>
+
+وبعد تنفيذ الإجراءات:
+<strong>Recalculate RPN</strong>
+للتأكد من تأثير التحسينات.
+</div>
+
+<hr>
+<h3>9️⃣ تحليل شجرة الأحداث |
+Event Tree Analysis (ETA)</h3>
+
+<p>
+يُستخدم
+<strong>Event Tree Analysis (ETA)</strong>
+لتقييم فعالية إجراءات الحماية أو التخفيف
+<strong>(Mitigation Measures)</strong>
+التي يُفترض أن تعمل بعد وقوع حدث ابتدائي
+<strong>(Initiating Event)</strong>.
+</p>
+
+<p>
+تبدأ شجرة الأحداث من الحدث الابتدائي،
+ثم تتحرك إلى الأمام
+<strong>(Forward Analysis)</strong>
+لدراسة ما إذا كانت وسائل الحماية المختلفة ستنجح أو تفشل،
+وما العواقب التي قد تنتج عن كل مسار.
+</p>
+
+<h4>🌳 How Event Tree Analysis Works |
+كيف يعمل تحليل شجرة الأحداث؟</h4>
+
+<p>
+بعد تحديد
+<strong>Initiating Event</strong>
+يتم فحص كل إجراء أو نظام حماية بالتتابع.
+ويمكن أن تكون نتيجة كل حاجز:
+</p>
+
+<ul>
+<li><strong>Success</strong> – نجح نظام الحماية في أداء وظيفته.</li>
+<li><strong>Failure</strong> – فشل نظام الحماية في أداء وظيفته.</li>
+</ul>
+
+<p>
+كل نتيجة تؤدي إلى
+<strong>Branch</strong>
+جديد داخل الشجرة،
+ثم يتم فحص الحاجز أو نظام الحماية التالي حتى الوصول إلى
+<strong>Final Consequence</strong>.
+</p>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2;">
+
+<strong>
+Initiating Event
+<br>
+↓
+<br>
+Protection / Mitigation Measure
+</strong>
+
+<br><br>
+
+<strong>
+↙ Success &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Failure ↘
+</strong>
+
+<br><br>
+
+<strong>
+Different Consequences
+</strong>
+
+</div>
+
+<h4>🔥 Example – Fire Event | مثال على حدث حريق</h4>
+
+<p>
+يوضح المصدر مثالًا يبدأ بحدث:
+</p>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0; text-align:center;">
+<strong>Initiating Event → Fire</strong>
+</div>
+
+<p>
+بعد حدوث الحريق، يكون السؤال الأول:
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>Is the Fire Detected?</strong><br><br>
+
+إذا كانت الإجابة
+<strong>Yes</strong>
+فإن التحليل يستمر إلى نظام الحماية التالي.
+<br><br>
+
+إذا كانت الإجابة
+<strong>No</strong>
+فإن مسار الشجرة يتغير لأن الحريق لم يتم اكتشافه.
+</div>
+
+<p>
+إذا تم اكتشاف الحريق،
+يمكن بعد ذلك تقييم الإجراء التالي، مثل:
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>Does the Alarm Sound?</strong><br><br>
+
+إذا نجح الإنذار
+<strong>(Success)</strong>
+يمكن أن تبدأ عملية الإخلاء.
+<br><br>
+
+إذا فشل الإنذار
+<strong>(Failure)</strong>
+فقد لا يتم تنبيه الأشخاص الموجودين في الموقع.
+</div>
+
+<h4>🌳 Simplified Event Tree | شجرة أحداث مبسطة</h4>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:20px 0; line-height:2.1; text-align:center;">
+
+<strong>🔥 Initiating Event – Fire</strong>
+<br>
+↓
+<br>
+<strong>Fire Detected?</strong>
+<br><br>
+
+<strong>YES</strong>
+→ Alarm Sounds?
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+<strong>YES</strong>
+→ Site Evacuated
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+<strong>NO</strong>
+→ Site Not Evacuated
+
+<br><br>
+
+<strong>NO</strong>
+→ Fire Not Detected
+→ No Further Branching in This Example
+
+</div>
+
+<p>
+في المثال المبسط،
+إذا لم يتم اكتشاف الحريق
+<strong>(Fire Not Detected)</strong>
+فلن يتم تشغيل الإنذار،
+ولذلك لا توجد تفرعات إضافية لهذا المسار في المثال الموضح في المصدر.
+</p>
+
+<h4>🛡️ Role of Mitigation Measures |
+دور إجراءات التخفيف</h4>
+
+<p>
+يساعد
+<strong>ETA</strong>
+على تقييم مدى اعتماد النتيجة النهائية على نجاح أو فشل
+أنظمة الحماية المختلفة.
+</p>
+
+<p>
+ومن الأمثلة التي يمكن تحليلها باستخدام هذا الأسلوب:
+</p>
+
+<ul>
+<li><strong>Fire Detection</strong> – اكتشاف الحريق.</li>
+<li><strong>Alarm Systems</strong> – أنظمة الإنذار.</li>
+<li><strong>Emergency Shutdown</strong> – أنظمة الإيقاف الطارئ.</li>
+<li><strong>Emergency Response</strong> – الاستجابة للطوارئ.</li>
+<li><strong>Evacuation</strong> – الإخلاء.</li>
+</ul>
+
+<h4>🔢 Quantifying the Event Tree |
+التحليل الكمي لشجرة الأحداث</h4>
+
+<p>
+يمكن استخدام بيانات الاحتمالية
+<strong>(Probability Data)</strong>
+مع شجرة الأحداث.
+وعند توفر هذه البيانات يمكن تحويل التحليل إلى تقييم كمي
+للمسارات والنتائج المختلفة.
+</p>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+
+<strong>ETA</strong>
+يبدأ من
+<strong>Initiating Event</strong>
+ثم يتحرك
+<strong>Forward</strong>
+عبر سلسلة من حالات
+<strong>Success / Failure</strong>
+حتى الوصول إلى العواقب المحتملة.
+</div>
+
+<h4>🔄 ETA Process | تسلسل تحليل شجرة الأحداث</h4>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2.1;">
+
+<strong>
+Identify Initiating Event
+<br>↓<br>
+Identify Protection / Mitigation Measures
+<br>↓<br>
+Evaluate Success or Failure
+<br>↓<br>
+Develop Event Tree Branches
+<br>↓<br>
+Identify Possible Consequences
+<br>↓<br>
+Apply Probability Data if Required
+</strong>
+
+</div>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus – ETA</strong><br><br>
+
+<strong>ETA = Forward Analysis</strong>
+<br><br>
+
+يبدأ بـ:
+<strong>Initiating Event</strong>
+<br><br>
+
+ثم:
+<strong>Success / Failure of Protection or Mitigation Measures</strong>
+<br><br>
+
+وينتهي بـ:
+<strong>Possible Consequences</strong>
+<br><br>
+
+<strong>
+Initiating Event → Success / Failure Branches → Consequences
+</strong>
+<br><br>
+
+ومع توفر
+<strong>Probability Data</strong>
+يمكن
+<strong>Quantify the Event Tree</strong>.
+</div>
+
+<hr>
+<h3>🔟 تحليل ماذا لو؟ |
+What-if Analysis</h3>
+
+<p>
+في
+<strong>What-if Analysis</strong>
+يطرح المقيم مجموعة من الأسئلة التي تبدأ عادةً بعبارة:
+<strong>“What if...?”</strong>
+وذلك لاستكشاف السيناريوهات المحتملة التي قد تؤدي إلى حادث
+والعواقب التي يمكن أن تنتج عنها.
+</p>
+
+<p>
+تساعد هذه الطريقة الفريق على التفكير في الحالات غير المرغوبة
+والبحث في كيفية تطور الحدث إذا حدث خلل في العملية أو المعدات
+أو إجراءات التحكم.
+</p>
+
+<h4>❓ السؤال الأساسي | The Basic Question</h4>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:18px 0; text-align:center;">
+
+<strong style="font-size:20px;">
+“What if this happens?”
+</strong>
+
+<br><br>
+
+ماذا لو حدث هذا السيناريو؟
+
+</div>
+
+<p>
+بعد طرح السؤال، لا يكتفي المقيم بتحديد الحدث المباشر،
+بل ينظر إلى
+<strong>Full Potential of the Incident</strong>
+أي التطور الكامل المحتمل للحادث والعواقب النهائية التي قد تنتج عنه.
+</p>
+
+<h4>🔥 Example – Loss of Containment |
+مثال: فقدان الاحتواء</h4>
+
+<p>
+إذا كانت المادة المستخدمة
+<strong>Flammable Liquid</strong>
+فقد يبدأ السيناريو بسؤال:
+</p>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+
+<strong>What if a Loss of Containment occurs?</strong>
+
+<br><br>
+
+ماذا لو حدث
+<strong>Loss of Containment (LOC)</strong>
+لسائل قابل للاشتعال؟
+
+</div>
+
+<p>
+قد يكون الحدث الأولي هو خروج المادة من النظام،
+على سبيل المثال نتيجة:
+</p>
+
+<ul>
+<li><strong>Gasket Failure</strong> – فشل الحشية.</li>
+<li><strong>Leak from Pipework</strong> – تسرب من الأنابيب.</li>
+<li><strong>Equipment Failure</strong> – فشل المعدات.</li>
+</ul>
+
+<p>
+لكن تحليل
+<strong>What-if</strong>
+لا يتوقف عند مجرد حدوث التسرب.
+بل يتم التفكير في كيفية تطور السيناريو بعد ذلك.
+</p>
+
+<h4>🔄 Full Incident Development |
+التطور الكامل المحتمل للحادث</h4>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2.1;">
+
+<strong>
+Gasket / Equipment Failure
+<br>↓<br>
+Loss of Containment
+<br>↓<br>
+Flammable Liquid Spillage
+<br>↓<br>
+Ignition
+<br>↓<br>
+Fire and/or Explosion
+<br>↓<br>
+Damage / Injury / Fatality
+</strong>
+
+</div>
+
+<p>
+بهذه الطريقة يساعد
+<strong>What-if Analysis</strong>
+على النظر إلى ما بعد الحدث الأولي
+وفهم العواقب الأكثر خطورة التي قد تحدث إذا استمر السيناريو في التطور.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+
+في
+<strong>What-if Analysis</strong>
+لا يكون السؤال فقط:
+<strong>“What can go wrong?”</strong>
+<br><br>
+
+بل يجب أيضًا التفكير في:
+<strong>“What could happen next?”</strong>
+<br><br>
+
+أي دراسة
+<strong>Full Potential of the Incident</strong>.
+</div>
+
+<h4>🔎 What-if Analysis Process |
+تسلسل تحليل What-if</h4>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2.1;">
+
+<strong>
+Ask “What if...?”
+<br>↓<br>
+Identify the Potential Event
+<br>↓<br>
+Consider How the Event Could Develop
+<br>↓<br>
+Identify Potential Consequences
+<br>↓<br>
+Consider Existing Controls
+<br>↓<br>
+Identify Additional Controls if Required
+</strong>
+
+</div>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus – What-if</strong><br><br>
+
+<strong>What-if Analysis</strong>
+يستخدم أسئلة من نوع
+<strong>“What if...?”</strong>
+لاستكشاف سيناريوهات الحوادث المحتملة.
+<br><br>
+
+النقطة المهمة:
+لا يتوقف التحليل عند الحدث المباشر مثل
+<strong>Loss of Containment</strong>،
+بل ينظر إلى
+<strong>Full Potential of the Incident</strong>.
+<br><br>
+
+<strong>
+Failure → LOC → Spillage → Ignition → Fire / Explosion → Consequences
+</strong>
+</div>
+
+<hr>
+<h3>1️⃣1️⃣ مفهوم خفض المخاطر إلى أدنى مستوى ممكن عمليًا |
+As Low As Is Reasonably Practicable (ALARP)</h3>
+
+<p>
+من غير الممكن عمليًا خفض جميع المخاطر إلى
+<strong>Zero Risk</strong>.
+لذلك تهدف عملية تقييم المخاطر وتطبيق إجراءات التحكم إلى خفض المخاطر
+إلى مستوى يُعرف باسم:
+<strong>As Low As Is Reasonably Practicable (ALARP)</strong>.
+</p>
+
+<p>
+يعني مبدأ
+<strong>ALARP</strong>
+أن المخاطر لا يتم تخفيضها فقط، بل يتم الاستمرار في البحث عن وسائل
+إضافية لتقليلها إلى أن تصبح التضحية المطلوبة لتحقيق تخفيض إضافي
+غير متناسبة بشكل واضح مع مقدار التحسن في مستوى السلامة.
+</p>
+
+<h4>⚖️ ماذا يعني Reasonably Practicable؟ |
+What Does Reasonably Practicable Mean?</h4>
+
+<p>
+عند دراسة إجراء إضافي لتقليل المخاطر،
+يتم النظر إلى الفائدة المتوقعة من
+<strong>Risk Reduction</strong>
+ومقارنتها بما يتطلبه تنفيذ الإجراء.
+</p>
+
+<p>
+وقد تشمل الاعتبارات:
+</p>
+
+<ul>
+<li><strong>Cost</strong> – التكلفة.</li>
+<li><strong>Time</strong> – الوقت.</li>
+<li><strong>Effort</strong> – الجهد.</li>
+<li><strong>Inconvenience</strong> – الصعوبات أو الإزعاج المرتبط بالتنفيذ.</li>
+</ul>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:18px 0; text-align:center;">
+
+<strong>
+Risk Reduction Benefit
+<br>
+⚖️
+<br>
+Cost + Time + Effort + Inconvenience
+</strong>
+
+</div>
+
+<p>
+إذا كان هناك إجراء إضافي معقول يمكنه تحقيق خفض مهم في المخاطر،
+فيجب النظر في تنفيذه.
+ولا يكفي رفض إجراء سلامة لمجرد وجود تكلفة مرتبطة به.
+</p>
+
+<h4>📊 Cost-Benefit Analysis |
+تحليل التكلفة مقابل الفائدة</h4>
+
+<p>
+قد يتم استخدام
+<strong>Cost-Benefit Analysis</strong>
+للمساعدة في تحديد ما إذا كان تنفيذ إجراء إضافي لتقليل المخاطر
+يُعد
+<strong>Reasonably Practicable</strong>.
+</p>
+
+<p>
+في هذا التحليل تتم مقارنة تكلفة تنفيذ الإجراء
+بالفائدة الناتجة عن خفض مستوى المخاطر.
+</p>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+
+<strong>📌 Example</strong><br><br>
+
+إذا كان من الممكن تنفيذ تعديل هندسي بتكلفة ووقت وجهد معقولين،
+وسيؤدي هذا التعديل إلى خفض مهم في احتمالية
+<strong>Loss of Containment</strong>
+أو في شدة عواقبه،
+فإن مجرد وجود تكلفة لا يعني أن الإجراء يمكن تجاهله.
+
+</div>
+
+<h4>🚫 Gross Disproportion | عدم التناسب الواضح</h4>
+
+<p>
+الفكرة الأساسية في
+<strong>ALARP</strong>
+هي أن التوقف عن تطبيق المزيد من إجراءات خفض المخاطر
+يحتاج إلى مبرر.
+</p>
+
+<p>
+فإذا كانت التضحية المطلوبة من حيث
+<strong>Cost, Time, Effort or Inconvenience</strong>
+غير متناسبة بشكل واضح مع مقدار الخفض الإضافي في المخاطر،
+فقد يكون من المعقول عدم تنفيذ الإجراء الإضافي.
+</p>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2;">
+
+<strong>
+Identify Risk
+<br>↓<br>
+Apply Risk Controls
+<br>↓<br>
+Consider Further Risk Reduction
+<br>↓<br>
+Compare Risk Reduction Benefit with Sacrifice
+<br>↓<br>
+Reduce Risk to ALARP
+</strong>
+
+</div>
+
+<h4>📜 Regulatory Requirements |
+المتطلبات النظامية</h4>
+
+<p>
+يجب أيضًا مراعاة
+<strong>Regulatory Requirements</strong>
+عند تحديد إجراءات التحكم.
+فإذا كان إجراء معين مطلوبًا بموجب المتطلبات النظامية،
+فلا يتم تجاهله لمجرد أن المنظمة ترى أن تكلفته مرتفعة.
+</p>
+
+<p>
+لذلك يجب أن تجمع عملية اتخاذ القرار بين
+<strong>Risk Assessment</strong>
+والمتطلبات النظامية المناسبة،
+مع اختيار إجراءات التحكم التي تحقق المستوى المطلوب من السلامة.
+</p>
+
+<h4>🔺 ALARP Concept | تصور مبسط لمناطق المخاطر</h4>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2;">
+
+<strong style="font-size:18px;">
+🔴 INTOLERABLE RISK
+</strong>
+
+<br>
+المخاطر غير مقبولة ويجب خفضها.
+<br>
+⬇
+<br>
+
+<strong style="font-size:18px;">
+🟠 ALARP REGION
+</strong>
+
+<br>
+يجب خفض المخاطر إلى أدنى مستوى ممكن عمليًا.
+<br>
+⬇
+<br>
+
+<strong style="font-size:18px;">
+🟢 BROADLY ACCEPTABLE
+</strong>
+
+<br>
+مستوى منخفض من المخاطر.
+
+</div>
+
+<p>
+يوضح هذا التصور أن المخاطر العالية
+<strong>(Intolerable)</strong>
+لا يمكن قبولها كما هي،
+بينما تقع المنطقة الوسطى ضمن
+<strong>ALARP Region</strong>
+حيث يجب إثبات أن إجراءات خفض المخاطر المعقولة قد تم تطبيقها.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus – ALARP</strong><br><br>
+
+<strong>ALARP = As Low As Is Reasonably Practicable</strong>
+<br><br>
+
+الهدف ليس الوصول إلى
+<strong>Zero Risk</strong>،
+بل خفض المخاطر إلى أدنى مستوى ممكن عمليًا.
+<br><br>
+
+عند تقييم إجراءات إضافية يتم النظر إلى:
+<strong>Cost + Time + Effort + Inconvenience</strong>
+مقابل مقدار
+<strong>Risk Reduction</strong>.
+<br><br>
+
+<strong>
+Risk Reduction → Further Controls → Reasonably Practicable → ALARP
+</strong>
+</div>
+
+<hr>
+<h3>1️⃣2️⃣ التسلسل الهرمي لإجراءات التحكم في المخاطر |
+Hierarchy of Risk Controls</h3>
+
+<p>
+عند اختيار إجراءات التحكم في المخاطر
+<strong>(Risk Controls)</strong>
+توجد مجموعة من الخيارات التي يجب النظر إليها وفق ترتيب للأفضلية.
+</p>
+
+<p>
+تكون الإجراءات الموجودة في أعلى التسلسل الهرمي
+<strong>More Effective</strong>
+وأكثر موثوقية في التحكم في المخاطر،
+بينما تكون الإجراءات الموجودة في أسفل التسلسل
+<strong>Less Effective</strong>
+لأنها تعتمد بدرجة أكبر على تصرفات وسلوك الأفراد.
+</p>
+
+<p>
+في سياق
+<strong>Process Safety</strong>
+يمكن ترتيب إجراءات التحكم كما يلي:
+</p>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2.2;">
+
+<strong style="font-size:18px;">
+1. Inherent Safety
+</strong>
+<br>
+↓
+<br>
+
+<strong>
+2. Elimination – Including Minimised Inventories
+</strong>
+<br>
+↓
+<br>
+
+<strong>
+3. Substitution
+</strong>
+<br>
+↓
+<br>
+
+<strong>
+4. Engineering Controls – Including Segregation and Spacing
+</strong>
+<br>
+↓
+<br>
+
+<strong>
+5. Administrative Controls – Procedural / Behavioural
+</strong>
+
+</div>
+
+<hr>
+
+<h4>🥇 1. Inherent Safety | السلامة المتأصلة</h4>
+
+<p>
+تعتمد
+<strong>Inherent Safety</strong>
+على تجنب الخطر أو إزالته من المصدر
+<strong>(Avoiding or Eliminating the Hazard at Source)</strong>
+بدلًا من الاعتماد على أنظمة حماية إضافية
+<strong>(Add-On Safety Features)</strong>
+أو أنظمة وإجراءات إدارية للتحكم فيه بعد وجوده.
+</p>
+
+<p>
+الفكرة الأساسية هي أن العملية تصبح أكثر أمانًا بسبب
+<strong>Design of the Process Itself</strong>
+وليس فقط بسبب إضافة أنظمة حماية حول عملية خطرة.
+</p>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Principle – Inherent Safety</strong><br><br>
+
+<strong>
+Remove or Reduce the Hazard at Source
+</strong>
+<br><br>
+
+أفضل من:
+<br>
+<strong>
+Create the Hazard → Then Add Protection
+</strong>
+</div>
+
+<p>
+في صناعات العمليات قد يكون استخدام مواد خطرة
+والعمل بالقرب منها أمرًا لا يمكن تجنبه بالكامل،
+ولكن يمكن تحسين السلامة المتأصلة من خلال تصميم المنشأة
+والعملية بطريقة تقلل فرص وقوع الحوادث الكبرى.
+</p>
+
+<p>
+ومن الأمثلة التي يوضحها المصدر أهمية
+<strong>Segregating Accommodation Modules from Production Modules</strong>
+أو وضع مباني المكاتب بعيدًا عن مناطق الإنتاج،
+بدلًا من الاعتماد فقط على أنظمة الحماية النشطة مثل
+<strong>Fire Deluge Systems</strong>
+وإجراءات الإخلاء.
+</p>
+
+<p>
+وقد أظهرت كارثة
+<strong>Piper Alpha</strong>
+أهمية الفصل المناسب بين المناطق المأهولة
+ومناطق العمليات عالية الخطورة.
+</p>
+
+<hr>
+
+<h4>🥈 2. Elimination and Minimised Inventories |
+الإزالة وتقليل المخزون</h4>
+
+<p>
+يعني
+<strong>Elimination</strong>
+إزالة الخطوة أو المادة الخطرة عندما يكون مستوى المخاطر
+مرتفعًا بدرجة غير مقبولة ويمكن تجنب النشاط أو المادة.
+</p>
+
+<p>
+قد يكون من الممكن، على سبيل المثال،
+تجنب التعامل المباشر مع مادة خطرة عن طريق شراء
+<strong>Pre-Mixed Chemical</strong>
+بدلًا من تنفيذ عملية الخلط داخل الموقع.
+</p>
+
+<p>
+كما يمكن في بعض الحالات
+<strong>Subcontract</strong>
+نشاطًا متخصصًا إلى جهة مختصة وقادرة على تنفيذه
+بمستوى مناسب من الكفاءة والتحكم.
+</p>
+
+<h4>📦 Minimised Inventories | تقليل كميات المواد الخطرة</h4>
+
+<p>
+من المبادئ المهمة في سلامة العمليات تقليل كمية المواد الخطرة
+الموجودة في الموقع
+<strong>(Hazardous Material Inventory)</strong>
+إلى الحد المطلوب للتشغيل.
+</p>
+
+<p>
+كلما انخفضت كمية المادة الخطرة الموجودة،
+انخفض حجم المادة التي يمكن أن تتحرر في حالة
+<strong>Loss of Containment</strong>
+وبالتالي يمكن تقليل حجم العواقب المحتملة.
+</p>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>📌 Example – Inventory Reduction</strong><br><br>
+
+بدلًا من الاحتفاظ بكميات كبيرة من مادة خطرة داخل الموقع،
+يمكن تحسين
+<strong>Inventory Management</strong>
+والاعتماد على توريد كميات أصغر بصورة أكثر انتظامًا.
+<br><br>
+
+ولكن يجب تقييم المخاطر الجديدة التي قد تنتج عن زيادة
+عدد عمليات التسليم والتفريغ
+<strong>(Offloading Operations)</strong>.
+</div>
+
+<p>
+وهذا يوضح مبدأ مهمًا:
+<strong>Risk Reduction Measure</strong>
+قد يقلل خطرًا معينًا، لكنه قد يؤدي إلى ظهور مخاطر أخرى،
+ولذلك يجب تقييم التأثير الكلي للتغيير.
+</p>
+
+<hr>
+
+<h4>🥉 3. Substitution | الاستبدال</h4>
+
+<p>
+يعني
+<strong>Substitution</strong>
+استبدال مادة أو عملية خطرة ببديل أقل خطورة
+<strong>(Less Hazardous Alternative)</strong>
+عندما يكون ذلك ممكنًا.
+</p>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>📌 Example – Substitution</strong><br><br>
+
+بدلًا من استخدام
+<strong>Low Flash Point Solvent</strong>
+قد يكون من الممكن استخدام مادة ذات
+<strong>Higher Flash Point</strong>
+بحيث تكون مخاطر الحريق أقل.
+</div>
+
+<p>
+لا يعني الاستبدال بالضرورة إزالة الخطر بالكامل،
+ولكن الهدف هو استخدام مادة أو عملية
+<strong>Less Hazardous</strong>
+بحيث تقل احتمالية الحادث أو شدة عواقبه.
+</p>
+
+<hr>
+
+<h4>🛠️ 4. Engineering Controls Including Segregation |
+الضوابط الهندسية بما في ذلك الفصل</h4>
+
+<p>
+تتضمن
+<strong>Engineering Controls</strong>
+حلولًا هندسية يتم إضافتها إلى العملية لتحسين مستوى السلامة
+وتقليل تعرض الأشخاص أو المعدات للأخطار.
+</p>
+
+<p>
+ومن الأمثلة:
+</p>
+
+<ul>
+
+<li>
+<strong>Ventilation and Extraction Systems</strong><br>
+أنظمة التهوية والاستخراج لتقليل تركيز الأبخرة في الجو.
+</li>
+
+<li>
+<strong>Enclosures</strong><br>
+استخدام الحواجز أو الأغلفة لاحتواء العمليات الخطرة.
+</li>
+
+<li>
+<strong>Protected Control Rooms</strong><br>
+غرف تحكم مصممة ومحمية لحماية المشغلين.
+</li>
+
+</ul>
+
+<h4>↔️ Segregation and Spacing |
+الفصل والمسافات الآمنة</h4>
+
+<p>
+يمكن أيضًا استخدام
+<strong>Segregation</strong>
+لفصل العمليات الخطرة عن المناطق التي يشغلها الأشخاص،
+أو وضع أوعية التخزين في مواقع منفصلة
+لتقليل تأثير الحوادث المحتملة.
+</p>
+
+<p>
+كما يمكن استخدام
+<strong>Spacing</strong>
+لزيادة المسافة بين مصادر الخطر
+والمباني أو المعدات أو المناطق المأهولة.
+</p>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>📌 Example – Segregation</strong><br><br>
+
+يمكن فصل أوعية تخزين المواد الخطرة عن
+<strong>Occupied Areas</strong>
+ووضعها في مواقع مناسبة بعيدًا عن المناطق التي يوجد فيها عدد كبير من الأشخاص.
+</div>
+
+<p>
+ويشير المصدر إلى مثال
+<strong>Kennedy Space Center</strong>
+حيث يتم الفصل المكاني بين تخزين
+<strong>Liquid Oxygen</strong>
+و
+<strong>Liquid Hydrogen</strong>
+في مناطق مختلفة من الموقع.
+</p>
+
+<hr>
+
+<h4>📋 5. Administrative Controls |
+الضوابط الإدارية – Procedural / Behavioural</h4>
+
+<p>
+تشمل
+<strong>Administrative Controls</strong>
+الأنظمة والإجراءات التي تعتمد على كيفية تنفيذ الأشخاص للعمل.
+</p>
+
+<p>
+ومن أمثلتها:
+</p>
+
+<ul>
+<li><strong>Procedures</strong> – إجراءات العمل.</li>
+<li><strong>Permit-to-Work (PTW)</strong> – نظام تصريح العمل.</li>
+<li><strong>Training</strong> – التدريب.</li>
+<li><strong>Supervision</strong> – الإشراف.</li>
+<li><strong>Safe Working Practices</strong> – ممارسات العمل الآمن.</li>
+</ul>
+
+<p>
+تظل هذه الإجراءات مهمة جدًا في سلامة العمليات،
+ولكنها تُعتبر عادةً أقل فعالية من
+<strong>Engineering Controls</strong>
+لأن نجاحها يعتمد بصورة أكبر على تصرفات الأفراد
+<strong>(Actions of Individuals)</strong>
+وعلى
+<strong>Human and Organisational Factors</strong>.
+</p>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>⚠️ Important</strong><br><br>
+
+حتى أفضل الإجراءات المكتوبة لن تكون فعالة إذا لم يتم اتباعها.
+ولهذا فإن
+<strong>Training, Competence, Supervision and Leadership</strong>
+تظل عناصر أساسية لضمان الالتزام بإجراءات العمل الآمن.
+</div>
+
+<h4>🔥 Piper Alpha – Learning Point</h4>
+
+<p>
+يشير المصدر إلى
+<strong>Piper Alpha</strong>
+كمثال على أهمية عدم الاعتماد على الإجراءات وحدها.
+فبالإضافة إلى وجود مشكلات في التصميم والهندسة،
+كان
+<strong>Permit-to-Work System</strong>
+والتحكم في أعمال الصيانة والعزل من العوامل المهمة في الكارثة.
+</p>
+
+<p>
+وهذا يؤكد أن سلامة العمليات تحتاج إلى مزيج من
+<strong>Engineering Controls</strong>
+وأنظمة إدارية فعالة،
+مع قيادة قوية وكفاءة والتزام من العاملين.
+</p>
+
+<h4>🔽 Hierarchy Principle | مبدأ التسلسل الهرمي</h4>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2.2;">
+
+<strong>
+MOST EFFECTIVE
+</strong>
+<br>
+⬇
+<br>
+
+<strong>Inherent Safety</strong>
+<br>
+⬇
+<br>
+
+<strong>Elimination / Minimised Inventories</strong>
+<br>
+⬇
+<br>
+
+<strong>Substitution</strong>
+<br>
+⬇
+<br>
+
+<strong>Engineering Controls / Segregation</strong>
+<br>
+⬇
+<br>
+
+<strong>Administrative Controls</strong>
+<br>
+⬇
+<br>
+
+<strong>
+LESS EFFECTIVE
+</strong>
+
+</div>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus – Hierarchy of Risk Controls</strong><br><br>
+
+<strong>1. Inherent Safety</strong>
+→ تجنب أو إزالة الخطر من المصدر.
+<br><br>
+
+<strong>2. Elimination / Minimised Inventories</strong>
+→ إزالة الخطر أو تقليل كمية المادة الخطرة.
+<br><br>
+
+<strong>3. Substitution</strong>
+→ استخدام بديل أقل خطورة.
+<br><br>
+
+<strong>4. Engineering Controls</strong>
+→ ضوابط هندسية تشمل
+<strong>Segregation and Spacing</strong>.
+<br><br>
+
+<strong>5. Administrative Controls</strong>
+→ إجراءات، PTW، تدريب وإشراف، وهي أكثر اعتمادًا على العامل البشري.
+<br><br>
+
+<strong>
+Inherent Safety → Elimination → Substitution →
+Engineering → Administrative
+</strong>
+</div>
+
+<hr>
+<h3>✅ الخلاصة النهائية |
+Final Summary – Risk Management Techniques</h3>
+
+<p>
+يركز هذا الموضوع على الأدوات والتقنيات المستخدمة في
+<strong>إدارة مخاطر العمليات (Management of Process Risk)</strong>
+بدءًا من تحديد الأخطار وتقييم مستوى المخاطر،
+وصولًا إلى اختيار أدوات التحليل المناسبة
+وتطبيق إجراءات التحكم الفعالة.
+</p>
+
+<p>
+تختلف درجة تعقيد تقييم المخاطر حسب مستوى الخطر وطبيعة العملية.
+فقد يكون
+<strong>Qualitative Risk Assessment</strong>
+كافيًا للعمليات الأقل تعقيدًا،
+بينما قد تتطلب العمليات عالية الخطورة استخدام
+<strong>Semi-Quantitative</strong>
+أو
+<strong>Quantitative Risk Assessment (QRA)</strong>.
+</p>
+
+<p>
+كما تعتمد سلامة العمليات على وجود حواجز متعددة
+<strong>(Barriers)</strong>
+لمنع تطور الأخطار إلى حوادث كبيرة،
+مع التأكد من أن هذه الحواجز فعالة ومستقلة ويتم فحصها وصيانتها.
+</p>
+
+<hr>
+
+<h3>📊 مقارنة أهم تقنيات إدارة المخاطر |
+Comparison of Key Risk Management Techniques</h3>
+
+<div style="overflow-x:auto; margin:18px 0;">
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+
+<tr>
+<th style="border:1px solid #ccc; padding:9px;">Technique</th>
+<th style="border:1px solid #ccc; padding:9px;">Main Purpose</th>
+<th style="border:1px solid #ccc; padding:9px;">Approach</th>
+<th style="border:1px solid #ccc; padding:9px;">Key Feature</th>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;">
+<strong>HAZOP</strong>
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+تحديد الانحرافات عن Design Intent
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+<strong>Bottom-Up</strong>
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+Nodes + Parameters + Guide Words + Deviations
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;">
+<strong>HAZID</strong>
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+تحديد الأخطار والعواقب ومتطلبات خفض المخاطر
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+<strong>Top-Down</strong>
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+Keywords + Team-Based Hazard Identification
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;">
+<strong>FMEA</strong>
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+تحليل طرق فشل المكونات وتأثيراتها
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+Component / Failure-Based
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+RPN = Severity × Occurrence × Detection
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;">
+<strong>ETA</strong>
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+تحليل ما يحدث بعد Initiating Event
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+<strong>Forward Analysis</strong>
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+Success / Failure Branches
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;">
+<strong>What-if</strong>
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+استكشاف السيناريوهات المحتملة للحوادث
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+Scenario-Based
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+“What if...?” + Full Potential of Incident
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;">
+<strong>Bow-Tie</strong>
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+ربط الأسباب بالحدث المركزي والعواقب
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+Barrier-Based
+</td>
+<td style="border:1px solid #ccc; padding:9px;">
+Prevention + Top Event + Mitigation
+</td>
+</tr>
+
+</table>
+</div>
+
+<hr>
+
+<h3>🧠 Key Concepts to Remember |
+المفاهيم الأساسية التي يجب تذكرها</h3>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+
+<strong>Risk Assessment</strong><br>
+Hazard Identification → Risk Estimation → Risk Evaluation →
+Risk Reduction → Review
+<br><br>
+
+<strong>Risk Assessment Level</strong><br>
+Q → SQ → QRA
+<br><br>
+
+<strong>Barrier Model</strong><br>
+Multiple Barriers reduce the likelihood of a hazard becoming a loss.
+<br><br>
+
+<strong>Bow-Tie</strong><br>
+Threats → Prevention Barriers → Top Event →
+Mitigation Barriers → Consequences
+<br><br>
+
+<strong>HAZOP</strong><br>
+Bottom-Up → Nodes → Parameters → Guide Words → Deviations
+<br><br>
+
+<strong>HAZID</strong><br>
+Top-Down → Keywords → Hazards → Consequences → Controls
+<br><br>
+
+<strong>FMEA</strong><br>
+Failure Mode → Effect → Severity → Cause →
+Occurrence → Detection → RPN
+<br><br>
+
+<strong>ETA</strong><br>
+Initiating Event → Success / Failure Branches → Consequences
+<br><br>
+
+<strong>What-if</strong><br>
+Ask “What if...?” and consider the
+<strong>Full Potential of the Incident</strong>.
+<br><br>
+
+<strong>ALARP</strong><br>
+Reduce Risk to
+<strong>As Low As Is Reasonably Practicable</strong>.
+<br><br>
+
+<strong>Hierarchy of Risk Controls</strong><br>
+Inherent Safety → Elimination / Minimised Inventories →
+Substitution → Engineering Controls → Administrative Controls
+
+</div>
+
+<hr>
+
+<h3>🎯 Final Exam Focus – 2.2</h3>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+
+<strong>1. Know the difference between Hazard and Risk.</strong>
+<br><br>
+
+<strong>2. Understand Q, SQ and QRA.</strong>
+<br>
+كلما زادت المخاطر، زادت الحاجة إلى تقييم أكثر تفصيلًا.
+<br><br>
+
+<strong>3. Understand the purpose of multiple barriers.</strong>
+<br><br>
+
+<strong>4. Remember the Bow-Tie structure:</strong>
+<br>
+Threats → Prevention → Top Event → Mitigation → Consequences
+<br><br>
+
+<strong>5. Know the key difference:</strong>
+<br>
+HAZOP → Bottom-Up
+<br>
+HAZID → Top-Down
+<br><br>
+
+<strong>6. Remember the FMEA equation:</strong>
+<br>
+RPN = Severity × Occurrence × Detection
+<br><br>
+
+<strong>7. ETA is a Forward Analysis.</strong>
+<br>
+It starts with an Initiating Event and follows Success / Failure branches.
+<br><br>
+
+<strong>8. What-if considers the full development of an incident.</strong>
+<br><br>
+
+<strong>9. ALARP does not mean Zero Risk.</strong>
+<br>
+It means reducing risk to
+<strong>As Low As Is Reasonably Practicable</strong>.
+<br><br>
+
+<strong>10. Apply the Hierarchy of Risk Controls in order:</strong>
+<br>
+Inherent Safety → Elimination → Substitution →
+Engineering Controls → Administrative Controls
+
+</div>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center;">
+
+<strong style="font-size:18px;">
+✅ Element 2.2 – Risk Management Techniques
+</strong>
+
+<br><br>
+
+تمت تغطية المفاهيم الأساسية لتحديد وتقييم
+والتحكم في مخاطر سلامة العمليات.
+
+</div>
 </div>
 `
 },
