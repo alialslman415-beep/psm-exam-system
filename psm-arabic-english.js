@@ -2180,7 +2180,301 @@ Increasing Detail and Rigour →
 </div>
 
 <hr>
-✋ هنا وقف
+<h3>3️⃣ نماذج الحواجز | Barrier Models</h3>
+
+<p>
+تعتمد فكرة
+<strong>Barrier Models</strong>
+على أن الحوادث الكبرى لا تنتج عادةً من فشل واحد فقط،
+بل يمكن منع تطور الخطر من خلال وجود مجموعة من الحواجز
+<strong>(Barriers)</strong>
+بين مصدر الخطر والعواقب المحتملة.
+</p>
+
+<p>
+يمكن أن تكون هذه الحواجز هندسية أو تشغيلية أو إدارية.
+وكلما كانت الحواجز مستقلة وفعالة، قلت احتمالية تطور الحدث
+إلى
+<strong>Loss of Containment</strong>
+أو حريق أو انفجار أو حادث كبير.
+</p>
+
+<h4>🧀 Swiss Cheese Model | نموذج الجبن السويسري</h4>
+
+<p>
+يمكن تصور كل حاجز على أنه طبقة حماية تحتوي على نقاط ضعف.
+إذا تزامنت نقاط الضعف في عدة طبقات، فقد يتمكن الخطر من المرور
+عبر جميع الحواجز والوصول إلى النتيجة غير المرغوبة.
+</p>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:18px 0; text-align:center;">
+<strong>
+Hazard
+→ Barrier 1
+→ Barrier 2
+→ Barrier 3
+→ Loss Event
+</strong>
+<br><br>
+إذا فشل حاجز واحد، يجب أن تكون هناك حواجز أخرى
+قادرة على منع تطور الحادث.
+</div>
+
+<p>
+لذلك لا ينبغي الاعتماد على
+<strong>Single Barrier</strong>
+عندما تكون العواقب المحتملة كبيرة.
+ويجب التأكد من أن الحواجز المهمة يتم فحصها وصيانتها
+واختبارها بصورة مناسبة.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+وجود عدة حواجز لا يكفي وحده؛
+بل يجب التأكد من أن هذه الحواجز
+<strong>Effective, Independent and Maintained</strong>
+حتى لا يؤدي فشل واحد إلى حادث كبير.
+</div>
+
+<hr>
+
+<h3>4️⃣ تطبيق أدوات إدارة المخاطر لتحديد وتقييم مخاطر سلامة العمليات |
+Application of Risk Management Tools to Identify and Assess Process Safety Risk</h3>
+
+<p>
+توجد عدة أدوات يمكن استخدامها لتحديد وتحليل مخاطر سلامة العمليات،
+ويعتمد اختيار الأداة المناسبة على مرحلة المشروع،
+وطبيعة العملية، وتعقيدها، وحجم المخاطر المحتملة.
+</p>
+
+<p>
+يجب أن تبدأ عملية إدارة المخاطر في مرحلة مبكرة مثل
+<strong>Concept and Design Stage</strong>
+لأن إجراء التغييرات في هذه المرحلة يكون عادةً أسهل
+وأكثر فعالية من محاولة معالجة المخاطر بعد تشغيل المنشأة.
+</p>
+
+<p>
+لكن تقييم المخاطر لا يتوقف بعد التصميم؛
+بل يجب أن يستمر خلال دورة حياة المنشأة
+<strong>(Plant Life Cycle)</strong>
+وخصوصًا عند حدوث تغييرات أو أثناء الأنشطة غير الاعتيادية مثل:
+</p>
+
+<ul>
+<li><strong>Start-Up</strong> – بدء التشغيل.</li>
+<li><strong>Shutdown</strong> – إيقاف التشغيل.</li>
+<li><strong>Maintenance</strong> – أعمال الصيانة.</li>
+<li><strong>Modification</strong> – التعديلات.</li>
+<li><strong>Management of Change (MOC)</strong> – إدارة التغيير.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Key Principle</strong><br><br>
+كلما تم تحديد مخاطر سلامة العمليات في مرحلة أبكر،
+زادت فرصة
+<strong>Eliminating or Reducing Risk by Design</strong>
+بدلًا من الاعتماد لاحقًا على إجراءات تحكم إضافية.
+</div>
+
+<hr>
+
+<h3>5️⃣ تحقق الخطر | Hazard Realisation</h3>
+
+<p>
+بعض طرق تقييم المخاطر تستخدم مفهوم
+<strong>Hazard Realisation</strong>.
+بدلًا من الاكتفاء بتحديد الخطر، يتم طرح سؤال:
+</p>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0; text-align:center;">
+<strong>“What if the hazard is actually realised?”</strong>
+<br><br>
+ماذا سيحدث إذا تحقق الخطر فعليًا؟
+</div>
+
+<p>
+بعد ذلك يتم تحليل السيناريو لفهم كيفية حدوثه،
+وما الحواجز التي يمكن أن تمنعه،
+وما الإجراءات التي يمكن أن تقلل العواقب إذا حدث.
+</p>
+
+<h4>🔎 What – Where – When – How – Why</h4>
+
+<p>
+يمكن تحليل سيناريو
+<strong>Hazard Realisation</strong>
+باستخدام مجموعة من الأسئلة المنظمة:
+</p>
+
+<ul>
+
+<li>
+<strong>What?</strong><br>
+ما الحدث الذي نخشى حدوثه؟
+مثال:
+<strong>Loss of Containment</strong>
+لمادة قابلة للاشتعال.
+</li>
+
+<li>
+<strong>Where?</strong><br>
+أين يمكن أن يحدث؟
+مثل المضخات، خطوط الأنابيب، الخراطيم المرنة،
+الخزانات أو نقاط التفريغ.
+</li>
+
+<li>
+<strong>When?</strong><br>
+متى يمكن أن يحدث؟
+أثناء التشغيل العادي، الصيانة، التفريغ،
+بدء التشغيل أو عندما تكون المنطقة غير مأهولة.
+</li>
+
+<li>
+<strong>How?</strong><br>
+كيف يمكن أن يحدث؟
+مثل فشل
+<strong>Gasket</strong>،
+تسرب من الأنابيب،
+ضعف الصيانة،
+فشل المعدات أو زيادة مستوى الخزان.
+</li>
+
+<li>
+<strong>Why?</strong><br>
+لماذا قد يتطور إلى حادث؟
+مثل وجود مصدر اشتعال،
+ضعف الكشف عن التسرب،
+الأخطاء البشرية،
+أو عدم فعالية أنظمة الحماية.
+</li>
+
+</ul>
+
+<p>
+بعد فهم السيناريو يتم تحديد
+<strong>Potential Consequences</strong>
+مثل:
+</p>
+
+<ul>
+<li>Spillage – الانسكاب.</li>
+<li>Fire – الحريق.</li>
+<li>Explosion – الانفجار.</li>
+<li>Loss of Plant – خسارة المعدات أو المنشأة.</li>
+<li>Injury or Fatality – الإصابات أو الوفيات.</li>
+</ul>
+
+<hr>
+
+<h4>🎀 Bow-Tie Model | نموذج ربطة العنق</h4>
+
+<p>
+يُستخدم
+<strong>Bow-Tie Model</strong>
+لعرض العلاقة بين أسباب الحادث،
+والحدث المركزي
+<strong>(Top Event)</strong>،
+والعواقب المحتملة،
+والحواجز المستخدمة لمنع الحادث أو تخفيف نتائجه.
+</p>
+
+<p>
+يساعد النموذج على التمييز بين نوعين رئيسيين من الحواجز:
+</p>
+
+<ul>
+
+<li>
+<strong>Prevention Barriers</strong><br>
+حواجز توضع قبل
+<strong>Top Event</strong>
+وتهدف إلى منع الأسباب أو
+<strong>Threats</strong>
+من الوصول إلى الحدث المركزي.
+</li>
+
+<li>
+<strong>Mitigation Barriers</strong><br>
+حواجز توضع بعد
+<strong>Top Event</strong>
+وتهدف إلى تقليل شدة العواقب إذا وقع الحدث بالفعل.
+</li>
+
+</ul>
+
+<div style="padding:20px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2.2;">
+
+<strong>THREATS</strong>
+<br>
+↓
+<br>
+<strong>PREVENTION BARRIERS</strong>
+<br>
+↓
+<br>
+
+<span style="font-size:18px;">
+⚠️ <strong>TOP EVENT – LOSS OF CONTAINMENT</strong>
+</span>
+
+<br>
+↓
+<br>
+<strong>MITIGATION BARRIERS</strong>
+<br>
+↓
+<br>
+<strong>CONSEQUENCES</strong>
+
+</div>
+
+<h4>🛡️ Examples of Prevention Barriers | أمثلة على حواجز المنع</h4>
+
+<ul>
+<li><strong>Plant Layout</strong> – تصميم وتوزيع المنشأة.</li>
+<li><strong>Construction Standards</strong> – معايير الإنشاء.</li>
+<li><strong>Inspection</strong> – التفتيش.</li>
+<li><strong>Maintenance</strong> – الصيانة.</li>
+<li><strong>Instrumentation</strong> – أنظمة القياس والتحكم.</li>
+<li>High-Level Alarms – إنذارات المستوى العالي.</li>
+</ul>
+
+<h4>🚨 Examples of Mitigation Barriers | أمثلة على حواجز تخفيف العواقب</h4>
+
+<ul>
+<li><strong>Detection Systems</strong> – أنظمة الكشف.</li>
+<li><strong>Emergency Shutdown (ESD)</strong> – الإيقاف الطارئ.</li>
+<li><strong>Active Protection</strong> – الحماية النشطة.</li>
+<li><strong>Passive Protection</strong> – الحماية السلبية.</li>
+<li><strong>Bunds and Containment</strong> – الحواجز والاحتواء.</li>
+<li><strong>Fire Walls / Blast Walls</strong> – جدران الحريق والانفجار.</li>
+<li><strong>Escape, Evacuation and Rescue (EER)</strong>.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus – Bow-Tie</strong><br><br>
+
+<strong>Left Side → Prevention</strong><br>
+منع الأسباب من الوصول إلى الحدث المركزي.
+<br><br>
+
+<strong>Centre → Top Event</strong><br>
+الحدث الذي فقدنا عنده السيطرة، مثل
+<strong>Loss of Containment (LOC)</strong>.
+<br><br>
+
+<strong>Right Side → Mitigation</strong><br>
+تقليل شدة العواقب بعد وقوع الحدث.
+<br><br>
+
+<strong>
+Threats → Prevention → Top Event → Mitigation → Consequences
+</strong>
+</div>
+
+<hr>
 </div>
 `
 },
