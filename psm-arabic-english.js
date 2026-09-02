@@ -1867,8 +1867,320 @@ Moral, Legal & Financial Reasons
     content: `
 <div style="text-align:right; line-height:1.9;">
 
-    // 2.2 كاملة هنا
+<h3>🎯 الهدف التعليمي | Learning Objective</h3>
 
+<p>
+في نهاية هذا الموضوع سيكون المتدرب قادرًا على شرح
+<strong>تقنيات إدارة المخاطر المستخدمة في صناعات العمليات
+(Risk Management Techniques Used Within the Process Industries)</strong>
+وفهم كيفية تحديد الأخطار، وتقدير مستوى المخاطر، واختيار مستوى
+تقييم المخاطر المناسب لطبيعة وتعقيد العملية.
+</p>
+
+<p>
+كما سيتمكن المتدرب من التمييز بين أساليب تقييم المخاطر
+<strong>Qualitative</strong> و
+<strong>Semi-Quantitative</strong> و
+<strong>Quantitative</strong>
+وفهم العلاقة بين مستوى الخطر ودرجة التفصيل المطلوبة في عملية التقييم.
+</p>
+
+<hr>
+
+<h3>1️⃣ غرض واستخدام تقييم المخاطر |
+Purpose and Use of Risk Assessment</h3>
+
+<p>
+يُعد
+<strong>Risk Assessment</strong>
+أحد العناصر الأساسية في إدارة مخاطر العمليات.
+والهدف منه هو تحديد الأخطار
+<strong>(Hazards)</strong>
+وفهم كيفية تعرض الأشخاص أو المنشأة أو البيئة لهذه الأخطار،
+ثم تقدير مستوى المخاطر وتحديد الضوابط المناسبة لتقليلها.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Terms</strong><br><br>
+
+<strong>Hazard | الخطر</strong><br>
+شيء أو حالة لديها القدرة على التسبب في ضرر
+<strong>(Potential to Cause Harm)</strong>.
+<br><br>
+
+<strong>Risk | المخاطر</strong><br>
+مزيج من احتمالية حدوث الضرر
+<strong>(Likelihood)</strong>
+وشدة العواقب المحتملة
+<strong>(Severity / Consequence)</strong>.
+</div>
+
+<h4>🔄 Five-Step Risk Assessment | خطوات تقييم المخاطر الخمس</h4>
+
+<p>
+يمكن تنفيذ تقييم المخاطر البسيط من خلال خمس خطوات رئيسية:
+</p>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+
+<strong>Step 1 → Identify the Hazards</strong><br>
+تحديد الأخطار الموجودة في النشاط أو العملية.
+<br><br>
+
+<strong>Step 2 → Identify Who Might Be Harmed and How</strong><br>
+تحديد الأشخاص الذين قد يتعرضون للخطر وكيف يمكن أن يحدث الضرر.
+<br><br>
+
+<strong>Step 3 → Evaluate the Risk and Decide on Precautions</strong><br>
+تقييم مستوى المخاطر وتحديد الاحتياطات والضوابط المناسبة.
+<br><br>
+
+<strong>Step 4 → Record the Significant Findings</strong><br>
+تسجيل النتائج المهمة لتقييم المخاطر.
+<br><br>
+
+<strong>Step 5 → Review and Update as Necessary</strong><br>
+مراجعة تقييم المخاطر وتحديثه عند الحاجة.
+
+</div>
+
+<p>
+قد تكون هذه الطريقة مناسبة للعمليات البسيطة،
+ولكن صناعات العمليات
+<strong>(Process Industries)</strong>
+قد تحتوي على أخطار أكثر تعقيدًا وعواقب محتملة كبيرة،
+ولذلك قد تكون هناك حاجة إلى تقنيات أكثر تفصيلًا.
+</p>
+
+<h4>🔁 Process Risk Assessment Cycle | دورة تقييم مخاطر العمليات</h4>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0; text-align:center;">
+
+<strong>
+Hazard Identification
+<br>↓<br>
+Risk Estimation and Ranking
+<br>↓<br>
+Risk Evaluation
+<br>↓<br>
+Risk Reduction / Additional Controls
+<br>↓<br>
+Review
+</strong>
+
+</div>
+
+<p>
+عملية تقييم المخاطر ليست نشاطًا يتم مرة واحدة فقط.
+فبعد تطبيق إجراءات التحكم يجب مراجعة المخاطر مرة أخرى
+للتأكد من أن الضوابط فعالة وأن مستوى المخاطر أصبح مقبولًا.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+تقييم المخاطر لا ينتهي عند
+<strong>Hazard Identification</strong>؛
+بل يجب تقدير المخاطر، تقييمها، تطبيق الضوابط المناسبة،
+ثم مراجعة فعالية تلك الضوابط.
+</div>
+
+<hr>
+
+<h3>2️⃣ التقييم النوعي وشبه الكمي والكمي للمخاطر |
+Qualitative, Semi-Quantitative and Quantitative Risk Assessments</h3>
+
+<p>
+لا تستخدم جميع المخاطر نفس مستوى التحليل.
+فالطريقة المستخدمة في
+<strong>Risk Assessment</strong>
+يجب أن تتناسب مع طبيعة العملية، وتعقيدها،
+وحجم العواقب المحتملة.
+</p>
+
+<p>
+وبصورة عامة يمكن تقسيم أساليب تقييم المخاطر إلى ثلاثة مستويات:
+</p>
+
+<h4>🟢 Qualitative Risk Assessment (Q) | التقييم النوعي</h4>
+
+<p>
+في
+<strong>Qualitative Risk Assessment</strong>
+يتم تقييم احتمالية حدوث الخطر وشدة العواقب
+باستخدام أوصاف لفظية بدلًا من الحسابات الرقمية التفصيلية.
+</p>
+
+<p>
+ومن الأمثلة على التصنيفات المستخدمة:
+</p>
+
+<ul>
+<li><strong>Likelihood:</strong> Low – Medium – High</li>
+<li><strong>Severity:</strong> Minor – Serious – Major</li>
+<li><strong>Risk:</strong> Low – Medium – High</li>
+</ul>
+
+<p>
+يكون هذا الأسلوب مناسبًا عادةً للمخاطر الأقل تعقيدًا
+عندما تكون المعلومات المتاحة والخبرة العملية كافية
+لاتخاذ قرار مناسب بشأن مستوى المخاطر.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>📌 Example – Qualitative</strong><br><br>
+تسرب صغير من مادة غير شديدة الخطورة يمكن تقييم احتمالية حدوثه
+بأنه <strong>Medium</strong> والعواقب بأنها <strong>Low</strong>،
+ومن ثم يتم تحديد مستوى المخاطر باستخدام معايير المنظمة.
+</div>
+
+<h4>🟠 Semi-Quantitative Risk Assessment (SQ) | التقييم شبه الكمي</h4>
+
+<p>
+في
+<strong>Semi-Quantitative Risk Assessment</strong>
+يتم استخدام قيم أو نطاقات رقمية تقريبية
+<strong>(Approximate Numerical Ranges)</strong>
+لتمثيل الاحتمالية وشدة العواقب.
+</p>
+
+<p>
+وهو يوفر مستوى أعلى من التفصيل مقارنة بالتقييم النوعي،
+لكن دون الحاجة إلى إجراء تحليل كمي كامل.
+</p>
+
+<p>
+يمكن مثلًا إعطاء درجات للاحتمالية والعواقب ثم استخدام
+<strong>Risk Matrix</strong>
+أو نظام تصنيف لتحديد مستوى المخاطر وترتيب الأولويات.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>📌 Example – Semi-Quantitative</strong><br><br>
+
+<strong>Likelihood = 3</strong><br>
+<strong>Severity = 4</strong><br><br>
+
+يمكن استخدام هذه القيم داخل
+<strong>Risk Matrix</strong>
+للمساعدة في تصنيف المخاطر وتحديد أولوية إجراءات التحكم.
+</div>
+
+<h4>🔴 Quantitative Risk Assessment (QRA) | التقييم الكمي للمخاطر</h4>
+
+<p>
+يستخدم
+<strong>Quantitative Risk Assessment (QRA)</strong>
+بيانات رقمية وتحليلًا أكثر تفصيلًا لتقدير
+تكرار أو احتمال الأحداث والعواقب الناتجة عنها.
+</p>
+
+<p>
+يُستخدم هذا المستوى عندما تكون المخاطر أكثر تعقيدًا
+أو عندما تكون العواقب المحتملة للحادث كبيرة،
+وقد تكون هناك حاجة إلى تحليل أكثر دقة لإثبات
+أن المخاطر تتم إدارتها بالمستوى المناسب.
+</p>
+
+<p>
+قد يعتمد التحليل الكمي على معلومات مثل:
+</p>
+
+<ul>
+<li>معدلات فشل المعدات – <strong>Equipment Failure Rates</strong>.</li>
+<li>احتمالات الأحداث – <strong>Event Probabilities</strong>.</li>
+<li>تكرار سيناريوهات الحوادث – <strong>Event Frequency</strong>.</li>
+<li>نمذجة العواقب – <strong>Consequence Modelling</strong>.</li>
+<li>بيانات الموثوقية والتشغيل – <strong>Reliability and Operational Data</strong>.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>📌 Example – QRA</strong><br><br>
+عند دراسة سيناريو
+<strong>Loss of Containment</strong>
+من منشأة عالية الخطورة،
+قد تحتاج المنظمة إلى تقدير احتمال حدوث التسرب،
+واحتمال الاشتعال، ومدى تأثير الحريق أو الانفجار،
+والأشخاص أو المعدات التي قد تتعرض للعواقب.
+</div>
+
+<h4>📊 مقارنة مستويات تقييم المخاطر |
+Comparison of Risk Assessment Levels</h4>
+
+<div style="overflow-x:auto; margin:18px 0;">
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+<tr>
+<th style="border:1px solid #ccc; padding:10px;">Method</th>
+<th style="border:1px solid #ccc; padding:10px;">Approach</th>
+<th style="border:1px solid #ccc; padding:10px;">Detail</th>
+<th style="border:1px solid #ccc; padding:10px;">Typical Use</th>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:10px;"><strong>Q</strong></td>
+<td style="border:1px solid #ccc; padding:10px;">Qualitative</td>
+<td style="border:1px solid #ccc; padding:10px;">Low / Medium / High</td>
+<td style="border:1px solid #ccc; padding:10px;">أبسط وأقل تعقيدًا</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:10px;"><strong>SQ</strong></td>
+<td style="border:1px solid #ccc; padding:10px;">Semi-Quantitative</td>
+<td style="border:1px solid #ccc; padding:10px;">Approximate Numerical Ranges</td>
+<td style="border:1px solid #ccc; padding:10px;">مستوى متوسط من التحليل</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:10px;"><strong>QRA</strong></td>
+<td style="border:1px solid #ccc; padding:10px;">Quantitative</td>
+<td style="border:1px solid #ccc; padding:10px;">Detailed Numerical Analysis</td>
+<td style="border:1px solid #ccc; padding:10px;">المخاطر العالية والمعقدة</td>
+</tr>
+</table>
+</div>
+
+<h4>⚖️ Principle of Proportionality | مبدأ التناسب</h4>
+
+<p>
+كلما ارتفع مستوى المخاطر، زادت الحاجة إلى تقييم أكثر
+<strong>Rigorous</strong>
+وتفصيلًا.
+</p>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:18px 0; text-align:center;">
+<strong>
+Increasing Risk ↑
+<br><br>
+Q → SQ → QRA
+<br><br>
+Increasing Detail and Rigour →
+</strong>
+</div>
+
+<p>
+لذلك لا يعني استخدام
+<strong>QRA</strong>
+أنه الأسلوب الأفضل دائمًا.
+فالهدف هو اختيار طريقة تقييم تتناسب مع مستوى وتعقيد المخاطر
+وتوفر معلومات كافية لاتخاذ قرار مناسب.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus</strong><br><br>
+
+<strong>Qualitative (Q)</strong>
+→ وصف نوعي للمخاطر.<br><br>
+
+<strong>Semi-Quantitative (SQ)</strong>
+→ استخدام قيم أو نطاقات تقريبية.<br><br>
+
+<strong>Quantitative Risk Assessment (QRA)</strong>
+→ تحليل كمي باستخدام بيانات رقمية.<br><br>
+
+<strong>كلما ارتفع مستوى المخاطر → زادت الحاجة إلى تحليل أكثر تفصيلًا.</strong>
+</div>
+
+<hr>
+✋ هنا وقف
 </div>
 `
 },
