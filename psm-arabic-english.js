@@ -1864,7 +1864,13 @@ Moral, Legal & Financial Reasons
     number: "2.2",
     title: "Risk Management Techniques Used Within the Process Industries",
     titleArabic: "تقنيات إدارة المخاطر المستخدمة في الصناعات العملية",
-    content: ""
+    content: `
+<div style="text-align:right; line-height:1.9;">
+
+    // 2.2 كاملة هنا
+
+</div>
+`
 },
 {
     number: "2.3",
