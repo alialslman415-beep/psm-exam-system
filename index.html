@@ -304,8 +304,24 @@ Element 4 – Fire and Explosion Protection
 </button>
 
 <br><br>
- 
-    <button onclick="closeArabicEnglishBook()">
+
+<button onclick="openArabicEnglishElement3()">
+    Element 3 - Process Safety Hazard Control
+    <br>
+    الوحدة الثالثة - التحكم في مخاطر سلامة العمليات
+</button>
+
+<br><br>
+
+<button onclick="openArabicEnglishElement4()">
+    Element 4 - Fire and Explosion Protection
+    <br>
+    الوحدة الرابعة - الحماية من الحريق والانفجار
+</button>
+
+<br><br>
+
+<button onclick="closeArabicEnglishBook()">
         ← العودة إلى الصفحة الرئيسية
     </button>
 
@@ -396,6 +412,49 @@ Element 4 – Fire and Explosion Protection
 
 </div>
  
+ <!-- ARABIC + TECHNICAL ENGLISH ELEMENT 3 PAGE -->
+
+<div id="arabicEnglishElement3Page" class="hidden" dir="rtl">
+
+    <h2>Element 3 - Process Safety Hazard Control</h2>
+    <h3>الوحدة الثالثة - التحكم في مخاطر سلامة العمليات</h3>
+
+    <div id="arabicEnglishElement3Content">
+        <p style="text-align:center;">
+            محتوى الوحدة الثالثة قيد الإعداد
+        </p>
+    </div>
+
+    <br><br>
+
+    <button onclick="backToArabicEnglishBook()">
+        ← العودة إلى قائمة الكتاب
+    </button>
+
+</div>
+
+
+<!-- ARABIC + TECHNICAL ENGLISH ELEMENT 4 PAGE -->
+
+<div id="arabicEnglishElement4Page" class="hidden" dir="rtl">
+
+    <h2>Element 4 - Fire and Explosion Protection</h2>
+    <h3>الوحدة الرابعة - الحماية من الحريق والانفجار</h3>
+
+    <div id="arabicEnglishElement4Content">
+        <p style="text-align:center;">
+            محتوى الوحدة الرابعة قيد الإعداد
+        </p>
+    </div>
+
+    <br><br>
+
+    <button onclick="backToArabicEnglishBook()">
+        ← العودة إلى قائمة الكتاب
+    </button>
+
+</div>
+
  <!-- ARABIC + TECHNICAL ENGLISH TOPIC PAGE -->
 
 <div id="arabicEnglishTopicPage" class="hidden" dir="rtl">
@@ -1025,7 +1084,13 @@ function backToArabicEnglishBook() {
 
     document.getElementById("arabicEnglishElement2Page")
         .classList.add("hidden");
+ 
+document.getElementById("arabicEnglishElement3Page")
+    .classList.add("hidden");
 
+document.getElementById("arabicEnglishElement4Page")
+    .classList.add("hidden");
+ 
     document.getElementById("arabicEnglishTopicPage")
         .classList.add("hidden");
 
@@ -1107,6 +1172,26 @@ function openArabicEnglishElement2() {
     document.getElementById("arabicEnglishElement2Content")
         .innerHTML = topicsHtml;
 }
+function openArabicEnglishElement3() {
+
+    document.getElementById("arabicEnglishBookPage")
+        .classList.add("hidden");
+
+    document.getElementById("arabicEnglishElement3Page")
+        .classList.remove("hidden");
+
+}
+
+
+function openArabicEnglishElement4() {
+
+    document.getElementById("arabicEnglishBookPage")
+        .classList.add("hidden");
+
+    document.getElementById("arabicEnglishElement4Page")
+        .classList.remove("hidden");
+
+} 
      
 function openArabicEnglishElement2Topic(topicNumber) {
  
