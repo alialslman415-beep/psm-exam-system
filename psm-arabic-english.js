@@ -554,7 +554,32 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 <li>اكتشاف الأنماط والاتجاهات – <strong>Patterns and Trends</strong>.</li>
 <li>إظهار التزام المنظمة بالتعلّم والتحسين.</li>
 </ul>
+<h4>✅ فوائد التحقيق الفعّال | Benefits of Effective Investigation</h4>
 
+<ul>
+<li>
+تحسين تقييمات المخاطر والضوابط
+<strong>(Risk Assessments and Controls)</strong>
+بناءً على الأسباب والدروس التي تم تحديدها.
+</li>
+
+<li>
+تقليل احتمال تكرار الأحداث منخفضة المستوى أو تطورها إلى أحداث أكثر خطورة
+<strong>(Escalation)</strong>.
+</li>
+
+<li>
+اكتشاف الأنماط والاتجاهات والمشكلات المتكررة
+<strong>(Patterns, Trends and Repeat Issues)</strong>
+ومعالجتها قبل أن تؤدي إلى حادث أكبر.
+</li>
+
+<li>
+تعزيز ثقة العاملين بأن الإبلاغ عن الحوادث والأحداث الوشيكة
+<strong>(Near Misses)</strong>
+يؤدي إلى إجراءات وتحسينات فعلية.
+</li>
+</ul>
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Learning Point</strong><br><br>
 التحقيق الجيد لا يتوقف عند السؤال:
