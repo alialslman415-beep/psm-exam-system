@@ -6154,7 +6154,525 @@ another suitable Safe System of Work must still be used.
     number: "2.5",
     title: "Safe Shift Handover",
     titleArabic: "التسليم والاستلام الآمن للورديات",
-    content: ""
+   content: `
+<div style="text-align:right; line-height:1.9;">
+
+<h3>🎯 الهدف التعليمي | Learning Objective</h3>
+
+<p>
+في نهاية هذا الموضوع سيكون المتدرب قادرًا على شرح أهمية
+<strong>Safe Shift Handover</strong>
+في صناعات العمليات، وفهم المسؤولية المشتركة بين الشفت المغادر والقادم،
+ومتطلبات الكفاءة والتواصل،
+والمعلومات الأساسية التي يجب نقلها أثناء عملية التسليم والاستلام.
+</p>
+
+<hr>
+
+<h3>🔄 مقدمة | Introduction to Safe Shift Handover</h3>
+
+<p>
+يشير مصطلح
+<strong>Shift Handover</strong>
+إلى عملية نقل المعلومات بين الشفت الذي أنهى عمله
+<strong>(Outgoing Shift)</strong>
+والشفت الجديد الذي يبدأ العمل
+<strong>(Incoming Shift)</strong>.
+</p>
+
+<p>
+أظهرت الحوادث الكبرى في صناعات العمليات أن ضعف نقل المعلومات
+بين الشفتات يمكن أن يساهم في وقوع حوادث خطيرة.
+ويُعد حادث
+<strong>Piper Alpha</strong>
+مثالًا مهمًا على ذلك، حيث كان ضعف التواصل أثناء تغيير الشفت
+أحد أوجه القصور التي تم تحديدها.
+</p>
+
+<p>
+هناك أنواع كثيرة من المعلومات الحرجة للسلامة
+<strong>(Safety-Critical Information)</strong>
+التي يجب نقلها من شفت إلى آخر، مثل:
+</p>
+
+<ul>
+<li>المشكلات التي حدثت أثناء الشفت السابق.</li>
+<li><strong>Safety Incidents</strong> – حوادث أو أحداث السلامة.</li>
+<li>الأعمال المستمرة التي لم تنتهِ بعد.</li>
+<li>حالة المعدات والعمليات.</li>
+<li>أي ظروف غير طبيعية أو قيود تشغيلية يجب أن يعرفها الشفت القادم.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+
+<strong>Safe Shift Handover</strong>
+ليس مجرد إخبار الشفت القادم بما حدث؛
+بل هو عملية منظمة لضمان نقل
+<strong>Safety-Critical Information</strong>
+بصورة واضحة ومفهومة قبل انتقال المسؤولية.
+</div>
+
+<hr>
+
+<h3>1️⃣ المسؤولية المشتركة والتواصل ثنائي الاتجاه |
+Two-Way and Joint Responsibility</h3>
+
+<p>
+تُعد عملية
+<strong>Shift Handover</strong>
+من الاتصالات الحرجة للسلامة
+<strong>(Safety-Critical Communications)</strong>.
+</p>
+
+<p>
+وهي مسؤولية مشتركة
+<strong>(Joint Responsibility)</strong>
+بين:
+</p>
+
+<ul>
+<li><strong>Outgoing Shift</strong> – الشفت المغادر.</li>
+<li><strong>Incoming Shift</strong> – الشفت القادم.</li>
+</ul>
+
+<p>
+يجب أن يشارك الطرفان في المناقشة،
+وألا تكون العملية مجرد نقل للمعلومات في اتجاه واحد.
+</p>
+
+<p>
+يجب على الشفت القادم الاستماع للمعلومات،
+وطرح الأسئلة عند الحاجة،
+والتأكد من فهم ما تم نقله إليه.
+</p>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2.1;">
+<strong>
+Outgoing Shift
+<br>⇅<br>
+Two-Way Communication
+<br>⇅<br>
+Incoming Shift
+</strong>
+</div>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus</strong><br><br>
+
+Shift handover is a
+<strong>Two-Way Communication</strong>
+and a
+<strong>Joint Responsibility</strong>
+between the outgoing and incoming shifts.
+</div>
+
+<hr>
+
+<h3>2️⃣ الكفاءة |
+Competence</h3>
+
+<p>
+يجب أن يمتلك الأشخاص المسؤولون عن تنفيذ
+<strong>Shift Handover</strong>
+المستوى المناسب من:
+</p>
+
+<ul>
+<li><strong>Technical Knowledge</strong> – المعرفة الفنية.</li>
+<li><strong>Expertise</strong> – الخبرة المناسبة.</li>
+<li><strong>Communication Skills</strong> – مهارات التواصل.</li>
+</ul>
+
+<p>
+لا تكفي المعرفة الفنية وحدها؛
+إذ يجب أن يكون الشخص قادرًا أيضًا على
+<strong>Communicate Effectively</strong>
+حتى يتم نقل المعلومات بصورة واضحة ودقيقة.
+</p>
+
+<p>
+وقد يعني ذلك الحاجة إلى توفير
+<strong>Communication Training</strong>
+لبعض العاملين لتحسين قدرتهم على نقل المعلومات
+واستقبالها وفهمها.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+
+<strong>Competence for Shift Handover</strong>
+=
+Technical Knowledge + Expertise + Effective Communication.
+</div>
+
+<hr>
+
+<h3>3️⃣ متطلبات تسليم واستلام الشفت |
+Shift Handover Requirements</h3>
+
+<p>
+لكي تكون عملية
+<strong>Shift Handover</strong>
+فعالة، يجب مراعاة مجموعة من المتطلبات الأساسية.
+</p>
+
+<h4>⭐ High Priority | أولوية عالية</h4>
+
+<p>
+يجب التعامل مع عملية التسليم والاستلام على أنها
+<strong>High-Priority Activity</strong>.
+</p>
+
+<p>
+وقد يكون من الضروري إحضار الشفت القادم مبكرًا قليلًا
+لضمان وجود وقت كافٍ للمناقشة ونقل المعلومات.
+</p>
+
+<h4>👥 Face-to-Face Handover | التسليم المباشر</h4>
+
+<p>
+يجب إجراء التسليم والاستلام
+<strong>Face-to-Face</strong>
+بين الأشخاص المعنيين.
+</p>
+
+<p>
+وهذا يسمح بإجراء حوار مباشر،
+وطرح الأسئلة،
+والتأكد من فهم المعلومات.
+</p>
+
+<h4>📝 Written and Verbal Communication |
+التواصل الكتابي والشفهي</h4>
+
+<p>
+يجب استخدام معلومات دقيقة من خلال
+<strong>Written and Verbal Communication</strong>.
+</p>
+
+<p>
+وعادةً يتم دعم عملية التسليم بوثائق،
+مثل:
+<strong>Handover Log</strong>
+لتسجيل المعلومات والمناقشات المهمة.
+</p>
+
+<h4>🔍 Analysis of Incoming Shift Needs |
+تحليل احتياجات الشفت القادم</h4>
+
+<p>
+يجب أن تعتمد المعلومات التي يتم نقلها
+على احتياجات الأشخاص القادمين للعمل.
+</p>
+
+<p>
+فقد توجد معلومات أو أنشطة من الضروري جدًا
+إبلاغها للشفت القادم، مثل:
+</p>
+
+<ul>
+<li>عدم عمل نظام رشاشات الحريق <strong>(Sprinkler System)</strong>.</li>
+<li>وجود معدات أو أنظمة حرجة خارج الخدمة.</li>
+<li>انتظار وصول قطع غيار حرجة إلى الموقع.</li>
+<li>وجود أعمال أو ظروف تشغيلية غير اعتيادية.</li>
+</ul>
+
+<h4>⏱️ Sufficient Time | الوقت الكافي</h4>
+
+<p>
+يجب توفير الوقت الكافي
+<strong>(As Much Time as Necessary)</strong>
+للسماح بـ:
+</p>
+
+<ul>
+<li><strong>Questioning</strong> – طرح الأسئلة.</li>
+<li><strong>Explanation</strong> – الشرح.</li>
+<li><strong>Clarification</strong> – التوضيح.</li>
+</ul>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2;">
+<strong>
+High Priority
+→ Face-to-Face
+→ Written + Verbal
+→ Handover Log
+→ Relevant Information
+→ Questions & Clarification
+</strong>
+</div>
+
+<h4>⚠️ متى تكون عملية Shift Handover مهمة بشكل خاص؟</h4>
+
+<p>
+تكون عملية التسليم والاستلام مهمة بشكل خاص في الحالات التالية:
+</p>
+
+<ul>
+
+<li>
+أثناء
+<strong>Plant Maintenance</strong>
+التي تستمر عبر شفتين أو أكثر.
+</li>
+
+<li>
+عندما يكون أحد الشفتات أو أحد أعضاء الفريق
+غائبًا لفترة طويلة
+<strong>(Absent for a Long Period)</strong>.
+</li>
+
+<li>
+عندما تكون
+<strong>Safety-Critical Systems</strong>
+غير عاملة أو تم تجاوزها
+<strong>(Overridden)</strong>.
+</li>
+
+<li>
+على سبيل المثال،
+عندما تكون
+<strong>Sprinkler Systems</strong>
+معزولة بسبب أعمال الصيانة.
+</li>
+
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus – Shift Handover Requirements</strong><br><br>
+
+<strong>
+Priority + Face-to-Face + Written & Verbal Communication +
+Relevant Information + Sufficient Time for Questions
+</strong>
+</div>
+
+<hr>
+
+<h3>4️⃣ المعلومات المعتادة التي يتم مشاركتها أثناء تسليم الشفت |
+Typical Information Shared at Shift Handover</h3>
+
+<p>
+يجب إعطاء عملية
+<strong>Shift Handover</strong>
+المستوى المناسب من الأهمية.
+</p>
+
+<p>
+وفي بعض الحالات قد يكون من الضروري
+إظهار الحالة الفعلية للمصنع أو العملية
+<strong>(Physical Demonstration of Plant State)</strong>
+للشفت القادم،
+حتى يكون هناك فهم واضح لأي مشكلات أو قيود
+ناتجة عن الأعمال المستمرة.
+</p>
+
+<h4>📋 Typical Information | المعلومات النموذجية</h4>
+
+<p>
+تشمل المعلومات الرئيسية التي يجب التواصل بشأنها أثناء
+<strong>Shift Handover</strong>:
+</p>
+
+<ul>
+
+<li>
+<strong>Operational Status of the Plant</strong><br>
+الحالة التشغيلية الحالية للمنشأة.
+</li>
+
+<li>
+<strong>Emergencies or Incidents</strong><br>
+أي حالات طوارئ أو حوادث وقعت.
+</li>
+
+<li>
+<strong>Safety Issues</strong><br>
+أي مشكلات تتعلق بالسلامة،
+وخاصة أنظمة السلامة التي لا تعمل أو التي تم عزلها.
+</li>
+
+<li>
+<strong>Ongoing Maintenance Activities</strong><br>
+تفاصيل أعمال الصيانة الجارية،
+وخاصة الأعمال التي ستستمر خلال الشفت القادم.
+</li>
+
+<li>
+<strong>Planned Maintenance Activities</strong><br>
+أعمال الصيانة المخطط لها خلال الشفت القادم.
+</li>
+
+<li>
+<strong>Permit-to-Work Details</strong><br>
+تفاصيل تصاريح العمل،
+وخاصة التصاريح التي لا تزال مفتوحة
+<strong>(Open Permits)</strong>.
+</li>
+
+<li>
+<strong>Operational Issues</strong><br>
+المشكلات التشغيلية للشفت القادم،
+مثل خطط الإنتاج
+<strong>(Production Plans)</strong>.
+</li>
+
+<li>
+<strong>Planned Receipt of Hazardous Materials</strong><br>
+أي عمليات تسليم مخطط لها لمواد خطرة خلال الشفت القادم.
+</li>
+
+<li>
+<strong>Planned Drills or Exercises</strong><br>
+أي تدريبات أو تمارين طوارئ مخطط لها.
+</li>
+
+<li>
+<strong>Physical Demonstration of Plant State</strong><br>
+إظهار الحالة الفعلية للمنشأة أو المعدات عند الحاجة.
+</li>
+
+</ul>
+
+<div style="overflow-x:auto; margin:18px 0;">
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+
+<tr>
+<th style="border:1px solid #ccc; padding:9px;">Information</th>
+<th style="border:1px solid #ccc; padding:9px;">Why Important?</th>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Plant Status</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Understand current operating condition</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Incidents / Emergencies</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Know what has occurred during the previous shift</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Safety Systems</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Identify isolated, unavailable or overridden protection</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Maintenance</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Understand ongoing and planned work</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Open PTWs</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Know which permitted work remains active</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Operational Plans</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Prepare for incoming shift activities</td>
+</tr>
+
+</table>
+</div>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>⚠️ Important</strong><br><br>
+
+وجود
+<strong>Handover Log</strong>
+لا يلغي الحاجة إلى التواصل المباشر.
+<br><br>
+
+الوثائق تدعم عملية التسليم،
+لكن يجب أن يفهم الشفت القادم المعلومات
+وليس فقط أن يستلم سجلًا مكتوبًا.
+</div>
+
+<hr>
+
+<h3>🎯 Final Exam Focus – 2.5</h3>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+
+<strong>Shift Handover</strong>
+→ Transfer of information from the outgoing shift to the incoming shift.
+<br><br>
+
+<strong>Responsibility</strong>
+→ Two-Way + Joint Responsibility.
+<br><br>
+
+<strong>Competence</strong>
+→ Technical Knowledge + Expertise + Communication Skills.
+<br><br>
+
+<strong>Method</strong>
+→ High Priority + Face-to-Face + Written and Verbal Communication.
+<br><br>
+
+<strong>Documentation</strong>
+→ Handover Log supports the communication process.
+<br><br>
+
+<strong>Time</strong>
+→ Allow sufficient time for questioning, explanation and clarification.
+<br><br>
+
+<strong>Especially Important</strong>
+→ Maintenance across shifts + Long Absence +
+Safety-Critical Systems unavailable or overridden.
+<br><br>
+
+<strong>Information Shared</strong>
+→ Plant Status + Incidents + Safety Issues + Maintenance +
+Open PTWs + Operational Plans + Hazardous Material Deliveries +
+Drills + Physical Plant State.
+
+</div>
+
+<h3>✅ Final Summary – 2.5</h3>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+
+<strong>Safe Shift Handover</strong>
+هو عملية اتصال حرجة للسلامة،
+وليس إجراءً إداريًا روتينيًا فقط.
+<br><br>
+
+نجاح عملية التسليم يعتمد على
+<strong>Competent People</strong>
+و
+<strong>Two-Way Communication</strong>
+ونقل المعلومات الصحيحة في الوقت المناسب.
+<br><br>
+
+يجب أن يعرف الشفت القادم الحالة الحقيقية للمنشأة،
+والأعمال المستمرة،
+والتصاريح المفتوحة،
+وحالة أنظمة السلامة،
+وأي مخاطر أو قيود قد تؤثر على التشغيل الآمن.
+
+</div>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center;">
+<strong style="font-size:18px;">
+✅ Element 2.5 – Safe Shift Handover
+</strong>
+<br><br>
+
+<strong>
+Right Information + Right People + Right Time + Clear Communication
+</strong>
+<br><br>
+
+التسليم الآمن للشفت يضمن استمرار المعرفة التشغيلية الحرجة
+عند انتقال المسؤولية من فريق إلى آخر.
+
+</div>
+
+</div>
+`
 },
 {
     number: "2.6",
