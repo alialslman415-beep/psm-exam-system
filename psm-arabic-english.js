@@ -1298,7 +1298,13 @@ content: `
     number: "2.1",
     title: "Establishing a Process Safety Management System",
     titleArabic: "إنشاء نظام إدارة سلامة العمليات",
-    content: ""
+    content: `
+<div style="text-align:right; line-height:1.9;">
+
+    محتوى 2.1 كامل هنا
+
+</div>
+`
 },
 {
     number: "2.2",
