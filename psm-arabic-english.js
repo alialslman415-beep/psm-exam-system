@@ -5356,7 +5356,799 @@ Safe Operating Envelope.
     number: "2.4",
     title: "Role, Purpose and Features of a Permit-to-Work System",
     titleArabic: "دور وغرض وخصائص نظام تصريح العمل",
-    content: ""
+content: `
+<div style="text-align:right; line-height:1.9;">
+
+<h3>🎯 الهدف التعليمي | Learning Objective</h3>
+
+<p>
+في نهاية هذا الموضوع سيكون المتدرب قادرًا على شرح
+<strong>Role, Purpose and Features of a Permit-to-Work System (PTW)</strong>،
+وفهم الاستخدام الفعال لتصاريح العمل، والخصائص الأساسية للتصريح،
+والتداخل مع المنشآت المجاورة والمقاولين، والأنواع المختلفة للتصاريح،
+ومتى قد لا يكون تصريح العمل مطلوبًا.
+</p>
+
+<hr>
+
+<h3>1️⃣ الغرض والاستخدام الفعال |
+Purpose and Effective Use</h3>
+
+<div style="padding:15px; border:2px solid #a8cf45; border-radius:10px; margin:18px 0;">
+<strong>🔑 KEY TERM – Permit-to-Work System</strong><br><br>
+
+<strong>Permit-to-Work System | نظام تصريح العمل</strong><br><br>
+
+إجراء رسمي وموثق
+<strong>(Formal, Documented Procedure)</strong>
+يشكل جزءًا من
+<strong>Safe System of Work</strong>.
+<br><br>
+
+يُستخدم عادةً للتحكم في الأعمال عالية الخطورة،
+حيث يقوم بتوثيق الإجراءات والاحتياطات اللازمة لتقليل المخاطر،
+مثل عمليات العزل.
+<br><br>
+
+كما يساعد على التأكد من تطبيق الاحتياطات الصحيحة،
+وأن جميع الأشخاص الذين يحتاجون إلى معرفة تفاصيل العمل
+قد تم إبلاغهم بالمعلومات اللازمة.
+</div>
+
+<p>
+يُستخدم
+<strong>Permit-to-Work (PTW)</strong>
+عادةً للأنشطة عالية الخطورة
+<strong>(High-Risk Activities)</strong>.
+</p>
+
+<p>ومن أمثلتها:</p>
+
+<ul>
+<li>
+<strong>Hot Work</strong> – الأعمال الساخنة.
+</li>
+
+<li>
+الأعمال على المنشآت المعقدة التي تتطلب
+<strong>Isolation</strong>
+سواء كان العزل كيميائيًا أو كهربائيًا أو ميكانيكيًا أو عزل غاز.
+</li>
+
+<li>
+<strong>Confined Space Entry</strong> – دخول الأماكن المحصورة.
+</li>
+
+<li>
+العمل على
+<strong>High-Voltage Electrical Systems</strong>.
+</li>
+
+<li>
+<strong>Excavations near Buried Services</strong>
+– الحفريات بالقرب من الخدمات المدفونة.
+</li>
+</ul>
+
+<p>
+يُعد تصريح العمل جزءًا فقط من
+<strong>Safe System of Work</strong>
+ويُستخدم بالتزامن مع
+<strong>Method Statements</strong>
+و
+<strong>Task Analysis / Risk Assessments</strong>.
+</p>
+
+<p>
+يجب أن يمتلك مُصدر التصريح
+<strong>(Permit Issuer)</strong>
+معرفة تفصيلية بالموقع والمنشأة التي سيتم تنفيذ العمل فيها،
+كما يجب على العاملين استخدام تقييمات المخاطر وطرق العمل
+لتوضيح الأخطار وإجراءات التحكم المطلوبة لمُصدر التصريح.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+
+<strong>PTW is not simply a piece of paper.</strong><br>
+تصريح العمل هو جزء من نظام عمل آمن،
+ويعمل مع تقييم المخاطر وطريقة العمل والعزل
+والتواصل بين الأطراف المعنية.
+</div>
+
+<hr>
+
+<h3>2️⃣ الخصائص الأساسية لتصريح العمل |
+Key Features of Permit-to-Work</h3>
+
+<p>
+يحتوي تصريح العمل على عدد من الخصائص والمعلومات الأساسية
+التي تساعد على التحكم في العمل عالي الخطورة.
+</p>
+
+<h4>📋 Scope of Work | نطاق العمل</h4>
+
+<p>
+يحدد
+<strong>Scope of Work</strong>
+العمل المطلوب تنفيذه،
+وموقع العمل،
+والمعدات التي سيتم العمل عليها.
+</p>
+
+<h4>⏱️ Duration of the Work | مدة العمل</h4>
+
+<p>
+يجب تحديد التاريخ والوقت الذي يكون فيه التصريح صالحًا
+<strong>(Permit Validity)</strong>.
+</p>
+
+<h4>⚠️ Identification of Hazards | تحديد الأخطار</h4>
+
+<p>
+يجب تسجيل الأخطار المعروفة التي تم تحديدها من خلال
+<strong>Risk Assessment</strong>
+ومعرفة الموقع،
+كما يمكن الإشارة إلى تقييمات مخاطر محددة داخل التصريح.
+</p>
+
+<h4>🔒 Isolations | عمليات العزل</h4>
+
+<p>
+يجب توضيح عمليات العزل المطلوبة،
+مثل:
+</p>
+
+<ul>
+<li><strong>Electrical Isolation</strong>.</li>
+<li><strong>Mechanical Isolation</strong>.</li>
+<li><strong>Chemical / Process Isolation</strong>.</li>
+</ul>
+
+<p>
+كما يجب تحديد موقع العزل،
+ويجب أن يتبع ذلك
+<strong>Formal Lockout, Tagout (LOTO) Process</strong>
+يمنع فعليًا إعادة تشغيل أو إعادة تزويد النظام بالطاقة.
+</p>
+
+<p>
+ويتم كذلك توضيح أي إجراءات تحكم إضافية،
+مثل
+<strong>Personal Protective Equipment (PPE)</strong>.
+</p>
+
+<h4>🔗 Links to Other Permits | الربط مع التصاريح الأخرى</h4>
+
+<p>
+إذا كان النشاط مرتبطًا بتصاريح أخرى،
+فيجب الإشارة إليها داخل التصريح.
+</p>
+
+<p>
+على سبيل المثال،
+قد يحتاج العمل داخل جزء من المنشأة إلى
+<strong>Confined Space Permit</strong>
+بالإضافة إلى تصريح آخر مرتبط بالنشاط.
+</p>
+
+<h4>🚨 Emergency Controls | ضوابط الطوارئ</h4>
+
+<p>
+يجب توضيح أي إجراءات أو ترتيبات إضافية للطوارئ
+<strong>(Additional Emergency Controls)</strong>
+مرتبطة بالعمل.
+</p>
+
+<h4>🛡️ Specific Controls | إجراءات التحكم المحددة</h4>
+
+<p>
+يتم تسجيل إجراءات التحكم الإضافية المطلوبة،
+مثل:
+</p>
+
+<ul>
+<li><strong>Gas Testing Requirements</strong>.</li>
+<li><strong>PPE Requirements</strong>.</li>
+<li>أي احتياطات خاصة مرتبطة بطبيعة العمل.</li>
+</ul>
+
+<h4>✍️ Permit Acceptance and Cancellation |
+استلام وإلغاء التصريح</h4>
+
+<p>
+يتم تسليم التصريح من
+<strong>Issuer</strong>
+إلى الشخص أو العامل المسؤول
+<strong>Acceptor / Worker</strong>
+قبل بدء العمل.
+</p>
+
+<p>
+ويقوم الطرفان بالتوقيع للتأكد من فهم متطلبات التصريح
+وأن العاملين سيعملون وفق شروطه.
+</p>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center; line-height:2.1;">
+<strong>
+Issue
+<br>↓<br>
+Receipt / Acceptance
+<br>↓<br>
+Work Under Permit Conditions
+<br>↓<br>
+Clearance / Return to Service
+<br>↓<br>
+Cancellation
+</strong>
+</div>
+
+<h4>① Issue | إصدار التصريح</h4>
+
+<p>
+يوقع مُصدر التصريح
+<strong>(Issuer)</strong>
+للتأكد من أن عمليات العزل موجودة،
+وأن مسؤولية المنطقة يتم تسليمها إلى الشخص المستلم للتصريح.
+</p>
+
+<h4>② Receipt | استلام التصريح</h4>
+
+<p>
+يوقع الشخص أو الأشخاص الذين سيقومون بالعمل
+للتأكد من فهمهم لشروط التصريح
+والالتزام بها.
+</p>
+
+<h4>③ Clearance / Return to Service |
+إخلاء الموقع وإعادة المعدة للخدمة</h4>
+
+<p>
+بعد اكتمال العمل،
+يوقع العامل أو المستلم للتأكيد على اكتمال العمل
+وإمكانية إعادة المنطقة أو المعدة إلى الخدمة.
+</p>
+
+<p>
+إذا لم يكتمل العمل،
+فيجب توضيح أن العمل لا يزال غير مكتمل
+وأن هناك حاجة إلى استمراره قبل إعادة المنطقة للتشغيل.
+</p>
+
+<h4>④ Cancellation | إلغاء التصريح</h4>
+
+<p>
+يوقع المشغل أو الشخص المسؤول
+للتأكيد على الاتفاق بأن المنشأة يمكن إعادتها إلى الخدمة،
+وأن عمليات العزل يمكن إزالتها عند استيفاء المتطلبات.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Exam Focus – Permit Control</strong><br><br>
+
+<strong>
+Scope → Hazards → Isolations → Controls → Acceptance →
+Work → Clearance → Cancellation
+</strong>
+</div>
+
+<p>
+قد يتم إصدار بعض التصاريح في عدة نسخ،
+بحيث يتم عرض نسخة في موقع العمل،
+وتُعطى نسخة للعامل،
+وتبقى النسخة النهائية في مكتب إصدار التصاريح.
+</p>
+
+<p>
+ومن الضروري أن يمتلك الشخص الذي يصدر التصريح
+معرفة كافية بالمنطقة والمخاطر المرتبطة بها.
+فالتصريح مجرد وثيقة،
+وإذا لم يتم إصداره والتعامل معه بالشكل الصحيح
+فلن يوفر الحماية المطلوبة من الضرر.
+</p>
+
+<hr>
+
+<h3>3️⃣ التداخل مع المنشآت والمعدات المجاورة |
+Interfaces with Adjacent Plant</h3>
+
+<p>
+يجب على
+<strong>Permit Issuer</strong>
+مراعاة التأثير المحتمل للعمل على المنشآت أو المعدات المجاورة،
+وكذلك احتمال أن تؤثر أجزاء أخرى من المنشأة على سلامة العمل
+المحدد في التصريح.
+</p>
+
+<p>
+إذا كانت هناك منشآت تشغيلية وأخرى احتياطية
+<strong>(Duty and Stand-by Plant)</strong>
+فيجب تطبيق إجراءات تحكم تضمن عدم العمل عليها في الوقت نفسه
+إذا كان ذلك يمكن أن يؤدي إلى خطر.
+</p>
+
+<p>
+يمكن تحقيق ذلك من خلال إصدار جميع التصاريح
+من جهة مركزية
+<strong>(Central Issuing Authority / Location)</strong>
+وعرضها بطريقة واضحة تساعد على اكتشاف
+أي تعارض
+<strong>(Permit Clashes)</strong>.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>⚠️ مثال</strong><br><br>
+
+قد يكون من الخطير إصدار تصريح لإزالة
+<strong>Flammable Materials</strong>
+من خط أو معدة بالقرب من نشاط آخر
+يمكن أن يوفر
+<strong>Ignition Source</strong>.
+<br><br>
+
+لذلك يجب النظر إلى
+<strong>Simultaneous Activities</strong>
+وليس إلى كل تصريح بصورة منفصلة فقط.
+</div>
+
+<hr>
+
+<h3>4️⃣ التداخل مع المقاولين |
+Interfaces with Contractors</h3>
+
+<p>
+تم تصميم عملية تصريح العمل لحماية
+<strong>Workers and Contractors</strong>
+على حد سواء.
+</p>
+
+<p>
+يجب إصدار التصاريح للمقاولين عندما يكون ذلك مناسبًا،
+لكن قد تكون هناك حاجة إلى إجراءات إضافية
+للتأكد من كفاءتهم وفهمهم للموقع.
+</p>
+
+<p>وقد تشمل هذه الإجراءات:</p>
+
+<ul>
+<li>
+<strong>Contractor Induction</strong>
+– تعريف المقاول بالموقع ومتطلباته.
+</li>
+
+<li>
+<strong>Competency Verification</strong>
+– التحقق من الكفاءة.
+</li>
+
+<li>
+التأكد من فهم الأخطار وإجراءات التحكم.
+</li>
+
+<li>
+الإشراف والمتابعة المناسبة أثناء تنفيذ العمل.
+</li>
+</ul>
+
+<p>
+يجب أن تصدر التصاريح دائمًا بواسطة
+<strong>Organisation / Authorised Permit Issuer</strong>
+وليس بواسطة المقاولين أنفسهم.
+</p>
+
+<div style="padding:15px; border:1px solid #21a6d8; border-radius:10px; margin:18px 0;">
+<strong>💭 Trainer Discussion</strong><br><br>
+
+هل يوجد
+<strong>Permit-to-Work System</strong>
+في موقع عملك؟
+<br><br>
+
+فكر في أنواع التصاريح المستخدمة،
+وكيف يتم تضمين الاحتياطات التي ناقشناها داخل التصريح.
+</div>
+
+<hr>
+
+<h3>5️⃣ أنواع التصاريح |
+Types of Permit</h3>
+
+<p>
+توجد أنواع مختلفة من
+<strong>Permit-to-Work</strong>
+بحسب طبيعة النشاط والخطر.
+</p>
+
+<h4>🔒 Isolation Permit / General Permit-to-Work</h4>
+
+<p>
+يتضمن تفاصيل أنشطة العمل العامة
+التي تحتاج إلى
+<strong>Lockout and Isolation</strong>
+للمعدات الكهربائية أو الميكانيكية أو الخدمات الكيميائية.
+</p>
+
+<p>
+وغالبًا ما يُستخدم كأساس
+<strong>Parent Permit</strong>
+يمكن أن تُكتب تحته تصاريح أخرى.
+</p>
+
+<h4>🔥 Hot Work Permit | تصريح العمل الساخن</h4>
+
+<p>
+يصدر عندما يمكن أن ينتج عن العمل
+<strong>Spark or Hot Surface</strong>
+وبالتالي يوجد خطر اشتعال.
+</p>
+
+<p>
+قد تشمل إجراءات التحكم:
+</p>
+
+<ul>
+<li>إزالة المواد القابلة للاحتراق من المنطقة.</li>
+<li><strong>Fire Watch</strong>.</li>
+<li>التحكم في المواد القابلة للاشتعال.</li>
+<li>استخدام <strong>Fire Screens</strong>.</li>
+<li>استخدام <strong>Fire Blankets</strong>.</li>
+</ul>
+
+<h4>🔧 Cold Work | العمل البارد</h4>
+
+<p>
+قد ينتج عن بعض الأعمال خطر اشتعال
+دون أن يتم تصنيفها تقليديًا على أنها
+<strong>Hot Work</strong>.
+ويُشار إلى هذا النوع باسم
+<strong>Cold Work</strong>.
+</p>
+
+<p>
+ومن الأمثلة:
+</p>
+
+<ul>
+<li><strong>Drilling</strong> – الحفر.</li>
+<li><strong>Cutting Metal</strong> – قطع المعادن.</li>
+<li>استخدام <strong>Metal Equipment</strong>.</li>
+<li><strong>Hacksaw</strong> – المنشار اليدوي.</li>
+</ul>
+
+<p>
+يمكن لهذه الأنشطة أن تولد شررًا ومصادر حرارة صغيرة،
+ولكنها قد لا تقع ضمن تعريف العمل الساخن
+إذا لم يوجد لهب أو سطح متوهج.
+</p>
+
+<h4>⚡ Electrical Permit | التصريح الكهربائي</h4>
+
+<p>
+عادةً ما يتم التحكم في العمل على الأنظمة الكهربائية
+عالية الجهد
+<strong>High Voltage (HV)</strong>
+من خلال تصريح عمل خاص.
+</p>
+
+<p>
+ولا يجوز إصدار هذا التصريح إلا بواسطة أشخاص
+<strong>Authorised Persons</strong>
+مؤهلين بشكل مناسب.
+</p>
+
+<p>
+كما يجب أن يكون الأشخاص الذين يستلمون
+<strong>HV Permits</strong>
+أكفاء،
+وقد تشمل إجراءات التحكم عمليات فصل وعزل وقفل معقدة
+<strong>(Complex Disconnection, Isolation and Lock-Off)</strong>.
+</p>
+
+<h4>🕳️ Confined Space Permit |
+تصريح دخول الأماكن المحصورة</h4>
+
+<p>
+عادةً يتم تنفيذ العمل داخل
+<strong>Confined Spaces</strong>
+بموجب تصريح،
+مع تحديد متطلبات إضافية.
+</p>
+
+<p>وقد تشمل:</p>
+
+<ul>
+<li>
+طرق ضمان
+<strong>Respirable / Safe Atmosphere</strong>.
+</li>
+
+<li>
+<strong>Gas Monitoring Requirements</strong>.
+</li>
+
+<li>
+<strong>Emergency Procedures</strong>.
+</li>
+
+<li>
+<strong>Rescue Procedures</strong>.
+</li>
+</ul>
+
+<div style="overflow-x:auto; margin:18px 0;">
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+
+<tr>
+<th style="border:1px solid #ccc; padding:9px;">Permit Type</th>
+<th style="border:1px solid #ccc; padding:9px;">Typical Application</th>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Isolation / General PTW</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Isolation of electrical, mechanical or chemical systems</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Hot Work</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Work capable of producing sparks or hot surfaces</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Cold Work</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Activities not normally classed as hot work but that may create local ignition sources</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Electrical</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">High-voltage electrical work</td>
+</tr>
+
+<tr>
+<td style="border:1px solid #ccc; padding:9px;"><strong>Confined Space</strong></td>
+<td style="border:1px solid #ccc; padding:9px;">Entry and work inside confined spaces</td>
+</tr>
+
+</table>
+</div>
+
+<h4>💻 Electronic and Paper-Based Systems |
+الأنظمة الإلكترونية والورقية</h4>
+
+<p>
+يمكن أن يكون نظام تصريح العمل
+<strong>Paper-Based</strong>
+أو
+<strong>Electronic</strong>.
+</p>
+
+<p>
+قد يوفر النظام الإلكتروني بعض المزايا مقارنة بالأنظمة الورقية،
+لكن يجب التأكد من وجود نظام مناسب يحقق متطلبات التحكم.
+</p>
+
+<p>ومن النقاط المهمة في النظام الإلكتروني:</p>
+
+<ul>
+<li>
+منع
+<strong>Unauthorised Issue or Acceptance</strong>
+للتصاريح.
+</li>
+
+<li>
+عدم السماح بإصدار التصريح عن بُعد
+<strong>Without a Site Visit</strong>.
+</li>
+
+<li>
+منع تعديل التصاريح الصادرة بالفعل
+دون إبلاغ جميع الأطراف المعنية بالتعديلات.
+</li>
+
+<li>
+وجود إمكانية لإنتاج نسخة ورقية
+<strong>(Paper Permit)</strong>
+لعرضها في موقع العمل.
+</li>
+
+<li>
+توفير التدريب المناسب حتى يقوم العاملون بتقييم العمل المحدد
+ولا يعتمدون فقط على
+<strong>Cutting and Pasting</strong>
+أقسام موجودة مسبقًا من تصاريح أخرى.
+</li>
+
+<li>
+وجود
+<strong>Suitable Back-Up Systems</strong>
+في حالة فشل البرامج أو انقطاع الكهرباء.
+</li>
+</ul>
+
+<p>
+سواء كان النظام ورقيًا أو إلكترونيًا،
+يجب أن يكون نوع التصريح المستخدم
+ومتطلباته واضحًا لجميع الأشخاص
+المشاركين في الأعمال الخطرة أو المتأثرين بها.
+</p>
+
+<hr>
+
+<h3>6️⃣ الحالات المعتادة التي لا تتطلب تصريح عمل |
+Typical Circumstances When a Permit Is Not Required</h3>
+
+<p>
+ليس كل نشاط داخل المنشأة يحتاج إلى
+<strong>Permit-to-Work</strong>.
+</p>
+
+<p>
+إذا كان النشاط:
+</p>
+
+<ul>
+<li>لا يتم على <strong>Live Process Plant</strong>.</li>
+<li>لا يحتاج إلى <strong>Isolation or Disconnection</strong>.</li>
+<li>ولا يقع ضمن تعريفات الأنشطة الأخرى التي تتطلب تصريحًا، مثل Hot Work أو Confined Space.</li>
+</ul>
+
+<p>
+فقد لا يتم عادةً تنفيذه تحت نظام تصريح العمل،
+ويمكن استخدام
+<strong>Safe System of Work</strong>
+آخر مناسب.
+</p>
+
+<h4>🏭 Routine Production and First-Line Maintenance</h4>
+
+<p>
+قد تشمل الأمثلة بعض أنشطة الإنتاج الروتينية
+وأعمال الصيانة الأولية
+<strong>(First-Line Maintenance)</strong>
+التي يقوم بها موظفو التشغيل،
+مثل:
+</p>
+
+<ul>
+<li>تعبئة الزيت <strong>(Topping Up Oil)</strong>.</li>
+<li>تعبئة الماء.</li>
+<li>تشغيل أو ضبط بعض وحدات التحكم <strong>(Turning Controllers)</strong>.</li>
+</ul>
+
+<h4>👷 Inspectors, Surveyors, Engineers and Visitors</h4>
+
+<p>
+عادةً قد لا يحتاج المفتشون والمساحون والمهندسون والزوار
+إلى تصريح عمل،
+بشرط:
+</p>
+
+<ul>
+<li>الحصول على موافقة مسبقة على وجودهم في المنطقة التشغيلية.</li>
+<li>ألا يتداخل نشاطهم مع المنشأة أو المعدات.</li>
+<li>ألا يحملوا أو يستخدموا مصادر اشتعال محتملة.</li>
+</ul>
+
+<h4>🔧 Designated Maintenance and Construction Areas</h4>
+
+<p>
+الأعمال التي تتم داخل مناطق الصيانة المخصصة،
+مثل
+<strong>Workshops</strong>،
+ومناطق الإنشاء المحددة،
+لا تحتاج عادةً إلى تصريح عمل
+<strong>Permit-to-Work</strong>.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>⚠️ Important</strong><br><br>
+
+عدم الحاجة إلى
+<strong>PTW</strong>
+لا يعني أن العمل يمكن تنفيذه دون ضوابط.
+<br><br>
+
+يجب أن يظل هناك
+<strong>Appropriate Safe System of Work</strong>
+يتناسب مع طبيعة النشاط والمخاطر.
+</div>
+
+<hr>
+
+<h3>🎯 Final Exam Focus – 2.4</h3>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+
+<strong>Permit-to-Work</strong>
+→ Formal documented procedure forming part of a Safe System of Work.
+<br><br>
+
+<strong>PTW is commonly used for</strong>
+→ High-risk activities.
+<br><br>
+
+<strong>PTW works with</strong>
+→ Risk Assessment + Method Statement + Isolation + Communication.
+<br><br>
+
+<strong>Key Permit Features</strong>
+→ Scope + Duration + Hazards + Isolations + Linked Permits +
+Emergency Controls + Specific Controls + Acceptance/Cancellation.
+<br><br>
+
+<strong>Permit Life Cycle</strong>
+→ Issue → Receipt → Work → Clearance / Return to Service → Cancellation.
+<br><br>
+
+<strong>Adjacent Plant</strong>
+→ Consider interactions and conflicting simultaneous activities.
+<br><br>
+
+<strong>Contractors</strong>
+→ May require additional competency checks and induction;
+permits are issued by the organisation, not by contractors themselves.
+<br><br>
+
+<strong>Types</strong>
+→ Isolation / General → Hot Work → Cold Work →
+Electrical → Confined Space.
+<br><br>
+
+<strong>Electronic PTW</strong>
+→ Must control authorisation, site verification, changes,
+paper display capability, training and system failure.
+<br><br>
+
+<strong>No PTW Required</strong>
+→ Only where the activity does not fall within permit-controlled work;
+another suitable Safe System of Work must still be used.
+
+</div>
+
+<h3>✅ Final Summary – 2.4</h3>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+
+<strong>Purpose</strong>
+→ التحكم المنظم في الأعمال عالية الخطورة.
+<br><br>
+
+<strong>Hazard Control</strong>
+→ تحديد الأخطار والعزل والاحتياطات المطلوبة قبل بدء العمل.
+<br><br>
+
+<strong>Communication</strong>
+→ ضمان معرفة جميع الأطراف بالعمل والمخاطر وإجراءات التحكم.
+<br><br>
+
+<strong>Coordination</strong>
+→ منع التعارض بين الأعمال والتصاريح والمنشآت المجاورة.
+<br><br>
+
+<strong>Authorisation</strong>
+→ تحديد من يصدر التصريح ومن يستلمه ومن يعيد المعدة أو المنطقة للخدمة.
+<br><br>
+
+<strong>Close-Out</strong>
+→ لا ينتهي دور التصريح بانتهاء العمل؛
+يجب تنفيذ الإخلاء وإعادة الخدمة والإلغاء بطريقة منظمة.
+
+</div>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center;">
+<strong style="font-size:18px;">
+✅ Element 2.4 – Role, Purpose and Features of a Permit-to-Work System
+</strong>
+<br><br>
+
+تصريح العمل ليس مجرد ورقة أو توقيع؛
+بل هو نظام رسمي للتحكم والتواصل والتنسيق
+يساعد على تنفيذ الأعمال عالية الخطورة بأمان.
+
+</div>
+
+</div>
+`    
 },
 {
     number: "2.5",
