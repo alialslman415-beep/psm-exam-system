@@ -212,7 +212,20 @@ Process Safety لا تركز فقط على إصابة عامل واحد،
 إلى التشغيل ثم إيقاف التشغيل وإخراج المنشأة من الخدمة
 <strong>Decommissioning</strong>.
 </p>
+<p>
+كما يجب على فرق القيادة فهم أهمية
+<strong>طبقات الوقاية والحماية (Layers of Prevention and Protection)</strong>
+المستخدمة في المنشأة. فبعض هذه الطبقات تهدف إلى منع الحدث الخطير
+<strong>(Prevention)</strong>
+من الوقوع، بينما تعمل طبقات أخرى على الحد من العواقب
+<strong>(Mitigation)</strong>
+إذا وقع الحدث.
+</p>
 
+<p>
+لذلك يجب على القيادة التأكد من أن هذه الطبقات مناسبة للمخاطر،
+ومتوفرة، ويتم فحصها وصيانتها ومراقبة فعاليتها بصورة مستمرة.
+</p>
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Learning Point</strong><br><br>
 عدم وقوع حادث كبير في الماضي لا يعني أن مخاطر الحوادث الكبرى غير موجودة.
