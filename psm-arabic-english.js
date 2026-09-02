@@ -54,7 +54,24 @@ content: `
 فتركز على منع الحوادث الكبرى ذات الاحتمالية الأقل ولكن العواقب الأعلى،
 خصوصًا في الصناعات عالية الخطورة مثل النفط والغاز والصناعات الكيميائية.
 </p>
+<p>
+على الرغم من أن حوادث سلامة العمليات
+<strong>(Process Safety Events)</strong>
+تحدث بمعدل أقل من حوادث السلامة الشخصية، إلا أنها قد تكون أكثر تعقيدًا وصعوبة في التنبؤ بها بسبب تعدد الأسباب
+<strong>(Multiple Causes)</strong>
+وتعقيد العمليات
+<strong>(Process Complexity)</strong>.
+وقد يؤدي وقوع حادث كبير واحد إلى عواقب كارثية تشمل الحرائق والانفجارات والإطلاقات السامة وفقدان الاحتواء.
+</p>
 
+<p>
+لذلك تتطلب سلامة العمليات ضوابط فنية متقدمة
+<strong>(Complex Technical Controls)</strong>
+ونظامًا قويًا لإدارة السلامة
+<strong>(Robust Safety Management System)</strong>
+بالإضافة إلى مهارات متخصصة في الهندسة والإدارة
+<strong>(Engineering and Management Skills)</strong>.
+</p>
 <ul>
 <li>
 <strong>Personal Safety:</strong>
