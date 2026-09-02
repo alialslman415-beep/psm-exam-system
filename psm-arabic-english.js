@@ -6678,7 +6678,520 @@ Right Information + Right People + Right Time + Clear Communication
     number: "2.6",
     title: "Contractor Management",
     titleArabic: "إدارة المقاولين",
-    content: ""
+    content: `
+<div style="text-align:right; line-height:1.9;">
+
+<h3>🎯 الهدف التعليمي | Learning Objective</h3>
+
+<p>
+في نهاية هذا الموضوع سيكون المتدرب قادرًا على شرح مبادئ
+<strong>Contractor Management</strong>
+في صناعات العمليات، بما يشمل اختيار المقاولين، ومراجعة أدائهم،
+وتعريفهم بمخاطر الموقع، والإشراف عليهم، وتدقيق أدائهم،
+وتسليم الأعمال والمعلومات إلى العميل بعد الانتهاء.
+</p>
+
+<hr>
+
+<h3>1️⃣ حجم استخدام المقاولين في صناعات العمليات |
+The Scale of Contractor Use Within the Process Industries</h3>
+
+<p>
+<strong>Contractor</strong>
+هو فرد أو منظمة يتم دفع مقابل لها لتقديم خدمة إلى العميل
+دون أن تكون موظفة لديه بشكل مباشر.
+</p>
+
+<p>
+يُستخدم المقاولون على نطاق واسع في صناعات العمليات، ومن أمثلة ذلك:
+</p>
+
+<ul>
+<li>
+توفير عمالة إضافية أثناء فترات الإنتاج المرتفع أو
+<strong>Busy Maintenance Periods</strong>.
+</li>
+<li>
+توفير مهارات متخصصة أثناء أعمال الإنشاء والإيقاف
+<strong>(Construction and Shutdown Activities)</strong>.
+</li>
+<li>
+توفير تخصصات مثل
+<strong>Welders, Electricians and Pipe Fitters</strong>.
+</li>
+<li>
+وقد تشمل الخدمات أيضًا
+<strong>Diving Services, Transfer Vessels and Catering</strong>.
+</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #21a6d8; border-radius:10px; margin:18px 0;">
+<strong>💭 Activity</strong><br><br>
+حدد أنواع المقاولين أو الشركات المتعاقدة المختلفة
+التي يمكن استخدامها في موقع صناعي.
+</div>
+
+<hr>
+
+<h3>2️⃣ اختيار المقاول |
+Contractor Selection</h3>
+
+<p>
+يجب اختيار المقاولين بعناية وعلى أساس
+<strong>Competence</strong>
+وليس لمجرد الراحة أو سهولة التعاقد.
+</p>
+
+<p>
+يجب أن يكون المقاول قادرًا على تنفيذ العمل بأمان،
+وأن يمتلك الخبرة المناسبة في صناعات العمليات
+وأن يفهم تأثير أعماله على الموقع والعمليات التشغيلية.
+</p>
+
+<h4>📋 Contractor Selection Criteria | معايير اختيار المقاول</h4>
+
+<ul>
+<li>
+الخبرة في نوع العمل المطلوب وفي
+<strong>Process Industry</strong>.
+</li>
+
+<li>
+التدريب والخبرة في متطلبات السلامة الخاصة ببيئة العمل.
+</li>
+
+<li>
+مدى ملاءمة
+<strong>Health and Safety Policy</strong>
+الخاصة بالمقاول.
+</li>
+
+<li>
+جودة وملاءمة
+<strong>Risk Assessments</strong>.
+</li>
+
+<li>
+جودة ومستوى التفاصيل في
+<strong>Method Statements</strong>.
+</li>
+
+<li>
+<strong>Accident History and Statistics</strong>
+بما في ذلك الإسعافات الأولية وتقارير
+<strong>Near Misses</strong>.
+</li>
+
+<li>
+<strong>Enforcement History and Prosecutions</strong>.
+</li>
+
+<li>
+كيفية مراقبة أداء الصحة والسلامة،
+بما في ذلك
+<strong>Site Inspections</strong>.
+</li>
+
+<li>
+مؤهلات وكفاءة العاملين والمديرين ومستشاري السلامة.
+</li>
+
+<li>
+العضوية في الهيئات المهنية أو
+<strong>Trade Associations</strong>.
+</li>
+
+<li>
+إجراءات اختيار وإدارة
+<strong>Subcontractors</strong>.
+</li>
+
+<li>
+مستوى
+<strong>Insurance Cover</strong>.
+</li>
+
+<li>
+ترتيبات التواصل
+<strong>(Liaison)</strong>
+مع العملاء.
+</li>
+
+<li>
+<strong>References from Previous Clients</strong>.
+</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+
+<strong>Contractor Selection = Competence before Convenience.</strong><br>
+اختيار المقاول يجب أن يعتمد على قدرته وخبرته وأدائه في السلامة،
+وليس فقط على السعر أو سهولة التعاقد.
+</div>
+
+<hr>
+
+<h3>3️⃣ المراجعة الدورية لأداء المقاول في السلامة |
+Periodic Review of Contractor Safety Performance</h3>
+
+<p>
+يجب المحافظة على علاقة عمل وثيقة مع المقاولين،
+والتأكد بصورة مستمرة من مستوى أدائهم في السلامة.
+</p>
+
+<p>وقد تشمل المراجعة:</p>
+
+<ul>
+<li>
+<strong>Site Inspections</strong>
+للتحقق من الالتزام بـMethod Statements وRisk Assessments.
+</li>
+
+<li>
+<strong>Safety Tours</strong>
+لمراقبة المعايير العامة، بما في ذلك Housekeeping.
+</li>
+
+<li>
+<strong>Regular Meetings</strong>
+مع المقاولين لمناقشة المشكلات ومراجعة بيانات الحوادث.
+</li>
+</ul>
+
+<p>
+اختيار مقاول جيد في البداية لا يكفي؛
+يجب متابعة أدائه أثناء تنفيذ العمل.
+</p>
+
+<hr>
+
+<h3>4️⃣ تعريف المقاولين والتزامات توفير معلومات مخاطر الموقع |
+Contractor Induction and Obligations to Provide Information on Site Risks</h3>
+
+<p>
+قد يتم توفير معلومات عن مخاطر الموقع في مرحلة
+<strong>Tender Stage</strong>،
+ولكن من الضروري التأكد من وصول المعلومات ذات الصلة
+إلى العمال أنفسهم عند وصولهم إلى الموقع.
+</p>
+
+<p>
+ويتم ذلك عادةً من خلال
+<strong>Site Induction</strong>
+الذي قد يشمل:
+</p>
+
+<ul>
+<li><strong>Sign In / Out Procedures</strong>.</li>
+<li><strong>Emergency Procedures</strong> مثل الحريق والإسعافات الأولية وتسرب الغاز.</li>
+<li><strong>Site Rules</strong> مثل النقل والتدخين والعمل على ارتفاع.</li>
+<li>مخاطر الموقع الخاصة مثل المواد الكيميائية والأجواء القابلة للاشتعال والأسبستوس.</li>
+<li><strong>PPE Requirements</strong>.</li>
+<li><strong>Permit-to-Work Requirements</strong>.</li>
+<li><strong>Accident Reporting Procedures</strong>.</li>
+<li><strong>Near-Miss and Hazard Reporting</strong>.</li>
+</ul>
+
+<p>
+كما يجب على العميل تزويد المقاول بالمعلومات عن الأخطار
+الخاصة بالموقع أو المعدات التي سيعمل عليها،
+بما في ذلك المعلومات التاريخية ذات الصلة عندما تكون مهمة للعمل الآمن.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>⚠️ Important</strong><br><br>
+
+إرسال معلومات السلامة إلى شركة المقاول لا يكفي.
+يجب التأكد من أن
+<strong>Relevant Information Reaches the Individual Workers</strong>
+الذين سينفذون العمل فعليًا.
+</div>
+
+<hr>
+
+<h3>5️⃣ مسؤولية المقاول والإشراف والتمثيل في الموقع |
+Contractor Ownership and Site Supervision / Representation</h3>
+
+<p>
+قد يتأثر المقاولون بأعمال موظفي الموقع،
+لذلك يجب إدراجهم عند الحاجة ضمن:
+</p>
+
+<ul>
+<li><strong>Process Risk Assessments</strong>.</li>
+<li><strong>Safe Systems of Work</strong>.</li>
+</ul>
+
+<p>
+يجب تحديد أشخاص مسؤولين بصورة واضحة عن
+<strong>Approval and Day-to-Day Management of Contractors</strong>
+لضمان إدارة المقاولين ودعمهم بصورة مناسبة.
+</p>
+
+<p>
+كما يجب أن يعرف كل مقاول
+<strong>Who Their Client Contact Is</strong>
+حتى يكون هناك شخص واضح يمكن الرجوع إليه
+للإجابة عن الأسئلة المتعلقة بالعمل.
+</p>
+
+<hr>
+
+<h3>6️⃣ تدقيق أداء المقاولين |
+Auditing Contractor Performance</h3>
+
+<p>
+يجب تقييم المقاولين للتأكد من قدرتهم على تنفيذ العمل،
+ثم مراقبتهم أثناء التنفيذ للتأكد من التزامهم
+بمعايير الصحة والسلامة المتفق عليها.
+</p>
+
+<h4>🔍 Initial Assessment | التقييم الأولي</h4>
+
+<p>
+يجب أن يعتمد التقييم الأولي على
+<strong>Method Statements</strong>
+المقدمة من المقاول،
+والتحقق من أنها تحقق المتطلبات القانونية
+والمعايير والإرشادات المقبولة.
+</p>
+
+<h4>👷 Monitoring During the Work | المراقبة أثناء العمل</h4>
+
+<p>
+أثناء تنفيذ العمل،
+يجب مراقبة ممارسات المقاول للتأكد من الالتزام
+بشروط
+<strong>Method Statements</strong>
+والمعايير المتفق عليها.
+</p>
+
+<p>
+إذا ظهرت انحرافات عن الإجراءات المتفق عليها،
+فيجب التعامل معها وتصحيحها.
+</p>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center;">
+<strong>
+Initial Assessment
+→ Monitor Work
+→ Identify Deviations
+→ Corrective Action
+→ Review Performance
+</strong>
+</div>
+
+<p>
+المحافظة على المعايير المناسبة أثناء تنفيذ العمل
+هي
+<strong>Joint Responsibility</strong>
+بين شركة المقاول والعميل.
+</p>
+
+<h4>📊 Post-Work Review | المراجعة بعد العمل</h4>
+
+<p>
+بعد انتهاء العمل،
+يجب على العميل والمقاول مراجعة:
+</p>
+
+<ul>
+<li>مستوى العمل المنجز.</li>
+<li>كيفية تنفيذ العمل.</li>
+<li>أي حوادث أو أحداث وقعت.</li>
+<li><strong>Contractor Performance Measures</strong>.</li>
+<li>الإجراءات التصحيحية وفرص التحسين.</li>
+</ul>
+
+<hr>
+
+<h3>7️⃣ تسليم أعمال المقاول إلى العميل |
+Contractor Handover to Client</h3>
+
+<p>
+بعد اكتمال العمل،
+يجب تسليم أي منشآت أو مبانٍ أو معدات تم تركيبها إلى العميل.
+</p>
+
+<p>
+وقد تشمل المعلومات التي يتم تسليمها:
+</p>
+
+<ul>
+<li><strong>Operation and Maintenance Manuals</strong>.</li>
+<li><strong>Pipework and Instrumentation Diagrams</strong>.</li>
+<li><strong>Updated Layout Plans</strong> بما في ذلك مواقع الخدمات.</li>
+<li><strong>Design Specifications</strong>.</li>
+<li><strong>As-Built Drawings</strong>.</li>
+</ul>
+
+<p>
+كما قد يحتاج المقاول إلى إعادة أي معدات أو أجزاء من المنشأة
+إلى العميل بعد انتهاء العمل،
+مع التأكد من إلغاء
+<strong>Permit-to-Work</strong>
+التي تم فتحها لهذا العمل.
+</p>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>💡 Key Learning Point</strong><br><br>
+
+<strong>Contractor Handover</strong>
+لا يعني فقط انتهاء العمل الميداني؛
+بل يشمل تسليم المعدات والوثائق والمعلومات،
+وإغلاق التصاريح المرتبطة بالعمل.
+</div>
+
+<hr>
+
+<h3>🏭 Case Study – Housing / Siting of Contractors</h3>
+
+<h4>BP Texas City Refinery Explosion – 2005</h4>
+
+<p>
+أظهر حادث
+<strong>BP Texas City Refinery</strong>
+أهمية اختيار مواقع المباني المؤقتة الخاصة بالمقاولين
+بعيدًا عن مناطق الخطر.
+</p>
+
+<p>
+كان عدد كبير من العاملين المتأثرين بالحادث
+من موظفي شركات مقاولات،
+وكانت بعض المرافق المؤقتة للمقاولين موجودة بالقرب من
+<strong>ISOM Unit</strong>.
+</p>
+
+<p>
+أحد الدروس المهمة هو أن المنشآت المؤقتة،
+مثل:
+<strong>Trailers and Contractor Huts</strong>،
+قد تصبح بمرور الوقت شبه دائمة.
+</p>
+
+<p>
+لذلك يجب ألا يتم التعامل معها على أنها تغيير بسيط أو مؤقت فقط،
+بل يجب إدخالها ضمن عمليات:
+</p>
+
+<ul>
+<li><strong>Management of Change (MOC)</strong>.</li>
+<li><strong>Process Hazard Analysis (PHA)</strong>.</li>
+</ul>
+
+<p>
+عند إضافة مبانٍ أو مرافق جديدة،
+مثل المكاتب أو المقطورات المؤقتة،
+يجب تقييم موقعها وتأثيرها على مخاطر المنشأة.
+</p>
+
+<p>
+يجب تحديد أماكن الإقامة أو المرافق المؤقتة للعاملين
+بناءً على:
+</p>
+
+<ul>
+<li><strong>Explosion Exclusion Zones</strong>.</li>
+<li>المناطق التي قد تتعرض لتأثير الانفجار.</li>
+<li>إمكانية وقوع حوادث جسيمة أخرى.</li>
+<li>إبعاد المرافق عن المناطق المعرضة للخطر حتى لو كان ذلك أقل راحة للعاملين.</li>
+</ul>
+
+<div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+<strong>🎯 Learning from Texas City</strong><br><br>
+
+<strong>
+Temporary does not mean risk-free.
+</strong>
+<br><br>
+
+المباني المؤقتة يجب أن تدخل في
+<strong>MOC + PHA + Facility Siting Assessment</strong>
+عندما يمكن أن تؤثر في مستوى التعرض لمخاطر العمليات.
+</div>
+
+<hr>
+
+<h3>🎯 Final Exam Focus – 2.6</h3>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+
+<strong>Contractor Selection</strong>
+→ Competence + Experience + H&S Performance + Risk Assessments +
+Method Statements + Accident History.
+<br><br>
+
+<strong>Periodic Review</strong>
+→ Site Inspections + Safety Tours + Regular Meetings.
+<br><br>
+
+<strong>Induction</strong>
+→ Site Risks + Emergency Procedures + PPE + PTW +
+Accident / Near-Miss Reporting.
+<br><br>
+
+<strong>Supervision</strong>
+→ Clear responsibilities and a known Client Contact.
+<br><br>
+
+<strong>Auditing</strong>
+→ Initial Assessment + Monitoring + Corrective Action + Review.
+<br><br>
+
+<strong>Responsibility</strong>
+→ Maintaining appropriate standards is a
+<strong>Joint Responsibility</strong>
+between contractor and client.
+<br><br>
+
+<strong>Handover</strong>
+→ Equipment + Documents + Drawings + Information + PTW Close-Out.
+<br><br>
+
+<strong>Texas City Learning</strong>
+→ Temporary contractor facilities require appropriate
+MOC, hazard analysis and safe siting.
+
+</div>
+
+<h3>✅ Final Summary – 2.6</h3>
+
+<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
+
+Effective
+<strong>Contractor Management</strong>
+begins before the contractor arrives on site
+and continues until the work has been completed and handed back.
+<br><br>
+
+<strong>
+Select → Inform → Induct → Supervise → Monitor → Audit → Handover
+</strong>
+<br><br>
+
+الإدارة الفعالة للمقاولين تعتمد على اختيار المقاول الكفء،
+وتزويده بالمعلومات،
+ومراقبة أدائه،
+والتأكد من تسليم العمل والمعلومات إلى العميل بطريقة منظمة وآمنة.
+
+</div>
+
+<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center;">
+<strong style="font-size:18px;">
+✅ Element 2.6 – Contractor Management
+</strong>
+<br><br>
+
+<strong>
+Competent Contractor + Clear Information + Effective Supervision
+= Safer Contractor Work
+</strong>
+
+</div>
+
+</div>
+`
 }          
 
         ]
