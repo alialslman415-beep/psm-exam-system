@@ -1275,7 +1275,7 @@ content: `
 ] 
     },
 
-    element2: {
+     {
         title: "Element 2 – Management of Process Risk",
         titleArabic: "الوحدة الثانية – إدارة مخاطر العمليات",
 
@@ -7195,6 +7195,116 @@ Competent Contractor + Clear Information + Effective Supervision
 }          
 
         ]
-    }
+    },
+
+element3: {
+
+    introduction: `
+        <div style="text-align:right;">
+            <h3>Element 3 - Process Safety Hazard Control</h3>
+            <h3>الوحدة الثالثة - التحكم في مخاطر سلامة العمليات</h3>
+
+            <p>
+                تتناول هذه الوحدة وسائل التحكم في مخاطر سلامة العمليات
+                من خلال إجراءات التشغيل الآمنة، وعمليات بدء التشغيل والإيقاف،
+                ومعايير الأداء للعناصر الحرجة للسلامة، والمرافق،
+                والكهرباء والشحنات الساكنة، والمواد الخطرة،
+                ومخاطر التفاعلات الكيميائية، وعمليات التخزين السائب.
+            </p>
+        </div>
+    `,
+
+    topics: [
+
+        {
+            number: "3.1",
+            title: "Operating Procedures",
+            titleArabic: "إجراءات التشغيل",
+            content: `
+                <div style="text-align:right;">
+                    <p>محتوى الموضوع 3.1 قيد الإعداد.</p>
+                </div>
+            `
+        },
+
+        {
+            number: "3.2",
+            title: "Safe Start-Up and Shut-Down",
+            titleArabic: "بدء التشغيل والإيقاف الآمن",
+            content: `
+                <div style="text-align:right;">
+                    <p>محتوى الموضوع 3.2 قيد الإعداد.</p>
+                </div>
+            `
+        },
+
+        {
+            number: "3.3",
+            title: "Safety Critical Performance Standards",
+            titleArabic: "معايير الأداء للعناصر الحرجة للسلامة",
+            content: `
+                <div style="text-align:right;">
+                    <p>محتوى الموضوع 3.3 قيد الإعداد.</p>
+                </div>
+            `
+        },
+
+        {
+            number: "3.4",
+            title: "Utilities",
+            titleArabic: "المرافق والخدمات المساندة",
+            content: `
+                <div style="text-align:right;">
+                    <p>محتوى الموضوع 3.4 قيد الإعداد.</p>
+                </div>
+            `
+        },
+
+        {
+            number: "3.5",
+            title: "Electricity / Static Electricity",
+            titleArabic: "الكهرباء والكهرباء الساكنة",
+            content: `
+                <div style="text-align:right;">
+                    <p>محتوى الموضوع 3.5 قيد الإعداد.</p>
+                </div>
+            `
+        },
+
+        {
+            number: "3.6",
+            title: "Dangerous Substances",
+            titleArabic: "المواد الخطرة",
+            content: `
+                <div style="text-align:right;">
+                    <p>محتوى الموضوع 3.6 قيد الإعداد.</p>
+                </div>
+            `
+        },
+
+        {
+            number: "3.7",
+            title: "Reaction Hazards",
+            titleArabic: "مخاطر التفاعلات",
+            content: `
+                <div style="text-align:right;">
+                    <p>محتوى الموضوع 3.7 قيد الإعداد.</p>
+                </div>
+            `
+        },
+
+        {
+            number: "3.8",
+            title: "Bulk Storage Operations",
+            titleArabic: "عمليات التخزين السائب",
+            content: `
+                <div style="text-align:right;">
+                    <p>محتوى الموضوع 3.8 قيد الإعداد.</p>
+                </div>
+            `
+        }
+
+    ]
+}
 
 };
