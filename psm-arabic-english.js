@@ -1275,7 +1275,7 @@ content: `
 ] 
     },
 
-     {
+     element2: {
         title: "Element 2 – Management of Process Risk",
         titleArabic: "الوحدة الثانية – إدارة مخاطر العمليات",
 
