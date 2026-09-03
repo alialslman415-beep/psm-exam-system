@@ -1180,6 +1180,32 @@ function openArabicEnglishElement3() {
     document.getElementById("arabicEnglishElement3Page")
         .classList.remove("hidden");
 
+    const element3 = psmArabicEnglish.element3;
+
+    let topicsHtml = `
+        <div style="text-align:right;">
+            ${element3.introduction}
+
+            <hr>
+
+            <h3>مواضيع الوحدة الثالثة</h3>
+        </div>
+    `;
+
+    element3.topics.forEach(topic => {
+        topicsHtml += `
+            <button
+                style="width:100%; margin:8px 0;"
+                onclick="openArabicEnglishElement3Topic('${topic.number}')">
+                <strong>${topic.number} - ${topic.title}</strong>
+                <br>
+                ${topic.titleArabic}
+            </button>
+        `;
+    });
+
+    document.getElementById("arabicEnglishElement3Content")
+        .innerHTML = topicsHtml;
 }
 
 
@@ -1192,7 +1218,30 @@ function openArabicEnglishElement4() {
         .classList.remove("hidden");
 
 } 
-     
+function openArabicEnglishElement3Topic(topicNumber) {
+
+    currentArabicEnglishElement = 3;
+
+    const topic = psmArabicEnglish.element3.topics
+        .find(item => item.number === topicNumber);
+
+    if (!topic) return;
+
+    document.getElementById("arabicEnglishElement3Page")
+        .classList.add("hidden");
+
+    document.getElementById("arabicEnglishTopicPage")
+        .classList.remove("hidden");
+
+    document.getElementById("arabicEnglishTopicTitle")
+        .innerText = `${topic.number} - ${topic.title}`;
+
+    document.getElementById("arabicEnglishTopicTitleArabic")
+        .innerText = topic.titleArabic;
+
+    document.getElementById("arabicEnglishTopicContent")
+        .innerHTML = topic.content || "<p>سيتم إضافة المحتوى قريبًا.</p>";
+}     
 function openArabicEnglishElement2Topic(topicNumber) {
  
 currentArabicEnglishElement = 2;
@@ -1248,17 +1297,22 @@ function backToArabicEnglishCurrentElement() {
     document.getElementById("arabicEnglishTopicPage")
         .classList.add("hidden");
 
-    if (currentArabicEnglishElement === 2) {
+    if (currentArabicEnglishElement === 3) {
 
-        document.getElementById("arabicEnglishElement2Page")
-            .classList.remove("hidden");
+    document.getElementById("arabicEnglishElement3Page")
+        .classList.remove("hidden");
 
-    } else {
+} else if (currentArabicEnglishElement === 2) {
 
-        document.getElementById("arabicEnglishElement1Page")
-            .classList.remove("hidden");
+    document.getElementById("arabicEnglishElement2Page")
+        .classList.remove("hidden");
 
-    }
+} else {
+
+    document.getElementById("arabicEnglishElement1Page")
+        .classList.remove("hidden");
+
+}
 }
      
 function backToArabicEnglishElement1() {
