@@ -7216,405 +7216,683 @@ element3: {
 
     topics: [
 
-      {
+{
     number: "3.1",
     title: "Operating Procedures",
     titleArabic: "إجراءات التشغيل",
     content: `
 <div style="text-align:right; line-height:1.9;">
 
-<h3>🎯 الهدف التعليمي | Learning Objective</h3>
-
-<p>
-يهدف هذا الموضوع إلى توضيح أهمية <strong>إجراءات التشغيل (Operating Procedures)</strong>
-في إبقاء العمليات داخل <strong>نطاق التشغيل الآمن (Safe Operating Envelope)</strong>،
-وكيفية إعداد إجراءات تشغيل واضحة ودقيقة ومحدثة، مع فهم مخاطر الانحراف عنها.
-</p>
-
-<hr>
-
-<h3>1. ما هو نطاق التشغيل الآمن؟ | What is a Safe Operating Envelope?</h3>
-
-<p>
-يجب تصميم وتشغيل العملية بحيث تبقى ظروف التشغيل ضمن حدود محددة تمنع
-العملية أو المواد أو التفاعلات من الوصول إلى حالة خطرة.
-ويُعرف المجال الذي تستطيع العملية العمل داخله بأمان باسم
-<strong>Safe Operating Envelope</strong>.
-</p>
-
-<p>
-يتم تحديد هذا النطاق عادةً من خلال وضع حدود تشغيل عليا ودنيا
-<strong>(Upper and Lower Operating Limits)</strong>
-لمتغيرات العملية المهمة.
-</p>
-
-<p>ومن أمثلة متغيرات العملية:</p>
-
-<ul>
-<li>درجة الحرارة <strong>Temperature</strong>.</li>
-<li>الضغط <strong>Pressure</strong>.</li>
-<li>الحجم أو المستوى <strong>Volume / Level</strong>.</li>
-<li>معدلات التدفق <strong>Flow Rates</strong>.</li>
-<li>التركيب أو التركيز <strong>Composition / Concentration</strong>.</li>
-<li>الخلط أو التحريك <strong>Mixing / Agitation</strong>.</li>
-</ul>
-
-<p>
-كلما اقترب التشغيل من الحد الأعلى أو الأدنى، تقل المساحة المتاحة لاستيعاب
-التغيرات الطبيعية في العملية. لذلك ينبغي أن تسمح حدود التشغيل الآمن
-بهامش مناسب للتقلبات الطبيعية قدر الإمكان.
-</p>
-
-<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
-<strong>📌 مثال تطبيقي | Example</strong><br><br>
-إذا كان وعاء تخزين مصممًا لتحمل نطاق محدد من الضغط، فيجب تشغيله داخل هذا
-النطاق. تجاوز الحد الأعلى قد يؤدي إلى زيادة خطرة في الضغط، بينما انخفاض
-الضغط بصورة غير مقبولة قد يؤدي في بعض الحالات إلى حدوث
-<strong>Vacuum / Implosion</strong>.
-</div>
-
-<p>
-يجب أن تكون حدود نطاق التشغيل الآمن مبنية على مواصفات المصنع،
-وخبرة التشغيل، والحسابات الهندسية، وخصائص العملية.
-</p>
-
-<h4>PRV و PSV</h4>
-
-<p>
-عند احتمال ارتفاع الضغط، تستخدم أجهزة الحماية من الضغط مثل
-<strong>Pressure Relief Valve (PRV)</strong> و
-<strong>Pressure Safety Valve (PSV)</strong>.
-وظيفتها حماية الوعاء أو النظام من التعرض لضغط يتجاوز الحدود التصميمية
-المسموح بها.
-</p>
-
-<p>
-عندما يصل الضغط إلى قيمة الضبط <strong>Set Pressure</strong>،
-يسمح صمام الحماية بتصريف الضغط الزائد إلى موقع آمن أو إلى نظام مخصص
-للتعامل مع المادة، ثم يعود إلى وضعه الطبيعي عندما يستقر الضغط.
-</p>
-
-<hr>
-
-<h3>2. إجراءات التشغيل: الغرض والأنواع ومن يجب أن يشارك؟</h3>
-<h3>Operating Procedures: Purpose, Types, and Who Should Be Involved</h3>
-
-<h4>الغرض من إجراءات التشغيل | Purpose of Operating Procedures</h4>
-
-<p>
-إجراء التشغيل القياسي
-<strong>Standard Operating Procedure (SOP)</strong>
-هو تعليمات موثقة توضح خطوة بخطوة كيفية تنفيذ عملية أو مهمة محددة
-بطريقة صحيحة ومتسقة وآمنة.
-</p>
-
-<p>تغطي إجراءات التشغيل ثلاثة مجالات أساسية:</p>
-
-<ol>
-<li>
-<strong>اعتبارات السلامة المرتبطة بالعملية.</strong>
-يجب أن يعرف المشغل المخاطر المرتبطة بالمواد والمعدات والعملية،
-ووسائل الحماية الموجودة مثل أجهزة القياس والإنذارات والـinterlocks
-والصمامات وأجهزة تخفيف الضغط.
-</li>
-
-<li>
-<strong>وصف نظام التحكم.</strong>
-ويشمل فهم كيفية عمل
-<strong>Safety Instrumentation System (SIS)</strong>
-وأجهزة التحكم مثل
-<strong>Proportional-Integral-Derivative (PID)</strong>
-ومتى يكون التدخل اليدوي مطلوبًا.
-</li>
-
-<li>
-<strong>تحديد ظروف التشغيل الطبيعية وحدودها.</strong>
-يجب أن يعرف المشغل الإجراءات المطلوبة عند حدوث انحراف عن الظروف
-المعتادة، بما في ذلك متى يلزم اتخاذ إجراء سريع أو إجراء إيقاف آمن.
-</li>
-</ol>
-
-<div style="background:#eaf6c8; padding:18px; border-radius:10px; margin:20px 0; border-right:6px solid #8fbf26;">
-
-<h3 style="margin-top:0;">🔑 KEY TERMS</h3>
-
-<p>
-<strong>Safety Instrumentation System (SIS)</strong><br>
-نظام أجهزة السلامة هو النظام المرتبط بمعدات وأجهزة التحكم الآلي
-المستخدمة للمساعدة في إبقاء العملية ضمن نطاق التشغيل الآمن،
-مثل أجهزة الاستشعار ووظائف التحكم والحماية المرتبطة بها.
-</p>
-
-<p>
-<strong>Proportional-Integral-Derivative (PID)</strong><br>
-أسلوب تحكم يستخدم ثلاثة مكونات رئيسية:
-<strong>Proportional + Integral + Derivative</strong>
-للمساعدة في تنظيم متغيرات العملية والتحكم فيها بصورة مستقرة.
-</p>
-
-</div>
-
-<h4>أنواع إجراءات التشغيل | Types of Operating Procedures</h4>
-
-<p>يمكن أن تشمل إجراءات التشغيل، على سبيل المثال:</p>
-
-<ul>
-<li>بدء التشغيل والإيقاف <strong>Start-Up / Shut-Down</strong>.</li>
-<li>صيانة المصنع والمعدات والتعديلات المرتبطة بها.</li>
-<li>الاستجابة للإنذارات <strong>Responding to Alarms</strong>.</li>
-<li>ملء وتفريغ وشحن الأوعية وخطوط الأنابيب والمفاعلات.</li>
-<li>الاستجابة للانحرافات غير المخطط لها والعمليات غير الطبيعية.</li>
-<li>الاستجابة لحالات الطوارئ <strong>Emergency Response</strong>.</li>
-<li>إدارة التغيير <strong>Management of Change – MOC</strong>.</li>
-</ul>
-
-<p>
-هذه الإجراءات تكون عادةً إلزامية، وأي تغيير جوهري عليها يجب أن يخضع
-للمراجعة المناسبة قبل تطبيقه.
-</p>
-
-<h4>من يجب أن يشارك في تطوير الإجراءات؟ | Who Should Be Involved?</h4>
-
-<p>
-من أفضل الممارسات إشراك الأشخاص الذين ينفذون العمل فعليًا في كتابة
-ومراجعة إجراءات التشغيل، لأن لديهم معرفة مباشرة بالواقع التشغيلي.
-كما يمكن أن يشارك المهندسون والمصممون والمتخصصون وغيرهم بحسب طبيعة العملية.
-</p>
-
-<p>
-إشراك المشغلين يساعد على تحسين جودة الإجراء، وزيادة واقعيته،
-وخلق شعور بالملكية <strong>Ownership</strong> مما يزيد احتمال تطبيقه
-بالصورة المطلوبة.
-</p>
-
-<p>
-ويجب كذلك مراعاة
-<strong>Human Factors</strong>
-عند إعداد الإجراءات، بحيث تكون التعليمات قابلة للفهم والتنفيذ في ظروف العمل الحقيقية.
-</p>
-
-<hr>
-
-<h3>3. ماذا يجب أن تتضمن إجراءات التشغيل؟</h3>
-<h3>What Should Be Included Within Operating Procedures?</h3>
-
-<p>ينبغي أن يتضمن الإجراء معلومات واضحة حول:</p>
-
-<ul>
-<li>الغرض من العملية أو المهمة.</li>
-<li>المصنع والمعدات والمواد المستخدمة.</li>
-<li>من ينفذ العمل، ومتى، وأين، وكيف، ولماذا.</li>
-<li>المخاطر التي صُمم الإجراء للسيطرة عليها.</li>
-<li>العواقب المحتملة في حالة عدم اتباع الإجراء.</li>
-<li>المواد الكيميائية وخصائصها ومخاطرها.</li>
-<li>متغيرات التشغيل المهمة مثل الضغط ودرجة الحرارة والتدفق والحجم والتركيب.</li>
-<li>وسائل التحكم الفيزيائية والهندسية المطلوبة وترتيب استخدامها.</li>
-<li>كيفية تنفيذ المهمة فعليًا خطوة بخطوة.</li>
-<li>الرسومات والصور والمخططات و<strong>Flowcharts</strong> عند الحاجة.</li>
-<li>صلاحيات الأشخاص المسموح لهم بتنفيذ الإجراء.</li>
-<li>متطلبات التدريب والكفاءة <strong>Competence</strong>.</li>
-<li>متطلبات معدات الوقاية الشخصية <strong>PPE</strong> عند الحاجة.</li>
-<li>توفر قطع الغيار المناسبة والمتوافقة مع المعايير المطلوبة.</li>
-</ul>
-
-<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
-<strong>⚠️ نقطة مهمة</strong><br><br>
-الإجراء الجيد لا يشرح فقط <strong>ماذا تفعل</strong>،
-بل يجب أن يساعد العامل على فهم <strong>كيف ولماذا</strong> يتم تنفيذ الخطوات،
-وما العواقب المحتملة إذا لم تُتبع بالشكل الصحيح.
-</div>
-
-<hr>
-
-<h3>4. ضرورة أن تكون الإجراءات مفهومة بوضوح</h3>
-<h3>Requirement for Procedures to Be Clearly Understood</h3>
-
-<p>
-لا يكفي وجود SOP مكتوب؛ بل يجب أن يستطيع المشغل قراءته وفهمه
-وتطبيقه بصورة صحيحة.
-</p>
-
-<p>
-ومن الأساليب الفعالة لإعداد الإجراء أن تتم صياغته ثم تجربته عمليًا
-<strong>Trial</strong> ومراجعته حتى يصبح واضحًا وسهل التطبيق.
-</p>
-
-<p>
-أي غموض في الإجراء قد يؤدي إلى اختلاف الأشخاص في تفسير الخطوات،
-وبالتالي زيادة احتمالية الخطأ البشري.
-</p>
-
-<p>
-إشراك العاملين في صياغة الإجراء يساعد على اكتشاف المشكلات العملية
-ويزيد من فهمهم لأسباب الخطوات والضوابط الموجودة.
-</p>
-
-<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
-<strong>🧠 Human Factors</strong><br><br>
-يجب ألا يُبنى الإجراء على افتراض أن الإنسان لن يخطئ.
-التصميم الجيد للإجراءات يأخذ في الاعتبار قدرات العاملين،
-وضغوط العمل، وإمكانية سوء الفهم، والظروف الفعلية التي يتم فيها تنفيذ المهمة.
-</div>
-
-<hr>
-
-<h3>5. ضمان بقاء إجراءات التشغيل محدثة ودقيقة</h3>
-<h3>Ensuring Operating Procedures Remain Current and Accurate</h3>
-
-<p>
-قد تصبح الإجراءات مع مرور الوقت قديمة أو لا تعكس الوضع الفعلي للمصنع.
-وقد يحدث أيضًا ما يسمى
-<strong>Procedural Drift</strong>
-حيث يبدأ العاملون تدريجيًا في تنفيذ المهمة بطريقة مختلفة عن الإجراء المعتمد.
-</p>
-
-<p>
-قد يبدأ الانحراف بتغيير صغير يبدو غير مؤثر، ثم يصبح مع الوقت ممارسة معتادة.
-ومع تكرار هذه الانحرافات قد تتحرك العملية تدريجيًا بعيدًا عن نطاق التشغيل الآمن.
-</p>
-
-<p>لذلك يجب المحافظة على الإجراءات من خلال:</p>
-
-<ul>
-<li>المراجعات الدورية المخططة.</li>
-<li>التحقق من الانحرافات الفعلية في التشغيل.</li>
-<li>مراقبة أنظمة السلامة مثل <strong>SIS</strong>.</li>
-<li>مراجعة تقارير <strong>MOC</strong>.</li>
-<li>مراجعة سجلات الفحص والصيانة.</li>
-<li>تحليل الأحداث والحوادث والانحرافات التشغيلية.</li>
-</ul>
-
-<p>ومن المصادر التي قد تكشف وجود انحرافات في العملية:</p>
-
-<ul>
-<li>شكاوى العيوب <strong>Defect Complaints</strong>.</li>
-<li>المنتجات غير المطابقة للمواصفات.</li>
-<li>تقارير الانحرافات التشغيلية.</li>
-<li>التغيرات في الإنتاجية أو العائد <strong>Yield</strong>.</li>
-<li>سجلات المواد الخام.</li>
-<li>تقارير الأحداث غير المرغوبة.</li>
-</ul>
-
-<div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
-<strong>📌 الفكرة الأساسية</strong><br><br>
-وجود SOP قديم أو غير دقيق قد يكون خطيرًا مثل عدم وجود الإجراء،
-لأن العامل قد يعتقد أنه يتبع تعليمات آمنة بينما الواقع التشغيلي قد تغير.
-</div>
-
-<hr>
-
-<h3>6. قيود الإجراءات وعواقب الانحراف عنها</h3>
-<h3>Limitations of Procedures and Consequences of Deviating From Them</h3>
-
-<p>
-حتى الإجراء المكتوب جيدًا له حدود.
-فعالية الـSOP تعتمد على جودة إعداده، ومدى فهم العاملين له،
-والتدريب والإشراف والظروف التي يتم فيها تنفيذ العمل.
-</p>
-
-<p>من العوامل التي قد تؤثر على قدرة العامل على اتباع الإجراء:</p>
-
-<ul>
-<li>ضغط الوقت <strong>Time Pressure</strong>.</li>
-<li>عبء العمل <strong>Workload</strong>.</li>
-<li>مستويات التوظيف <strong>Staffing Levels</strong>.</li>
-<li>التدريب <strong>Training</strong>.</li>
-<li>الإشراف <strong>Supervision</strong>.</li>
-</ul>
-
-<p>
-كما أن العامل البشري قابل للخطأ، وقد تحدث ظروف تشغيلية أو أعطال
-لم يتوقعها الإجراء بصورة كاملة.
-لذلك لا ينبغي النظر إلى SOP على أنه الوسيلة الوحيدة للتحكم في المخاطر.
-</p>
-
-<p>
-قد يبدأ الانحراف عن الإجراء دون حدوث نتيجة مباشرة، فينشأ اعتقاد خاطئ
-بأن الانحراف مقبول. ومع تكراره يحدث
-<strong>Drift</strong>
-وقد يؤدي في النهاية إلى إخراج العملية من
-<strong>Safe Operating Envelope</strong>.
-</p>
-
-<p>
-وقد تتراوح نتيجة عدم تطبيق الإجراء من عدم حدوث أثر واضح إلى حادث كبير،
-مثل حريق أو انفجار أو فقدان احتواء، اعتمادًا على طبيعة العملية والمواد.
-</p>
-
-<div style="background:#fff3cd; padding:18px; border-radius:10px; margin:20px 0; border-right:6px solid #e0a800;">
-<strong>⚠️ Process Safety Lesson</strong><br><br>
-عدم وقوع حادث في المرات السابقة عند الانحراف عن الإجراء
-<strong>لا يعني أن الانحراف آمن</strong>.
-قد تكون الضوابط الأخرى أو الظروف المحيطة هي التي منعت العواقب في تلك المرات.
-</div>
-
-<hr>
-
-<h3>🎓 Exam Focus</h3>
-
-<ul>
-<li>
-<strong>Safe Operating Envelope</strong> =
-الحدود التي يمكن تشغيل العملية داخلها بأمان.
-</li>
-
-<li>
-<strong>SOP</strong> يجب أن يكون واضحًا، عمليًا، دقيقًا، ومحدثًا.
-</li>
-
-<li>
-إشراك المشغلين في تطوير الإجراءات يحسن جودتها وقابليتها للتطبيق.
-</li>
-
-<li>
-التغيرات المهمة على الإجراءات يجب أن تخضع للمراجعة المناسبة،
-وقد ترتبط بعملية <strong>MOC</strong>.
-</li>
-
-<li>
-يجب مراقبة الانحرافات عن ظروف التشغيل المتوقعة وتحليلها.
-</li>
-
-<li>
-<strong>Procedural Drift</strong> قد يحول الانحراف الصغير المتكرر
-إلى ممارسة طبيعية خطرة.
-</li>
-
-<li>
-وجود SOP لا يلغي الحاجة إلى التدريب والكفاءة والإشراف
-والضوابط الهندسية المناسبة.
-</li>
-</ul>
-
-<div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:20px 0; text-align:center;">
-
-<strong style="font-size:18px;">
-✅ Element 3.1 – Operating Procedures
-</strong>
-
-<br><br>
-
-<strong>
-Safe Operating Envelope
-→ Clear SOP
-→ Competent Operators
-→ Monitoring
-→ Review
-→ Safe Operation
-</strong>
-
-<br><br>
-
-إجراءات التشغيل الفعالة ليست مجرد وثائق مكتوبة؛
-بل هي وسيلة للحفاظ على العملية داخل حدود التشغيل الآمنة
-من خلال تعليمات واضحة، وعاملين أكفاء، ومراقبة ومراجعة مستمرة.
-
-</div>
+    <h3>🎯 الهدف التعليمي | Learning Objective</h3>
+
+    <p>
+        يهدف هذا الموضوع إلى توضيح أهمية
+        <strong>إجراءات التشغيل (Operating Procedures)</strong>
+        في السيطرة على مخاطر العمليات، وكيفية تشغيل العمليات داخل
+        <strong>نطاق التشغيل الآمن (Safe Operating Envelope)</strong>،
+        إضافة إلى فهم الغرض من إجراءات التشغيل، أنواعها، محتوياتها،
+        والأشخاص الذين ينبغي مشاركتهم في إعدادها ومراجعتها.
+    </p>
+
+    <p>
+        كما يوضح أهمية إبقاء الإجراءات محدثة ودقيقة ومفهومة للعاملين،
+        والمخاطر التي قد تنتج عن الانحراف عن الإجراءات المعتمدة
+        <strong>(Deviation from Procedures)</strong>.
+    </p>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- 1. SAFE OPERATING ENVELOPE -->
+    <!-- ===================================================== -->
+
+    <h3>1. ما هو نطاق التشغيل الآمن؟ | What is a Safe Operating Envelope?</h3>
+
+    <p>
+        يجب تصميم وتشغيل العمليات بحيث تبقى ظروف التشغيل ضمن حدود محددة
+        تسمح للعملية بالعمل بصورة مستقرة وآمنة.
+        ويُعرف المجال الذي تستطيع العملية العمل داخله بأمان باسم:
+        <strong>Safe Operating Envelope</strong>.
+    </p>
+
+    <p>
+        يتم تحديد هذا النطاق من خلال وضع
+        <strong>حدود تشغيل عليا ودنيا (Upper and Lower Operating Limits)</strong>
+        للمتغيرات المهمة في العملية.
+    </p>
+
+    <p>وقد تشمل هذه المتغيرات:</p>
+
+    <ul>
+        <li><strong>Temperature</strong> – درجة الحرارة.</li>
+        <li><strong>Pressure</strong> – الضغط.</li>
+        <li><strong>Level / Volume</strong> – المستوى أو الحجم.</li>
+        <li><strong>Flow</strong> – معدل التدفق.</li>
+        <li><strong>Composition</strong> – تركيب المادة.</li>
+        <li><strong>Mixing</strong> – ظروف الخلط عند ارتباطها بسلامة العملية.</li>
+    </ul>
+
+    <div style="
+        background:#eef6ff;
+        border-right:6px solid #1565c0;
+        padding:16px;
+        margin:20px 0;
+        border-radius:8px;">
+
+        <strong>💡 Process Safety Principle</strong><br><br>
+
+        التشغيل الطبيعي لا يعني مجرد أن المعدة تعمل؛ بل يجب أن تعمل
+        <strong>داخل الحدود المحددة للعملية</strong>.
+        تجاوز أحد الحدود قد يؤدي إلى تفعيل إنذار أو نظام حماية،
+        وقد يتطور في بعض الحالات إلى فقدان احتواء
+        <strong>(Loss of Containment – LOC)</strong>
+        إذا لم تتم السيطرة عليه.
+    </div>
+
+    <!-- FIGURE 1 -->
+
+    <div style="
+        background:#f8fbff;
+        border:1px solid #d7e3f4;
+        padding:14px;
+        margin:25px 0;
+        border-radius:12px;
+        text-align:center;">
+
+        <img
+            src="element3-safe-operating-envelope-storage-tank.png"
+            alt="Safe Operating Envelope Storage Tank"
+            style="
+                width:100%;
+                max-width:1200px;
+                height:auto;
+                border-radius:10px;
+                display:block;
+                margin:auto;
+            ">
+
+        <p style="margin-top:12px; font-size:0.95em;">
+            <strong>Figure 3.1-A – Safe Operating Envelope: Storage Tank</strong><br>
+            رسم تدريبي أصلي يوضح العلاقة بين حدود التشغيل الآمن،
+            مستوى الخزان، الضغط، أجهزة الحماية وخطوط التشغيل.
+        </p>
+    </div>
+
+    <h4>مثال: الضغط داخل خزان | Tank Pressure Example</h4>
+
+    <p>
+        إذا ارتفع الضغط داخل خزان عن الحد الأعلى المسموح به،
+        فقد يتعرض الخزان لخطر
+        <strong>Overpressure</strong>.
+        ولهذا يمكن استخدام أجهزة حماية مثل
+        <strong>Pressure Relief Valve (PRV)</strong>
+        أو
+        <strong>Pressure Safety Valve (PSV)</strong>
+        لتوفير الحماية من الضغط الزائد.
+    </p>
+
+    <p>
+        يتم ضبط جهاز الحماية عند قيمة محددة
+        <strong>(Set Pressure)</strong>
+        بحيث يعمل عند الوصول إلى الحالة التي صُمم للحماية منها.
+        ومع ذلك، لا ينبغي الاعتماد على صمام الأمان كبديل عن التحكم الصحيح
+        في العملية والمحافظة على ظروف التشغيل الطبيعية.
+    </p>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- 2. PURPOSE AND TYPES -->
+    <!-- ===================================================== -->
+
+    <h3>
+        2. إجراءات التشغيل: الغرض والأنواع والأشخاص المشاركون
+        | Operating Procedures: Purpose, Types and Who Should Be Involved
+    </h3>
+
+    <h4>الغرض من إجراءات التشغيل | Purpose of Operating Procedures</h4>
+
+    <p>
+        توفر إجراءات التشغيل
+        <strong>(Operating Procedures / SOPs)</strong>
+        تعليمات واضحة ومنظمة تساعد العاملين على تنفيذ العمليات
+        بطريقة آمنة ومتسقة.
+    </p>
+
+    <p>
+        وتساعد الإجراءات الجيدة المشغل على فهم ما يجب القيام به،
+        وكيف يتم تنفيذ المهمة، وما هي المخاطر المرتبطة بها،
+        وما الإجراءات الواجب اتخاذها إذا انحرفت العملية عن الظروف الطبيعية.
+    </p>
+
+    <p>يمكن أن تغطي إجراءات التشغيل ثلاثة مجالات رئيسية:</p>
+
+    <ol>
+        <li>
+            <strong>Safety Considerations</strong><br>
+            اعتبارات السلامة والمخاطر المرتبطة بالمهمة والاحتياطات المطلوبة.
+        </li>
+
+        <li>
+            <strong>Control System</strong><br>
+            كيفية مراقبة العملية والتحكم فيها، بما في ذلك الإنذارات
+            وأجهزة القياس وأنظمة الحماية.
+        </li>
+
+        <li>
+            <strong>Normal Operating Conditions and Deviations</strong><br>
+            ظروف التشغيل الطبيعية والإجراءات المطلوبة عند حدوث
+            انحرافات عن الحدود المحددة.
+        </li>
+    </ol>
+
+    <!-- KEY TERMS -->
+
+    <div style="
+        background:#e8f5e9;
+        border:2px solid #43a047;
+        padding:18px;
+        margin:25px 0;
+        border-radius:10px;">
+
+        <h3 style="margin-top:0; color:#1b5e20;">
+            🔑 KEY TERMS | المصطلحات الرئيسية
+        </h3>
+
+        <p>
+            <strong>Safety Instrumented System (SIS)</strong><br>
+            نظام أجهزة سلامة مصمم للاستجابة لحالات أو ظروف محددة في العملية
+            واتخاذ إجراء وقائي للوصول إلى حالة أكثر أمانًا عند الحاجة.
+        </p>
+
+        <p>
+            <strong>Proportional-Integral-Derivative (PID)</strong><br>
+            أسلوب تحكم يستخدم في أنظمة التحكم بالعمليات للمساعدة على المحافظة
+            على متغير العملية قريبًا من القيمة المطلوبة
+            <strong>(Set Point)</strong>.
+        </p>
+
+    </div>
+
+    <h4>أنواع إجراءات التشغيل | Types of Operating Procedures</h4>
+
+    <p>
+        تختلف إجراءات التشغيل حسب طبيعة العملية والمعدة والمرحلة التشغيلية.
+        ومن أمثلتها:
+    </p>
+
+    <ul>
+        <li><strong>Start-Up Procedures</strong> – إجراءات بدء التشغيل.</li>
+        <li><strong>Normal Operating Procedures</strong> – إجراءات التشغيل الطبيعي.</li>
+        <li><strong>Shut-Down Procedures</strong> – إجراءات الإيقاف.</li>
+        <li><strong>Maintenance / Modification Procedures</strong> – إجراءات الصيانة أو التعديل.</li>
+        <li><strong>Alarm Response Procedures</strong> – إجراءات الاستجابة للإنذارات.</li>
+        <li><strong>Filling and Emptying Procedures</strong> – إجراءات التعبئة والتفريغ.</li>
+        <li><strong>Abnormal Operating Procedures</strong> – التعامل مع ظروف التشغيل غير الطبيعية.</li>
+        <li><strong>Emergency Procedures</strong> – إجراءات الطوارئ.</li>
+        <li><strong>Management of Change (MOC)</strong> – الإجراءات المرتبطة بالتغييرات التي قد تؤثر على العملية.</li>
+    </ul>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- WHO SHOULD BE INVOLVED -->
+    <!-- ===================================================== -->
+
+    <h3>من ينبغي أن يشارك في تطوير الإجراءات؟ | Who Should Be Involved?</h3>
+
+    <p>
+        لا ينبغي تطوير إجراءات التشغيل بمعزل عن الأشخاص الذين ينفذون العمل.
+        فالمشغلون والعاملون لديهم معرفة عملية بتفاصيل المهمة
+        والصعوبات التي قد تظهر أثناء التشغيل الحقيقي.
+    </p>
+
+    <p>قد تشمل عملية تطوير ومراجعة الإجراءات مشاركة:</p>
+
+    <ul>
+        <li>المشغلين <strong>(Operators)</strong>.</li>
+        <li>المشرفين <strong>(Supervisors)</strong>.</li>
+        <li>مهندسي العمليات <strong>(Process Engineers)</strong>.</li>
+        <li>مهندسي الصيانة والتخصصات الفنية ذات العلاقة.</li>
+        <li>مختصي السلامة عند الحاجة.</li>
+        <li>الأشخاص ذوي المعرفة والخبرة الفعلية بالمهمة.</li>
+    </ul>
+
+    <p>
+        مشاركة المستخدمين الفعليين للإجراء تساعد على اكتشاف المشكلات العملية
+        التي قد لا تكون واضحة للشخص الذي يكتب الإجراء من المكتب فقط،
+        كما تزيد من شعور العاملين بالملكية
+        <strong>(Ownership)</strong>
+        والالتزام بالإجراء.
+    </p>
+
+    <!-- FIGURE 2 -->
+
+    <div style="
+        background:#f8fbff;
+        border:1px solid #d7e3f4;
+        padding:14px;
+        margin:25px 0;
+        border-radius:12px;
+        text-align:center;">
+
+        <img
+            src="element3-sop-development-worker-involvement.png"
+            alt="SOP Development and Worker Involvement"
+            style="
+                width:100%;
+                max-width:1200px;
+                height:auto;
+                border-radius:10px;
+                display:block;
+                margin:auto;
+            ">
+
+        <p style="margin-top:12px; font-size:0.95em;">
+            <strong>Figure 3.1-B – Developing Effective Operating Procedures</strong><br>
+            تطوير الإجراء الفعال يعتمد على مشاركة الأشخاص المناسبين،
+            التجربة العملية، المراجعة، الاعتماد والتدريب.
+        </p>
+    </div>
+
+    <div style="
+        background:#fff8e1;
+        border-right:6px solid #ffb300;
+        padding:16px;
+        margin:20px 0;
+        border-radius:8px;">
+
+        <strong>👷 Human Factors Point</strong><br><br>
+
+        الإجراء قد يكون صحيحًا من الناحية الفنية، لكنه يصبح أقل فعالية
+        إذا كان معقدًا أو غير واضح أو لا يعكس طريقة تنفيذ العمل فعليًا.
+        لذلك يجب مراعاة
+        <strong>Human Factors</strong>
+        عند كتابة وتصميم إجراءات التشغيل.
+    </div>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- 3. CONTENT OF OPERATING PROCEDURES -->
+    <!-- ===================================================== -->
+
+    <h3>
+        3. ما الذي يجب أن تتضمنه إجراءات التشغيل؟
+        | What Should Be Included Within Operating Procedures?
+    </h3>
+
+    <p>
+        يجب أن يحتوي الإجراء على معلومات كافية لتمكين الشخص المختص
+        من تنفيذ المهمة بأمان وبطريقة صحيحة.
+    </p>
+
+    <p>وبحسب طبيعة المهمة، قد يتضمن الإجراء:</p>
+
+    <ul>
+        <li>الغرض من الإجراء <strong>(Purpose)</strong>.</li>
+        <li>نطاق التطبيق <strong>(Scope)</strong>.</li>
+        <li>المعدات أو أجزاء المصنع التي ينطبق عليها الإجراء.</li>
+        <li>المواد والمواد الكيميائية المستخدمة.</li>
+        <li>الأدوار والمسؤوليات.</li>
+        <li>من يقوم بالمهمة ومتى وأين يتم تنفيذها.</li>
+        <li>شرح لماذا بعض الخطوات أو الاحتياطات مهمة.</li>
+        <li>المخاطر والعواقب المحتملة.</li>
+        <li>حدود ومتغيرات العملية المهمة.</li>
+        <li>أجهزة التحكم والحماية الهندسية.</li>
+        <li>تعليمات واضحة ومتسلسلة خطوة بخطوة.</li>
+        <li>الرسومات والمخططات أو الصور التوضيحية عند الحاجة.</li>
+        <li>متطلبات التصريح أو التفويض عند الحاجة.</li>
+        <li>متطلبات الكفاءة والتدريب.</li>
+        <li>معدات الوقاية الشخصية <strong>(PPE)</strong> المناسبة.</li>
+        <li>المعدات أو قطع الغيار أو الأدوات المطلوبة عند ارتباطها بالمهمة.</li>
+    </ul>
+
+    <div style="
+        background:#eef6ff;
+        border-right:6px solid #1976d2;
+        padding:16px;
+        margin:20px 0;
+        border-radius:8px;">
+
+        <strong>📘 Good SOP Principle</strong><br><br>
+
+        الإجراء الجيد لا يكتفي بإخبار العامل
+        <strong>ماذا يفعل (What)</strong>،
+        بل يجب أن يكون واضحًا بشأن
+        <strong>كيف (How)</strong>
+        يتم تنفيذ الخطوات، ومن المسؤول عنها، وما المخاطر المهمة،
+        ولماذا تكون بعض الضوابط ضرورية.
+    </div>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- 4. CLEAR UNDERSTANDING -->
+    <!-- ===================================================== -->
+
+    <h3>
+        4. ضرورة أن تكون الإجراءات مفهومة بوضوح
+        | Requirement for Procedures to Be Clearly Understood
+    </h3>
+
+    <p>
+        وجود إجراء مكتوب لا يضمن وحده أن العمل سيتم بطريقة آمنة.
+        يجب أن يكون الإجراء واضحًا ومفهومًا للأشخاص الذين سيستخدمونه.
+    </p>
+
+    <p>لذلك ينبغي مراعاة:</p>
+
+    <ul>
+        <li>استخدام لغة واضحة ومناسبة للمستخدم.</li>
+        <li>تجنب العبارات الغامضة أو التعليمات التي تحتمل أكثر من تفسير.</li>
+        <li>استخدام تسلسل منطقي للخطوات.</li>
+        <li>استخدام الرسومات أو المخططات عندما تساعد على الفهم.</li>
+        <li>تجربة الإجراء عمليًا قبل اعتماده النهائي عندما يكون ذلك مناسبًا.</li>
+        <li>الحصول على ملاحظات الأشخاص الذين سيستخدمونه.</li>
+        <li>تعديل الإجراء إذا كشفت التجربة عن صعوبة أو غموض.</li>
+        <li>التأكد من كفاءة المستخدمين وفهمهم لما هو مطلوب.</li>
+    </ul>
+
+    <!-- EXAMPLE -->
+
+    <div style="
+        background:#e0f7fa;
+        border:2px solid #0097a7;
+        padding:18px;
+        margin:25px 0;
+        border-radius:10px;">
+
+        <h3 style="margin-top:0; color:#006064;">
+            🟦 EXAMPLE | مثال
+        </h3>
+
+        <p>
+            عندما لا تكون الإجراءات مفهومة بصورة صحيحة،
+            أو لا يفهم العاملون الغرض من الضوابط والتعليمات،
+            يمكن أن تصبح الأخطاء والانحرافات أكثر احتمالًا،
+            وقد تكون النتائج شديدة في الصناعات عالية الخطورة.
+        </p>
+
+        <p>
+            يعرض المصدر حادث
+            <strong>West Fertilizer Company – Texas</strong>
+            كمادة للتعلم والمناقشة حول أهمية فهم المخاطر والإجراءات
+            والضوابط المرتبطة بالعمليات الخطرة.
+        </p>
+
+        <strong>أسئلة للمتدرب:</strong>
+
+        <ul>
+            <li>هل يعرف العامل فقط ماذا يفعل، أم يفهم أيضًا لماذا يجب تنفيذ الخطوة؟</li>
+            <li>كيف يمكن أن يؤثر ضعف فهم الإجراءات على السيطرة على المخاطر؟</li>
+            <li>ما دور التدريب والإشراف في التأكد من فهم الإجراء؟</li>
+        </ul>
+
+    </div>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- 5. CURRENT AND ACCURATE PROCEDURES -->
+    <!-- ===================================================== -->
+
+    <h3>
+        5. ضمان بقاء إجراءات التشغيل محدثة ودقيقة
+        | Ensuring Operating Procedures Remain Current and Accurate
+    </h3>
+
+    <p>
+        يجب ألا تصبح إجراءات التشغيل وثائق ثابتة لا تتغير.
+        فالعملية والمعدات والمواد وطرق التشغيل قد تتغير مع مرور الوقت،
+        وبالتالي يجب مراجعة الإجراءات وتحديثها عند الحاجة.
+    </p>
+
+    <p>
+        أحد المخاطر المهمة هو
+        <strong>Procedural Drift</strong>،
+        أي أن طريقة العمل الفعلية تبدأ تدريجيًا في الابتعاد
+        عن الطريقة المحددة في الإجراء المعتمد.
+    </p>
+
+    <p>يمكن اكتشاف الحاجة إلى مراجعة الإجراءات من خلال:</p>
+
+    <ul>
+        <li>المراجعات الدورية للإجراءات.</li>
+        <li>نتائج المراقبة والتفتيش.</li>
+        <li>بيانات أنظمة التحكم أو الحماية مثل <strong>SIS</strong>.</li>
+        <li>تغييرات العملية من خلال <strong>Management of Change (MOC)</strong>.</li>
+        <li>تقارير الصيانة والفحص.</li>
+        <li>الحوادث والحوادث الوشيكة والانحرافات.</li>
+        <li>شكاوى أو تقارير العيوب.</li>
+        <li>المنتجات الخارجة عن المواصفات <strong>(Off-Spec Product)</strong>.</li>
+        <li>الانحرافات المتكررة في متغيرات العملية.</li>
+        <li>تغيرات الإنتاجية أو العائد <strong>(Yield)</strong>.</li>
+        <li>التغيرات في المواد الخام أو التغذية <strong>(Feedstock)</strong>.</li>
+        <li>تقارير الأحداث غير المرغوبة وملاحظات العاملين.</li>
+    </ul>
+
+    <!-- FIGURE 3 -->
+
+    <div style="
+        background:#fffaf7;
+        border:1px solid #f1d4c6;
+        padding:14px;
+        margin:25px 0;
+        border-radius:12px;
+        text-align:center;">
+
+        <img
+            src="element3-procedural-deviation-drift.png"
+            alt="Procedural Deviation and Drift"
+            style="
+                width:100%;
+                max-width:1200px;
+                height:auto;
+                border-radius:10px;
+                display:block;
+                margin:auto;
+            ">
+
+        <p style="margin-top:12px; font-size:0.95em;">
+            <strong>Figure 3.1-C – Procedural Deviation and Drift</strong><br>
+            رسم تدريبي يوضح كيف يمكن لانحراف صغير ومتكرر أن يتحول
+            تدريجيًا إلى ممارسة مقبولة ثم يخرج التشغيل عن الحدود الآمنة.
+        </p>
+    </div>
+
+    <div style="
+        background:#fff3e0;
+        border-right:6px solid #ef6c00;
+        padding:16px;
+        margin:20px 0;
+        border-radius:8px;">
+
+        <strong>⚠️ Procedural Drift</strong><br><br>
+
+        قد يبدأ الانحراف كتجاوز صغير أو اختصار للوقت.
+        وإذا تكرر دون مراجعة أو تصحيح، قد يصبح السلوك الجديد
+        مقبولًا داخل الفريق رغم أنه لا يتوافق مع الإجراء الأصلي.
+        لذلك يجب التحقيق في الانحرافات بدل السماح لها بأن تصبح
+        <strong>الطريقة الطبيعية للعمل</strong>.
+    </div>
+
+    <hr>
+
+    <!-- ===================================================== -->
+    <!-- 6. LIMITATIONS AND CONSEQUENCES -->
+    <!-- ===================================================== -->
+
+    <h3>
+        6. حدود الإجراءات وعواقب الانحراف عنها
+        | Limitations of Procedures and Consequences of Deviating from Them
+    </h3>
+
+    <p>
+        حتى أفضل إجراءات التشغيل لها حدود.
+        فهي تعتمد على جودة تصميمها، دقة المعلومات،
+        كفاءة المستخدمين، ظروف العمل، والإدارة الفعالة للعوامل البشرية.
+    </p>
+
+    <p>من العوامل التي قد تؤثر على الالتزام بالإجراءات:</p>
+
+    <ul>
+        <li>ضغط الوقت والإنتاج <strong>(Time / Production Pressure)</strong>.</li>
+        <li>عبء العمل المرتفع <strong>(Workload)</strong>.</li>
+        <li>نقص العاملين <strong>(Staffing)</strong>.</li>
+        <li>ضعف التدريب أو الكفاءة.</li>
+        <li>ضعف الإشراف.</li>
+        <li>الأخطاء البشرية <strong>(Human Fallibility)</strong>.</li>
+        <li>المشكلات الفنية أو المعدات غير المناسبة.</li>
+        <li>الإجراءات المعقدة أو غير الواقعية.</li>
+        <li>الاعتياد التدريجي على الانحراف <strong>(Procedural Drift)</strong>.</li>
+    </ul>
+
+    <p>
+        قد يؤدي الانحراف عن الإجراء إلى انتقال العملية خارج
+        <strong>Safe Operating Envelope</strong>
+        أو إلى تجاوز أحد ضوابط السلامة.
+        وفي الصناعات عالية الخطورة يمكن أن تكون العواقب كبيرة.
+    </p>
+
+    <div style="
+        background:#ffebee;
+        border:2px solid #c62828;
+        padding:18px;
+        margin:25px 0;
+        border-radius:10px;">
+
+        <h3 style="margin-top:0; color:#b71c1c;">
+            ⚠️ PROCESS SAFETY INCIDENT LESSON
+        </h3>
+
+        <p>
+            يعرض المصدر حادث
+            <strong>Grosvenor Chemicals – Huddersfield</strong>
+            ضمن مناقشة العواقب التي يمكن أن ترتبط بعدم تطبيق
+            إجراءات التشغيل بالصورة الصحيحة.
+        </p>
+
+        <p>
+            الدرس المهم للمتدرب هو أن نجاح الانحراف في مرات سابقة
+            دون وقوع حادث
+            <strong>لا يثبت أن الانحراف آمن</strong>.
+            فقد تبقى الظروف الخطرة موجودة حتى تتجمع العوامل
+            التي تؤدي إلى حادث جسيم.
+        </p>
+
+    </div>
+
+    <!-- ===================================================== -->
+    <!-- EXAM FOCUS -->
+    <!-- ===================================================== -->
+
+    <div style="
+        background:#ede7f6;
+        border:2px solid #673ab7;
+        padding:18px;
+        margin:25px 0;
+        border-radius:10px;">
+
+        <h3 style="margin-top:0; color:#4527a0;">
+            🎓 Exam Focus | نقاط مهمة للاختبار
+        </h3>
+
+        <ul>
+            <li>
+                افهم معنى
+                <strong>Safe Operating Envelope</strong>
+                وعلاقته بحدود التشغيل العليا والدنيا.
+            </li>
+
+            <li>
+                اعرف لماذا تستخدم
+                <strong>Operating Procedures</strong>
+                في السيطرة على مخاطر العمليات.
+            </li>
+
+            <li>
+                تذكر أهمية مشاركة
+                <strong>Operators</strong>
+                والأشخاص الذين ينفذون العمل في تطوير الإجراءات.
+            </li>
+
+            <li>
+                افهم لماذا يجب أن تكون الإجراءات
+                واضحة، مفهومة، دقيقة ومحدثة.
+            </li>
+
+            <li>
+                اعرف معنى
+                <strong>Procedural Drift</strong>
+                وكيف يمكن أن يتطور تدريجيًا.
+            </li>
+
+            <li>
+                لا تعتبر عدم وقوع حادث سابق دليلًا على أن
+                الانحراف عن الإجراء آمن.
+            </li>
+
+            <li>
+                اربط بين
+                <strong>SOP → Operating Limits → Monitoring → Deviations → Review</strong>.
+            </li>
+        </ul>
+
+    </div>
+
+    <!-- ===================================================== -->
+    <!-- SUMMARY -->
+    <!-- ===================================================== -->
+
+    <div style="
+        background:#e8f5e9;
+        border:2px solid #2e7d32;
+        padding:20px;
+        margin:25px 0;
+        border-radius:12px;">
+
+        <h3 style="margin-top:0; color:#1b5e20;">
+            ✅ Summary | خلاصة الموضوع
+        </h3>
+
+        <p>
+            إجراءات التشغيل الفعالة هي أحد الضوابط الأساسية في
+            <strong>Process Safety Management</strong>.
+            ويجب أن تساعد العاملين على إبقاء العملية داخل
+            <strong>Safe Operating Envelope</strong>
+            من خلال تعليمات واضحة ودقيقة ومفهومة.
+        </p>
+
+        <p>
+            مشاركة العاملين، التدريب، المراقبة، مراجعة الانحرافات،
+            وتحديث الإجراءات عند حدوث تغييرات كلها عناصر ضرورية
+            للمحافظة على فعالية إجراءات التشغيل.
+        </p>
+
+        <div style="
+            text-align:center;
+            background:white;
+            padding:15px;
+            border-radius:8px;
+            margin-top:15px;
+            font-weight:bold;">
+
+            Safe Operating Envelope
+            → Clear SOP
+            → Competent Operators
+            → Monitoring
+            → Review & Update
+            → Safe Operation
+
+        </div>
+
+    </div>
 
 </div>
 `
 },
-
+        
         {
             number: "3.2",
             title: "Safe Start-Up and Shut-Down",
