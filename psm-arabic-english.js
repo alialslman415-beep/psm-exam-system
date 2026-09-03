@@ -8667,16 +8667,707 @@ element3: {
 `
 },
 
-        {
-            number: "3.3",
-            title: "Safety Critical Performance Standards",
-            titleArabic: "معايير الأداء للعناصر الحرجة للسلامة",
-            content: `
-                <div style="text-align:right;">
-                    <p>محتوى الموضوع 3.3 قيد الإعداد.</p>
+       {
+    number: "3.3",
+    title: "Safety Critical Performance Standards",
+    titleArabic: "معايير الأداء للعناصر الحرجة للسلامة",
+    content: `
+        <div style="text-align:right; line-height:1.9;" dir="rtl">
+
+            <!-- INTRODUCTION -->
+            <div style="
+                background:#eef6ff;
+                border-right:5px solid #1976d2;
+                padding:18px;
+                border-radius:10px;
+                margin-bottom:22px;
+            ">
+                <h3 style="margin-top:0;">
+                    🎯 الهدف التعليمي | Learning Objective
+                </h3>
+
+                <p>
+                    تهدف هذه الوحدة إلى توضيح أهمية وضع
+                    <strong>معايير الأداء للعناصر والأنظمة الحرجة للسلامة</strong>
+                    وكيفية استخدام نموذج
+                    <strong>FARSI</strong>
+                    لتحديد وقياس الأداء المطلوب لهذه العناصر طوال دورة حياتها التشغيلية.
+                </p>
+
+                <p dir="ltr" style="text-align:left;">
+                    This topic explains why performance standards are required for
+                    safety-critical systems and equipment, and how the
+                    <strong>FARSI</strong> model is used to define and assess their required performance.
+                </p>
+            </div>
+
+
+            <!-- MAIN HEADING 1 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">1</span>
+
+                أسباب وضع معايير الأداء للأنظمة والمعدات الحرجة للسلامة
+                |
+                Reasons for Performance Standards for Safety Critical Systems and Items of Equipment
+            </h3>
+
+            <p>
+                في سلامة العمليات توجد وسائل تحكم وحماية متعددة، بعضها
+                <strong>Passive</strong>
+                وبعضها
+                <strong>Active</strong>،
+                وغالبًا ما يشار إليها باسم
+                <strong>Barriers</strong>.
+                يجب التأكد من أن هذه الحواجز قادرة على أداء الوظيفة التي صُممت من أجلها
+                عند الحاجة إليها.
+            </p>
+
+            <p>
+                لذلك، خلال مرحلة التصميم يتم تحديد
+                <strong>Performance Standards</strong>
+                للعناصر الحرجة للسلامة
+                <strong>Safety-Critical Elements (SCEs)</strong>.
+                وتوفر هذه المعايير خط أساس يمكن من خلاله فحص واختبار وقياس أداء
+                العنصر ومقارنته بالمستوى المطلوب.
+            </p>
+
+            <p>
+                لا يكفي أن يكون العنصر موجودًا في المنشأة؛ بل يجب إثبات أنه قادر
+                على تنفيذ وظيفة السلامة المطلوبة ضمن الظروف التشغيلية المحددة.
+                ويتم ذلك من خلال برامج الفحص والاختبار والصيانة والمراجعة المستمرة.
+            </p>
+
+
+            <!-- KEY TERMS -->
+            <div style="
+                background:#eaf5c5;
+                border-right:6px solid #8bad20;
+                padding:18px;
+                border-radius:10px;
+                margin:22px 0;
+            ">
+                <h3 style="color:#597900; margin-top:0;">
+                    🔑 KEY TERMS | المصطلحات الرئيسية
+                </h3>
+
+                <div style="
+                    background:white;
+                    padding:14px;
+                    border-radius:8px;
+                    margin-bottom:12px;
+                ">
+                    <strong>Safety-Critical Element (SCE)</strong>
+                    <br>
+                    <strong>عنصر حرج للسلامة</strong>
+
+                    <p>
+                        عنصر أو نظام يمكن أن يؤدي فشله إلى التسبب في حادث كبير
+                        أو المساهمة في حدوثه، أو يكون الغرض منه منع الحادث الكبير
+                        أو الحد من تأثيره.
+                    </p>
                 </div>
-            `
-        },
+
+                <div style="
+                    background:white;
+                    padding:14px;
+                    border-radius:8px;
+                    margin-bottom:12px;
+                ">
+                    <strong>Performance Standard (PS)</strong>
+                    <br>
+                    <strong>معيار الأداء</strong>
+
+                    <p>
+                        معيار متفق عليه يتم استخدامه للحكم على الأداء الفعلي
+                        وقياسه والتحقق من أن العنصر يؤدي الوظيفة المطلوبة منه.
+                    </p>
+                </div>
+
+                <div style="
+                    background:white;
+                    padding:14px;
+                    border-radius:8px;
+                    margin-bottom:12px;
+                ">
+                    <strong>Management of Change (MOC)</strong>
+                    <br>
+                    <strong>إدارة التغيير</strong>
+
+                    <p>
+                        عملية منهجية للتأكد من تقييم التغييرات المقترحة بشكل صحيح
+                        واعتمادها قبل تنفيذها، حتى لا تؤدي التغييرات إلى إدخال
+                        مخاطر جديدة أو إضعاف وسائل الحماية القائمة.
+                    </p>
+                </div>
+
+                <div style="
+                    background:white;
+                    padding:14px;
+                    border-radius:8px;
+                ">
+                    <strong>Process Hazard Analysis (PHA)</strong>
+                    <br>
+                    <strong>تحليل مخاطر العمليات</strong>
+
+                    <p>
+                        تحليل منهجي للمخاطر وأسبابها وعواقبها باستخدام تقنيات مناسبة
+                        مثل
+                        <strong>HAZOP</strong>،
+                        <strong>What-if</strong>
+                        أو
+                        <strong>FMEA</strong>.
+                    </p>
+                </div>
+            </div>
+
+
+            <h4>تحديد معايير الأداء | Establishing Performance Standards</h4>
+
+            <p>
+                يجب وضع معايير أداء لجميع الأنظمة والعناصر الحرجة للسلامة،
+                بما في ذلك المعدات الفردية والأنظمة المجمعة وأنظمة الإيقاف
+                في حالات الطوارئ.
+            </p>
+
+            <p>
+                قد يتم اشتقاق بعض المعايير من الأكواد والمعايير المعترف بها،
+                بينما يتم اشتقاق معايير أخرى من
+                <strong>PHA</strong>
+                وممارسات الهندسة الجيدة.
+            </p>
+
+            <p>
+                بعد تحديد المعايير، تتم مقارنة الأداء الفعلي بها من خلال
+                الفحص والاختبار والمراقبة والصيانة، ويجب التعامل مع أي تغيير
+                قد يؤثر عليها من خلال
+                <strong>Management of Change (MOC)</strong>.
+            </p>
+
+
+            <!-- MAIN HEADING 2 -->
+            <h3 style="margin-top:34px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">2</span>
+
+                أهمية عناصر FARSI
+                |
+                Relevance of the Elements of ‘FARSI’
+            </h3>
+
+            <p>
+                يستخدم نموذج
+                <strong>FARSI</strong>
+                لوصف متطلبات الأداء للعناصر الحرجة للسلامة بطريقة منظمة.
+                ويتكون الاسم من الأحرف الأولى لخمس خصائص أساسية:
+            </p>
+
+            <div style="
+                background:#f7f7f7;
+                border:1px solid #ddd;
+                padding:18px;
+                border-radius:10px;
+                margin:20px 0;
+            ">
+                <p><strong>F – Functionality</strong> — الوظيفية</p>
+                <p><strong>A – Availability</strong> — التوافر</p>
+                <p><strong>R – Reliability</strong> — الاعتمادية</p>
+                <p><strong>S – Survivability</strong> — القدرة على البقاء</p>
+                <p><strong>I – Interdependency / Interactions</strong> — الاعتماد المتبادل / التفاعلات</p>
+            </div>
+
+
+            <!-- FARSI IMAGE -->
+            <div style="text-align:center; margin:28px 0;">
+                <img
+                    src="element3-safety-critical-performance-standards-farsi.png"
+                    alt="FARSI Safety Critical Performance Standards"
+                    style="
+                        width:100%;
+                        max-width:1100px;
+                        height:auto;
+                        border-radius:14px;
+                        box-shadow:0 5px 16px rgba(0,0,0,0.18);
+                    "
+                >
+
+                <p style="
+                    font-size:14px;
+                    color:#555;
+                    margin-top:8px;
+                ">
+                    Figure – FARSI model for defining Safety-Critical Element performance standards
+                </p>
+            </div>
+
+
+            <!-- FARSI KEY TERM -->
+            <div style="
+                background:#eaf5c5;
+                border-right:6px solid #8bad20;
+                padding:18px;
+                border-radius:10px;
+                margin:22px 0;
+            ">
+                <h3 style="color:#597900; margin-top:0;">
+                    🔑 KEY TERM – FARSI
+                </h3>
+
+                <p>
+                    نموذج يستخدم لوصف معايير أداء العناصر الحرجة للسلامة
+                    من حيث:
+                    <strong>Functionality, Availability, Reliability,
+                    Survivability and Interdependency.</strong>
+                </p>
+            </div>
+
+
+            <!-- FUNCTIONALITY -->
+            <h4 style="color:#1565c0;">
+                F – Functionality | الوظيفية
+            </h4>
+
+            <p>
+                تشير
+                <strong>Functionality</strong>
+                إلى المهمة أو الوظيفة التي صُمم العنصر الحرج للسلامة
+                لكي يؤديها.
+            </p>
+
+            <p>
+                يجب أن يحدد معيار الأداء بوضوح:
+                ماذا يفعل العنصر؟
+                وتحت أي ظروف؟
+                وما مستوى الأداء المقبول؟
+                وكيف يمكن قياس هذا الأداء؟
+            </p>
+
+            <p>
+                مثال: إذا كان العنصر عبارة عن نظام إطفاء حريق،
+                فيجب تحديد معدل تدفق وسيط الإطفاء المطلوب،
+                والضغط اللازم،
+                والزمن الذي يجب خلاله توفيره.
+            </p>
+
+
+            <!-- ROSOV KEY TERM -->
+            <div style="
+                background:#eaf5c5;
+                border-right:6px solid #8bad20;
+                padding:16px;
+                border-radius:10px;
+                margin:20px 0;
+            ">
+                <strong style="color:#597900;">
+                    🔑 KEY TERM – Remotely Operated Shutoff Valve (ROSOV)
+                </strong>
+
+                <p>
+                    صمام إغلاق يمكن التحكم في تشغيله من موقع بعيد عن الصمام نفسه،
+                    مثل غرفة التحكم.
+                </p>
+
+                <p>
+                    يستخدم
+                    <strong>ROSOV</strong>
+                    لعزل الأوعية أو خطوط الأنابيب بسرعة أثناء حالات الطوارئ
+                    مثل التسربات الكبيرة أو الحرائق.
+                </p>
+            </div>
+
+
+            <!-- AVAILABILITY -->
+            <h4 style="color:#558b2f;">
+                A – Availability | التوافر
+            </h4>
+
+            <p>
+                تصف
+                <strong>Availability</strong>
+                الفترة الزمنية التي يكون فيها العنصر الحرج للسلامة متاحًا
+                وقادرًا على العمل.
+            </p>
+
+            <p>
+                إذا كان العنصر مطلوبًا للعمل عند حدوث حالة طارئة،
+                فيجب التأكد من أن أعمال الصيانة أو الأعطال لا تترك المنشأة
+                بدون وظيفة السلامة المطلوبة.
+            </p>
+
+            <p>
+                في بعض الحالات قد تكون هناك حاجة إلى
+                <strong>Redundancy</strong>
+                أو نظام احتياطي لضمان استمرار الوظيفة الحرجة
+                أثناء خروج أحد المكونات من الخدمة.
+            </p>
+
+
+            <!-- UPS KEY TERM -->
+            <div style="
+                background:#eaf5c5;
+                border-right:6px solid #8bad20;
+                padding:16px;
+                border-radius:10px;
+                margin:20px 0;
+            ">
+                <strong style="color:#597900;">
+                    🔑 KEY TERM – Uninterruptible Power Supply (UPS)
+                </strong>
+
+                <p>
+                    مصدر طاقة احتياطي مؤقت يُستخدم للمحافظة على تشغيل المعدات
+                    والأنظمة الحرجة عند فقدان مصدر الكهرباء الرئيسي.
+                </p>
+
+                <p>
+                    قد يستخدم لتغذية أنظمة التحكم والإنذارات والمراقبة
+                    وأنظمة الإغلاق الآمن إلى أن تتم استعادة الطاقة
+                    أو الوصول إلى حالة آمنة.
+                </p>
+            </div>
+
+
+            <!-- RELIABILITY -->
+            <h4 style="color:#ef6c00;">
+                R – Reliability | الاعتمادية
+            </h4>
+
+            <p>
+                تصف
+                <strong>Reliability</strong>
+                مدى احتمال أن يؤدي العنصر وظيفة السلامة المطلوبة
+                عندما يتم طلبها.
+            </p>
+
+            <p>
+                جميع الأنظمة النشطة مثل الصمامات والمضخات والمفاتيح
+                وأجهزة القياس يمكن أن تفشل؛ لذلك يجب جمع بيانات التشغيل
+                والاختبارات لتحديد مستوى الاعتمادية ووضع برامج صيانة
+                وفحص مناسبة.
+            </p>
+
+
+            <!-- PFD KEY TERM -->
+            <div style="
+                background:#eaf5c5;
+                border-right:6px solid #8bad20;
+                padding:16px;
+                border-radius:10px;
+                margin:20px 0;
+            ">
+                <strong style="color:#597900;">
+                    🔑 KEY TERM – Probability of Failure on Demand (PFD)
+                </strong>
+
+                <p>
+                    احتمال أن يفشل مكوّن أو نظام في تنفيذ وظيفة السلامة
+                    المطلوبة في اللحظة التي تكون فيها هذه الوظيفة مطلوبة.
+                </p>
+
+                <p>
+                    قد يكون للنظام أكثر من
+                    <strong>Safety Function</strong>
+                    وبالتالي يمكن أن توجد قيم
+                    <strong>PFD</strong>
+                    مختلفة لوظائف مختلفة.
+                </p>
+            </div>
+
+
+            <!-- MTBF + SIS + SIL -->
+            <div style="
+                background:#eaf5c5;
+                border-right:6px solid #8bad20;
+                padding:18px;
+                border-radius:10px;
+                margin:22px 0;
+            ">
+                <h3 style="color:#597900; margin-top:0;">
+                    🔑 KEY TERMS
+                </h3>
+
+                <p>
+                    <strong>Mean Time Between Failure (MTBF)</strong>
+                    <br>
+                    <strong>متوسط الزمن بين حالات الفشل</strong>
+                    <br>
+                    متوسط زمني محسوب بين حالات فشل المعدات أو الأنظمة القابلة للإصلاح،
+                    ويستخدم للمساعدة في تقييم الاعتمادية.
+                </p>
+
+                <hr>
+
+                <p>
+                    <strong>Safety Instrumented System (SIS)</strong>
+                    <br>
+                    <strong>نظام أجهزة السلامة</strong>
+                    <br>
+                    نظام أجهزة مصمم لتنفيذ وظيفة تحكم أو حماية محددة للسلامة،
+                    وقد يشمل أجهزة استشعار ومنطق تحكم وعناصر نهائية مثل الصمامات.
+                </p>
+
+                <hr>
+
+                <p>
+                    <strong>Safety Integrity Level (SIL)</strong>
+                    <br>
+                    <strong>مستوى تكامل السلامة</strong>
+                    <br>
+                    يرتبط بمستوى
+                    <strong>Safety Integrity</strong>
+                    المطلوب لوظيفة السلامة.
+                    ويستخدم النظام مستويات
+                    <strong>SIL 1 إلى SIL 4</strong>،
+                    حيث يمثل
+                    <strong>SIL 4</strong>
+                    أعلى مستوى من تكامل السلامة.
+                </p>
+            </div>
+
+
+            <p>
+                لا يتم عادة استخدام مفهوم الاعتمادية بنفس الطريقة مع
+                وسائل الحماية الهيكلية أو السلبية، مثل جدران الحريق،
+                لكن يجب التأكد من سلامتها من خلال الفحص والصيانة المناسبة.
+            </p>
+
+
+            <!-- SURVIVABILITY -->
+            <h4 style="color:#6a1b9a;">
+                S – Survivability | القدرة على البقاء
+            </h4>
+
+            <p>
+                تصف
+                <strong>Survivability</strong>
+                قدرة العنصر الحرج للسلامة على الاستمرار في أداء وظيفته
+                أثناء أو بعد تعرضه لظروف طارئة.
+            </p>
+
+            <p>
+                على سبيل المثال، يجب أن تكون أنظمة الحريق والتحكم مصممة
+                بحيث تستمر في العمل عند تعرضها للحرارة أو الحريق
+                ضمن الحدود التصميمية المطلوبة.
+            </p>
+
+            <p>
+                وفي حالات الانفجار قد تحتاج غرف التحكم أو مباني الإيواء
+                أو أنظمة الهروب إلى تصميم قادر على مقاومة الأحمال الناتجة
+                عن الانفجار بدرجة كافية للقيام بوظيفة السلامة المطلوبة.
+            </p>
+
+
+            <!-- INTERDEPENDENCY -->
+            <h4 style="color:#00838f;">
+                I – Interdependency / Interactions
+                |
+                الاعتماد المتبادل / التفاعلات
+            </h4>
+
+            <p>
+                يجب تحديد تأثير الأنظمة والعناصر الأخرى على أداء
+                العنصر الحرج للسلامة.
+            </p>
+
+            <p>
+                قد يعتمد أحد
+                <strong>SCEs</strong>
+                على مصدر كهرباء
+                <strong>UPS</strong>
+                أو على نظام تحكم أو هواء أجهزة أو تبريد أو نظام اتصالات.
+                إذا فشل النظام الداعم، فقد تتأثر وظيفة العنصر الحرج نفسه.
+            </p>
+
+            <p>
+                كما يجب دراسة التفاعلات بين الأنظمة المختلفة.
+                فوسيلة حماية واحدة لا ينبغي أن تمنع أو تضعف عمل وسيلة حماية أخرى.
+            </p>
+
+
+            <!-- TRAINER EXAMPLE -->
+            <div style="
+                background:#fff4dd;
+                border-right:6px solid #ff9800;
+                padding:18px;
+                border-radius:10px;
+                margin:26px 0;
+            ">
+                <h3 style="color:#e65100; margin-top:0;">
+                    🧑‍🏫 Trainer Example – تطبيق FARSI على صمام إغلاق طارئ
+                </h3>
+
+                <p>
+                    لنفترض أن لدينا
+                    <strong>Emergency Shutdown Valve / ROSOV</strong>
+                    وظيفته عزل خط هيدروكربوني عند حدوث تسرب كبير.
+                </p>
+
+                <p>
+                    <strong>F – Functionality:</strong>
+                    هل يستطيع الصمام إغلاق التدفق بالمعدل والزمن المطلوبين؟
+                </p>
+
+                <p>
+                    <strong>A – Availability:</strong>
+                    هل الصمام ونظام تشغيله متاحان عند الحاجة؟
+                </p>
+
+                <p>
+                    <strong>R – Reliability:</strong>
+                    ما احتمال أن يعمل الصمام بشكل صحيح عند طلب الإغلاق؟
+                </p>
+
+                <p>
+                    <strong>S – Survivability:</strong>
+                    هل يستطيع الصمام ووسيلة تشغيله الاستمرار في العمل
+                    أثناء ظروف الحريق أو الحادث التي صُمما لتحملها؟
+                </p>
+
+                <p>
+                    <strong>I – Interdependency:</strong>
+                    هل يعتمد الصمام على كهرباء أو هواء أجهزة أو
+                    <strong>UPS</strong>
+                    أو نظام تحكم آخر؟
+                </p>
+            </div>
+
+
+            <!-- KEY LEARNING POINT -->
+            <div style="
+                background:#e8f5e9;
+                border-right:6px solid #43a047;
+                padding:18px;
+                border-radius:10px;
+                margin:24px 0;
+            ">
+                <h3 style="color:#2e7d32; margin-top:0;">
+                    ✅ Key Learning Point
+                </h3>
+
+                <p>
+                    معيار الأداء الجيد لا يقول فقط إن العنصر يجب أن
+                    <strong>يعمل</strong>.
+                    بل يحدد:
+                    <strong>
+                        ماذا يجب أن يفعل، متى يجب أن يكون متاحًا،
+                        مدى موثوقيته، هل يستطيع البقاء أثناء الحادث،
+                        وما الأنظمة الأخرى التي يعتمد عليها.
+                    </strong>
+                </p>
+
+                <p>
+                    وهذه هي الفكرة الأساسية لنموذج
+                    <strong>FARSI</strong>.
+                </p>
+            </div>
+
+
+            <!-- EXAM FOCUS -->
+            <div style="
+                background:#fff3e0;
+                border-right:6px solid #fb8c00;
+                padding:18px;
+                border-radius:10px;
+                margin:25px 0;
+            ">
+                <h3 style="color:#e65100; margin-top:0;">
+                    🎓 Exam Focus | تركيز الاختبار
+                </h3>
+
+                <p>
+                    ركّز على فهم الفرق بين:
+                    <strong>SCE</strong>
+                    و
+                    <strong>Performance Standard</strong>.
+                </p>
+
+                <p>
+                    احفظ عناصر
+                    <strong>FARSI</strong>
+                    الخمسة وافهم وظيفة كل عنصر، وليس الحروف فقط.
+                </p>
+
+                <p>
+                    كن قادرًا على تطبيق
+                    <strong>FARSI</strong>
+                    على مثال مثل:
+                    صمام إغلاق طارئ،
+                    نظام إطفاء،
+                    مضخة حرجة،
+                    أو نظام تحكم.
+                </p>
+
+                <p>
+                    راجع المصطلحات:
+                    <strong>
+                        ROSOV, UPS, PFD, MTBF, SIS, SIL, PHA, MOC.
+                    </strong>
+                </p>
+            </div>
+
+
+            <!-- SUMMARY -->
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1976d2;
+                padding:20px;
+                border-radius:10px;
+                margin-top:28px;
+            ">
+                <h3 style="color:#0d47a1; margin-top:0;">
+                    📘 Summary | ملخص 3.3
+                </h3>
+
+                <p>
+                    العناصر الحرجة للسلامة
+                    <strong>(SCEs)</strong>
+                    هي عناصر أو أنظمة يرتبط أداؤها بمنع الحوادث الكبرى
+                    أو الحد من آثارها.
+                </p>
+
+                <p>
+                    يتم وضع
+                    <strong>Performance Standards</strong>
+                    لتحديد الأداء المطلوب لهذه العناصر وقياسه والتحقق منه.
+                </p>
+
+                <p>
+                    يستخدم نموذج
+                    <strong>FARSI</strong>
+                    لتقييم الأداء من خمسة جوانب رئيسية:
+                </p>
+
+                <p style="font-weight:bold;">
+                    Functionality – Availability – Reliability –
+                    Survivability – Interdependency
+                </p>
+
+                <p>
+                    ويجب الحفاظ على هذه المعايير من خلال التصميم المناسب،
+                    والفحص، والاختبار، والصيانة،
+                    وإدارة التغيير
+                    <strong>(MOC)</strong>
+                    طوال عمر المنشأة.
+                </p>
+            </div>
+
+        </div>
+    `
+},
 
         {
             number: "3.4",
