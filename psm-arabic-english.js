@@ -8766,7 +8766,7 @@ element3: {
                 ">
                     <strong>Safety-Critical Element (SCE)</strong>
                     <br>
-                    <strong>عنصر حرج للسلامة</strong>
+                    <strong>عناصر السلامة الحرجة (الهامة)</strong>
 
                     <p>
                         عنصر أو نظام يمكن أن يؤدي فشله إلى التسبب في حادث كبير
@@ -8783,7 +8783,7 @@ element3: {
                 ">
                     <strong>Performance Standard (PS)</strong>
                     <br>
-                    <strong>معيار الأداء</strong>
+                    <strong>معايير الأداء</strong>
 
                     <p>
                         معيار متفق عليه يتم استخدامه للحكم على الأداء الفعلي
