@@ -9369,16 +9369,893 @@ element3: {
     `
 },
 
-        {
-            number: "3.4",
-            title: "Utilities",
-            titleArabic: "المرافق والخدمات المساندة",
-            content: `
-                <div style="text-align:right;">
-                    <p>محتوى الموضوع 3.4 قيد الإعداد.</p>
-                </div>
-            `
-        },
+{
+    number: "3.4",
+    title: "Utilities",
+    titleArabic: "المرافق والخدمات المساندة",
+    content: `
+        <div style="text-align:right; line-height:1.9;" dir="rtl">
+
+            <!-- LEARNING OBJECTIVE -->
+            <div style="
+                background:#eef6ff;
+                border-right:5px solid #1976d2;
+                padding:18px;
+                border-radius:10px;
+                margin-bottom:22px;
+            ">
+                <h3 style="margin-top:0;">
+                    🎯 الهدف التعليمي | Learning Objective
+                </h3>
+
+                <p>
+                    يوضح هذا الموضوع أهمية المرافق والخدمات المساندة
+                    <strong>(Utilities)</strong>
+                    في الصناعات التحويلية، مع التركيز على استخدامات ومخاطر
+                    <strong>البخار والمياه والغازات الخاملة</strong>
+                    وإجراءات التحكم اللازمة لمنع حوادث سلامة العمليات.
+                </p>
+
+                <p dir="ltr" style="text-align:left;">
+                    This topic examines the uses and hazards associated with
+                    steam, water and inert gases within the process industries,
+                    together with the controls required for their safe use.
+                </p>
+            </div>
+
+
+            <!-- MAIN HEADING 1 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">1</span>
+
+                استخدام البخار في الصناعات التحويلية
+                |
+                Use of Steam within the Processing Industries
+            </h3>
+
+            <p>
+                يستخدم البخار على نطاق واسع في المنشآت الصناعية، ومن أهم
+                استخداماته كمصدر للحرارة. ويمكن استخدامه في التسخين المباشر
+                أو غير المباشر للمعدات والعمليات.
+            </p>
+
+            <p>
+                يستخدم البخار في
+                <strong>Heat Exchangers</strong>،
+                و<strong>Reboilers</strong>،
+                والمفاعلات <strong>Reactors</strong>،
+                ومسخنات هواء الاحتراق،
+                وغيرها من معدات نقل الحرارة.
+            </p>
+
+            <p>
+                كما يستخدم البخار لتوفير القدرة المحركة للمعدات مثل
+                <strong>Steam Turbines</strong>،
+                وتحريك بعض المضخات، والمساعدة في نقل السوائل والغازات
+                داخل الأنابيب، وفصل تيارات الأبخرة في أبراج التقطير.
+            </p>
+
+            <p>
+                ومن استخداماته أيضًا تنظيف المعدات وإزالة الترسبات،
+                وترطيب المواد أثناء بعض عمليات التصنيع،
+                والتعقيم في الصناعات الغذائية والدوائية،
+                بالإضافة إلى أنظمة التدفئة.
+            </p>
+
+            <p>
+                يمكن كذلك حقن البخار في بعض تيارات السوائل لتحسين
+                عملية التذرية <strong>Atomisation</strong> وزيادة مساحة
+                السطح، مما يساعد على تحسين كفاءة الاحتراق وتقليل بعض الملوثات.
+            </p>
+
+
+            <!-- MAIN HEADING 2 -->
+            <h3 style="margin-top:32px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">2</span>
+
+                خصائص البخار المشبع والبخار فائق التسخين
+                |
+                Properties of Saturated and Superheated Steam
+            </h3>
+
+            <h4 style="color:#1565c0;">
+                Saturated Steam | البخار المشبع
+            </h4>
+
+            <p>
+                يتكون
+                <strong>Saturated Steam</strong>
+                عند درجة غليان الماء بالنسبة للضغط الموجود.
+                وعند الضغط الجوي تكون درجة الغليان حوالي
+                <strong>100°C</strong>.
+            </p>
+
+            <p>
+                قد يحتوي البخار المشبع على نسبة من الماء،
+                ولذلك يوصف أحيانًا بأنه
+                <strong>Wet Steam</strong>.
+                وعندما يتكثف البخار فإنه يطلق كمية كبيرة من الحرارة،
+                مما يجعله مناسبًا جدًا لعمليات نقل الحرارة.
+            </p>
+
+            <p>
+                من مشكلات البخار المشبع تكوّن
+                <strong>Condensate</strong>
+                داخل الأنابيب والمعدات، ولذلك يجب إزالة المكثفات باستخدام
+                وسائل مناسبة مثل
+                <strong>Steam Traps</strong>.
+            </p>
+
+
+            <h4 style="color:#e65100;">
+                Superheated Steam | البخار فائق التسخين
+            </h4>
+
+            <p>
+                إذا تم تسخين البخار المشبع إلى درجة حرارة أعلى،
+                يتحول إلى
+                <strong>Superheated Steam</strong>.
+                ويكون في الحالة الغازية ولا ينتج عنه تكاثف بسهولة
+                حتى يفقد جزءًا من حرارته.
+            </p>
+
+            <p>
+                لذلك يكون مناسبًا لنقل الطاقة لمسافات أطول،
+                ويستخدم بصورة خاصة في تشغيل المعدات مثل
+                <strong>Steam Turbines</strong>.
+            </p>
+
+
+            <h4 style="color:#6a1b9a;">
+                Vacuum Steam | بخار الضغط المنخفض
+            </h4>
+
+            <p>
+                يمكن إنتاج البخار عند درجات حرارة أقل من
+                <strong>100°C</strong>
+                عن طريق خفض ضغط التشغيل باستخدام نظام تفريغ
+                <strong>(Vacuum)</strong>.
+            </p>
+
+            <p>
+                ويستخدم هذا النوع عندما تتطلب العملية تحكمًا دقيقًا
+                في درجة الحرارة أو عندما تكون المواد حساسة للحرارة.
+            </p>
+
+
+            <!-- IMAGE 1 -->
+            <div style="text-align:center; margin:28px 0;">
+                <img
+                    src="element3-utilities-steam-types-industrial-uses.png"
+                    alt="Steam Types and Industrial Uses"
+                    style="
+                        width:100%;
+                        max-width:1100px;
+                        height:auto;
+                        border-radius:14px;
+                        box-shadow:0 5px 16px rgba(0,0,0,0.18);
+                    "
+                >
+                <p style="font-size:14px; color:#555;">
+                    Figure – Steam types and typical industrial applications
+                </p>
+            </div>
+
+
+            <!-- ACTIVITY 1 -->
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1565c0;
+                padding:18px;
+                border-radius:10px;
+                margin:24px 0;
+            ">
+                <h3 style="color:#0d47a1; margin-top:0;">
+                    🎯 ACTIVITY – Watch the Video | شاهد الفيديو
+                </h3>
+
+                <p>
+                    يتضمن المصدر نشاطًا لمشاهدة فيديو عن
+                    <strong>Superheated Steam</strong>.
+                </p>
+
+                <p><strong>أثناء المشاهدة ركّز على:</strong></p>
+
+                <ul>
+                    <li>الفرق بين Saturated Steam وSuperheated Steam.</li>
+                    <li>سبب استخدام البخار فائق التسخين في التوربينات.</li>
+                    <li>تأثير درجة الحرارة والضغط على خصائص البخار.</li>
+                </ul>
+            </div>
+
+
+            <!-- MAIN HEADING 3 -->
+            <h3 style="margin-top:32px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">3</span>
+
+                مخاطر البخار وإجراءات التحكم المرتبطة به
+                |
+                Steam Hazards and Associated Controls
+            </h3>
+
+
+            <h4 style="color:#c62828;">
+                Thermal Expansion | التمدد الحراري
+            </h4>
+
+            <p>
+                يؤدي البخار، وخصوصًا البخار فائق التسخين،
+                إلى تسخين الأنابيب والمعدات وتمدد المواد.
+                وإذا لم يؤخذ هذا التمدد في الاعتبار أثناء التصميم،
+                فقد تتولد إجهادات عالية تؤدي إلى التسرب أو تلف الأنابيب
+                والمعدات.
+            </p>
+
+            <p>
+                يمكن التحكم في ذلك من خلال التصميم المناسب واستخدام
+                <strong>Expansion Joints</strong>
+                أو أجزاء تسمح بالحركة والتمدد الحراري،
+                بالإضافة إلى تصميم الدعامات والحوامل بشكل مناسب.
+            </p>
+
+
+            <h4 style="color:#6a1b9a;">
+                Prevention of the Formation of Vacuums
+                |
+                منع تكوّن الفراغ
+            </h4>
+
+            <p>
+                عندما يفقد البخار حرارته ويتكثف، ينخفض حجمه بدرجة كبيرة.
+                وإذا كان النظام مغلقًا ولم يسمح بدخول الهواء أو بموازنة الضغط،
+                فقد يتكون
+                <strong>Vacuum</strong>
+                داخل الوعاء أو النظام.
+            </p>
+
+            <p>
+                يمكن أن يؤدي الضغط الخارجي إلى تشوه أو انهيار الخزان أو الوعاء.
+                ولذلك تستخدم وسائل مثل
+                <strong>Vacuum Breakers</strong>
+                أو مداخل الهواء المناسبة لمعادلة الضغط ومنع تكوّن الفراغ.
+            </p>
+
+
+            <h4 style="color:#c62828;">
+                Water in Steam Lines (Water Hammer)
+                |
+                المياه في خطوط البخار – المطرقة المائية
+            </h4>
+
+            <p>
+                تحدث
+                <strong>Water Hammer</strong>
+                عندما تتجمع المياه أو المكثفات داخل خط البخار ثم يتم دفعها
+                بسرعة عالية بواسطة البخار.
+            </p>
+
+            <p>
+                عندما تصطدم كتلة الماء بصمام أو كوع أو أي عائق داخل الخط،
+                تتحول طاقتها الحركية إلى صدمة وضغط مفاجئ قد يسبب
+                اهتزازًا شديدًا أو تلف الصمامات أو كسر الأنابيب
+                وفقدان الاحتواء.
+            </p>
+
+            <p>
+                ويمكن أن يحدث شكل آخر من المطرقة المائية عندما يتكثف
+                البخار بسرعة بسبب ملامسته لمياه أو مكثفات أبرد،
+                مما يؤدي إلى تغيرات ضغط مفاجئة وشديدة.
+            </p>
+
+            <p>
+                تشمل إجراءات التحكم:
+                التصميم الجيد للأنابيب،
+                إزالة المكثفات،
+                المحافظة على جودة البخار،
+                عزل الأنابيب،
+                استخدام
+                <strong>Steam Traps</strong>
+                المناسبة،
+                والتشغيل التدريجي أثناء بدء التشغيل والإيقاف.
+            </p>
+
+
+            <!-- IMAGE 2 -->
+            <div style="text-align:center; margin:28px 0;">
+                <img
+                    src="element3-utilities-steam-hazards-water-hammer.png"
+                    alt="Steam Hazards and Water Hammer"
+                    style="
+                        width:100%;
+                        max-width:1100px;
+                        height:auto;
+                        border-radius:14px;
+                        box-shadow:0 5px 16px rgba(0,0,0,0.18);
+                    "
+                >
+                <p style="font-size:14px; color:#555;">
+                    Figure – Thermal expansion, water hammer and vacuum formation
+                </p>
+            </div>
+
+
+            <!-- MAIN HEADING 4 -->
+            <h3 style="margin-top:32px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">4</span>
+
+                مخاطر المياه وإجراءات التحكم المرتبطة بها
+                |
+                Water Hazards and Associated Controls
+            </h3>
+
+            <p>
+                تستخدم المياه على نطاق واسع في الصناعات التحويلية
+                للتنظيف والتبريد والاختبارات وغيرها من العمليات.
+                لكن استخدامها قد يؤدي أيضًا إلى مخاطر مهمة لسلامة العمليات.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                Vacuum Formation During Draining Operations
+                |
+                تكوّن الفراغ أثناء عمليات التصريف
+            </h4>
+
+            <p>
+                عند تصريف أو تفريغ الخزانات والأوعية يجب التأكد من
+                موازنة الضغط والسماح بدخول الهواء أو الغاز المناسب.
+                فإذا تم تصريف السائل بسرعة من وعاء مغلق، فقد يتكون
+                ضغط سلبي يؤدي إلى تشوه الوعاء أو انهياره.
+            </p>
+
+            <p>
+                يمكن استخدام
+                <strong>Vacuum Breaker Valves</strong>
+                لمنع انخفاض الضغط داخل الوعاء أثناء التفريغ.
+            </p>
+
+
+            <!-- SOURCE EXAMPLE 1 -->
+            <div style="
+                background:#e0f2f1;
+                border-right:6px solid #00897b;
+                padding:18px;
+                border-radius:10px;
+                margin:24px 0;
+            ">
+                <h3 style="color:#00695c; margin-top:0;">
+                    📌 EXAMPLE – Vacuum Formation During Draining
+                </h3>
+
+                <p>
+                    يورد المصدر مثالًا لحادثة في
+                    <strong>Sandnes, Norway</strong>
+                    حيث تم تصريف المياه من عمود تقطير مرتفع.
+                    وبسبب سرعة التصريف وعدم تعويض الحجم المفقود بصورة كافية،
+                    تكوّن فراغ داخل العمود.
+                </p>
+
+                <p>
+                    أدى فرق الضغط إلى انهيار أجزاء من العمود وسقوطه،
+                    وهو مثال واضح على أن تفريغ السوائل من المعدات الكبيرة
+                    يجب أن يتم ضمن إجراءات تشغيل وتحكم مناسبة بالضغط.
+                </p>
+            </div>
+
+
+            <h4 style="color:#1565c0;">
+                Hydrostatic Testing / Weight
+                |
+                الاختبار الهيدروستاتيكي ووزن الماء
+            </h4>
+
+            <p>
+                يستخدم
+                <strong>Hydrostatic Testing</strong>
+                للتحقق من سلامة المعدات والأنابيب قبل التشغيل
+                أو بعد أعمال الصيانة والتعديل.
+            </p>
+
+            <p>
+                يتم ملء المعدة بالماء ثم رفع الضغط تدريجيًا إلى ضغط
+                الاختبار المحدد وفق الإجراء والتصميم.
+                ويجب إجراء المراقبة والتحقق من عدم وجود تسربات
+                أو تشوهات غير مقبولة.
+            </p>
+
+            <p>
+                لكن الماء ثقيل جدًا؛ لذلك يجب التأكد من أن الوعاء
+                والأنابيب والدعامات والهياكل قادرة على تحمل
+                <strong>وزن الماء</strong>
+                وليس ضغط الاختبار فقط.
+            </p>
+
+
+            <!-- SOURCE EXAMPLE 2 -->
+            <div style="
+                background:#e0f2f1;
+                border-right:6px solid #00897b;
+                padding:18px;
+                border-radius:10px;
+                margin:24px 0;
+            ">
+                <h3 style="color:#00695c; margin-top:0;">
+                    📌 EXAMPLE – Vessel Deformation During Hydrotest
+                </h3>
+
+                <p>
+                    يورد المصدر مثالًا لوعاء تخزين كبير تعرض للتشوه
+                    أثناء اختبار هيدروستاتيكي.
+                    كان الوعاء يحتوي على
+                    <strong>Pressure/Vacuum Relief Vents</strong>،
+                    إلا أن تعبئته بالماء تمت بسرعة كبيرة.
+                </p>
+
+                <p>
+                    عندما عاد الماء إلى الوعاء نتيجة
+                    <strong>Backflow</strong>
+                    لم تستطع فتحات التنفيس التعامل مع معدل التدفق،
+                    فتكوّن ضغط أدى إلى انتفاخ الوعاء وتشوهه
+                    وإلحاق أضرار بالمعدات والملحقات المرتبطة به.
+                </p>
+            </div>
+
+
+            <h4 style="color:#2e7d32;">
+                Cooling Towers – Legionella and Water-Fog
+                |
+                أبراج التبريد – الليجيونيلا ورذاذ الماء
+            </h4>
+
+            <p>
+                قد تنمو بكتيريا
+                <strong>Legionella pneumophila</strong>
+                في أنظمة المياه التي لا تتم إدارتها والتحكم فيها بصورة جيدة.
+                ويزداد الخطر عندما تتكون قطرات ماء دقيقة يمكن استنشاقها.
+            </p>
+
+            <p>
+                توفر المياه الدافئة بيئة مناسبة لنمو البكتيريا،
+                ويكون نموها مثاليًا تقريبًا حول
+                <strong>37°C</strong>.
+                وقد تنتشر البكتيريا داخل الأنابيب والترسبات والأغشية الحيوية
+                <strong>(Biofilm)</strong>.
+            </p>
+
+            <p>
+                تمثل أبراج التبريد خطرًا مهمًا لأنها قد تنتج
+                <strong>Water-Fog / Aerosols</strong>
+                يحتوي على قطرات صغيرة جدًا يمكن أن تنتقل في الهواء
+                ويتم استنشاقها.
+            </p>
+
+            <p>
+                تشمل إجراءات التحكم معالجة المياه باستخدام
+                <strong>Biocide</strong>،
+                ومراقبة درجات الحرارة،
+                وإزالة المغذيات والترسبات،
+                والتنظيف والصيانة الدورية،
+                واستخدام
+                <strong>Drift Eliminators</strong>
+                للحد من انتشار الرذاذ.
+            </p>
+
+
+            <!-- MAIN HEADING 5 -->
+            <h3 style="margin-top:32px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">5</span>
+
+                خصائص واستخدامات الغازات الخاملة ومخاطرها المرتبطة
+                |
+                Characteristics and Industrial Uses of Inert Gases and Associated Hazards
+            </h3>
+
+            <p>
+                تشمل الغازات المستخدمة كغازات خاملة في الصناعة
+                <strong>Nitrogen (N₂)</strong>،
+                و<strong>Carbon Dioxide (CO₂)</strong>،
+                إضافة إلى غازات مثل
+                <strong>Argon</strong> و<strong>Helium</strong>.
+            </p>
+
+            <p>
+                تتميز هذه الغازات بانخفاض قابليتها للتفاعل الكيميائي،
+                ولذلك تستخدم عندما نحتاج إلى تقليل أو استبعاد الأكسجين
+                أو منع تكوّن جو قابل للاشتعال.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                Inerting | التطهير / الإحلال بالغاز الخامل
+            </h4>
+
+            <p>
+                في عملية
+                <strong>Inerting</strong>
+                يتم إدخال الغاز الخامل إلى المعدات أو الأنابيب
+                لإزاحة الهواء والأكسجين.
+            </p>
+
+            <p>
+                تستخدم هذه العملية لمنع تكوّن مخاليط قابلة للاشتعال،
+                أو لتحضير المعدات للصيانة،
+                أو إزالة الأكسجين قبل بدء التشغيل.
+            </p>
+
+
+            <h4 style="color:#c62828;">
+                Hazards | المخاطر
+            </h4>
+
+            <p>
+                أخطر خصائص الغازات الخاملة أنها تستطيع إزاحة الأكسجين
+                من الهواء، مما قد يؤدي إلى
+                <strong>Asphyxiation – الاختناق</strong>.
+            </p>
+
+            <p>
+                قد لا يستطيع العامل اكتشاف انخفاض مستوى الأكسجين بحواسه،
+                ولذلك تكون مراقبة
+                <strong>Oxygen Concentration</strong>
+                واستخدام أجهزة الكشف والإنذار ضرورية في المناطق المعرضة
+                لتسرب هذه الغازات.
+            </p>
+
+            <p>
+                كما أن النيتروجين وثاني أكسيد الكربون يمكن تخزينهما
+                في صورة سائلة عند درجات حرارة منخفضة جدًا،
+                ولذلك قد يؤدي ملامستهما إلى
+                <strong>Cold Burns</strong>.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                Blanketing of Storage Tanks
+                |
+                التغطية بالغاز الخامل لخزانات التخزين
+            </h4>
+
+            <p>
+                تستخدم
+                <strong>Blanketing</strong>
+                لمنع دخول الهواء إلى الحيز الغازي
+                <strong>(Headspace)</strong>
+                في الخزانات التي تحتوي على مواد قابلة للاشتعال.
+            </p>
+
+            <p>
+                يستخدم النيتروجين عادة لهذا الغرض.
+                وعندما يتغير مستوى السائل داخل الخزان،
+                يتم إدخال أو إخراج الغاز بطريقة مضبوطة للمحافظة على
+                ضغط مناسب ومنع تكوّن خليط قابل للاشتعال.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                Uses as a Fire-Fighting Agent
+                |
+                استخدام الغازات الخاملة في مكافحة الحريق
+            </h4>
+
+            <p>
+                لأن الغازات الخاملة تستطيع إزاحة الهواء والأكسجين،
+                يمكن استخدامها في بعض أنظمة مكافحة الحريق.
+                ويستخدم
+                <strong>CO₂</strong>
+                في بعض الأنظمة والمعدات.
+            </p>
+
+            <p>
+                لكن يجب التحكم في إطلاق الغاز بعناية،
+                لأن خفض تركيز الأكسجين إلى مستوى يمنع الاحتراق
+                قد يخلق في الوقت نفسه جوًا خطيرًا على حياة الأشخاص.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                Pipeline Freezing Operations
+                |
+                عمليات تجميد الأنابيب
+            </h4>
+
+            <p>
+                يستخدم
+                <strong>Liquid Nitrogen</strong>
+                في بعض أعمال الصيانة لتجميد السائل داخل جزء من الأنبوب
+                وتكوين
+                <strong>Ice Plug</strong>.
+            </p>
+
+            <p>
+                يمكن استخدام هذه التقنية عند إصلاح أو استبدال الصمامات،
+                أو معالجة تسربات الأنابيب،
+                أو إضافة خطوط فرعية،
+                أو العمل على معدات جديدة،
+                عندما تكون الطريقة مناسبة ومسيطرًا عليها.
+            </p>
+
+
+            <!-- ACTIVITY 2 -->
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1565c0;
+                padding:18px;
+                border-radius:10px;
+                margin:24px 0;
+            ">
+                <h3 style="color:#0d47a1; margin-top:0;">
+                    🎯 ACTIVITY – Watch the Video | شاهد الفيديو
+                </h3>
+
+                <p>
+                    يتضمن المصدر نشاطًا لمشاهدة فيديو عن
+                    <strong>Pipeline Freezing Operations</strong>.
+                </p>
+
+                <p><strong>أثناء المشاهدة ركّز على:</strong></p>
+
+                <ul>
+                    <li>كيفية تكوين Ice Plug داخل الأنبوب.</li>
+                    <li>سبب استخدام Liquid Nitrogen.</li>
+                    <li>المخاطر المرتبطة بالضغط ودرجات الحرارة المنخفضة.</li>
+                    <li>أهمية تقييم المخاطر قبل استخدام هذه التقنية.</li>
+                </ul>
+            </div>
+
+
+            <h4 style="color:#1565c0;">
+                Nitrogen Use as Back-Up Instrument Air
+                |
+                استخدام النيتروجين كاحتياطي لهواء الأجهزة
+            </h4>
+
+            <p>
+                تعمل العديد من الصمامات وأنظمة التحكم بواسطة
+                <strong>Instrument Air</strong>.
+                وفي بعض الحالات يمكن استخدام النيتروجين كبديل مؤقت
+                أو احتياطي عندما لا يتوفر الهواء.
+            </p>
+
+            <p>
+                من مزايا النيتروجين أنه جاف ومتوفر ويمكن استخدامه
+                في بعض الأنظمة الهوائية، كما أنه لا يدعم الحريق أو الانفجار.
+            </p>
+
+            <p>
+                ومع ذلك، فإن أي تسرب للنيتروجين قد يؤدي إلى انخفاض
+                مستوى الأكسجين. لذلك يجب تقييم مسار الأنابيب،
+                والتهوية،
+                وأجهزة كشف الأكسجين،
+                خصوصًا في الأماكن المغلقة أو ضعيفة التهوية.
+            </p>
+
+
+            <!-- IMAGE 3 -->
+            <div style="text-align:center; margin:30px 0;">
+                <img
+                    src="element3-utilities-water-legionella-inert-gases.png"
+                    alt="Water Legionella and Inert Gas Systems"
+                    style="
+                        width:100%;
+                        max-width:1100px;
+                        height:auto;
+                        border-radius:14px;
+                        box-shadow:0 5px 16px rgba(0,0,0,0.18);
+                    "
+                >
+                <p style="font-size:14px; color:#555;">
+                    Figure – Hydrostatic testing, Legionella control and inert gas systems
+                </p>
+            </div>
+
+
+            <!-- TRAINER EXAMPLE -->
+            <div style="
+                background:#fff4dd;
+                border-right:6px solid #ff9800;
+                padding:18px;
+                border-radius:10px;
+                margin:26px 0;
+            ">
+                <h3 style="color:#e65100; margin-top:0;">
+                    🧑‍🏫 Trainer Example – فقدان Utility واحدة قد يؤثر على عدة حواجز
+                </h3>
+
+                <p>
+                    افترض أن وحدة تشغيل تعتمد على
+                    <strong>Instrument Air</strong>
+                    لتشغيل عدد من صمامات التحكم.
+                    عند فقدان الهواء، قد تنتقل بعض الصمامات إلى وضع
+                    <strong>Fail-Safe</strong>،
+                    بينما قد تتأثر وظائف أخرى.
+                </p>
+
+                <p>
+                    إذا استخدم النيتروجين كاحتياطي، فإن ذلك قد يساعد
+                    في المحافظة على وظيفة التحكم، لكنه يقدم خطرًا جديدًا:
+                    <strong>انخفاض تركيز الأكسجين عند حدوث تسرب.</strong>
+                </p>
+
+                <p>
+                    الدرس هنا أن الـ
+                    <strong>Utility</strong>
+                    ليست مجرد خدمة مساندة؛ فقد تكون جزءًا مباشرًا
+                    من منظومة سلامة العمليات.
+                </p>
+            </div>
+
+
+            <!-- KEY LEARNING POINT -->
+            <div style="
+                background:#e8f5e9;
+                border-right:6px solid #43a047;
+                padding:18px;
+                border-radius:10px;
+                margin:24px 0;
+            ">
+                <h3 style="color:#2e7d32; margin-top:0;">
+                    ✅ Key Learning Point
+                </h3>
+
+                <p>
+                    المرافق والخدمات المساندة مثل
+                    <strong>Steam, Water and Inert Gases</strong>
+                    ضرورية لتشغيل المنشأة، لكنها قد تصبح مصدرًا لحادث
+                    كبير إذا لم يتم التحكم في
+                    <strong>الضغط، الحرارة، المكثفات، الفراغ، وزن الماء،
+                    جودة المياه، ومستوى الأكسجين.</strong>
+                </p>
+            </div>
+
+
+            <!-- EXAM FOCUS -->
+            <div style="
+                background:#fff3e0;
+                border-right:6px solid #fb8c00;
+                padding:18px;
+                border-radius:10px;
+                margin:25px 0;
+            ">
+                <h3 style="color:#e65100; margin-top:0;">
+                    🎓 Exam Focus | تركيز الاختبار
+                </h3>
+
+                <p>
+                    ركّز على الفرق بين
+                    <strong>Saturated Steam</strong>
+                    و<strong>Superheated Steam</strong>
+                    وأسباب استخدام كل منهما.
+                </p>
+
+                <p>
+                    افهم آلية حدوث
+                    <strong>Water Hammer</strong>
+                    وعلاقتها بالمكثفات وسرعة البخار والتغيرات المفاجئة في الضغط.
+                </p>
+
+                <p>
+                    تذكّر مخاطر تكوّن
+                    <strong>Vacuum</strong>
+                    أثناء التكثف أو تصريف المعدات.
+                </p>
+
+                <p>
+                    في
+                    <strong>Hydrostatic Testing</strong>
+                    لا تفكر في الضغط فقط؛
+                    <strong>وزن الماء</strong>
+                    قد يكون خطرًا إنشائيًا مهمًا.
+                </p>
+
+                <p>
+                    اربط
+                    <strong>Cooling Towers</strong>
+                    بخطر
+                    <strong>Legionella</strong>
+                    وانتشار الرذاذ الملوث.
+                </p>
+
+                <p>
+                    في الغازات الخاملة، تذكّر أن
+                    <strong>Nitrogen لا يدعم الاحتراق ولكنه أيضًا لا يدعم التنفس.</strong>
+                </p>
+
+                <p>
+                    راجع جيدًا:
+                    <strong>
+                        Inerting – Blanketing – Pipeline Freezing –
+                        Instrument Air Back-Up.
+                    </strong>
+                </p>
+            </div>
+
+
+            <!-- SUMMARY -->
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1976d2;
+                padding:20px;
+                border-radius:10px;
+                margin-top:28px;
+            ">
+                <h3 style="color:#0d47a1; margin-top:0;">
+                    📘 Summary | ملخص 3.4
+                </h3>
+
+                <p>
+                    يستخدم البخار في التسخين ونقل الحرارة والتشغيل
+                    والتنظيف والتعقيم، لكن مخاطره تشمل
+                    <strong>التمدد الحراري والمطرقة المائية وتكوّن الفراغ.</strong>
+                </p>
+
+                <p>
+                    تستخدم المياه في التبريد والتنظيف والاختبارات،
+                    لكن يجب التحكم في
+                    <strong>وزن الماء، الضغط، تكوّن الفراغ،
+                    وجودة المياه وخطر Legionella.</strong>
+                </p>
+
+                <p>
+                    تستخدم الغازات الخاملة في
+                    <strong>Inerting, Blanketing, Fire-Fighting,
+                    Pipeline Freezing</strong>
+                    وكاحتياطي لبعض أنظمة التحكم،
+                    لكن إزاحتها للأكسجين تمثل خطر اختناق خطير.
+                </p>
+
+                <p>
+                    الإدارة الآمنة للمرافق تتطلب
+                    <strong>
+                        تصميمًا مناسبًا، إجراءات تشغيل واضحة،
+                        فحصًا وصيانة، مراقبة مستمرة،
+                        وفهم تأثير كل Utility على سلامة العملية.
+                    </strong>
+                </p>
+            </div>
+
+        </div>
+    `
+},
 
         {
             number: "3.5",
