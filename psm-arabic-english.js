@@ -10257,16 +10257,989 @@ element3: {
     `
 },
 
-        {
-            number: "3.5",
-            title: "Electricity / Static Electricity",
-            titleArabic: "الكهرباء والكهرباء الساكنة",
-            content: `
-                <div style="text-align:right;">
-                    <p>محتوى الموضوع 3.5 قيد الإعداد.</p>
+       {
+    number: "3.5",
+    title: "Electricity / Static Electricity",
+    titleArabic: "الكهرباء والكهرباء الساكنة",
+    content: `
+        <div style="text-align:right; line-height:1.9;" dir="rtl">
+
+            <!-- LEARNING OBJECTIVE -->
+            <div style="
+                background:#eef6ff;
+                border-right:5px solid #1976d2;
+                padding:18px;
+                border-radius:10px;
+                margin-bottom:22px;
+            ">
+                <h3 style="margin-top:0;">
+                    🎯 الهدف التعليمي | Learning Objective
+                </h3>
+
+                <p>
+                    يوضح هذا الموضوع المبادئ الأساسية للكهرباء،
+                    ومخاطر التيار الكهربائي والأقواس والشرر،
+                    وكيفية تولد الكهرباء الساكنة والتحكم فيها،
+                    بالإضافة إلى أهمية توفير الطاقة الاحتياطية
+                    للأنظمة الحرجة للسلامة.
+                </p>
+
+                <p dir="ltr" style="text-align:left;">
+                    This topic covers the basic principles of electricity,
+                    electrical hazards, arcs and sparks, electrostatic charge
+                    generation and control, and emergency power arrangements
+                    for safety-critical systems.
+                </p>
+            </div>
+
+
+            <!-- MAIN HEADING 1 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">1</span>
+
+                مبادئ الكهرباء: العلاقة بين الجهد والتيار والمقاومة
+                |
+                Principles of Electricity: Relationship Between Voltage, Current and Resistance
+            </h3>
+
+
+            <h4 style="color:#1565c0;">
+                Basic Circuitry for Current to Flow
+                |
+                الدائرة الأساسية لمرور التيار
+            </h4>
+
+            <p>
+                تعتمد الكهرباء بصورة أساسية على حركة الإلكترونات
+                عبر مادة موصلة.
+                وعندما يوجد فرق جهد
+                <strong>Potential Difference</strong>
+                بين نقطتين في دائرة مغلقة، يمكن للتيار الكهربائي أن يتدفق.
+            </p>
+
+            <p>
+                يمثل
+                <strong>Voltage (V)</strong>
+                القوة الدافعة للتيار،
+                بينما يمثل
+                <strong>Current (I)</strong>
+                كمية التيار المتدفق،
+                وتحدد
+                <strong>Resistance (R)</strong>
+                مقدار الممانعة التي تواجه هذا التدفق.
+            </p>
+
+
+            <div style="
+                background:#fff8e1;
+                border-right:6px solid #f9a825;
+                padding:18px;
+                border-radius:10px;
+                margin:22px 0;
+                text-align:center;
+            ">
+                <h3 style="margin:0 0 10px 0;">
+                    Ohm's Law | قانون أوم
+                </h3>
+
+                <div style="
+                    font-size:28px;
+                    font-weight:bold;
+                    direction:ltr;
+                ">
+                    V = I × R
                 </div>
-            `
-        },
+
+                <p>
+                    <strong>V</strong> = Voltage – الجهد (Volt)
+                    &nbsp;&nbsp; |
+                    &nbsp;&nbsp;
+                    <strong>I</strong> = Current – التيار (Ampere)
+                    &nbsp;&nbsp; |
+                    &nbsp;&nbsp;
+                    <strong>R</strong> = Resistance – المقاومة (Ohm)
+                </p>
+            </div>
+
+
+            <p>
+                المواد التي تسمح بمرور التيار بسهولة تسمى
+                <strong>Conductors</strong>
+                مثل النحاس، بينما المواد التي تقاوم مرور التيار تسمى
+                <strong>Insulators</strong>
+                مثل الزجاج والبلاستيك والمطاط والخشب الجاف.
+            </p>
+
+            <p>
+                تؤدي المقاومة العالية إلى تقليل التيار،
+                كما أن مرور التيار خلال المقاومة يمكن أن يؤدي إلى تولد الحرارة.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                Direct Current and Alternating Current
+                |
+                التيار المستمر والمتردد
+            </h4>
+
+            <p>
+                <strong>Direct Current (DC)</strong>
+                يتدفق في اتجاه واحد وبقطبية ثابتة،
+                ويستخدم مثلًا في البطاريات وبعض المعدات الإلكترونية.
+            </p>
+
+            <p>
+                أما
+                <strong>Alternating Current (AC)</strong>
+                فيتغير اتجاهه وقطبيته بصورة دورية،
+                وهو النوع المستخدم عادة في شبكات الكهرباء والمنشآت الصناعية.
+            </p>
+
+
+            <!-- KEY TERM HERTZ -->
+            <div style="
+                background:#eaf5c5;
+                border-right:6px solid #8bad20;
+                padding:18px;
+                border-radius:10px;
+                margin:24px 0;
+            ">
+                <h3 style="color:#597900; margin-top:0;">
+                    🔑 KEY TERM – Hertz (Hz)
+                </h3>
+
+                <p>
+                    <strong>Hertz</strong>
+                    هو وحدة قياس التردد
+                    <strong>Frequency</strong>
+                    ويعبر عن عدد الدورات في الثانية.
+                </p>
+
+                <p>
+                    على سبيل المثال، تردد
+                    <strong>50 Hz</strong>
+                    يعني أن التيار المتردد يكمل
+                    <strong>50 دورة في الثانية.</strong>
+                </p>
+            </div>
+
+
+            <!-- IMAGE 1 -->
+            <div style="text-align:center; margin:28px 0;">
+                <img
+                    src="element3-electricity-principles-hazards.png"
+                    alt="Electricity Principles and Electrical Hazards"
+                    style="
+                        width:100%;
+                        max-width:1100px;
+                        height:auto;
+                        border-radius:14px;
+                        box-shadow:0 5px 16px rgba(0,0,0,0.18);
+                    "
+                >
+
+                <p style="font-size:14px; color:#555;">
+                    Figure – Electricity principles, Ohm's law and electrical hazards
+                </p>
+            </div>
+
+
+            <!-- MAIN HEADING 2 -->
+            <h3 style="margin-top:32px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">2</span>
+
+                مخاطر الكهرباء
+                |
+                Hazards of Electricity
+            </h3>
+
+            <p>
+                تستخدم منشآت العمليات عادة أنظمة كهربائية بجهود مختلفة،
+                وقد تكون بعض المعدات أو الأنظمة ذات جهد مرتفع.
+                لكن مستوى الجهد وحده لا يحدد شدة الإصابة؛
+                فالخطر يعتمد بصورة كبيرة على مقدار التيار الذي يمر عبر الجسم.
+            </p>
+
+            <p>
+                يعتمد مقدار التيار على
+                <strong>Voltage</strong>
+                و<strong>Resistance</strong>.
+                وبما أن جسم الإنسان موصل نسبيًا للكهرباء،
+                فقد يمر التيار خلال الجسم إذا اكتملت دائرة بين مصدر الكهرباء
+                والأرض أو موصل آخر.
+            </p>
+
+            <p>
+                يمكن للتيار الكهربائي أن يؤدي إلى:
+                الحروق السطحية والعميقة،
+                تقلص العضلات،
+                اضطرابات نظم القلب،
+                فقدان الوعي،
+                توقف التنفس،
+                أو الوفاة.
+            </p>
+
+
+            <h4 style="color:#c62828;">
+                العوامل المؤثرة على شدة الإصابة
+                |
+                Factors Affecting the Severity of Injury
+            </h4>
+
+            <ul>
+                <li>مقدار التيار المار عبر الجسم.</li>
+                <li>تردد التيار الكهربائي.</li>
+                <li>المسار الذي يسلكه التيار خلال الجسم.</li>
+                <li>مدة بقاء الشخص ضمن الدائرة الكهربائية.</li>
+                <li>مقاومة الجسم وظروف التلامس.</li>
+            </ul>
+
+            <p>
+                كلما طالت مدة التعرض زادت احتمالية الإصابة الخطيرة.
+                ولذلك فإن الجهد المنخفض نسبيًا لا يعني بالضرورة
+                أن الخطر منخفض.
+            </p>
+
+
+            <!-- CURRENT EFFECTS TABLE -->
+            <div style="
+                overflow-x:auto;
+                margin:24px 0;
+            ">
+                <table style="
+                    width:100%;
+                    border-collapse:collapse;
+                    text-align:center;
+                    background:white;
+                ">
+                    <thead>
+                        <tr style="background:#1565c0; color:white;">
+                            <th style="padding:10px; border:1px solid #ccc;">
+                                Current in Milliamps
+                            </th>
+                            <th style="padding:10px; border:1px solid #ccc;">
+                                Typical Effects
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td style="padding:9px; border:1px solid #ccc;">0.5–2</td>
+                            <td style="padding:9px; border:1px solid #ccc;">
+                                حد الإدراك | Threshold of perception
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding:9px; border:1px solid #ccc;">2–10</td>
+                            <td style="padding:9px; border:1px solid #ccc;">
+                                إحساس مؤلم | Painful sensation
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding:9px; border:1px solid #ccc;">10–25</td>
+                            <td style="padding:9px; border:1px solid #ccc;">
+                                صعوبة الإفلات واحتمال الاختناق
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding:9px; border:1px solid #ccc;">25–80</td>
+                            <td style="padding:9px; border:1px solid #ccc;">
+                                فقدان الوعي وخطر فشل القلب أو التنفس
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding:9px; border:1px solid #ccc;">80–2000</td>
+                            <td style="padding:9px; border:1px solid #ccc;">
+                                حروق وخطر الرجفان البطيني والوفاة
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding:9px; border:1px solid #ccc;">2000+</td>
+                            <td style="padding:9px; border:1px solid #ccc;">
+                                توقف القلب وحروق شديدة وتلف داخلي خطير
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <!-- MAIN HEADING 3 -->
+            <h3 style="margin-top:32px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">3</span>
+
+                الأقواس الكهربائية والشرر – مخاطر الاشتعال
+                |
+                Electric Arcs and Sparks (Ignition Hazards)
+            </h3>
+
+            <p>
+                يحدث
+                <strong>Electric Arc</strong>
+                أو
+                <strong>Arc Flash</strong>
+                عندما يقفز التيار الكهربائي عبر فجوة بين موصلين
+                أو بين موصل وجسم آخر.
+            </p>
+
+            <p>
+                يمكن أن تنتج الأقواس الكهربائية درجات حرارة مرتفعة جدًا
+                وضوءًا شديدًا وطاقة حرارية كبيرة،
+                وقد تتسبب في إصابة الأشخاص وتلف المعدات.
+            </p>
+
+            <p>
+                في المنشآت التي تحتوي على غازات أو أبخرة أو غبار قابل للاشتعال،
+                قد يعمل القوس أو الشرر الكهربائي كمصدر
+                <strong>Ignition Source</strong>
+                ويؤدي إلى حريق أو انفجار.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                How Arcing and Sparks Can Occur During Normal Operations
+                |
+                كيفية حدوث الأقواس والشرر أثناء التشغيل
+            </h4>
+
+            <p>
+                يمكن أن يحدث القوس أثناء عمليات الفصل والتوصيل الكهربائي،
+                أو عند تشغيل المفاتيح،
+                أو نتيجة الأعطال وقصر الدائرة
+                <strong>Short Circuit</strong>.
+            </p>
+
+            <p>
+                كما يمكن أن يكون نتيجة كابلات تالفة أو توصيلات غير جيدة،
+                أو تراكم الغبار والملوثات،
+                أو استخدام أدوات وإجراءات غير مناسبة.
+            </p>
+
+            <p>
+                لذلك، في المناطق التي يمكن أن توجد فيها أجواء قابلة للاشتعال،
+                يجب استخدام معدات كهربائية مناسبة للتصنيف الخطِر
+                والالتزام بمتطلبات التصميم والتشغيل والصيانة المناسبة.
+            </p>
+
+
+            <!-- ACTIVITY 1 -->
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1565c0;
+                padding:18px;
+                border-radius:10px;
+                margin:24px 0;
+            ">
+                <h3 style="color:#0d47a1; margin-top:0;">
+                    🎯 ACTIVITY – Electrical Arc Incident
+                </h3>
+
+                <p>
+                    يتضمن المصدر نشاطًا لمشاهدة فيديو يعرض شهادات عاملين
+                    عن حادثة قوس كهربائي وقعت في عام
+                    <strong>2012</strong>.
+                </p>
+
+                <p><strong>أثناء المشاهدة ركّز على:</strong></p>
+
+                <ul>
+                    <li>كيف بدأ القوس الكهربائي؟</li>
+                    <li>ما مصادر الطاقة الموجودة؟</li>
+                    <li>ما العوامل التي زادت شدة الحادث؟</li>
+                    <li>ما الإجراءات التي كان يمكن أن تمنع الحادث؟</li>
+                </ul>
+            </div>
+
+
+            <!-- MAIN HEADING 4 -->
+            <h3 style="margin-top:32px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">4</span>
+
+                كيفية تولد الشحنات الكهروستاتيكية
+                |
+                How Electrostatic Charges Are Generated
+            </h3>
+
+            <p>
+                تتولد الكهرباء الساكنة عندما تنتقل الإلكترونات بين مادتين،
+                مما يؤدي إلى تكوّن شحنة موجبة على مادة وشحنة سالبة على الأخرى.
+            </p>
+
+            <p>
+                إذا كانت المواد عازلة أو كان مسار تفريغ الشحنة محدودًا،
+                يمكن أن تتراكم الشحنة إلى أن يصبح فرق الجهد كبيرًا بما يكفي
+                لحدوث تفريغ كهربائي
+                <strong>Electrostatic Discharge</strong>.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                Friction / Triboelectric Effect
+                |
+                الاحتكاك والتأثير الترايبوالكهربائي
+            </h4>
+
+            <p>
+                يمكن أن يؤدي احتكاك مادتين أو تلامسهما ثم انفصالهما
+                إلى انتقال الإلكترونات من سطح إلى آخر،
+                مما يؤدي إلى شحن المادتين كهربائيًا.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                Pyroelectric Effect | التأثير الحراري الكهربائي
+            </h4>
+
+            <p>
+                في بعض المواد يمكن أن يؤدي تغير درجة الحرارة
+                إلى ظهور فرق في الشحنة الكهربائية عبر المادة.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                Piezoelectric Effect | التأثير الكهروضغطي
+            </h4>
+
+            <p>
+                بعض البلورات والمواد يمكن أن تولد شحنة كهربائية
+                عند تعرضها للضغط أو الإجهاد الميكانيكي.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                Induction | الحث الكهربائي
+            </h4>
+
+            <p>
+                يمكن لجسم مشحون أن يؤثر على توزيع الشحنات في جسم قريب
+                حتى بدون وجود اتصال مباشر بينهما.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                أنواع التفريغ الكهروستاتيكي
+                |
+                Types of Electrostatic Discharge
+            </h4>
+
+            <p><strong>Spark Discharge:</strong>
+                تفريغ شراري بين جسمين موصلين يحملان فرق جهد.
+            </p>
+
+            <p><strong>Corona Discharge:</strong>
+                يحدث غالبًا حول النقاط أو الأجزاء الحادة ذات المجال الكهربائي المرتفع.
+            </p>
+
+            <p><strong>Brush Discharge:</strong>
+                تفريغ أوسع وأقل تركيزًا من الشرارة، وقد يحدث بين سطح عازل وجسم موصل.
+            </p>
+
+            <p><strong>Propagating Brush Discharge:</strong>
+                تفريغ يمكن أن ينتشر عبر سطح مادة عازلة وقد يحتوي على طاقة أكبر.
+            </p>
+
+            <p><strong>Conical Pile (Maurer):</strong>
+                قد يحدث أثناء سقوط المواد الصلبة أو المساحيق داخل وعاء
+                وتكوّن كومة مخروطية مشحونة.
+            </p>
+
+            <p><strong>Streaming Current Charge:</strong>
+                قد تتولد الشحنة أثناء تدفق السوائل في الأنابيب
+                بسبب الاحتكاك وانتقال الإلكترونات.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                أمثلة على العمليات التي قد تولد الكهرباء الساكنة
+            </h4>
+
+            <ul>
+                <li>حركة السيور الناقلة والتروس.</li>
+                <li>نقل المساحيق والغبار عبر الأنابيب.</li>
+                <li>صب السوائل أو المواد الصلبة داخل الأوعية.</li>
+                <li>عمليات الغربلة والطحن.</li>
+                <li>التحريك والخلط.</li>
+                <li>حركة الأشخاص على الأسطح أو الأحذية العازلة.</li>
+            </ul>
+
+
+            <!-- IMAGE 2 -->
+            <div style="text-align:center; margin:30px 0;">
+                <img
+                    src="element3-static-electricity-generation-control.png"
+                    alt="Static Electricity Generation Ignition and Control"
+                    style="
+                        width:100%;
+                        max-width:1100px;
+                        height:auto;
+                        border-radius:14px;
+                        box-shadow:0 5px 16px rgba(0,0,0,0.18);
+                    "
+                >
+
+                <p style="font-size:14px; color:#555;">
+                    Figure – Static electricity generation, discharge, ignition and control
+                </p>
+            </div>
+
+
+            <!-- MAIN HEADING 5 -->
+            <h3 style="margin-top:32px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">5</span>
+
+                التحكم في الشحنات الكهروستاتيكية
+                |
+                Control of Electrostatic Charges
+            </h3>
+
+
+            <h4 style="color:#2e7d32;">
+                Bonding and Grounding
+                |
+                الربط والتأريض
+            </h4>
+
+            <p>
+                لا يحدث التفريغ الشراري بين المواد إذا تم منع تراكم فرق الجهد
+                بينها أو تم توفير مسار آمن لتصريف الشحنة.
+            </p>
+
+            <p>
+                يستخدم
+                <strong>Bonding</strong>
+                لربط جسمين موصلين معًا للحفاظ على نفس الجهد الكهربائي
+                وتقليل فرق الجهد بينهما.
+            </p>
+
+            <p>
+                أما
+                <strong>Grounding / Earthing</strong>
+                فيستخدم لربط المعدة بالأرض وتوفير مسار لتصريف الشحنة
+                المتراكمة بصورة آمنة.
+            </p>
+
+            <p>
+                يجب أن تكون الوصلات ذات مقاومة منخفضة ومثبتة بصورة صحيحة،
+                كما يجب التأكد من وجود اتصال جيد وعدم تآكل أو تلف المشابك
+                والكابلات.
+            </p>
+
+            <p>
+                في بعض الحالات قد لا يكون من الممكن تأريض المادة نفسها مباشرة،
+                خصوصًا المواد غير الموصلة؛ لذلك قد نحتاج إلى التحكم في
+                معدل التدفق، تقليل الشحن، أو استخدام وسائل ومواد
+                مضادة للكهرباء الساكنة.
+            </p>
+
+
+            <!-- KEY LEARNING POINT STATIC -->
+            <div style="
+                background:#e8f5e9;
+                border-right:6px solid #43a047;
+                padding:18px;
+                border-radius:10px;
+                margin:24px 0;
+            ">
+                <h3 style="color:#2e7d32; margin-top:0;">
+                    ✅ Key Learning Point – Bonding vs Grounding
+                </h3>
+
+                <p>
+                    <strong>Bonding</strong>
+                    يقلل فرق الجهد بين جسمين موصلين.
+                </p>
+
+                <p>
+                    <strong>Grounding</strong>
+                    يسمح بتصريف الشحنة إلى الأرض.
+                </p>
+
+                <p>
+                    في كثير من عمليات نقل السوائل القابلة للاشتعال
+                    يتم استخدام الاثنين معًا:
+                    <strong>Bonding + Grounding.</strong>
+                </p>
+            </div>
+
+
+            <!-- MAIN HEADING 6 -->
+            <h3 style="margin-top:32px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">6</span>
+
+                التخطيط لانقطاع الكهرباء وتوفير الطاقة في حالات الطوارئ
+                |
+                Planning for Power Outages to Provide Emergency Power
+            </h3>
+
+            <p>
+                تعتمد معظم عمليات المنشآت الصناعية على توفر الطاقة الكهربائية
+                بصورة مستمرة.
+                وقد يؤدي فقدان الكهرباء إلى تعطيل أنظمة التحكم
+                والأنظمة الحرجة للسلامة أو خلق ظروف تشغيل غير آمنة.
+            </p>
+
+            <p>
+                لذلك يجب التخطيط مسبقًا لكيفية المحافظة على الأنظمة الحرجة
+                أو الوصول إلى
+                <strong>Safe State</strong>
+                عند انقطاع الكهرباء.
+            </p>
+
+
+            <!-- KEY TERM ESD -->
+            <div style="
+                background:#eaf5c5;
+                border-right:6px solid #8bad20;
+                padding:18px;
+                border-radius:10px;
+                margin:24px 0;
+            ">
+                <h3 style="color:#597900; margin-top:0;">
+                    🔑 KEY TERMS – Emergency Shut-Down (ESD)
+                </h3>
+
+                <p>
+                    <strong>Emergency Shut-Down (ESD)</strong>
+                    هو نظام سلامة مصمم للعمل بسرعة لتقليل عواقب حالة الطوارئ
+                    ووضع العملية أو جزء منها في حالة أكثر أمانًا.
+                </p>
+
+                <p>
+                    قد يعتمد النظام على معدات مختلفة مثل
+                    <strong>ROSOV</strong>
+                    أو أجهزة التحكم والقياس وأنظمة الفصل الآمن.
+                </p>
+            </div>
+
+
+            <h4 style="color:#1565c0;">
+                Uninterruptible Power Supply (UPS)
+                |
+                مصدر الطاقة غير المنقطع
+            </h4>
+
+            <p>
+                يقوم
+                <strong>UPS</strong>
+                بتوفير طاقة احتياطية فورية للأحمال المهمة
+                عند فقدان مصدر الكهرباء الرئيسي.
+            </p>
+
+            <p>
+                تستخدم البطاريات لتخزين الطاقة،
+                ويستخدم العاكس
+                <strong>Inverter</strong>
+                لتوفير التيار المطلوب للأجهزة أثناء الانقطاع.
+            </p>
+
+
+            <h4 style="color:#1565c0;">
+                أنواع أنظمة UPS
+            </h4>
+
+            <p>
+                <strong>Offline UPS:</strong>
+                يعمل الحمل عادة من المصدر الرئيسي،
+                ثم يتحول إلى البطارية عند حدوث انقطاع.
+            </p>
+
+            <p>
+                <strong>Online UPS:</strong>
+                يكون الحمل عادةً مدعومًا بشكل مستمر من خلال نظام الـUPS،
+                ويستخدم للأنظمة الأكثر حساسية والحرجة.
+            </p>
+
+            <p>
+                <strong>Line Interactive UPS:</strong>
+                يعمل بشكل مشابه للنظام الاحتياطي،
+                لكنه يوفر أيضًا قدرًا من تنظيم الجهد أثناء التشغيل العادي.
+            </p>
+
+            <p>
+                يعتمد اختيار النظام المناسب على أهمية الحمل،
+                ومتطلبات الاعتمادية،
+                والقدرة المطلوبة،
+                والتكلفة،
+                ووظيفة السلامة المرتبطة به.
+            </p>
+
+
+            <!-- ACTIVITY 2 -->
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1565c0;
+                padding:18px;
+                border-radius:10px;
+                margin:24px 0;
+            ">
+                <h3 style="color:#0d47a1; margin-top:0;">
+                    🎯 ACTIVITY – UPS Systems
+                </h3>
+
+                <p>
+                    يتضمن المصدر نشاطًا لمشاهدة فيديوهات عن
+                    <strong>Uninterruptible Power Supply (UPS)</strong>.
+                </p>
+
+                <p><strong>أثناء المشاهدة ركّز على:</strong></p>
+
+                <ul>
+                    <li>كيف ينتقل الحمل من المصدر الرئيسي إلى البطارية؟</li>
+                    <li>ما الفرق بين Offline وOnline وLine Interactive UPS؟</li>
+                    <li>ما الأحمال التي تعتبر Safety Critical Loads؟</li>
+                    <li>لماذا يجب اختبار وصيانة الـUPS بصورة دورية؟</li>
+                </ul>
+            </div>
+
+
+            <h4 style="color:#1565c0;">
+                Use of Generators | استخدام المولدات
+            </h4>
+
+            <p>
+                تستخدم المولدات الاحتياطية
+                <strong>Standby Generators</strong>
+                لتوفير الطاقة أثناء الانقطاعات الأطول،
+                عندما لا تكون بطاريات الـUPS قادرة على دعم الحمل
+                طوال فترة الانقطاع.
+            </p>
+
+            <p>
+                يمكن أن تكون المولدات
+                <strong>Portable</strong>
+                أو
+                <strong>Fixed</strong>.
+                ويجب اختيارها بحيث تتناسب قدرتها مع الحمل المطلوب.
+            </p>
+
+            <p>
+                يجب التأكد من:
+            </p>
+
+            <ul>
+                <li>الصيانة والاختبار الدوري.</li>
+                <li>توفر الوقود الكافي.</li>
+                <li>إمكانية التشغيل أثناء حالة الطوارئ.</li>
+                <li>سلامة التوصيلات الكهربائية.</li>
+                <li>قدرتها على تحمل الحمل المطلوب.</li>
+                <li>مراعاة الارتفاع المفاجئ في الجهد عند استعادة المصدر الرئيسي.</li>
+            </ul>
+
+
+            <!-- IMAGE 3 -->
+            <div style="text-align:center; margin:30px 0;">
+                <img
+                    src="element3-emergency-power-ups-generators.png"
+                    alt="Emergency Power UPS and Generators"
+                    style="
+                        width:100%;
+                        max-width:1100px;
+                        height:auto;
+                        border-radius:14px;
+                        box-shadow:0 5px 16px rgba(0,0,0,0.18);
+                    "
+                >
+
+                <p style="font-size:14px; color:#555;">
+                    Figure – Emergency power arrangements using UPS and standby generators
+                </p>
+            </div>
+
+
+            <!-- TRAINER EXAMPLE -->
+            <div style="
+                background:#fff4dd;
+                border-right:6px solid #ff9800;
+                padding:18px;
+                border-radius:10px;
+                margin:26px 0;
+            ">
+                <h3 style="color:#e65100; margin-top:0;">
+                    🧑‍🏫 Trainer Example – فقدان الكهرباء في وحدة تشغيل
+                </h3>
+
+                <p>
+                    افترض أن الوحدة فقدت مصدر الكهرباء الرئيسي أثناء التشغيل.
+                    يجب أن تحافظ بطاريات
+                    <strong>UPS</strong>
+                    فورًا على تشغيل أنظمة التحكم والإنذار والوظائف الحرجة،
+                    بينما يبدأ
+                    <strong>Standby Generator</strong>
+                    لتوفير الطاقة لفترة أطول.
+                </p>
+
+                <p>
+                    إذا لم تتوفر الطاقة المطلوبة،
+                    فيجب أن تعمل وظائف
+                    <strong>ESD</strong>
+                    للوصول بالعملية إلى حالة آمنة.
+                </p>
+
+                <p>
+                    الدرس:
+                    <strong>
+                        مصدر الطاقة الاحتياطية نفسه يعتبر جزءًا من نظام حماية العملية،
+                        وليس مجرد خدمة كهربائية إضافية.
+                    </strong>
+                </p>
+            </div>
+
+
+            <!-- EXAM FOCUS -->
+            <div style="
+                background:#fff3e0;
+                border-right:6px solid #fb8c00;
+                padding:18px;
+                border-radius:10px;
+                margin:25px 0;
+            ">
+                <h3 style="color:#e65100; margin-top:0;">
+                    🎓 Exam Focus | تركيز الاختبار
+                </h3>
+
+                <p>
+                    افهم العلاقة بين
+                    <strong>Voltage, Current and Resistance</strong>
+                    وقانون أوم:
+                    <strong>V = I × R</strong>.
+                </p>
+
+                <p>
+                    تذكّر أن شدة الإصابة الكهربائية تعتمد بصورة كبيرة
+                    على مقدار التيار، ومساره عبر الجسم، ومدة التعرض، والتردد.
+                </p>
+
+                <p>
+                    افهم كيف يمكن أن تعمل
+                    <strong>Arcs and Sparks</strong>
+                    كمصدر اشتعال في الأجواء القابلة للاشتعال.
+                </p>
+
+                <p>
+                    افهم طرق تولد الكهرباء الساكنة وأنواع التفريغ،
+                    خصوصًا:
+                    <strong>
+                        Spark, Corona, Brush, Propagating Brush,
+                        Conical Pile and Streaming Current.
+                    </strong>
+                </p>
+
+                <p>
+                    ميّز بين:
+                    <strong>Bonding</strong>
+                    و
+                    <strong>Grounding / Earthing</strong>.
+                </p>
+
+                <p>
+                    راجع وظيفة
+                    <strong>ESD</strong>
+                    و
+                    <strong>UPS</strong>
+                    وأنواع UPS ودور المولدات الاحتياطية.
+                </p>
+            </div>
+
+
+            <!-- SUMMARY -->
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1976d2;
+                padding:20px;
+                border-radius:10px;
+                margin-top:28px;
+            ">
+                <h3 style="color:#0d47a1; margin-top:0;">
+                    📘 Summary | ملخص 3.5
+                </h3>
+
+                <p>
+                    تعتمد المبادئ الأساسية للكهرباء على العلاقة بين
+                    <strong>الجهد والتيار والمقاومة</strong>
+                    ويمكن التعبير عنها باستخدام قانون أوم.
+                </p>
+
+                <p>
+                    يمكن للكهرباء أن تسبب إصابات خطيرة،
+                    كما يمكن للأقواس والشرر أن تعمل كمصادر اشتعال
+                    في المنشآت الصناعية.
+                </p>
+
+                <p>
+                    قد تتولد الكهرباء الساكنة من الاحتكاك،
+                    انتقال المواد،
+                    تدفق السوائل والغازات،
+                    أو الحث الكهربائي.
+                    ويجب التحكم فيها باستخدام
+                    <strong>Bonding, Grounding</strong>
+                    وإجراءات تشغيل وتصميم مناسبة.
+                </p>
+
+                <p>
+                    يجب كذلك التخطيط لفقدان الكهرباء باستخدام
+                    <strong>UPS, ESD and Standby Generators</strong>
+                    للمحافظة على الوظائف الحرجة أو الوصول بالعملية
+                    إلى حالة آمنة.
+                </p>
+            </div>
+
+        </div>
+    `
+},
 
         {
             number: "3.6",
