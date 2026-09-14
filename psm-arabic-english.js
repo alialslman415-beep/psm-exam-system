@@ -12465,16 +12465,650 @@ element3: {
     `
 },
 
-        {
-            number: "3.8",
-            title: "Bulk Storage Operations",
-            titleArabic: "عمليات التخزين السائب",
-            content: `
-                <div style="text-align:right;">
-                    <p>محتوى الموضوع 3.8 قيد الإعداد.</p>
-                </div>
-            `
-        }
+       {
+    number: "3.8",
+    title: "Bulk Storage Operations",
+    titleArabic: "عمليات التخزين السائب",
+    content: `
+<div style="text-align:right; line-height:1.9;" dir="rtl">
+
+    <!-- ===================================================== -->
+    <!-- INTRODUCTION -->
+    <!-- ===================================================== -->
+
+    <div style="
+        background:#eef6ff;
+        border-right:6px solid #1565c0;
+        padding:18px;
+        border-radius:10px;
+        margin-bottom:25px;
+    ">
+        <h3 style="margin-top:0; color:#0d3b66;">
+            🎯 الهدف التعليمي | Learning Objective
+        </h3>
+
+        <p>
+            يهدف هذا الموضوع إلى فهم المخاطر المرتبطة بعمليات
+            <strong>التخزين السائب (Bulk Storage Operations)</strong>
+            وكيفية التحكم فيها من خلال التصميم المناسب للخزانات،
+            ومنع زيادة التعبئة، والتحكم في الضغط والفراغ،
+            واختيار الموقع، وأنظمة الاحتواء الثانوي،
+            والحماية من مصادر الاشتعال والعوامل الخارجية.
+        </p>
+    </div>
+
+
+    <!-- ===================================================== -->
+    <!-- 1 HAZARDS AND RISKS -->
+    <!-- ===================================================== -->
+
+    <h3>
+        <span style="
+            background:#2196f3;
+            color:white;
+            padding:3px 9px;
+            border-radius:5px;
+            font-weight:bold;
+            display:inline-block;
+            margin-left:6px;
+        ">1</span>
+        المخاطر والمجازفات | Hazards and Risks
+    </h3>
+
+    <p>
+        تستخدم الصناعات العملية أنواعًا مختلفة من الخزانات لتخزين
+        السوائل والمواد بكميات كبيرة. ويعتمد نوع الخزان على خصائص
+        المادة المخزنة وضغط التشغيل ودرجة الحرارة ومتطلبات العملية.
+    </p>
+
+    <p><strong>تشمل الأنواع الشائعة للخزانات:</strong></p>
+
+    <ul>
+        <li>خزانات السقف الثابت <strong>(Fixed-Roof Tanks)</strong>.</li>
+        <li>خزانات السقف العائم الخارجي <strong>(External Floating Roof Tanks)</strong>.</li>
+        <li>خزانات السقف العائم الداخلي <strong>(Internal Floating Roof Tanks)</strong>.</li>
+        <li>خزانات السقف العائم الخارجي المقبب <strong>(Domed External Floating Roof Tanks)</strong>.</li>
+        <li>الخزانات الأفقية <strong>(Horizontal Tanks)</strong>.</li>
+        <li>خزانات الضغط <strong>(Pressure Tanks)</strong>.</li>
+        <li>خزانات الحيز البخاري المتغير <strong>(Variable Vapour Space Tanks)</strong>.</li>
+        <li>خزانات الغاز الطبيعي المسال <strong>(LNG Tanks)</strong>.</li>
+    </ul>
+
+
+    <!-- OVERFILLING -->
+
+    <h4 style="color:#1565c0;">
+        زيادة التعبئة | Overfilling
+    </h4>
+
+    <p>
+        تمثل زيادة تعبئة الخزانات أحد المخاطر الرئيسية في عمليات التخزين.
+        فإذا تجاوز مستوى السائل السعة الآمنة للخزان، فقد يخرج السائل
+        إلى المنطقة المحيطة، وقد يؤدي ذلك إلى تكوين سحابة من الأبخرة
+        القابلة للاشتعال أو إلى تلوث البيئة.
+    </p>
+
+    <p>
+        قد تحدث زيادة التعبئة نتيجة خطأ المشغل، أو فشل أجهزة قياس المستوى،
+        أو فشل أنظمة التحكم الآلية. لذلك تستخدم عادة أجهزة قياس المستوى
+        والإنذارات المستقلة مثل
+        <strong>LAH / LAHH</strong>
+        وأنظمة الإيقاف التلقائي.
+    </p>
+
+
+    <!-- EXAMPLES -->
+
+    <div style="
+        background:#e0f7fa;
+        border-right:6px solid #00acc1;
+        padding:18px;
+        border-radius:10px;
+        margin:22px 0;
+    ">
+        <h4 style="margin-top:0; color:#007c91;">
+            📘 EXAMPLES – أمثلة من حوادث العمليات
+        </h4>
+
+        <p>
+            <strong>Buncefield Oil Storage Depot – UK, 2005:</strong>
+            حدثت زيادة تعبئة لخزان تخزين كبير، وتبع ذلك إطلاق كمية كبيرة
+            من الوقود وتكوّن سحابة قابلة للاشتعال، ثم وقع انفجار وحريق كبير.
+            أظهرت الحادثة أهمية وجود أنظمة قياس مستوى وإنذارات عالية المستوى
+            مستقلة وموثوقة.
+        </p>
+
+        <p>
+            <strong>Catano Oil Refinery – Puerto Rico, 2009:</strong>
+            تضمنت الحادثة أيضًا زيادة تعبئة لخزان بسبب مشكلة في قياس المستوى،
+            مما أدى إلى إطلاق الوقود ووقوع حريق.
+        </p>
+    </div>
+
+
+    <!-- VACUUM -->
+
+    <h4 style="color:#1565c0;">
+        تأثير الفراغ | Effects of Vacuum
+    </h4>
+
+    <p>
+        صممت خزانات التخزين لتحمل ضغوط تشغيل محددة. وعند تفريغ الخزان
+        أو انخفاض درجة حرارة المحتويات، قد يتكون ضغط سالب
+        <strong>(Vacuum / Negative Pressure)</strong>
+        إذا لم يدخل الهواء أو الغاز إلى الخزان بالمعدل المطلوب.
+    </p>
+
+    <p>
+        وقد يؤدي الفراغ الشديد إلى تشوه جسم الخزان أو انهياره.
+        لذلك يجب توفير وسائل تنفيس مناسبة والمحافظة عليها في حالة تشغيلية جيدة.
+    </p>
+
+
+    <!-- IMAGE 1 -->
+
+    <div style="text-align:center; margin:30px 0;">
+        <img
+            src="element3-bulk-storage-tank-hazards-failure-modes.png"
+            alt="Bulk Storage Tank Hazards and Failure Modes"
+            style="
+                width:100%;
+                max-width:950px;
+                height:auto;
+                border-radius:14px;
+                box-shadow:0 5px 16px rgba(0,0,0,0.18);
+            "
+        >
+    </div>
+
+
+    <!-- ACTIVITY -->
+
+    <div style="
+        background:#e8f2ff;
+        border-right:6px solid #1565c0;
+        padding:18px;
+        border-radius:10px;
+        margin:22px 0;
+    ">
+        <h4 style="margin-top:0; color:#0d47a1;">
+            🎯 ACTIVITY – Watch the Video | نشاط – شاهد الفيديو
+        </h4>
+
+        <p>
+            يعرض المصدر نشاطًا لمشاهدة أمثلة على ما يمكن أن يحدث عندما
+            لا يتم تنفيس خزان التخزين بطريقة صحيحة.
+        </p>
+
+        <p><strong>أثناء المشاهدة ركز على:</strong></p>
+
+        <ul>
+            <li>كيف يتكون الفراغ داخل الخزان؟</li>
+            <li>لماذا يمكن أن ينهار جسم الخزان تحت الضغط الخارجي؟</li>
+            <li>ما دور أنظمة التنفيس في منع هذا النوع من الحوادث؟</li>
+        </ul>
+    </div>
+
+
+    <!-- ===================================================== -->
+    <!-- 2 SITING OF TANKS -->
+    <!-- ===================================================== -->
+
+    <h3>
+        <span style="
+            background:#2196f3;
+            color:white;
+            padding:3px 9px;
+            border-radius:5px;
+            font-weight:bold;
+            display:inline-block;
+            margin-left:6px;
+        ">2</span>
+        اختيار مواقع الخزانات | Siting of Tanks
+    </h3>
+
+    <p>
+        يجب اختيار موقع الخزان بناءً على تقييم المخاطر وطبيعة المادة
+        المخزنة وحجم الخزان وتأثير أي تسرب أو حريق محتمل على الأشخاص
+        والمعدات والمرافق المجاورة.
+    </p>
+
+    <p><strong>تشمل الاعتبارات المهمة:</strong></p>
+
+    <ul>
+        <li>حجم ونوع الخزان.</li>
+        <li>خصائص وكمية المادة المخزنة.</li>
+        <li>المسافات الفاصلة <strong>(Separation Distances)</strong>.</li>
+        <li>القرب من المباني والطرق والمعدات الأخرى.</li>
+        <li>طبيعة الأرض والتصريف.</li>
+        <li>سهولة وصول فرق الطوارئ ومكافحة الحريق.</li>
+        <li>إمكانية التوسع المستقبلي.</li>
+    </ul>
+
+
+    <!-- ===================================================== -->
+    <!-- 3 FILLING OF TANKS -->
+    <!-- ===================================================== -->
+
+    <h3>
+        <span style="
+            background:#2196f3;
+            color:white;
+            padding:3px 9px;
+            border-radius:5px;
+            font-weight:bold;
+            display:inline-block;
+            margin-left:6px;
+        ">3</span>
+        تعبئة الخزانات | Filling of Tanks
+    </h3>
+
+    <p>
+        يجب التحكم في عملية التعبئة لمنع زيادة مستوى السائل أو زيادة
+        الضغط داخل الخزان. ويتطلب ذلك وجود إجراءات تشغيل واضحة،
+        ومراقبة مستمرة لمستوى الخزان، وأجهزة قياس وإنذار موثوقة.
+    </p>
+
+    <ul>
+        <li>استخدام أجهزة قياس المستوى <strong>(Level Instrumentation)</strong>.</li>
+        <li>استخدام إنذار المستوى العالي <strong>(LAH)</strong>.</li>
+        <li>استخدام إنذار مستقل للمستوى العالي جدًا <strong>(LAHH)</strong>.</li>
+        <li>استخدام الإيقاف التلقائي عند الحاجة.</li>
+        <li>منع زيادة الضغط أثناء التعبئة.</li>
+        <li>استخدام أنظمة استرجاع الأبخرة عندما تكون مطلوبة.</li>
+        <li>تطبيق التأريض والربط <strong>(Earthing and Bonding)</strong>.</li>
+    </ul>
+
+
+    <h4 style="color:#1565c0;">
+        توصيلات ناقلات الطرق | Road Tanker Connections
+    </h4>
+
+    <p>
+        يجب أن تكون توصيلات ناقلات المواد آمنة ومخصصة للغرض،
+        وأن تستخدم الصمامات والوصلات المناسبة لمنع التسرب أو التدفق العكسي.
+        كما يجب التحكم في مصادر الاشتعال أثناء عمليات التحميل والتفريغ.
+    </p>
+
+
+    <!-- IMAGE 2 -->
+
+    <div style="text-align:center; margin:30px 0;">
+        <img
+            src="element3-bulk-storage-tank-siting-filling-connections.png"
+            alt="Tank Siting Filling and Connections"
+            style="
+                width:100%;
+                max-width:950px;
+                height:auto;
+                border-radius:14px;
+                box-shadow:0 5px 16px rgba(0,0,0,0.18);
+            "
+        >
+    </div>
+
+
+    <!-- ===================================================== -->
+    <!-- 4 FLOATING ROOF TANKS -->
+    <!-- ===================================================== -->
+
+    <h3>
+        <span style="
+            background:#2196f3;
+            color:white;
+            padding:3px 9px;
+            border-radius:5px;
+            font-weight:bold;
+            display:inline-block;
+            margin-left:6px;
+        ">4</span>
+        خزانات السقف العائم | Floating Roof Tanks
+    </h3>
+
+    <p>
+        يستخدم السقف العائم لتقليل الحيز البخاري فوق سطح السائل
+        وتقليل انبعاث الأبخرة القابلة للاشتعال.
+        ويتحرك السقف صعودًا وهبوطًا مع مستوى السائل.
+    </p>
+
+    <p>
+        يمكن أن يكون السقف العائم خارجيًا
+        <strong>(External Floating Roof)</strong>
+        أو داخليًا
+        <strong>(Internal Floating Roof)</strong>.
+    </p>
+
+    <p>
+        من المخاطر المهمة في هذه الخزانات حرائق مانع التسرب الطرفي
+        <strong>(Rim Seal Fires)</strong>،
+        والتي قد تنتج عن اشتعال الأبخرة القابلة للاشتعال حول محيط السقف.
+    </p>
+
+
+    <!-- ===================================================== -->
+    <!-- 5 FIXED ROOF -->
+    <!-- ===================================================== -->
+
+    <h3>
+        <span style="
+            background:#2196f3;
+            color:white;
+            padding:3px 9px;
+            border-radius:5px;
+            font-weight:bold;
+            display:inline-block;
+            margin-left:6px;
+        ">5</span>
+        خزانات السقف الثابت | Fixed Roof
+    </h3>
+
+    <p>
+        تحتوي خزانات السقف الثابت على حيز بخاري فوق سطح السائل.
+        ومع تغير مستوى السائل أو درجة الحرارة، يتغير الضغط داخل الخزان،
+        ولذلك يجب توفير نظام تنفيس مناسب.
+    </p>
+
+
+    <!-- KEY TERM -->
+
+    <div style="
+        background:#e8f5e9;
+        border-right:6px solid #2e7d32;
+        padding:18px;
+        border-radius:10px;
+        margin:22px 0;
+    ">
+        <h4 style="margin-top:0; color:#1b5e20;">
+            🔑 KEY TERM | المصطلح الأساسي
+        </h4>
+
+        <p>
+            <strong>Pressure-Vacuum (PV) Vent – منفذ الضغط والفراغ:</strong>
+            جهاز يسمح بخروج الأبخرة عندما يرتفع الضغط داخل الخزان،
+            ويسمح بدخول الهواء أو الغاز عندما يتكون فراغ، وذلك ضمن
+            حدود تشغيل مصممة مسبقًا.
+        </p>
+    </div>
+
+    <p>
+        يجب تصميم وصيانة منافذ التنفيس بحيث لا تصبح مسدودة أو غير فعالة،
+        لأن فشلها قد يؤدي إلى زيادة الضغط أو تكون الفراغ داخل الخزان.
+    </p>
+
+
+    <!-- IMAGE 3 -->
+
+    <div style="text-align:center; margin:30px 0;">
+        <img
+            src="element3-bulk-storage-tank-design-secondary-containment.png"
+            alt="Tank Design and Secondary Containment"
+            style="
+                width:100%;
+                max-width:950px;
+                height:auto;
+                border-radius:14px;
+                box-shadow:0 5px 16px rgba(0,0,0,0.18);
+            "
+        >
+    </div>
+
+
+    <!-- ===================================================== -->
+    <!-- 6 BUNDING -->
+    <!-- ===================================================== -->
+
+    <h3>
+        <span style="
+            background:#2196f3;
+            color:white;
+            padding:3px 9px;
+            border-radius:5px;
+            font-weight:bold;
+            display:inline-block;
+            margin-left:6px;
+        ">6</span>
+        أحواض الاحتواء | Bunding
+    </h3>
+
+    <p>
+        يستخدم الحاجز أو حوض الاحتواء
+        <strong>(Bund / Secondary Containment)</strong>
+        لاحتواء السوائل المتسربة من الخزانات ومنع انتشارها إلى مناطق أخرى.
+    </p>
+
+    <p>
+        يجب أن تكون منطقة الاحتواء مناسبة لحجم الخزان والمواد المخزنة،
+        وأن تكون غير منفذة قدر الإمكان، وأن يتم التحكم في نقاط التصريف
+        والصمامات لمنع خروج المواد الخطرة دون سيطرة.
+    </p>
+
+    <p>
+        كما يجب مراعاة مياه الأمطار ومياه مكافحة الحريق، والمحافظة على
+        الصمامات في الوضع الصحيح، وإجراء الفحص والصيانة الدورية للحواجز.
+    </p>
+
+
+    <!-- ===================================================== -->
+    <!-- 7 PROTECTION FROM EXTREMES OF WEATHER -->
+    <!-- ===================================================== -->
+
+    <h3>
+        <span style="
+            background:#2196f3;
+            color:white;
+            padding:3px 9px;
+            border-radius:5px;
+            font-weight:bold;
+            display:inline-block;
+            margin-left:6px;
+        ">7</span>
+        الحماية من الظروف الجوية القاسية
+        | Protection from Extremes of Weather
+    </h3>
+
+    <p>
+        يمكن أن تؤثر درجات الحرارة المرتفعة أو المنخفضة والرياح
+        والأمطار والثلوج والجليد على سلامة الخزانات ومحتوياتها.
+        لذلك يجب أخذ الظروف البيئية المحلية في الاعتبار عند التصميم والتشغيل.
+    </p>
+
+    <ul>
+        <li>التمدد والانكماش نتيجة تغير درجات الحرارة.</li>
+        <li>زيادة ضغط الأبخرة في درجات الحرارة المرتفعة.</li>
+        <li>زيادة هشاشة بعض المواد عند درجات الحرارة المنخفضة.</li>
+        <li>أحمال الرياح والثلوج والجليد.</li>
+        <li>استخدام العزل أو التدفئة عند الحاجة.</li>
+    </ul>
+
+
+    <!-- ===================================================== -->
+    <!-- 8 LIGHTNING STRIKES -->
+    <!-- ===================================================== -->
+
+    <h3>
+        <span style="
+            background:#2196f3;
+            color:white;
+            padding:3px 9px;
+            border-radius:5px;
+            font-weight:bold;
+            display:inline-block;
+            margin-left:6px;
+        ">8</span>
+        ضربات الصواعق | Lightning Strikes
+    </h3>
+
+    <p>
+        قد توفر الصواعق مصدر اشتعال للأبخرة القابلة للاشتعال،
+        ولذلك يجب تصميم الخزانات والمعدات المرتبطة بها بحيث تقل احتمالية
+        حدوث الاشتعال نتيجة البرق أو الكهرباء الساكنة.
+    </p>
+
+    <ul>
+        <li>استخدام أنظمة مناسبة للحماية من الصواعق.</li>
+        <li>ربط وتأريض الخزانات والأنابيب والمعدات.</li>
+        <li>ضمان الاستمرارية الكهربائية <strong>(Electrical Continuity)</strong>.</li>
+        <li>الفحص والصيانة الدورية لأنظمة الحماية.</li>
+    </ul>
+
+
+    <!-- ===================================================== -->
+    <!-- 9 CHEMICAL WAREHOUSING -->
+    <!-- ===================================================== -->
+
+    <h3>
+        <span style="
+            background:#2196f3;
+            color:white;
+            padding:3px 9px;
+            border-radius:5px;
+            font-weight:bold;
+            display:inline-block;
+            margin-left:6px;
+        ">9</span>
+        تخزين المواد الكيميائية | Chemical Warehousing
+    </h3>
+
+    <p>
+        يتطلب تخزين المواد الكيميائية التعرف على خصائص المواد
+        والتفاعلات المحتملة بينها، وفصل المواد غير المتوافقة،
+        والتحكم في مصادر الاشتعال، وتوفير التهوية والاحتواء المناسبين.
+    </p>
+
+    <h4 style="color:#1565c0;">
+        تقليل الكميات المخزنة | Minimised Inventories
+    </h4>
+
+    <p>
+        كلما انخفضت كمية المادة الخطرة المخزنة، انخفضت كمية المادة
+        التي يمكن أن تنطلق في حالة وقوع حادث. لذلك يعتبر تقليل المخزون
+        إلى الحد المطلوب للتشغيل وسيلة مهمة لتقليل عواقب الحوادث الكبرى.
+    </p>
+
+    <h4 style="color:#1565c0;">
+        الفصل بين المواد | Separation and Segregation
+    </h4>
+
+    <p>
+        يجب تخزين المواد غير المتوافقة بصورة منفصلة لمنع حدوث تفاعلات
+        خطرة عند التسرب أو الانسكاب. وقد يتطلب ذلك مسافات فاصلة،
+        أو حواجز مادية، أو مناطق تخزين منفصلة.
+    </p>
+
+    <h4 style="color:#1565c0;">
+        التحكم في مصادر الاشتعال | Ignition Source Control
+    </h4>
+
+    <ul>
+        <li>منع التدخين ومصادر اللهب.</li>
+        <li>التحكم في الأعمال الساخنة <strong>(Hot Work)</strong>.</li>
+        <li>استخدام معدات كهربائية مناسبة للمناطق الخطرة.</li>
+        <li>التحكم في حركة المركبات عند الحاجة.</li>
+        <li>الربط والتأريض لمنع تراكم الكهرباء الساكنة.</li>
+    </ul>
+
+
+    <!-- IMAGE 4 -->
+
+    <div style="text-align:center; margin:30px 0;">
+        <img
+            src="element3-bulk-storage-additional-controls-protection.png"
+            alt="Bulk Storage Additional Controls and Protection"
+            style="
+                width:100%;
+                max-width:950px;
+                height:auto;
+                border-radius:14px;
+                box-shadow:0 5px 16px rgba(0,0,0,0.18);
+            "
+        >
+    </div>
+
+
+    <!-- ===================================================== -->
+    <!-- EXAM FOCUS -->
+    <!-- ===================================================== -->
+
+    <div style="
+        background:#fff8e1;
+        border-right:6px solid #ffb300;
+        padding:18px;
+        border-radius:10px;
+        margin:25px 0;
+    ">
+        <h3 style="margin-top:0; color:#e65100;">
+            📝 Exam Focus | التركيز للاختبار
+        </h3>
+
+        <p><strong>ركز خصوصًا على العلاقة بين الخطر ووسيلة التحكم:</strong></p>
+
+        <ul>
+            <li>
+                <strong>Overfilling →</strong>
+                Level measurement + LAH/LAHH + independent protection.
+            </li>
+
+            <li>
+                <strong>Vacuum →</strong>
+                Pressure-Vacuum Vent.
+            </li>
+
+            <li>
+                <strong>Flammable vapours →</strong>
+                Ventilation + ignition control + bonding/earthing.
+            </li>
+
+            <li>
+                <strong>Tank leakage →</strong>
+                Bunding / Secondary Containment.
+            </li>
+
+            <li>
+                <strong>Incompatible chemicals →</strong>
+                Separation and segregation.
+            </li>
+
+            <li>
+                <strong>Lightning / Static Electricity →</strong>
+                Protection systems + bonding + earthing.
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- ===================================================== -->
+    <!-- SUMMARY -->
+    <!-- ===================================================== -->
+
+    <div style="
+        background:#f3f8f4;
+        border:2px solid #2e7d32;
+        padding:20px;
+        border-radius:12px;
+        margin-top:25px;
+    ">
+        <h3 style="margin-top:0; color:#1b5e20;">
+            ✅ Summary | الخلاصة
+        </h3>
+
+        <p>
+            تعتمد سلامة عمليات التخزين السائب على مجموعة مترابطة من
+            وسائل التحكم تبدأ من اختيار نوع الخزان وموقعه وتصميمه،
+            ثم التحكم في التعبئة والضغط والفراغ، وتوفير أنظمة التنفيس،
+            والاحتواء الثانوي، والفصل بين المواد، والتحكم في مصادر الاشتعال،
+            والحماية من العوامل الجوية والصواعق.
+        </p>
+
+        <p>
+            فشل وسيلة حماية واحدة، خصوصًا في أنظمة قياس المستوى أو
+            الإنذارات أو التنفيس، يمكن أن يسمح بتطور حالة تشغيلية غير طبيعية
+            إلى فقدان احتواء أو حريق أو انفجار كبير.
+        </p>
+    </div>
+
+</div>
+    `
+}
 
     ]
 }
