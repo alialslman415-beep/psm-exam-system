@@ -11241,16 +11241,552 @@ element3: {
     `
 },
 
-        {
-            number: "3.6",
-            title: "Dangerous Substances",
-            titleArabic: "المواد الخطرة",
-            content: `
-                <div style="text-align:right;">
-                    <p>محتوى الموضوع 3.6 قيد الإعداد.</p>
-                </div>
-            `
-        },
+      {
+    number: "3.6",
+    title: "Dangerous Substances",
+    titleArabic: "المواد الخطرة",
+    content: `
+        <div style="text-align:right; line-height:1.9;" dir="rtl">
+
+            <!-- LEARNING OBJECTIVE -->
+            <div style="
+                background:#eef6ff;
+                border-right:5px solid #1976d2;
+                padding:18px;
+                border-radius:10px;
+                margin-bottom:24px;
+            ">
+                <h3 style="margin-top:0;">
+                    🎯 الهدف التعليمي | Learning Objective
+                </h3>
+
+                <p>
+                    يوضح هذا الموضوع الحالات الفيزيائية المختلفة للمواد الخطرة
+                    وكيف تؤثر حالة المادة وخصائصها على مستوى الخطر،
+                    مع توضيح معاني المواد
+                    <strong>Explosive, Oxidising and Flammable</strong>
+                    وأهمية التصنيف والتخزين الآمن للمواد الكيميائية.
+                </p>
+
+                <p dir="ltr" style="text-align:left;">
+                    This topic explains the physical states of dangerous substances,
+                    how their form and properties influence risk potential,
+                    and the meaning of explosive, oxidising and flammable substances.
+                </p>
+            </div>
+
+
+            <!-- MAIN HEADING 1 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">1</span>
+
+                الحالات الفيزيائية للمواد الخطرة
+                |
+                Physical States of Dangerous Substances
+            </h3>
+
+            <p>
+                توجد المواد المستخدمة في الصناعات العملية بأشكال وصور متعددة،
+                ويمكن أن تتغير حالتها الفيزيائية أثناء التخزين أو المناولة
+                أو المعالجة.
+            </p>
+
+            <p>
+                توجد ثلاث حالات فيزيائية أساسية:
+                <strong>Gases – Liquids – Solids</strong>.
+                وقد توجد المادة الواحدة في أكثر من حالة اعتمادًا على
+                درجة الحرارة والضغط وظروف العملية.
+            </p>
+
+
+            <!-- GASES -->
+            <h4 style="color:#1565c0;">
+                Gases | الغازات
+            </h4>
+
+            <p>
+                يمكن أن تكون الغازات
+                <strong>Reactive</strong>
+                أو
+                <strong>Non-Reactive</strong>،
+                كما قد تكون أثقل أو أخف من الهواء.
+                وليس للغاز شكل أو حجم ثابت، ولذلك فإنه ينتشر ليملأ
+                الحيز المتاح له.
+            </p>
+
+            <p>
+                بعض الغازات قد تكون قابلة للاشتعال أو الانفجار،
+                بينما قد تكون غازات أخرى سامة أو أكّالة أو مسببة للاختناق.
+                وعند إطلاق الغاز، خصوصًا في الأماكن المحصورة،
+                يمكن أن يؤدي إلى خفض تركيز الأكسجين أو تكوين
+                جو قابل للاشتعال أو الانفجار.
+            </p>
+
+            <p>
+                كما يمكن لبعض الغازات مثل الأمونيا والكلور أن تسبب
+                أضرارًا للجهاز التنفسي،
+                بالإضافة إلى إمكانية إحداث تلف للمعدات والمنشأة.
+            </p>
+
+
+            <!-- LIQUIDS -->
+            <h4 style="color:#1565c0;">
+                Liquids | السوائل
+            </h4>
+
+            <p>
+                السوائل لها حجم ثابت تقريبًا ولكنها تأخذ شكل الوعاء الذي توجد فيه.
+                وقد تتبخر بعض السوائل عند درجات حرارة معينة،
+                خصوصًا السوائل المتطايرة
+                <strong>Volatile Liquids</strong>.
+            </p>
+
+            <p>
+                يمكن للسوائل القابلة للاشتعال أن تتدفق وتنتشر بعد الانسكاب،
+                مما يزيد مساحة التعرض واحتمال وصول الأبخرة إلى مصدر اشتعال.
+                كما يمكن أن تكون السوائل سامة أو أكّالة أو تفاعلية.
+            </p>
+
+            <p>
+                من مزايا احتواء تسرب السوائل مقارنة بالغازات
+                إمكانية استخدام وسائل مثل
+                <strong>Bunding</strong>
+                ووسائل الاحتواء الطارئ للحد من انتشارها.
+            </p>
+
+
+            <!-- SOLIDS -->
+            <h4 style="color:#1565c0;">
+                Solids | المواد الصلبة
+            </h4>
+
+            <p>
+                المواد الصلبة لها شكل وحجم ثابتان عادة،
+                إلا أن حجم وشكل الجسيمات يؤثران بدرجة كبيرة على مستوى الخطر.
+            </p>
+
+            <p>
+                قد تكون الكتل الصلبة الكبيرة أقل خطورة من ناحية الحريق والانفجار،
+                بينما يمكن للمساحيق والغبار الدقيق
+                <strong>Dusts and Powders</strong>
+                أن ينتشرا في الهواء ويكوّنا خليطًا قابلًا للاشتعال أو الانفجار.
+            </p>
+
+            <p>
+                كلما صغر حجم الجسيمات زادت مساحة سطح المادة المعرضة للهواء،
+                مما قد يزيد سرعة التفاعل أو الاحتراق.
+                كما أن عمليات التعبئة من ارتفاع، والغربلة والطحن والخلط
+                يمكن أن تولد غبارًا وشحنات كهروستاتيكية.
+            </p>
+
+
+            <!-- RISK POTENTIAL -->
+            <h4 style="color:#c62828;">
+                كيف تحدد الحالة الفيزيائية مستوى الخطر؟
+                |
+                How These Can Determine Risk Potential
+            </h4>
+
+            <p>
+                تؤثر الحالة الفيزيائية للمادة على كيفية إطلاقها وانتشارها،
+                ومدى سهولة احتوائها،
+                ونوع الخطر الذي قد ينشأ عنها.
+            </p>
+
+            <p>
+                فالغازات يمكن أن تنتشر بسرعة وتكوّن أجواء قابلة للاشتعال
+                أو تسبب الاختناق،
+                والسوائل قد تنتشر عبر الأرضيات وتنتج أبخرة،
+                بينما يمكن للمواد الصلبة الدقيقة أن تكوّن سحبًا من الغبار
+                القابل للاشتعال أو الانفجار.
+            </p>
+
+
+            <!-- IMAGE 1 -->
+            <div style="text-align:center; margin:30px 0;">
+                <img
+                    src="element3-dangerous-substances-physical-states-storage.png"
+                    alt="Physical States of Dangerous Substances"
+                    style="
+                        width:100%;
+                        max-width:1100px;
+                        height:auto;
+                        border-radius:14px;
+                        box-shadow:0 5px 16px rgba(0,0,0,0.18);
+                    "
+                >
+
+                <p style="font-size:14px; color:#555;">
+                    Figure – Physical states of dangerous substances and their risk potential
+                </p>
+            </div>
+
+
+            <!-- MAIN HEADING 2 -->
+            <h3 style="margin-top:34px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">2</span>
+
+                معاني المصطلحات
+                |
+                Meaning of Terms
+            </h3>
+
+
+            <!-- EXPLOSIVE -->
+            <h4 style="color:#c62828;">
+                Explosive | قابل للانفجار
+            </h4>
+
+            <p>
+                يشير مصطلح
+                <strong>Explosive</strong>
+                إلى مادة يمكن أن تنفجر عند توفر خليط مناسب مع الأكسجين
+                وطاقة إشعال كافية.
+            </p>
+
+            <p>
+                بعض المواد المتفجرة تحتاج إلى طاقة إشعال منخفضة جدًا،
+                وقد تبدأ بفعل الحرارة أو الصدمة أو الشحنة الكهربائية.
+                كما توجد مركبات شديدة الحساسية للصدمات أو الحرارة.
+            </p>
+
+            <p>
+                لذلك يجب التحكم في مصادر الاشتعال،
+                والتعامل مع هذه المواد وتخزينها وفق متطلبات خاصة
+                تتناسب مع خصائصها.
+            </p>
+
+
+            <!-- OXIDISING -->
+            <h4 style="color:#ef6c00;">
+                Oxidising | مؤكسد
+            </h4>
+
+            <p>
+                المادة المؤكسدة
+                <strong>Oxidising Substance</strong>
+                لديها القدرة على دعم عملية الأكسدة،
+                وقد تجعل مواد أخرى تحترق بسهولة أكبر أو بشدة أعلى.
+            </p>
+
+            <p>
+                الأكسجين نفسه ضروري للاحتراق،
+                ولذلك يمكن للعوامل المؤكسدة أن تزيد من شدة الحريق
+                حتى وإن لم تكن المادة المؤكسدة نفسها وقودًا.
+            </p>
+
+            <p>
+                تشمل الأمثلة:
+                <strong>
+                    Nitric Acid, Hypochlorites and Hydrogen Peroxide.
+                </strong>
+            </p>
+
+
+            <!-- SOURCE EXAMPLE -->
+            <div style="
+                background:#d9f1f2;
+                border-right:6px solid #26a6a6;
+                padding:20px;
+                border-radius:10px;
+                margin:26px 0;
+            ">
+                <h3 style="color:#087f8c; margin-top:0;">
+                    📘 EXAMPLE – Allied Colloids Ltd, Bradford, UK – 1992
+                </h3>
+
+                <p>
+                    يوضح هذا الحادث أهمية
+                    <strong>التوافق الكيميائي Chemical Compatibility</strong>
+                    والتصنيف الصحيح للمواد قبل تخزينها.
+                </p>
+
+                <p>
+                    كان أحد العوامل الرئيسية للحادث تخزين مواد كيميائية
+                    غير متوافقة في نفس منطقة المستودع.
+                    وكانت مادة
+                    <strong>AZDN</strong>
+                    غير مستقرة حراريًا،
+                    لكنها صُنفت بصورة غير صحيحة كعامل مؤكسد.
+                </p>
+
+                <p>
+                    اختلط جزء من
+                    <strong>AZDN</strong>
+                    مع
+                    <strong>Sodium Persulphate (SPS)</strong>،
+                    مما أدى إلى انفجار أعقبه حريق شديد،
+                    ونتج عن الحادث أيضًا أضرار بيئية كبيرة.
+                </p>
+
+                <p>
+                    <strong>الدرس المستفاد:</strong>
+                    لا يكفي وضع ملصق على المادة؛
+                    يجب فهم خصائصها الفعلية،
+                    والتحقق من التصنيف،
+                    وفصل المواد غير المتوافقة أثناء التخزين.
+                </p>
+            </div>
+
+
+            <!-- FLAMMABLE -->
+            <h4 style="color:#d32f2f;">
+                Flammable | قابل للاشتعال
+            </h4>
+
+            <p>
+                تصف كلمة
+                <strong>Flammable</strong>
+                المادة التي يمكن إشعالها عند توفر مصدر إشعال وطاقة كافية.
+            </p>
+
+            <p>
+                بالنسبة للسوائل القابلة للاشتعال،
+                تعتبر
+                <strong>Flash Point – نقطة الوميض</strong>
+                من الخصائص المهمة في تحديد مستوى الخطر.
+            </p>
+
+            <p>
+                نقطة الوميض هي أدنى درجة حرارة ينتج عندها السائل
+                كمية كافية من البخار فوق سطحه يمكن إشعالها
+                عند وجود مصدر إشعال.
+            </p>
+
+            <p>
+                كلما انخفضت نقطة الوميض،
+                أمكن تكوين أبخرة قابلة للاشتعال عند درجة حرارة أقل،
+                ولذلك تزداد أهمية التحكم في مصادر الاشتعال
+                والتهوية والتخزين والمناولة.
+            </p>
+
+
+            <!-- FLAMMABLE LIQUID TABLE -->
+            <div style="overflow-x:auto; margin:25px 0;">
+
+                <table style="
+                    width:100%;
+                    border-collapse:collapse;
+                    background:white;
+                    text-align:center;
+                ">
+
+                    <thead>
+                        <tr style="background:#0d5aa7; color:white;">
+                            <th style="padding:11px; border:1px solid #ccc;">
+                                Flammable Liquid Category
+                            </th>
+
+                            <th style="padding:11px; border:1px solid #ccc;">
+                                Condition
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td style="padding:10px; border:1px solid #ccc;">
+                                <strong>1</strong>
+                            </td>
+
+                            <td style="padding:10px; border:1px solid #ccc;" dir="ltr">
+                                Flash Point &lt; 23°C AND
+                                Initial Boiling Point ≤ 35°C
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding:10px; border:1px solid #ccc;">
+                                <strong>2</strong>
+                            </td>
+
+                            <td style="padding:10px; border:1px solid #ccc;" dir="ltr">
+                                Flash Point &lt; 23°C AND
+                                Initial Boiling Point &gt; 35°C
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding:10px; border:1px solid #ccc;">
+                                <strong>3</strong>
+                            </td>
+
+                            <td style="padding:10px; border:1px solid #ccc;" dir="ltr">
+                                Flash Point ≥ 23°C AND ≤ 60°C
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <p style="font-size:14px; color:#555;">
+                تصنيف السوائل القابلة للاشتعال يعتمد على
+                <strong>Flash Point</strong>
+                و
+                <strong>Initial Boiling Point</strong>.
+            </p>
+
+
+            <!-- IMAGE 2 -->
+            <div style="text-align:center; margin:30px 0;">
+
+                <img
+                    src="element3-dangerous-substances-hazards-safe-storage.png"
+                    alt="Dangerous Substances Hazards and Safe Storage"
+                    style="
+                        width:100%;
+                        max-width:1100px;
+                        height:auto;
+                        border-radius:14px;
+                        box-shadow:0 5px 16px rgba(0,0,0,0.18);
+                    "
+                >
+
+                <p style="font-size:14px; color:#555;">
+                    Figure – Dangerous substance classification, chemical compatibility and safe storage
+                </p>
+
+            </div>
+
+
+            <!-- IMPORTANT NOTE -->
+            <div style="
+                background:#fff8e1;
+                border-right:6px solid #f9a825;
+                padding:18px;
+                border-radius:10px;
+                margin:26px 0;
+            ">
+                <h3 style="color:#e65100; margin-top:0;">
+                    ⚠️ نقطة مهمة | Important Learning Point
+                </h3>
+
+                <p>
+                    لا يتم تقييم خطورة المادة اعتمادًا على اسمها أو حالتها
+                    الفيزيائية فقط.
+                    يجب أيضًا معرفة خصائصها الكيميائية،
+                    وطريقة استخدامها،
+                    ودرجة الحرارة والضغط،
+                    وإمكانية انتشارها أو تفاعلها مع مواد أخرى.
+                </p>
+
+                <p>
+                    ويجب فصل
+                    <strong>Incompatible Chemicals</strong>
+                    أثناء التخزين لمنع التفاعلات غير المرغوبة
+                    والحريق أو الانفجار.
+                </p>
+            </div>
+
+
+            <!-- EXAM FOCUS -->
+            <div style="
+                background:#fff3e0;
+                border-right:6px solid #fb8c00;
+                padding:18px;
+                border-radius:10px;
+                margin:26px 0;
+            ">
+                <h3 style="color:#e65100; margin-top:0;">
+                    🎓 Exam Focus | تركيز الاختبار
+                </h3>
+
+                <p>
+                    افهم الحالات الفيزيائية الثلاث:
+                    <strong>Gas, Liquid and Solid</strong>
+                    وكيف تؤثر كل حالة على طريقة إطلاق المادة وانتشارها
+                    ومستوى الخطر.
+                </p>
+
+                <p>
+                    ميّز بوضوح بين:
+                    <strong>Explosive, Oxidising and Flammable.</strong>
+                </p>
+
+                <p>
+                    تذكّر أن الغازات قد تنتشر بسرعة أو تقلل الأكسجين،
+                    والسوائل يمكن أن تنتشر وتنتج أبخرة،
+                    بينما يمكن للغبار والمساحيق الدقيقة أن تكوّن
+                    أجواء قابلة للاشتعال أو الانفجار.
+                </p>
+
+                <p>
+                    راجع معنى
+                    <strong>Flash Point</strong>
+                    وعلاقته بتصنيف السوائل القابلة للاشتعال.
+                </p>
+
+                <p>
+                    وتذكّر درس
+                    <strong>Allied Colloids 1992:</strong>
+                    التصنيف الخاطئ والتخزين غير المتوافق للمواد الكيميائية
+                    يمكن أن يؤدي إلى حادث كبير.
+                </p>
+            </div>
+
+
+            <!-- SUMMARY -->
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1976d2;
+                padding:20px;
+                border-radius:10px;
+                margin-top:28px;
+            ">
+                <h3 style="color:#0d47a1; margin-top:0;">
+                    📘 Summary | ملخص 3.6
+                </h3>
+
+                <p>
+                    يمكن أن توجد المواد الخطرة في صورة
+                    <strong>غازات أو سوائل أو مواد صلبة</strong>،
+                    وتؤثر الحالة الفيزيائية على كيفية إطلاق المادة
+                    وانتشارها واحتوائها.
+                </p>
+
+                <p>
+                    قد تكون المادة
+                    <strong>Explosive</strong>
+                    أو
+                    <strong>Oxidising</strong>
+                    أو
+                    <strong>Flammable</strong>،
+                    ولكل خاصية تأثير مختلف على مخاطر الحريق والانفجار
+                    والتخزين والمناولة.
+                </p>
+
+                <p>
+                    تعتمد السيطرة الفعالة على فهم خصائص المادة،
+                    وتصنيفها الصحيح،
+                    ومنع مصادر الاشتعال،
+                    وفصل المواد غير المتوافقة،
+                    واستخدام ترتيبات تخزين واحتواء مناسبة.
+                </p>
+            </div>
+
+        </div>
+    `
+},
 
         {
             number: "3.7",
