@@ -11788,16 +11788,682 @@ element3: {
     `
 },
 
-        {
-            number: "3.7",
-            title: "Reaction Hazards",
-            titleArabic: "مخاطر التفاعلات",
-            content: `
-                <div style="text-align:right;">
-                    <p>محتوى الموضوع 3.7 قيد الإعداد.</p>
-                </div>
-            `
-        },
+       {
+    number: "3.7",
+    title: "Reaction Hazards",
+    titleArabic: "مخاطر التفاعلات",
+    content: `
+        <div style="text-align:right; line-height:1.9;" dir="rtl">
+
+            <!-- LEARNING OBJECTIVE -->
+            <div style="
+                background:#eef6ff;
+                border-right:5px solid #1976d2;
+                padding:18px;
+                border-radius:10px;
+                margin-bottom:24px;
+            ">
+                <h3 style="margin-top:0;">
+                    🎯 الهدف التعليمي | Learning Objective
+                </h3>
+
+                <p>
+                    يوضح هذا الموضوع تأثير
+                    <strong>درجة الحرارة والضغط والعوامل الحفازة</strong>
+                    على معدل التفاعلات الكيميائية، والفرق بين
+                    <strong>Exothermic</strong> و
+                    <strong>Endothermic Reactions</strong>،
+                    وكيف يمكن أن يتطور التفاعل الطارد للحرارة إلى
+                    <strong>Thermal Runaway Reaction</strong>
+                    والإجراءات المستخدمة لمنع أو تخفيف عواقبه.
+                </p>
+            </div>
+
+
+            <!-- MAIN HEADING 1 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">1</span>
+                تأثير درجة الحرارة والضغط والعوامل الحفازة على معدلات التفاعلات الكيميائية
+                |
+                The Effects of Temperature, Pressure and Catalysts on Rates of Chemical Reactions
+            </h3>
+
+            <p>
+                تستخدم التفاعلات الكيميائية في الصناعات العملية لإنتاج مواد جديدة.
+                وقد تتم العملية بنظام
+                <strong>Batch, Semi-Batch or Continuous Process</strong>.
+                ويعد التحكم في سرعة التفاعل أمرًا أساسيًا للحصول على المنتج المطلوب
+                والمحافظة على سلامة العملية.
+            </p>
+
+
+            <!-- TEMPERATURE -->
+            <h4 style="color:#1565c0;">
+                Temperature | درجة الحرارة
+            </h4>
+
+            <p>
+                جميع التفاعلات الكيميائية تتضمن تغيرًا في الطاقة.
+                وفي معظم الحالات، يؤدي رفع درجة الحرارة إلى زيادة
+                الطاقة الحركية للجزيئات وزيادة عدد التصادمات بينها.
+            </p>
+
+            <p>
+                عندما تصل الجزيئات إلى مستوى الطاقة اللازم لبدء التفاعل،
+                المعروف باسم
+                <strong>Activation Energy – طاقة التنشيط</strong>،
+                يمكن أن يحدث التفاعل.
+            </p>
+
+            <p>
+                لذلك، بصورة عامة، يؤدي ارتفاع درجة الحرارة إلى زيادة
+                <strong>Reaction Rate – معدل التفاعل</strong>.
+                ولهذا يعد التحكم في درجة الحرارة من أهم وسائل التحكم
+                في سرعة العديد من التفاعلات الصناعية.
+            </p>
+
+
+            <!-- PRESSURE -->
+            <h4 style="color:#1565c0;">
+                Pressure | الضغط
+            </h4>
+
+            <p>
+                يؤثر الضغط بصورة مشابهة على التفاعلات التي تتضمن الغازات.
+                فزيادة الضغط تقلل الحجم المتاح للجزيئات،
+                مما يجعلها أقرب إلى بعضها ويزيد احتمالية التصادم بينها.
+            </p>
+
+            <p>
+                لذلك يمكن استخدام التحكم في الضغط لضبط معدل التفاعل،
+                وغالبًا ما يتم التحكم في
+                <strong>Temperature and Pressure</strong>
+                معًا لتحقيق ظروف تشغيل آمنة ومستقرة.
+            </p>
+
+
+            <!-- CATALYSTS -->
+            <h4 style="color:#1565c0;">
+                Catalysts | العوامل الحفازة
+            </h4>
+
+            <p>
+                العامل الحفاز
+                <strong>Catalyst</strong>
+                يغير مسار أو آلية التفاعل بحيث يمكن للتفاعل أن يحدث
+                باستخدام طاقة تنشيط أقل.
+            </p>
+
+            <p>
+                ونتيجة لذلك يمكن أن يزداد معدل التفاعل.
+                والعامل الحفاز لا يُستهلك عادة أثناء التفاعل ويمكن إعادة استخدامه،
+                إلا أنه قد يتأثر بالتلوث أو
+                <strong>Catalyst Poisoning</strong>
+                بسبب وجود مواد غير مرغوبة.
+            </p>
+
+
+            <!-- MAIN HEADING 2 -->
+            <h3 style="margin-top:34px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">2</span>
+                معاني المصطلحات | Meaning of Terms
+            </h3>
+
+
+            <!-- EXOTHERMIC -->
+            <h4 style="color:#d84315;">
+                Exothermic Reaction | التفاعل الطارد للحرارة
+            </h4>
+
+            <p>
+                التفاعل الطارد للحرارة
+                <strong>Exothermic Reaction</strong>
+                هو تفاعل يطلق طاقة إلى الوسط المحيط،
+                وغالبًا تكون هذه الطاقة في صورة حرارة.
+            </p>
+
+            <p>
+                يعد الاحتراق مثالًا شائعًا على التفاعل الطارد للحرارة.
+                وعند بدء بعض التفاعلات الطاردة للحرارة،
+                يمكن أن تنتج كميات كبيرة من الحرارة،
+                ولذلك يجب التحكم في إزالة الحرارة من العملية.
+            </p>
+
+
+            <!-- ENDOTHERMIC -->
+            <h4 style="color:#1565c0;">
+                Endothermic Reaction | التفاعل الماص للحرارة
+            </h4>
+
+            <p>
+                التفاعل الماص للحرارة
+                <strong>Endothermic Reaction</strong>
+                يمتص الحرارة من الوسط المحيط.
+            </p>
+
+            <p>
+                ومن الأمثلة التفاعل بين
+                <strong>Ethanoic Acid</strong>
+                و
+                <strong>Sodium Carbonate</strong>،
+                حيث تنخفض درجة حرارة المحلول الناتج بسبب امتصاص الحرارة.
+            </p>
+
+
+            <!-- MAIN HEADING 3 -->
+            <h3 style="margin-top:34px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">3</span>
+                التفاعل الحراري الجامح | Thermal Runaway Reaction
+            </h3>
+
+            <h4 style="color:#c62828;">
+                Meaning | المعنى
+            </h4>
+
+            <p>
+                يحدث
+                <strong>Thermal Runaway</strong>
+                عندما يبدأ تفاعل طارد للحرارة بالخروج عن السيطرة.
+                فمع زيادة حرارة التفاعل تزداد درجة الحرارة،
+                مما يؤدي إلى زيادة معدل التفاعل وتوليد المزيد من الحرارة.
+            </p>
+
+            <div style="
+                background:#ffebee;
+                border-right:6px solid #d32f2f;
+                padding:18px;
+                border-radius:10px;
+                margin:22px 0;
+            ">
+                <p style="margin:0; font-weight:bold;">
+                    إذا أصبحت
+                    <strong>Heat Generation &gt; Heat Removal</strong>
+                    فإن الحرارة تتراكم داخل العملية،
+                    وقد يدخل التفاعل في حلقة تصاعدية ويصبح
+                    <strong>Runaway Reaction</strong>.
+                </p>
+            </div>
+
+            <p>
+                تكون احتمالية حدوث ذلك أكبر في عمليات
+                <strong>Batch</strong>
+                و
+                <strong>Semi-Batch</strong>
+                بسبب وجود كمية أكبر من المواد المتفاعلة داخل الوعاء
+                مقارنة ببعض العمليات المستمرة.
+            </p>
+
+
+            <!-- SEVESO EXAMPLE -->
+            <div style="
+                background:#d9f1f2;
+                border-right:6px solid #26a6a6;
+                padding:20px;
+                border-radius:10px;
+                margin:26px 0;
+            ">
+                <h3 style="color:#087f8c; margin-top:0;">
+                    📘 EXAMPLE – Icmesa Chemical Company, Seveso, Italy, 1976
+                </h3>
+
+                <p>
+                    تعد حادثة
+                    <strong>Seveso 1976</strong>
+                    مثالًا مهمًا على مخاطر فقدان السيطرة على تفاعل كيميائي.
+                    تطور تفاعل طارد للحرارة إلى
+                    <strong>Thermal Runaway</strong>
+                    وأدى إلى إطلاق مادة
+                    <strong>Dioxin</strong>
+                    شديدة السمية إلى البيئة المحيطة.
+                </p>
+
+                <p>
+                    لم تسجل وفيات بشرية مباشرة وفق المثال الوارد في المادة التدريبية،
+                    إلا أن عددًا من الأشخاص تعرضوا للمرض،
+                    ونفقت حيوانات عديدة نتيجة التلوث.
+                </p>
+
+                <p>
+                    <strong>الدرس المستفاد:</strong>
+                    يجب فهم كيمياء العملية،
+                    والتحكم في درجة الحرارة،
+                    وضمان وجود وسائل فعالة لإزالة الحرارة
+                    ومنع التفاعل من الوصول إلى حالة غير مستقرة.
+                </p>
+
+                <p style="font-weight:bold;">
+                    🎬 راجع فيديو Seveso Disaster 1976 الموجود في بداية Element 3.
+                </p>
+            </div>
+
+
+            <!-- PROCESS CAUSES -->
+            <h4 style="color:#c62828;">
+                Process Causes | أسباب العملية
+            </h4>
+
+            <p>
+                يمكن أن ينشأ التفاعل الحراري الجامح نتيجة عدة أسباب،
+                ومن أهمها:
+            </p>
+
+            <ul>
+                <li>
+                    الشحن غير الصحيح للمواد المتفاعلة أو استخدام كميات غير صحيحة،
+                    أو وجود شوائب في المواد الخام.
+                </li>
+
+                <li>
+                    استخدام العامل الحفاز بطريقة غير صحيحة،
+                    مما يؤدي إلى سرعة تفاعل أعلى من المتوقع.
+                </li>
+
+                <li>
+                    فشل التحكم في درجة الحرارة أو تعطل
+                    <strong>Cooling System</strong>.
+                </li>
+
+                <li>
+                    عدم كفاءة الخلط أو التحريك
+                    <strong>Mixing / Agitation</strong>
+                    مما يؤدي إلى توزيع غير متوازن للمواد أو الحرارة.
+                </li>
+
+                <li>
+                    فقدان الطاقة الكهربائية وما ينتج عنه من فقدان
+                    أنظمة التحكم أو التبريد أو التحريك.
+                </li>
+
+                <li>
+                    أعطال الصيانة التي تجعل وسائل التحكم أو التبريد
+                    غير فعالة.
+                </li>
+
+                <li>
+                    فشل أجهزة القياس أو عدم اكتشاف ارتفاع درجة الحرارة
+                    أو عدم عمل الإنذار.
+                </li>
+
+                <li>
+                    تغييرات في ظروف التشغيل دون تطبيق مناسب لـ
+                    <strong>Management of Change – MOC</strong>.
+                </li>
+
+                <li>
+                    قصور التصميم، مثل عدم كفاية قدرة نظام التبريد
+                    أو عدم توفير مرافق احتياطية مناسبة.
+                </li>
+
+                <li>
+                    عدم كفاية تدريب المشغلين أو عدم الاستجابة الصحيحة
+                    للإنذارات والظروف غير الطبيعية.
+                </li>
+            </ul>
+
+            <p>
+                كما قد يؤدي دخول مادة غير مقصودة إلى الوعاء،
+                مثل الهواء المضغوط أو النيتروجين أو البخار أو أي مائع آخر،
+                إلى تغيير الضغط أو ظروف التفاعل وتسريع العملية.
+            </p>
+
+
+            <!-- CONSEQUENCES -->
+            <h4 style="color:#c62828;">
+                Possible Consequences of Occurrence
+                |
+                العواقب المحتملة
+            </h4>
+
+            <p>
+                يمكن أن تكون عواقب
+                <strong>Thermal Runaway</strong>
+                كارثية.
+                وقد تشمل ارتفاع الضغط داخل الوعاء،
+                وتنشيط وسائل التنفيس أو تصريف المواد،
+                وفقدان الإنتاج وتلف المعدات.
+            </p>
+
+            <p>
+                وقد يؤدي ارتفاع درجة الحرارة إلى تفاعلات جانبية
+                غير مرغوبة أو تحلل المواد أو حدوث تفاعلات جامحة إضافية.
+            </p>
+
+            <p>
+                إذا تجاوز الضغط قدرة الوعاء،
+                فقد يحدث
+                <strong>Vessel Rupture</strong>
+                وإطلاق المحتويات إلى المنطقة المحيطة.
+                وإذا كانت المواد قابلة للاشتعال،
+                فقد يؤدي ذلك إلى حريق أو انفجار.
+            </p>
+
+            <p>
+                أما المواد السامة أو الأكّالة فقد تسبب تعرضًا خطيرًا للعاملين
+                وتأثيرات واسعة خارج حدود المعدات أو المنشأة.
+                كما يمكن أن يؤدي الفشل الكارثي للوعاء إلى تطاير أجزاء من المعدات
+                وإصابات جسيمة أو وفيات وخسارة في الإنتاج.
+            </p>
+
+
+            <!-- ORIGINAL TRAINING FIGURE -->
+            <div style="text-align:center; margin:32px auto; max-width:760px;">
+                <img
+                    src="element3-reaction-hazards-thermal-runaway-controls.png"
+                    alt="Reaction Hazards - Thermal Runaway and Protective Measures"
+                    style="
+                        width:100%;
+                        max-width:720px;
+                        height:auto;
+                        object-fit:contain;
+                        border-radius:14px;
+                        box-shadow:0 5px 16px rgba(0,0,0,0.18);
+                    "
+                >
+
+                <p style="font-size:14px; color:#555; margin-top:10px;">
+                    Figure – Reaction rate factors, thermal runaway and protective measures
+                </p>
+            </div>
+
+
+            <!-- MAIN HEADING 4 -->
+            <h3 style="margin-top:34px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">4</span>
+                التدابير الوقائية | Protective Measures
+            </h3>
+
+            <p>
+                يمكن استخدام مجموعة من التدابير لمنع
+                <strong>Thermal Runaway</strong>
+                أو الحد من عواقبه.
+                وقد تكون هذه التدابير وقائية
+                <strong>Preventive</strong>
+                أو تخفيفية
+                <strong>Mitigative</strong>.
+            </p>
+
+
+            <!-- CONTAINMENT -->
+            <h4 style="color:#1565c0;">
+                Containment | الاحتواء
+            </h4>
+
+            <p>
+                يتطلب الاحتواء تصميم وبناء وعاء التفاعل بحيث يتحمل
+                الضغط ودرجة الحرارة المتوقعة أثناء حالة التفاعل الجامح.
+            </p>
+
+            <p>
+                وقد تكون الضغوط الناتجة كبيرة جدًا،
+                ولذلك يمكن في بعض التطبيقات استخدام احتواء إضافي
+                مثل غلاف خرساني أو فولاذي حول الوعاء.
+                وتتميز وسائل الاحتواء بأنها غالبًا
+                <strong>Passive Protection</strong>
+                ولا تعتمد على تدخل المشغل.
+            </p>
+
+
+            <!-- CRASH COOLING -->
+            <h4 style="color:#1565c0;">
+                Crash Cooling | التبريد الطارئ
+            </h4>
+
+            <p>
+                يعتمد
+                <strong>Crash Cooling</strong>
+                على إزالة الحرارة بسرعة من المفاعل باستخدام نظام تبريد إضافي.
+            </p>
+
+            <p>
+                وقد يتم ذلك بإضافة وسط تبريد مناسب،
+                أو استخدام
+                <strong>Cooling Jacket</strong>
+                أو
+                <strong>Internal Coil</strong>
+                أو مبادل حراري خارجي.
+            </p>
+
+            <p>
+                يجب التحكم في التبريد بعناية؛
+                لأن الانخفاض المفرط في درجة الحرارة قد يؤدي في بعض الحالات
+                إلى تجمد أو تصلب المواد داخل المعدات.
+            </p>
+
+
+            <!-- DROWNING / QUENCHING -->
+            <h4 style="color:#1565c0;">
+                Drowning and Quenching of Reactor Contents
+                |
+                إغراق وتخميد محتويات المفاعل
+            </h4>
+
+            <p>
+                في
+                <strong>Drowning</strong>
+                يتم إدخال كمية كبيرة من مادة باردة وغير تفاعلية
+                إلى المفاعل للمساعدة في خفض درجة الحرارة
+                وتخفيف تركيز المواد المتفاعلة.
+            </p>
+
+            <p>
+                أما
+                <strong>Quenching</strong>
+                فيعتمد على إضافة مادة غير تفاعلية أو مادة تعمل على
+                إيقاف أو إبطاء التفاعل.
+                وقد تستخدم
+                <strong>Inhibitors</strong>
+                لهذا الغرض عندما تكون مناسبة لكيمياء العملية.
+            </p>
+
+            <p>
+                يجب اختيار مادة التخميد بعناية حتى لا تتفاعل مع
+                مكونات العملية أو تسبب خطرًا إضافيًا.
+            </p>
+
+
+            <!-- EMERGENCY VENTING -->
+            <h4 style="color:#1565c0;">
+                Emergency Venting / Dumping of Reactants
+                |
+                التنفيس الطارئ / تفريغ المواد المتفاعلة
+            </h4>
+
+            <p>
+                تحتوي أوعية التفاعل عادة على وسائل تنفيس لحمايتها
+                من الضغط الزائد.
+                ولكن أثناء التفاعل الجامح قد تكون كمية الضغط المتولدة
+                أكبر من الظروف التشغيلية العادية.
+            </p>
+
+            <p>
+                لذلك قد يلزم استخدام
+                <strong>Emergency Pressure Relief</strong>
+                أو نظام مخصص لتصريف المواد إلى مكان آمن.
+            </p>
+
+            <p>
+                ويمكن توجيه المواد المنفسة أو المفرغة إلى أنظمة معالجة مثل
+                <strong>Scrubber, Knock-Out Drum or Flare System</strong>
+                حسب خصائص المادة وتصميم المنشأة.
+            </p>
+
+            <p>
+                ويجب تحديد
+                <strong>Relief Set Pressure</strong>
+                بحيث يحدث التنفيس قبل وصول العملية إلى حالة حرجة.
+            </p>
+
+            <p>
+                أما
+                <strong>Dumping</strong>
+                فيعني تفريغ محتويات المفاعل وإرسالها إلى نظام أو وعاء
+                مخصص للمعالجة الآمنة.
+            </p>
+
+
+            <!-- IMPORTANT LEARNING POINT -->
+            <div style="
+                background:#fff8e1;
+                border-right:6px solid #f9a825;
+                padding:18px;
+                border-radius:10px;
+                margin:28px 0;
+            ">
+                <h3 style="color:#e65100; margin-top:0;">
+                    ⚠️ Key Learning Point | نقطة تعليمية مهمة
+                </h3>
+
+                <p>
+                    أنظمة الحماية لا ينبغي الاعتماد عليها منفردة.
+                    يجب أولًا تصميم العملية لمنع فقدان السيطرة قدر الإمكان،
+                    ثم استخدام طبقات حماية مناسبة للوقاية والتخفيف.
+                </p>
+
+                <p>
+                    وهذا يعكس أهمية
+                    <strong>Inherent Safety</strong>
+                    في أعلى مستويات التحكم في مخاطر سلامة العمليات.
+                </p>
+            </div>
+
+
+            <!-- EXAM FOCUS -->
+            <div style="
+                background:#fff3e0;
+                border-right:6px solid #fb8c00;
+                padding:18px;
+                border-radius:10px;
+                margin:26px 0;
+            ">
+                <h3 style="color:#e65100; margin-top:0;">
+                    🎓 Exam Focus | تركيز الاختبار
+                </h3>
+
+                <p>
+                    ركز على تأثير
+                    <strong>Temperature, Pressure and Catalysts</strong>
+                    على معدل التفاعل.
+                </p>
+
+                <p>
+                    ميّز بين
+                    <strong>Exothermic</strong>
+                    و
+                    <strong>Endothermic Reactions</strong>.
+                </p>
+
+                <p>
+                    احفظ العلاقة الأساسية في
+                    <strong>Thermal Runaway:</strong>
+                    ارتفاع الحرارة يزيد معدل التفاعل،
+                    ومعدل التفاعل الأعلى يولد مزيدًا من الحرارة.
+                </p>
+
+                <p>
+                    إذا كان
+                    <strong>Heat Generation &gt; Heat Removal</strong>
+                    فقد يصبح التفاعل خارج السيطرة.
+                </p>
+
+                <p>
+                    راجع أسباب التفاعل الجامح مثل:
+                    أخطاء الشحن، فشل التبريد، سوء الخلط،
+                    فشل الأجهزة، فقدان الطاقة، ضعف التدريب،
+                    والتغيير دون
+                    <strong>MOC</strong>.
+                </p>
+
+                <p>
+                    وتذكر وسائل الحماية الأربع:
+                    <strong>
+                        Containment – Crash Cooling –
+                        Drowning/Quenching – Emergency Venting/Dumping
+                    </strong>.
+                </p>
+            </div>
+
+
+            <!-- SUMMARY -->
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1976d2;
+                padding:20px;
+                border-radius:10px;
+                margin-top:28px;
+            ">
+                <h3 style="color:#0d47a1; margin-top:0;">
+                    📘 Summary | ملخص 3.7
+                </h3>
+
+                <p>
+                    يتأثر معدل التفاعل الكيميائي بدرجة الحرارة والضغط
+                    والعوامل الحفازة.
+                    ويمكن للتفاعل الطارد للحرارة أن يصبح غير مستقر
+                    إذا تجاوز معدل توليد الحرارة قدرة النظام على إزالتها.
+                </p>
+
+                <p>
+                    قد يؤدي
+                    <strong>Thermal Runaway</strong>
+                    إلى ارتفاع شديد في درجة الحرارة والضغط،
+                    وفقدان الاحتواء،
+                    والحريق أو الانفجار،
+                    وإطلاق مواد سامة أو أكّالة.
+                </p>
+
+                <p>
+                    تشمل وسائل الحماية
+                    <strong>
+                        Containment, Crash Cooling,
+                        Drowning and Quenching,
+                        Emergency Venting and Dumping
+                    </strong>.
+                </p>
+
+                <p>
+                    وتوضح حادثة
+                    <strong>Seveso 1976</strong>
+                    أهمية فهم كيمياء العملية،
+                    والتحكم في الحرارة،
+                    وتوفير طبقات حماية فعالة قبل أن يصبح التفاعل خارج السيطرة.
+                </p>
+            </div>
+
+        </div>
+    `
+},
 
         {
             number: "3.8",
