@@ -13127,15 +13127,784 @@ element4: {
     topics: [
 
         {
-            number: "4.1",
-            title: "Fire hazards",
-            titleArabic: "مخاطر الحريق",
-            content: `
-                <p style="text-align:center;">
-                    سيتم إضافة محتوى الموضوع 4.1 قريبًا.
+    number: "4.1",
+    title: "Fire hazards",
+    titleArabic: "مخاطر الحريق",
+
+    content: `
+
+        <div dir="rtl" style="text-align:right; line-height:1.9;">
+
+            <p>
+                يُعد الحريق من المخاطر المهمة في الصناعات العملية
+                (Process Industries)، بسبب وجود مواد قابلة للاشتعال
+                وعمليات قد توفر مصادر للحرارة أو الاشتعال.
+                ويتطلب فهم مخاطر الحريق معرفة العناصر اللازمة لبدء الحريق
+                واستمراره، ومصادر الاشتعال، وحدود الاشتعال، والأنواع المختلفة
+                للحرائق والانفجارات التي قد تحدث في المنشآت الصناعية.
+            </p>
+
+
+            <!-- ===================================================== -->
+            <!-- 1. FIRE TRIANGLE AND MODES OF HEAT TRANSFER -->
+            <!-- ===================================================== -->
+
+            <h3 style="color:#0b4f8a; margin-top:30px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">1</span>
+                Fire triangle and modes of heat transfer
+            </h3>
+
+            <h4 style="color:#444;">
+                مثلث الحريق وطرق انتقال الحرارة
+            </h4>
+
+            <p>
+                لكي يبدأ الحريق ويستمر، يجب أن تتوافر ثلاثة عناصر أساسية:
+                <strong>الوقود (Fuel)</strong>،
+                <strong>الحرارة (Heat)</strong>،
+                و<strong>الأكسجين (Oxygen)</strong>.
+                وتُعرف العلاقة بين هذه العناصر باسم
+                <strong>مثلث الحريق (Fire Triangle)</strong>.
+            </p>
+
+            <p>
+                إذا تم منع تكوّن مثلث الحريق، فلن يبدأ الحريق.
+                وإذا كان الحريق قد بدأ بالفعل، فإن إزالة أحد هذه العناصر
+                يمكن أن تساعد على إيقافه.
+            </p>
+
+            <img src="element4-fire-triangle-heat-transfer.png"
+                 alt="Fire Triangle and Modes of Heat Transfer"
+                 style="
+                    width:100%;
+                    max-width:1050px;
+                    display:block;
+                    margin:25px auto;
+                    border-radius:12px;
+                    box-shadow:0 4px 14px rgba(0,0,0,0.15);
+                 ">
+
+            <p style="text-align:center; color:#666; font-size:14px;">
+                Fire Triangle and Modes of Heat Transfer
+                <br>
+                مثلث الحريق وطرق انتقال الحرارة
+            </p>
+
+
+            <!-- KEY TERM -->
+
+            <div style="
+                background:#eaf6cf;
+                border-right:6px solid #8dbb32;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+
+                <strong style="color:#568000;">
+                    🔑 KEY TERM – Flammable
+                </strong>
+
+                <p style="margin-bottom:0;">
+                    <strong>Flammable – قابل للاشتعال:</strong>
+                    مادة يمكن أن تشتعل بسهولة عند تعرضها لمصدر حرارة
+                    أو مصدر اشتعال مناسب.
                 </p>
-            `
-        },
+
+            </div>
+
+
+            <!-- ACTIVITY -->
+
+            <div style="
+                background:#e8f3ff;
+                border-right:6px solid #1976d2;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+
+                <strong style="color:#0b4f8a;">
+                    🎯 ACTIVITY – نشاط تدريبي
+                </strong>
+
+                <p>
+                    فكر في مكان عملك:
+                </p>
+
+                <ul>
+                    <li>ما أنواع الوقود أو المواد القابلة للاشتعال الموجودة؟</li>
+                    <li>ما مصادر الاشتعال الموجودة؟</li>
+                    <li>هل يمكن إزالة أي من هذه المصادر أو التحكم فيها؟</li>
+                </ul>
+
+            </div>
+
+
+            <!-- HEAT TRANSFER -->
+
+            <h4 style="color:#0b4f8a;">
+                Conduction, Convection and Radiation
+                <br>
+                التوصيل والحمل والإشعاع الحراري
+            </h4>
+
+            <p>
+                بعد بدء الحريق، يمكن أن تنتقل الحرارة من منطقة إلى أخرى
+                بثلاث طرق رئيسية:
+            </p>
+
+            <p>
+                <strong>Conduction – التوصيل:</strong>
+                انتقال الحرارة عبر المواد الصلبة نتيجة التلامس المباشر.
+                فعلى سبيل المثال، قد تنتقل الحرارة على طول الأنابيب أو
+                الهياكل المعدنية إلى منطقة أخرى.
+            </p>
+
+            <p>
+                <strong>Convection – الحمل الحراري:</strong>
+                انتقال الحرارة نتيجة حركة السوائل أو الغازات.
+                ترتفع الغازات الساخنة إلى أعلى، بينما تتحرك الموائع الأبرد
+                إلى أسفل، وقد يؤدي ذلك إلى انتقال الحرارة والدخان
+                والمواد الساخنة إلى مناطق أخرى.
+            </p>
+
+            <p>
+                <strong>Radiation – الإشعاع:</strong>
+                انتقال الطاقة الحرارية من الأجسام الساخنة على شكل موجات
+                كهرومغناطيسية، بما في ذلك الأشعة تحت الحمراء
+                (Infrared Radiation)، دون الحاجة إلى التلامس المباشر.
+            </p>
+
+            <div style="
+                background:#fff7e6;
+                border-right:6px solid #f0a000;
+                padding:16px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>📌 Key Learning Point</strong>
+                <p style="margin-bottom:0;">
+                    أثناء الحريق قد تحدث طرق انتقال الحرارة الثلاث
+                    <strong>Conduction, Convection and Radiation</strong>
+                    في الوقت نفسه.
+                </p>
+            </div>
+
+
+            <!-- ===================================================== -->
+            <!-- 2. TYPICAL IGNITION SOURCES -->
+            <!-- ===================================================== -->
+
+            <h3 style="color:#0b4f8a; margin-top:35px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">2</span>
+                Typical ignition sources
+            </h3>
+
+            <h4 style="color:#444;">
+                مصادر الاشتعال النموذجية
+            </h4>
+
+            <p>
+                يمكن أن توجد العديد من مصادر الاشتعال
+                (Ignition Sources) داخل الصناعات العملية، ومن أمثلتها:
+            </p>
+
+            <ul>
+                <li>التدخين (Smoking).</li>
+
+                <li>
+                    الشرر الناتج عن عمليات مثل الجلخ
+                    (Grinding)، أو القصر الكهربائي
+                    (Electrical Short Circuit)، أو التفريغ الكهروستاتيكي
+                    (Electrostatic Discharge).
+                </li>
+
+                <li>
+                    العمليات التي تستخدم اللهب المكشوف
+                    (Naked Flames)، مثل لحام الأوكسي أسيتيلين
+                    (Oxy-Acetylene Welding) والشعلة.
+                </li>
+
+                <li>
+                    العمليات التي ينتج عنها قوس كهربائي
+                    (Electrical Arc)، مثل Arc Welding.
+                </li>
+
+                <li>
+                    الأسطح الساخنة، بما في ذلك بعض معدات التسخين
+                    ومعدات العمليات.
+                </li>
+
+                <li>
+                    الاحتكاك الميكانيكي
+                    (Mechanical Friction) في الأجزاء المتحركة للمعدات.
+                </li>
+
+                <li>الصواعق (Lightning).</li>
+            </ul>
+
+            <p>
+                قد لا يكون من الممكن التخلص من جميع مصادر الاشتعال،
+                ولذلك يجب تحديدها وتقييمها وتطبيق وسائل التحكم المناسبة
+                لمنع ملامستها للمواد أو الأجواء القابلة للاشتعال.
+            </p>
+
+
+            <!-- EXAMPLE -->
+
+            <div style="
+                background:#e6f7f8;
+                border-right:6px solid #28aeb5;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+
+                <strong style="color:#147d83;">
+                    ➜ EXAMPLE – North Shields, UK (2002)
+                </strong>
+
+                <p style="margin-bottom:0;">
+                    في عام 2002 في North Shields بالمملكة المتحدة،
+                    دخل شرر ناتج عن استخدام
+                    <strong>Angle Grinder</strong>
+                    إلى حاوية نفايات في أحد مواقع العمل.
+                    تسبب ذلك في نشوب حريق امتد إلى منطقة تخزين
+                    <strong>Acetylene</strong>.
+                    استدعى الحادث استجابة كبيرة من خدمات الإطفاء
+                    وإخلاء عدد كبير من السكان كإجراء احترازي.
+                    يوضح المثال أهمية السيطرة على الشرر ومصادر الاشتعال
+                    عند وجود مواد قابلة للاشتعال.
+                </p>
+
+            </div>
+
+
+            <!-- ===================================================== -->
+            <!-- 3. FLAMMABLE LIMITS -->
+            <!-- ===================================================== -->
+
+            <h3 style="color:#0b4f8a; margin-top:35px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">3</span>
+                Upper flammable limit, lower flammable limit,
+                and the risk from working within these limits
+            </h3>
+
+            <h4 style="color:#444;">
+                الحد الأعلى للاشتعال والحد الأدنى للاشتعال
+                ومخاطر العمل ضمن هذه الحدود
+            </h4>
+
+            <p>
+                لكي يحدث حريق أو انفجار، يجب أن يكون الوقود القابل
+                للاشتعال والهواء موجودين بنسب مناسبة.
+                فإذا كان تركيز الوقود منخفضًا جدًا، يكون الخليط
+                <strong>Too Lean</strong> ولا يشتعل.
+                وإذا كان تركيز الوقود مرتفعًا جدًا مع نقص الأكسجين،
+                يكون الخليط <strong>Too Rich</strong> ولا يشتعل.
+            </p>
+
+            <p>
+                أقل تركيز للغاز أو البخار القابل للاشتعال في الهواء
+                يمكن أن يشتعل عند وجود مصدر اشتعال يسمى:
+            </p>
+
+            <p style="text-align:center;">
+                <strong>
+                    Lower Flammable Limit (LFL)
+                    /
+                    Lower Explosive Limit (LEL)
+                </strong>
+                <br>
+                الحد الأدنى للاشتعال / الحد الأدنى للانفجار
+            </p>
+
+            <p>
+                أما أعلى تركيز للغاز أو البخار القابل للاشتعال في الهواء
+                يمكن أن يشتعل عند وجود مصدر اشتعال فيسمى:
+            </p>
+
+            <p style="text-align:center;">
+                <strong>
+                    Upper Flammable Limit (UFL)
+                    /
+                    Upper Explosive Limit (UEL)
+                </strong>
+                <br>
+                الحد الأعلى للاشتعال / الحد الأعلى للانفجار
+            </p>
+
+            <p>
+                تقع منطقة الاشتعال أو الانفجار بين الحدين
+                <strong>LEL و UEL</strong>،
+                وتسمى عادة
+                <strong>Flammable Range / Explosive Range</strong>.
+            </p>
+
+            <img src="element4-flammable-limits-explosive-range.png"
+                 alt="Flammable Limits and Explosive Range"
+                 style="
+                    width:100%;
+                    max-width:1050px;
+                    display:block;
+                    margin:25px auto;
+                    border-radius:12px;
+                    box-shadow:0 4px 14px rgba(0,0,0,0.15);
+                 ">
+
+            <p style="text-align:center; color:#666; font-size:14px;">
+                Flammable Limits and Explosive Range
+                <br>
+                حدود الاشتعال ومدى الانفجار
+            </p>
+
+
+            <div style="
+                background:#fff7e6;
+                border-right:6px solid #f0a000;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+
+                <strong>
+                    ⚠️ Important
+                </strong>
+
+                <p style="margin-bottom:0;">
+                    تختلف قيم <strong>LEL و UEL</strong> من مادة إلى أخرى،
+                    كما يمكن أن تتأثر بدرجة الحرارة والضغط
+                    وتركيز الأكسجين في الهواء.
+                    لذلك يجب استخدام بيانات المادة والظروف الفعلية
+                    عند تقييم مخاطر الحريق والانفجار.
+                </p>
+
+            </div>
+
+
+            <!-- EXAMPLE -->
+
+            <div style="
+                background:#e6f7f8;
+                border-right:6px solid #28aeb5;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+
+                <strong style="color:#147d83;">
+                    ➜ EXAMPLE – Oxygen-Enriched Atmosphere
+                </strong>
+
+                <p style="margin-bottom:0;">
+                    زيادة تركيز الأكسجين في الجو قد تجعل بعض المواد
+                    أسهل في الاشتعال وأكثر شدة في الاحتراق.
+                    لذلك فإن تغير ظروف الأكسجين يمكن أن يغير مستوى
+                    مخاطر الحريق والانفجار، خصوصًا أثناء الأعمال الساخنة
+                    مثل اللحام.
+                </p>
+
+            </div>
+
+
+            <!-- ===================================================== -->
+            <!-- 4. FIRE AND EXPLOSION MECHANISMS -->
+            <!-- ===================================================== -->
+
+            <h3 style="color:#0b4f8a; margin-top:35px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">4</span>
+                Mechanisms for, and possible consequences of,
+                jet fires, pool fires, BLEVEs, CVCEs and UVCEs
+            </h3>
+
+            <h4 style="color:#444;">
+                آليات وعواقب حرائق النفث وحرائق البرك
+                وBLEVE وCVCE وUVCE
+            </h4>
+
+            <p>
+                يمكن أن يتطور اشتعال المواد القابلة للاشتعال بطرق مختلفة
+                وفقًا لطبيعة المادة، والضغط، ومعدل التسرب،
+                ومكان حدوث الإطلاق، ووجود الاحتواء أو الازدحام،
+                وظروف الاشتعال.
+            </p>
+
+
+            <!-- JET FIRE -->
+
+            <h4 style="color:#0b4f8a;">
+                Jet fires – الحريق النفاث
+            </h4>
+
+            <p>
+                يحدث <strong>Jet Fire</strong> عندما يتم إطلاق غاز
+                أو سائل قابل للاشتعال تحت ضغط على شكل نفث أو رذاذ
+                ثم يشتعل مباشرة.
+                ينتج عن ذلك لهب عالي الطاقة يمكن أن يمتد لمسافة
+                ويؤثر على المعدات والمنشآت المحيطة.
+            </p>
+
+            <p>
+                يعتمد اتجاه وشدة الحريق النفاث على عوامل مثل
+                ضغط المادة المتسربة، وحجم وشكل فتحة التسرب،
+                وطبيعة المادة، والظروف المحيطة مثل الرياح.
+                ويعد <strong>Thermal Radiation</strong>
+                من أهم تأثيراته.
+            </p>
+
+
+            <!-- EXAMPLE -->
+
+            <div style="
+                background:#e6f7f8;
+                border-right:6px solid #28aeb5;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+
+                <strong style="color:#147d83;">
+                    ➜ EXAMPLE – Propane Blowtorch
+                </strong>
+
+                <p style="margin-bottom:0;">
+                    يمكن استخدام شعلة البروبان
+                    (Propane Blowtorch)
+                    كمثال مبسط على الحريق النفاث؛
+                    حيث يخرج الوقود في اتجاه محدد ويشتعل ليكوّن
+                    لهبًا عالي الحرارة وموجّهًا.
+                </p>
+
+            </div>
+
+
+            <!-- POOL FIRE -->
+
+            <h4 style="color:#0b4f8a;">
+                Pool fires – حرائق البرك
+            </h4>
+
+            <p>
+                يحدث <strong>Pool Fire</strong> عندما يتسرب سائل قابل
+                للاشتعال ويتجمع أو ينتشر على سطح ثم يشتعل.
+                قد يحدث ذلك نتيجة تسرب من خزان أو خط أنابيب
+                أو بسبب زيادة التعبئة
+                (Overfilling).
+            </p>
+
+            <p>
+                إذا كان السائل داخل منطقة احتواء
+                (Bund)، فقد يبقى الحريق داخل تلك المنطقة.
+                أما إذا تحرك السائل إلى مكان آخر، فقد ينتقل معه
+                موقع الحريق.
+                وقد يؤدي تسخين السائل إلى زيادة التبخر وتكوين
+                سحابة بخارية قابلة للاشتعال.
+            </p>
+
+
+            <!-- BLEVE -->
+
+            <h4 style="color:#0b4f8a;">
+                Boiling Liquid Expanding Vapour Explosion (BLEVE)
+                <br>
+                انفجار تمدد بخار السائل المغلي
+            </h4>
+
+            <p>
+                قد تُخزن بعض الغازات، مثل
+                <strong>Liquefied Petroleum Gas (LPG)</strong>،
+                تحت ضغط بحيث تكون في الحالة السائلة داخل الوعاء.
+                إذا تعرض الوعاء للحرارة، فقد ترتفع درجة حرارة السائل
+                والضغط الداخلي.
+            </p>
+
+            <p>
+                إذا تجاوز الضغط قدرة نظام التنفيس أو ضعفت سلامة الوعاء
+                نتيجة التعرض للحريق، فقد يتمزق الوعاء فجأة.
+                يؤدي الانخفاض السريع في الضغط إلى تمدد وتبخر كمية كبيرة
+                من السائل بسرعة، منتجة انفجارًا عالي الطاقة.
+                وتُعرف هذه الظاهرة باسم
+                <strong>BLEVE</strong>.
+            </p>
+
+            <p>
+                الـBLEVE في الأساس حدث ميكانيكي ناتج عن الفشل المفاجئ
+                للوعاء المضغوط.
+                وإذا كانت المادة قابلة للاشتعال، فقد ينتج عن الاشتعال
+                اللاحق كرة نارية كبيرة وتأثيرات حرارية شديدة.
+            </p>
+
+
+            <!-- ACTIVITY BLEVE -->
+
+            <div style="
+                background:#e8f3ff;
+                border-right:6px solid #1976d2;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+
+                <strong style="color:#0b4f8a;">
+                    🎯 ACTIVITY – BLEVE
+                </strong>
+
+                <p>
+                    شاهد مثالًا تدريبيًا على حادث
+                    <strong>BLEVE</strong> وركز على:
+                </p>
+
+                <ul>
+                    <li>كيف تم تسخين الوعاء؟</li>
+                    <li>كيف أدى ارتفاع الضغط إلى فشل الوعاء؟</li>
+                    <li>ما العواقب الناتجة عن التمزق والانفجار؟</li>
+                    <li>ما وسائل الحماية التي يمكن أن تقلل من شدة الحادث؟</li>
+                </ul>
+
+            </div>
+
+
+            <!-- CVCE -->
+
+            <h4 style="color:#0b4f8a;">
+                Confined Vapour Cloud Explosion (CVCE)
+                <br>
+                انفجار سحابة بخارية في مكان محصور
+            </h4>
+
+            <p>
+                عند إطلاق كمية من الهيدروكربونات المتطايرة القابلة
+                للاشتعال، قد تتكون سحابة بخارية إذا كانت الظروف مناسبة.
+                وعندما تصل السحابة إلى مصدر اشتعال، يمكن أن تشتعل.
+            </p>
+
+            <p>
+                إذا حدث ذلك داخل مبنى أو وعاء أو منطقة محدودة
+                أو مزدحمة بالهياكل والمعدات، فقد يحدث
+                <strong>Confined Vapour Cloud Explosion (CVCE)</strong>.
+                ويمكن أن يؤدي تراكم الضغط إلى موجات ضغط
+                (Shock Waves)، وإشعاع حراري، وأضرار إنشائية،
+                وتطاير أجزاء من المعدات والحطام.
+            </p>
+
+
+            <!-- UVCE -->
+
+            <h4 style="color:#0b4f8a;">
+                Unconfined Vapour Cloud Explosion (UVCE)
+                <br>
+                انفجار سحابة بخارية في مكان مفتوح
+            </h4>
+
+            <p>
+                يحدث <strong>UVCE</strong> عندما تتكون سحابة من بخار
+                قابل للاشتعال في منطقة غير محصورة، غالبًا في الهواء الطلق،
+                ثم تصل إلى مصدر اشتعال.
+            </p>
+
+            <p>
+                قد تنتج السحابة عن فقدان كمية كبيرة من محتويات وعاء
+                أو خزان أو خط أنابيب.
+                وتعتمد طبيعة انتشار السحابة على الظروف الجوية
+                وسرعة الرياح وطبيعة المادة.
+            </p>
+
+            <p>
+                بعد تشتت السحابة وانخفاض تركيز المادة القابلة للاشتعال
+                إلى أقل من <strong>LEL</strong>،
+                فإن الخليط لا يعود ضمن مدى الاشتعال.
+            </p>
+
+
+            <!-- MAIN COMPARISON IMAGE -->
+
+            <img src="element4-types-of-fires-and-explosions.png"
+                 alt="Types of Fires and Explosions"
+                 style="
+                    width:100%;
+                    max-width:1100px;
+                    display:block;
+                    margin:30px auto;
+                    border-radius:12px;
+                    box-shadow:0 4px 14px rgba(0,0,0,0.15);
+                 ">
+
+            <p style="text-align:center; color:#666; font-size:14px;">
+                Jet Fire | Pool Fire | BLEVE | CVCE | UVCE
+                <br>
+                مقارنة بين الأنواع الرئيسية للحرائق والانفجارات
+            </p>
+
+
+            <!-- ACTIVITY BUNCEFIELD -->
+
+            <div style="
+                background:#e8f3ff;
+                border-right:6px solid #1976d2;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+
+                <strong style="color:#0b4f8a;">
+                    🎯 ACTIVITY – Buncefield Explosion
+                </strong>
+
+                <p>
+                    راجع حادث
+                    <strong>Buncefield Explosion</strong>
+                    وركز أثناء المشاهدة أو الدراسة على:
+                </p>
+
+                <ul>
+                    <li>كيف تكونت السحابة القابلة للاشتعال؟</li>
+                    <li>كيف انتشرت السحابة قبل الاشتعال؟</li>
+                    <li>ما الذي حدث عند وصول السحابة إلى مصدر الاشتعال؟</li>
+                    <li>ما العواقب الناتجة عن موجة الضغط والحريق؟</li>
+                </ul>
+
+            </div>
+
+
+            <!-- ===================================================== -->
+            <!-- EXAM FOCUS -->
+            <!-- ===================================================== -->
+
+            <div style="
+                background:#fff4e5;
+                border:2px solid #ff9800;
+                padding:20px;
+                margin-top:35px;
+                border-radius:10px;
+            ">
+
+                <h3 style="color:#d66b00; margin-top:0;">
+                    🎯 Exam Focus – ركز للاختبار
+                </h3>
+
+                <ul>
+                    <li>
+                        احفظ عناصر
+                        <strong>Fire Triangle:</strong>
+                        Heat + Fuel + Oxygen.
+                    </li>
+
+                    <li>
+                        افهم الفرق بين
+                        <strong>Conduction, Convection and Radiation</strong>.
+                    </li>
+
+                    <li>
+                        تعرف على مصادر الاشتعال الشائعة في المنشآت الصناعية.
+                    </li>
+
+                    <li>
+                        افهم الفرق بين
+                        <strong>LEL / LFL</strong>
+                        و
+                        <strong>UEL / UFL</strong>.
+                    </li>
+
+                    <li>
+                        تذكر أن منطقة الاشتعال تقع بين
+                        <strong>LEL و UEL</strong>.
+                    </li>
+
+                    <li>
+                        ميّز بين
+                        <strong>Jet Fire</strong>
+                        و
+                        <strong>Pool Fire</strong>.
+                    </li>
+
+                    <li>
+                        افهم آلية
+                        <strong>BLEVE</strong>
+                        وعلاقتها بالوعاء المضغوط والسائل المسال.
+                    </li>
+
+                    <li>
+                        افهم الفرق بين
+                        <strong>CVCE</strong>
+                        و
+                        <strong>UVCE</strong>
+                        من حيث مكان تكون واحتواء السحابة.
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <!-- ===================================================== -->
+            <!-- SUMMARY -->
+            <!-- ===================================================== -->
+
+            <div style="
+                background:#eef5fb;
+                border-right:6px solid #0b4f8a;
+                padding:20px;
+                margin-top:30px;
+                border-radius:10px;
+            ">
+
+                <h3 style="color:#0b4f8a; margin-top:0;">
+                    📌 Summary – الخلاصة
+                </h3>
+
+                <p>
+                    يعتمد بدء الحريق واستمراره على وجود
+                    <strong>الحرارة والوقود والأكسجين</strong>.
+                    ويمكن أن تنتقل الحرارة بالتوصيل أو الحمل أو الإشعاع.
+                    كما يعتمد حدوث الاشتعال أو الانفجار على وجود المادة
+                    القابلة للاشتعال ضمن حدود التركيز المناسبة بين
+                    <strong>LEL و UEL</strong>.
+                </p>
+
+                <p style="margin-bottom:0;">
+                    قد تؤدي حالات فقدان الاحتواء المختلفة إلى
+                    <strong>Jet Fire، Pool Fire، BLEVE، CVCE أو UVCE</strong>.
+                    ولذلك فإن فهم آلية كل حالة يساعد على تحديد
+                    وسائل الوقاية والسيطرة المناسبة في الصناعات العملية.
+                </p>
+
+            </div>
+
+        </div>
+    `
+},
 
         {
             number: "4.2",
