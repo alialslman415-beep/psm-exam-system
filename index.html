@@ -1431,7 +1431,33 @@ function openArabicEnglishElement4() {
     document.getElementById("arabicEnglishElement4Page")
         .classList.remove("hidden");
 
-} 
+    const element4 = psmArabicEnglish.element4;
+
+    let topicsHtml = `
+        <div style="text-align:right;">
+            ${element4.introduction || ""}
+
+            <hr>
+
+            <h3>مواضيع الوحدة الرابعة</h3>
+        </div>
+    `;
+
+    element4.topics.forEach(topic => {
+        topicsHtml += `
+            <button
+                style="width:100%; margin:8px 0;"
+                onclick="openArabicEnglishElement4Topic('${topic.number}')">
+                <strong>${topic.number} - ${topic.title}</strong>
+                <br>
+                ${topic.titleArabic}
+            </button>
+        `;
+    });
+
+    document.getElementById("arabicEnglishElement4Content")
+        .innerHTML = topicsHtml;
+}
 function openArabicEnglishElement3Topic(topicNumber) {
 
     currentArabicEnglishElement = 3;
