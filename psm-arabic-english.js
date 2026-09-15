@@ -13907,15 +13907,1118 @@ element4: {
 },
 
         {
-            number: "4.2",
-            title: "Fire and explosion control",
-            titleArabic: "التحكم في الحريق والانفجار",
-            content: `
-                <p style="text-align:center;">
-                    سيتم إضافة محتوى الموضوع 4.2 قريبًا.
+    number: "4.2",
+    title: "Fire and explosion control",
+    titleArabic: "التحكم في الحريق والانفجار",
+
+    content: `
+
+        <div dir="rtl" style="text-align:right; line-height:1.9;">
+
+            <p>
+                يعتمد التحكم الفعال في مخاطر الحريق والانفجار على مجموعة
+                متكاملة من وسائل الكشف والوقاية والحماية.
+                وتشمل هذه الوسائل أنظمة كشف التسرب والحريق
+                (Leak and Fire Detection Systems)، والحماية السلبية والنشطة
+                من الحريق، وتصنيف المناطق الخطرة، واختيار المعدات المناسبة،
+                وأنظمة الحماية من الانفجار، ووسائل الإطفاء المختلفة،
+                إضافة إلى حماية مزارع الخزانات والحد من مخاطر الصواعق.
+            </p>
+
+
+            <!-- ===================================================== -->
+            <!-- 1. LEAK AND FIRE DETECTION SYSTEMS -->
+            <!-- ===================================================== -->
+
+            <h3 style="color:#0b4f8a; margin-top:30px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">1</span>
+                Leak and fire detection systems
+            </h3>
+
+            <h4 style="color:#444;">
+                أنظمة كشف التسرب والحريق
+            </h4>
+
+            <p>
+                تقوم أنظمة كشف التسرب
+                (Leak Detection Systems)
+                بتحديد حدوث تسرب من وعاء أو من معدات العمليات
+                وإطلاق إنذار.
+                وعند التعامل مع مادة قابلة للاشتعال، فإن الكشف المبكر
+                يسمح باتخاذ استجابة يدوية أو آلية لمنع حدوث الاشتعال
+                أو للحد من تطور الحادث.
+            </p>
+
+            <p>
+                تتكون أنظمة كشف التسرب عادة من
+                <strong>Sensor System</strong>
+                مناسب للمادة التي يمكن أن تتسرب،
+                إضافة إلى نظام إنذار يراقب تركيز المادة بصورة مستمرة.
+                وعند اكتشاف التسرب يمكن بدء التحقيق أو إيقاف العملية
+                (Shut-down) بحسب تصميم النظام ومستوى الخطر.
+            </p>
+
+            <p>
+                بعض أنظمة الكشف تراقب الملوثات المحمولة في الهواء،
+                بينما تستطيع أنظمة أخرى اكتشاف انسكابات الزيت أو الماء
+                أو رذاذ الزيت
+                (Oil Mist).
+            </p>
+
+            <h4 style="color:#0b4f8a;">
+                Smoke detectors – كواشف الدخان
+            </h4>
+
+            <p>
+                تكشف كواشف الدخان عن الدخان ونواتج الاحتراق،
+                ويمكن أن تعمل باستخدام شعاع ضوئي أو مصدر إشعاعي.
+                ومن التحديات المحتملة حدوث إنذارات غير مقصودة
+                في الأماكن التي توجد فيها أبخرة أو غبار أو دخان
+                أثناء التشغيل الطبيعي.
+            </p>
+
+            <h4 style="color:#0b4f8a;">
+                Heat detectors – كواشف الحرارة
+            </h4>
+
+            <p>
+                تكشف كواشف الحرارة الزيادة المهمة في درجة الحرارة،
+                سواء عند تجاوز درجة حرارة محددة
+                أو عند حدوث ارتفاع سريع وغير طبيعي في درجة الحرارة.
+                ويمكن أن تعمل أيضًا وفق تغيرات مرتبطة بانصهار وصلة
+                (Fusible Link) أو تمدد مادة معينة.
+            </p>
+
+            <p>
+                قد تكون كواشف الحرارة
+                <strong>Spot Detectors</strong>
+                لمراقبة نقطة محددة،
+                أو <strong>Line Heat Detectors</strong>
+                لمراقبة مساحة أكبر على امتداد خط الكشف.
+            </p>
+
+            <h4 style="color:#0b4f8a;">
+                Flame detectors – كواشف اللهب
+            </h4>
+
+            <p>
+                تكشف كواشف اللهب الوميض أو الإشعاع الناتج عن الحريق،
+                ويمكن تصميمها للكشف عن
+                <strong>Ultraviolet (UV)</strong>
+                أو
+                <strong>Infrared (IR)</strong>
+                radiation.
+                ويجب ألا يُحجب مجال رؤيتها بواسطة الهياكل أو المواد المخزنة.
+                كما يجب مراعاة المصادر التي قد تسبب إنذارًا غير مقصود،
+                مثل بعض عمليات اللحام أو التصوير.
+            </p>
+
+
+            <!-- MAIN IMAGE 1 -->
+
+            <img src="element4-leak-detection-active-passive-fire-protection.png"
+                 alt="Leak Detection Active and Passive Fire Protection"
+                 style="
+                    width:100%;
+                    max-width:1100px;
+                    display:block;
+                    margin:28px auto;
+                    border-radius:12px;
+                    box-shadow:0 4px 14px rgba(0,0,0,0.15);
+                 ">
+
+            <p style="text-align:center; color:#666; font-size:14px;">
+                Leak Detection, Passive Fire Protection and Active Fire Protection
+                <br>
+                أنظمة الكشف والحماية السلبية والنشطة من الحريق
+            </p>
+
+
+            <!-- ===================================================== -->
+            <!-- 2. PASSIVE FIRE PROTECTION -->
+            <!-- ===================================================== -->
+
+            <h3 style="color:#0b4f8a; margin-top:35px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">2</span>
+                Passive fire protection, including passive protection
+                of structures and equipment
+            </h3>
+
+            <h4 style="color:#444;">
+                الحماية السلبية من الحريق، بما في ذلك حماية
+                المنشآت والمعدات
+            </h4>
+
+
+            <!-- SOURCE KEY TERMS -->
+
+            <div style="
+                background:#eaf6cf;
+                border-right:6px solid #8dbb32;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+
+                <strong style="color:#568000;">
+                    🔑 KEY TERMS
+                </strong>
+
+                <p>
+                    <strong>
+                        Active Fire Protection (AFP) –
+                        الحماية النشطة من الحريق:
+                    </strong>
+                    معدات وأنظمة وطرق تستخدم بعد بدء الحريق
+                    للتحكم فيه أو تقليل آثاره أو إطفائه.
                 </p>
-            `
-        },
+
+                <p style="margin-bottom:0;">
+                    <strong>
+                        Passive Fire Protection (PFP) –
+                        الحماية السلبية من الحريق:
+                    </strong>
+                    ترتيبات من الطلاء أو الكسوة أو الحواجز
+                    توفر حماية حرارية عند حدوث الحريق،
+                    وتحد من معدل انتقال الحرارة إلى العنصر المحمي.
+                </p>
+
+            </div>
+
+            <p>
+                لا تعتمد أنظمة
+                <strong>Passive Fire Protection (PFP)</strong>
+                على تدخل شخص أو تشغيل نظام لكي تؤدي وظيفتها.
+                ويستخدم هذا المصطلح لوصف الطلاءات والحواجز
+                ووسائل الحماية التي تقلل الأضرار الناتجة عن الحريق
+                عن طريق المحافظة على السلامة الإنشائية
+                أو تقسيم المبنى إلى مقصورات مقاومة للحريق
+                (Fire-Resistant Compartments).
+            </p>
+
+            <p>
+                تستخدم الحماية السلبية للمساعدة في المحافظة على:
+            </p>
+
+            <ul>
+                <li>
+                    سلامة مقصورة الحريق عن طريق الحد من انتشار
+                    الحريق والدخان.
+                </li>
+
+                <li>
+                    استقرار المنشأ من خلال حماية العناصر الإنشائية
+                    مثل الهياكل الفولاذية والعوارض.
+                </li>
+
+                <li>
+                    العزل الحراري عن طريق تقليل كمية الحرارة
+                    المنتقلة أثناء الحريق.
+                </li>
+            </ul>
+
+            <p>
+                غالبًا ما تكون الحماية السلبية مصممة للعمل
+                لمدة زمنية محددة؛ فعلى سبيل المثال قد يوفر
+                باب مقاوم للحريق حماية لمدة محددة قبل فقدان
+                مستوى الأداء المطلوب.
+            </p>
+
+            <p>
+                من أمثلة
+                <strong>PFP</strong>:
+            </p>
+
+            <ul>
+                <li>
+                    الألواح والكسوات وبطانات الجدران المصنوعة
+                    من مواد مقاومة للحريق.
+                </li>
+
+                <li>
+                    الجدران والأقسام والأبواب المقاومة للحريق.
+                </li>
+
+                <li>
+                    الطلاءات المقاومة للحريق المستخدمة على
+                    الهياكل الفولاذية.
+                </li>
+
+                <li>
+                    الأختام ومواد منع التسرب المستخدمة حول
+                    الأبواب والفتحات والكابلات لمنع انتشار
+                    الحريق والدخان.
+                </li>
+            </ul>
+
+
+            <!-- KEY TERM INTUMESCENT -->
+
+            <div style="
+                background:#eaf6cf;
+                border-right:6px solid #8dbb32;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+
+                <strong style="color:#568000;">
+                    🔑 KEY TERM – Intumescent
+                </strong>
+
+                <p style="margin-bottom:0;">
+                    <strong>Intumescent – مادة متمددة بالحرارة:</strong>
+                    مادة تتمدد عند تسخينها، وبذلك تملأ الفراغ
+                    وتساعد على منع انتشار الحريق والدخان.
+                    ومن التطبيقات الشائعة استخدامها كمانع حول
+                    الأبواب المقاومة للحريق.
+                </p>
+
+            </div>
+
+
+            <!-- ===================================================== -->
+            <!-- 3. ACTIVE FIRE PROTECTION SYSTEMS -->
+            <!-- ===================================================== -->
+
+            <h3 style="color:#0b4f8a; margin-top:35px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">3</span>
+                Active fire protection systems
+            </h3>
+
+            <h4 style="color:#444;">
+                أنظمة الحماية النشطة من الحريق
+            </h4>
+
+            <p>
+                نظام
+                <strong>Active Fire Protection (AFP)</strong>
+                هو نظام يكتشف الحريق ويتفاعل معه بهدف الحد منه
+                أو إطفائه.
+                وقد تكون الأنظمة ثابتة
+                (Fixed Installations)،
+                مثل أنظمة الرش الآلي،
+                أو محمولة مثل طفايات الحريق.
+            </p>
+
+            <p>
+                ويمكن تشغيل النظام تلقائيًا بواسطة كاشف،
+                أو يدويًا بواسطة شخص، مثل تشغيل
+                <strong>Manual Call Point</strong>.
+            </p>
+
+            <h4 style="color:#0b4f8a;">
+                Sprinkler systems – أنظمة الرش الآلي
+            </h4>
+
+            <p>
+                يحتاج نظام الرش بالماء إلى مصدر مياه متاح وموثوق،
+                وغالبًا ما يكون من خزان تخزين، مع مضخة حريق
+                مصممة لتوفير المياه بمعدل التدفق المطلوب.
+                وتقوم شبكة أنابيب ثابتة بنقل المياه إلى رؤوس الرش.
+            </p>
+
+            <p>
+                يمكن أن تعمل رؤوس الرش بواسطة كواشف
+                أو عن طريق انصهار
+                <strong>Glass Bulb</strong>
+                عند درجة حرارة محددة.
+            </p>
+
+            <p>
+                ويمكن لبعض أنظمة الرش استخدام رغوة مائية
+                بدل الماء فقط.
+                وقد يكون ذلك فعالًا في بعض حرائق الهيدروكربونات
+                أو السوائل القابلة للاشتعال.
+            </p>
+
+            <h4 style="color:#0b4f8a;">
+                Gas extinguishing systems – أنظمة الإطفاء بالغاز
+            </h4>
+
+            <p>
+                في بعض الأنظمة يؤدي كشف الحريق إلى إطلاق
+                غاز خامل أو غاز إطفاء مناسب داخل المنطقة
+                بهدف خفض تركيز الأكسجين وإطفاء الحريق.
+                ويمكن استخدام بعض هذه الأنظمة في المناطق التي
+                تحتوي على معدات كهربائية.
+            </p>
+
+
+            <!-- KEY TERM INERT -->
+
+            <div style="
+                background:#eaf6cf;
+                border-right:6px solid #8dbb32;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+
+                <strong style="color:#568000;">
+                    🔑 KEY TERM – Inert
+                </strong>
+
+                <p style="margin-bottom:0;">
+                    <strong>Inert – خامل:</strong>
+                    مادة غير نشطة كيميائيًا ولا تتفاعل بسهولة
+                    أو تساعد على استمرار الحريق.
+                    ويمكن استخدام الغاز الخامل للمساعدة في تقليل
+                    الأكسجين ومنع تكوين جو قابل للانفجار.
+                    ومن أكثر الغازات الخاملة استخدامًا
+                    <strong>Nitrogen</strong>.
+                </p>
+
+            </div>
+
+
+            <!-- THOUGHT PROVOKER -->
+
+            <div style="
+                background:#e8f3ff;
+                border-right:6px solid #1976d2;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+
+                <strong style="color:#0b4f8a;">
+                    💭 THOUGHT PROVOKER – فكر في الأمر
+                </strong>
+
+                <p style="margin-bottom:0;">
+                    على الرغم من فعالية أنظمة الرش الآلي،
+                    فإن التشغيل العرضي أو التلف غير المقصود
+                    لرأس الرش قد يؤدي إلى أضرار كبيرة بالمعدات
+                    أو المواد المخزنة.
+                    فكر في الإجراءات التي يمكن تطبيقها لمنع
+                    التلف العرضي لرؤوس الرش في المستودعات
+                    والمصانع.
+                </p>
+
+            </div>
+
+            <p>
+                تحتاج جميع أنظمة الحماية النشطة من الحريق إلى
+                <strong>الفحص والاختبار والصيانة الدورية</strong>
+                للتأكد من استمرار موثوقيتها وقدرتها على العمل
+                عند الحاجة.
+            </p>
+
+
+            <!-- ===================================================== -->
+            <!-- 4. HAZARDOUS AREA CLASSIFICATION -->
+            <!-- ===================================================== -->
+
+            <h3 style="color:#0b4f8a; margin-top:35px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">4</span>
+                Zoning/hazardous area classification and selection
+                of suitable equipment
+            </h3>
+
+            <h4 style="color:#444;">
+                تصنيف المناطق الخطرة واختيار المعدات المناسبة
+            </h4>
+
+            <p>
+                إذا كان من الممكن وجود جو قابل للاشتعال بسبب
+                الغبار أو الأبخرة القابلة للانفجار،
+                فيجب اختيار المعدات الكهربائية والميكانيكية
+                المستخدمة في المنطقة بعناية لمنع حدوث الاشتعال.
+            </p>
+
+            <p>
+                يشير المصدر إلى توجيهات
+                <strong>ATEX</strong>
+                المتعلقة بالمعدات المستخدمة في الأجواء القابلة
+                للاشتعال وسلامة العاملين في هذه المناطق.
+            </p>
+
+            <p>
+                في تصنيف المناطق الكهربائية، يتم تقسيم المناطق
+                التي يمكن أن توجد فيها غازات أو أبخرة أو غبار
+                قابل للاشتعال إلى
+                <strong>Zones</strong>
+                بناءً على احتمال وجود الجو القابل للانفجار
+                ومدة استمراره.
+            </p>
+
+
+            <!-- GAS / VAPOUR ZONES -->
+
+            <h4 style="color:#0b4f8a;">
+                Area classification – Flammable vapours
+                <br>
+                تصنيف مناطق الغازات والأبخرة القابلة للاشتعال
+            </h4>
+
+            <div style="overflow-x:auto; margin:20px 0;">
+                <table style="
+                    width:100%;
+                    border-collapse:collapse;
+                    text-align:center;
+                ">
+                    <tr style="background:#0b4f8a; color:white;">
+                        <th style="padding:10px; border:1px solid #ccc;">Zone</th>
+                        <th style="padding:10px; border:1px solid #ccc;">التعريف</th>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            <strong>Zone 0</strong>
+                        </td>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            جو قابل للانفجار موجود بصورة مستمرة،
+                            أو لفترات طويلة، أو بصورة متكررة.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            <strong>Zone 1</strong>
+                        </td>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            من المحتمل حدوث جو قابل للانفجار
+                            أحيانًا أثناء التشغيل الطبيعي.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            <strong>Zone 2</strong>
+                        </td>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            من غير المحتمل حدوث جو قابل للانفجار
+                            أثناء التشغيل الطبيعي، وإذا حدث فإنه
+                            يستمر لفترة قصيرة فقط.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <!-- DUST ZONES -->
+
+            <h4 style="color:#0b4f8a;">
+                Area classification – Flammable dusts
+                <br>
+                تصنيف مناطق الغبار القابل للاشتعال
+            </h4>
+
+            <div style="overflow-x:auto; margin:20px 0;">
+                <table style="
+                    width:100%;
+                    border-collapse:collapse;
+                    text-align:center;
+                ">
+                    <tr style="background:#0b4f8a; color:white;">
+                        <th style="padding:10px; border:1px solid #ccc;">Zone</th>
+                        <th style="padding:10px; border:1px solid #ccc;">التعريف</th>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            <strong>Zone 20</strong>
+                        </td>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            سحابة من الغبار القابل للاشتعال موجودة
+                            بصورة مستمرة، أو لفترات طويلة، أو بصورة متكررة.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            <strong>Zone 21</strong>
+                        </td>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            من المحتمل وجود سحابة من الغبار القابل
+                            للاشتعال أحيانًا أثناء التشغيل الطبيعي.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            <strong>Zone 22</strong>
+                        </td>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            من غير المحتمل وجود سحابة من الغبار القابل
+                            للاشتعال أثناء التشغيل الطبيعي،
+                            وإذا حدثت فإنها تستمر لفترة قصيرة فقط.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <!-- EQUIPMENT CATEGORY TABLE -->
+
+            <h4 style="color:#0b4f8a;">
+                Selection of electrical equipment
+                <br>
+                اختيار فئة المعدات الكهربائية
+            </h4>
+
+            <div style="overflow-x:auto; margin:20px 0;">
+                <table style="
+                    width:100%;
+                    border-collapse:collapse;
+                    text-align:center;
+                ">
+                    <tr style="background:#0b4f8a; color:white;">
+                        <th style="padding:10px; border:1px solid #ccc;">
+                            Electrical Equipment
+                        </th>
+                        <th style="padding:10px; border:1px solid #ccc;">
+                            Suitable Zone
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            Category 1
+                        </td>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            Zone 0 or Zone 20
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            Category 2
+                        </td>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            Zone 1 or Zone 21
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            Category 3
+                        </td>
+                        <td style="padding:10px; border:1px solid #ccc;">
+                            Zone 2 or Zone 22
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <p>
+                يمكن استخدام معدات
+                <strong>Category 1</strong>
+                في جميع المناطق،
+                بينما يمكن استخدام
+                <strong>Category 2</strong>
+                في Zone 1 أو Zone 2،
+                ويمكن استخدام
+                <strong>Category 3</strong>
+                في Zone 2 فقط.
+            </p>
+
+            <p>
+                المعدات المناسبة للعمل في الأجواء القابلة للاشتعال
+                تعرف عادة بالمعدات
+                <strong>Intrinsically Safe</strong>
+                أو المعدات المصممة والمعتمدة للاستخدام في المناطق الخطرة،
+                ويستخدم رمز
+                <strong>Ex</strong>
+                للتعريف بالمعدات المناسبة وفق نظام الحماية المطبق.
+            </p>
+
+            <p>
+                ولا يقتصر الأمر على المعدات الكهربائية فقط؛
+                فبعض المعدات الميكانيكية قد تنتج حرارة أو شررًا
+                نتيجة ظروف التشغيل أو الأعطال.
+                كما يجب حماية بعض معدات التحكم والحواسيب والمراقبة
+                باستخدام وسائل مناسبة إذا كان من الممكن تعرضها
+                لجو قابل للاشتعال.
+            </p>
+
+
+            <!-- MAIN IMAGE 2 -->
+
+            <img src="element4-hazardous-area-classification-equipment.png"
+                 alt="Hazardous Area Classification and Equipment Selection"
+                 style="
+                    width:100%;
+                    max-width:1100px;
+                    display:block;
+                    margin:30px auto;
+                    border-radius:12px;
+                    box-shadow:0 4px 14px rgba(0,0,0,0.15);
+                 ">
+
+            <p style="text-align:center; color:#666; font-size:14px;">
+                Hazardous Area Classification and Selection of Suitable Equipment
+                <br>
+                تصنيف المناطق الخطرة واختيار المعدات المناسبة
+            </p>
+
+
+            <!-- ===================================================== -->
+            <!-- 5. EXPLOSION PROTECTION SYSTEMS -->
+            <!-- ===================================================== -->
+
+            <h3 style="color:#0b4f8a; margin-top:35px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">5</span>
+                Explosion protection systems
+            </h3>
+
+            <h4 style="color:#444;">
+                أنظمة الحماية من الانفجار
+            </h4>
+
+            <p>
+                الهدف الأساسي هو منع حدوث الحريق والانفجار.
+                ولكن عندما يبقى خطر متبقٍ
+                (Residual Risk)،
+                يجب توفير أنظمة حماية مناسبة لحماية الأشخاص
+                والمنشآت والمعدات.
+            </p>
+
+            <h4 style="color:#0b4f8a;">
+                Atmosphere control – التحكم في الجو
+            </h4>
+
+            <p>
+                يمكن التحكم في الجو عن طريق إدخال غاز خامل،
+                مثل النيتروجين أو ثاني أكسيد الكربون،
+                لتقليل الأكسجين ومنع تكوين خليط قابل للاشتعال.
+            </p>
+
+            <h4 style="color:#0b4f8a;">
+                Pressure relief / explosion venting
+                <br>
+                تنفيس الضغط / تنفيس الانفجار
+            </h4>
+
+            <p>
+                يتم تصميم نقطة ضعف أو وسيلة تنفيس داخل العملية
+                بحيث تسمح بخروج الضغط عند قيمة أقل من الضغط
+                الذي قد يؤدي إلى تلف الوعاء.
+                ويجب توجيه الضغط إلى موقع آمن بعيدًا عن المناطق
+                المشغولة.
+            </p>
+
+            <p>
+                من أمثلة وسائل التنفيس
+                <strong>Explosion Panels</strong>
+                و
+                <strong>Bursting / Rupture Discs</strong>
+                المصممة للفتح أو التمزق عند ضغط محدد.
+            </p>
+
+            <h4 style="color:#0b4f8a;">
+                Automatic explosion suppression
+                <br>
+                الإخماد التلقائي للانفجار
+            </h4>
+
+            <p>
+                يعتمد هذا النظام على كاشف ووسيلة خاملة،
+                مثل المسحوق الجاف.
+                وعند اكتشاف ارتفاع الضغط، يتم إدخال المادة
+                بسرعة لمنع تطور الانفجار أو الحد منه.
+            </p>
+
+            <h4 style="color:#0b4f8a;">
+                Automatic isolation – العزل التلقائي
+            </h4>
+
+            <p>
+                عند اكتشاف الحريق أو الحالة الخطرة،
+                يقوم النظام تلقائيًا بقطع تغذية المادة القابلة للاشتعال
+                عن المنطقة بهدف منع استمرار الحريق أو تطوره.
+            </p>
+
+            <p>
+                يوضح حادث
+                <strong>Piper Alpha</strong>
+                أهمية العزل؛ إذ أدى استمرار ضخ الوقود إلى منطقة الحريق
+                إلى زيادة شدة الحادث واتساع نطاقه.
+            </p>
+
+            <h4 style="color:#0b4f8a;">
+                Flame arrestors – موانع اللهب
+            </h4>
+
+            <p>
+                يسمح
+                <strong>Flame Arrestor</strong>
+                بمرور الغاز أو البخار، لكنه مصمم لمنع انتقال اللهب
+                ومنع انتشار الحريق أو الانفجار عبر خطوط الأنابيب
+                أو أنظمة التنفيس.
+            </p>
+
+            <p>
+                تعتمد الفكرة على تمرير اللهب عبر ممرات صغيرة
+                تمتص الحرارة وتبرد خليط الغاز والهواء
+                بما يساعد على إيقاف الاحتراق.
+            </p>
+
+
+            <!-- ===================================================== -->
+            <!-- 6. EXTINGUISHING SYSTEMS -->
+            <!-- ===================================================== -->
+
+            <h3 style="color:#0b4f8a; margin-top:35px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">6</span>
+                Benefits and limitations of chemical,
+                foam and inert extinguishing systems
+            </h3>
+
+            <h4 style="color:#444;">
+                مزايا وقيود أنظمة الإطفاء الكيميائية والرغوية
+                والغازات الخاملة
+            </h4>
+
+            <h4 style="color:#0b4f8a;">
+                Dry chemical systems – أنظمة المسحوق الكيميائي الجاف
+            </h4>
+
+            <p>
+                تستخدم هذه الأنظمة مسحوقًا جافًا يتم دفعه بواسطة
+                غاز مضغوط لإخماد الحريق.
+                ويمكن أن تكون فعالة ضد بعض حرائق الهيدروكربونات،
+                بما في ذلك حرائق النفث وحرائق البرك.
+            </p>
+
+            <p>
+                من قيودها أن المادة قد تبقى ساخنة بعد إخماد اللهب،
+                مما قد يؤدي إلى إعادة الاشتعال.
+                كما يمكن أن يسبب المسحوق تلوثًا أو أضرارًا للمعدات،
+                خصوصًا المعدات الكهربائية الحساسة.
+            </p>
+
+            <h4 style="color:#0b4f8a;">
+                Foam systems – أنظمة الرغوة
+            </h4>
+
+            <p>
+                يتم خلط مركز الرغوة
+                (Foam Concentrate)
+                بالماء لإنتاج رغوة تستخدم لإخماد الحريق.
+                ويمكن أن تكون فعالة في حرائق برك الهيدروكربونات.
+            </p>
+
+            <p>
+                تعمل الرغوة على تكوين غطاء فوق سطح السائل
+                يساعد على عزل الوقود عن الهواء.
+                كما يمكن أن توفر المياه الموجودة في الرغوة
+                تأثيرًا تبريديًا.
+            </p>
+
+            <p>
+                إذا كان غطاء الرغوة غير مكتمل أو تعرض سطح السائل
+                مرة أخرى للهواء، فقد يحدث
+                <strong>Re-ignition</strong>.
+            </p>
+
+            <h4 style="color:#0b4f8a;">
+                Inert gas systems – أنظمة الغاز الخامل
+            </h4>
+
+            <p>
+                يمكن إطلاق غاز خامل داخل غرفة أو وعاء عند اكتشاف
+                الحريق بهدف خفض تركيز الأكسجين وإخماد الحريق.
+                ومن مزايا هذه الأنظمة أنها لا تترك عادة بقايا
+                مثل المساحيق أو الرغوة.
+            </p>
+
+            <p>
+                لكن انخفاض الأكسجين يمثل خطر
+                <strong>Asphyxiation – الاختناق</strong>
+                إذا كان الأشخاص موجودين داخل المنطقة عند تشغيل النظام.
+                ولذلك يلزم وجود ضوابط صارمة مثل الإنذار المسموع
+                وإجراءات الإخلاء المناسبة قبل إطلاق الغاز.
+            </p>
+
+
+            <!-- ===================================================== -->
+            <!-- 7. TANK FARM FIRE PROTECTION -->
+            <!-- ===================================================== -->
+
+            <h3 style="color:#0b4f8a; margin-top:35px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">7</span>
+                Examples of fire protection systems for tank farms
+            </h3>
+
+            <h4 style="color:#444;">
+                أمثلة لأنظمة الحماية من الحريق في مزارع الخزانات
+            </h4>
+
+            <p>
+                يمكن حماية مزارع الخزانات باستخدام أنظمة
+                <strong>Deluge</strong>
+                تعتمد على الماء أو الرغوة لإطفاء الحرائق.
+                ويشبه نظام Deluge نظام الرش،
+                إلا أن المياه تتدفق من جميع الرؤوس في النظام
+                عند تشغيله وليس من عدد محدود من الرؤوس فقط.
+            </p>
+
+            <p>
+                ويمكن أيضًا استخدام
+                <strong>Water Monitors</strong>
+                ذات معدلات التدفق العالية للمساعدة في مكافحة الحرائق.
+                كما يمكن استخدامها عند حدوث حريق بالقرب من الخزان
+                لتوفير ستارة مائية أو تبريد الخزان
+                وتقليل انتقال الحرارة إليه بواسطة الإشعاع.
+            </p>
+
+
+            <!-- ===================================================== -->
+            <!-- 8. LIGHTNING STRIKES -->
+            <!-- ===================================================== -->
+
+            <h3 style="color:#0b4f8a; margin-top:35px;">
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">8</span>
+                Mitigation of lightning strikes
+            </h3>
+
+            <h4 style="color:#444;">
+                الحد من مخاطر الصواعق
+            </h4>
+
+            <p>
+                تعد الصواعق
+                (Lightning)
+                مصدرًا محتملًا للاشتعال ويجب التحكم في مخاطرها
+                داخل الصناعات العملية.
+            </p>
+
+            <p>
+                لحماية المنشآت يمكن تركيب
+                <strong>Lightning Rod</strong>
+                في أعلى نقطة من المنشأة وربطه بموصل معدني مستمر
+                يصل إلى الأرض من خلال
+                <strong>Earth Rod / Ground Rod</strong>.
+            </p>
+
+            <p>
+                يجب اختبار الاستمرارية الكهربائية لنظام الحماية
+                للتأكد من وجود مسار غير منقطع إلى الأرض،
+                بحيث يتم تصريف تيار الصاعقة بأمان دون مروره
+                عبر هيكل المبنى.
+            </p>
+
+            <p>
+                كما يجب ربط المعدات والمنشآت المعدنية
+                بنظام التأريض المناسب للمساعدة على تصريف
+                الشحنات الساكنة المتولدة ومنع تكوين فروق جهد خطرة.
+            </p>
+
+
+            <!-- MAIN IMAGE 3 -->
+
+            <img src="element4-explosion-tank-farm-lightning-protection.png"
+                 alt="Explosion Tank Farm and Lightning Protection"
+                 style="
+                    width:100%;
+                    max-width:1100px;
+                    display:block;
+                    margin:30px auto;
+                    border-radius:12px;
+                    box-shadow:0 4px 14px rgba(0,0,0,0.15);
+                 ">
+
+            <p style="text-align:center; color:#666; font-size:14px;">
+                Explosion Protection, Tank Farm Fire Protection and Lightning Protection
+                <br>
+                الحماية من الانفجار وحماية مزارع الخزانات والحماية من الصواعق
+            </p>
+
+
+            <!-- ===================================================== -->
+            <!-- EXAM FOCUS -->
+            <!-- ===================================================== -->
+
+            <div style="
+                background:#fff4e5;
+                border:2px solid #ff9800;
+                padding:20px;
+                margin-top:35px;
+                border-radius:10px;
+            ">
+
+                <h3 style="color:#d66b00; margin-top:0;">
+                    🎯 Exam Focus – ركز للاختبار
+                </h3>
+
+                <ul>
+                    <li>
+                        افهم وظيفة أنظمة
+                        <strong>Leak, Smoke, Heat and Flame Detection</strong>.
+                    </li>
+
+                    <li>
+                        ميّز بين
+                        <strong>Passive Fire Protection (PFP)</strong>
+                        و
+                        <strong>Active Fire Protection (AFP)</strong>.
+                    </li>
+
+                    <li>
+                        تذكر معنى
+                        <strong>Intumescent</strong>
+                        واستخدامه في الحماية من الحريق.
+                    </li>
+
+                    <li>
+                        للغازات والأبخرة:
+                        <strong>Zone 0 / Zone 1 / Zone 2</strong>.
+                    </li>
+
+                    <li>
+                        للغبار القابل للاشتعال:
+                        <strong>Zone 20 / Zone 21 / Zone 22</strong>.
+                    </li>
+
+                    <li>
+                        اربط فئات المعدات
+                        <strong>Category 1 / 2 / 3</strong>
+                        بالمناطق المناسبة.
+                    </li>
+
+                    <li>
+                        افهم وسائل الحماية من الانفجار:
+                        <strong>
+                            Atmosphere Control,
+                            Pressure Relief,
+                            Explosion Suppression,
+                            Automatic Isolation,
+                            Flame Arrestors
+                        </strong>.
+                    </li>
+
+                    <li>
+                        ميّز بين مزايا وقيود
+                        <strong>Dry Chemical, Foam and Inert Gas Systems</strong>.
+                    </li>
+
+                    <li>
+                        تذكر دور
+                        <strong>Deluge Systems</strong>
+                        و
+                        <strong>Water Monitors</strong>
+                        في حماية مزارع الخزانات.
+                    </li>
+
+                    <li>
+                        افهم وظيفة
+                        <strong>Lightning Rod</strong>
+                        ومسار التأريض في حماية المنشآت من الصواعق.
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <!-- ===================================================== -->
+            <!-- SUMMARY -->
+            <!-- ===================================================== -->
+
+            <div style="
+                background:#eef5fb;
+                border-right:6px solid #0b4f8a;
+                padding:20px;
+                margin-top:30px;
+                border-radius:10px;
+            ">
+
+                <h3 style="color:#0b4f8a; margin-top:0;">
+                    📌 Summary – الخلاصة
+                </h3>
+
+                <p>
+                    يعتمد التحكم في الحريق والانفجار على الجمع بين
+                    الكشف المبكر، والحماية السلبية والنشطة،
+                    واختيار المعدات المناسبة للمناطق الخطرة،
+                    وأنظمة منع الانفجار والحد من آثاره.
+                </p>
+
+                <p>
+                    يجب أن يتناسب نظام الإطفاء مع طبيعة المادة والحريق،
+                    مع فهم مزايا وقيود المسحوق الكيميائي والرغوة
+                    والغازات الخاملة.
+                    كما تتطلب مزارع الخزانات أنظمة مناسبة مثل
+                    Deluge وWater Monitors.
+                </p>
+
+                <p style="margin-bottom:0;">
+                    وتمثل الصواعق مصدر اشتعال محتمل،
+                    ولذلك تعد أنظمة الحماية من الصواعق والتأريض
+                    جزءًا مهمًا من منظومة التحكم في مخاطر
+                    الحريق والانفجار.
+                </p>
+
+            </div>
+
+        </div>
+    `
+},
 
         {
             number: "4.3",
