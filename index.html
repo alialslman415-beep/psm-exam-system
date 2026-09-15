@@ -1458,6 +1458,30 @@ function openArabicEnglishElement4() {
     document.getElementById("arabicEnglishElement4Content")
         .innerHTML = topicsHtml;
 }
+function openArabicEnglishElement4Topic(topicNumber) {
+
+    currentArabicEnglishElement = 4;
+
+    const topic = psmArabicEnglish.element4.topics
+        .find(item => item.number === topicNumber);
+
+    if (!topic) return;
+
+    document.getElementById("arabicEnglishElement4Page")
+        .classList.add("hidden");
+
+    document.getElementById("arabicEnglishTopicPage")
+        .classList.remove("hidden");
+
+    document.getElementById("arabicEnglishTopicTitle")
+        .innerText = `${topic.number} - ${topic.title}`;
+
+    document.getElementById("arabicEnglishTopicTitleArabic")
+        .innerText = topic.titleArabic;
+
+    document.getElementById("arabicEnglishTopicContent")
+        .innerHTML = topic.content || "<p>سيتم إضافة المحتوى قريبًا.</p>";
+}     
 function openArabicEnglishElement3Topic(topicNumber) {
 
     currentArabicEnglishElement = 3;
@@ -1537,22 +1561,27 @@ function backToArabicEnglishCurrentElement() {
     document.getElementById("arabicEnglishTopicPage")
         .classList.add("hidden");
 
-    if (currentArabicEnglishElement === 3) {
+    if (currentArabicEnglishElement === 4) {
 
-    document.getElementById("arabicEnglishElement3Page")
-        .classList.remove("hidden");
+        document.getElementById("arabicEnglishElement4Page")
+            .classList.remove("hidden");
 
-} else if (currentArabicEnglishElement === 2) {
+    } else if (currentArabicEnglishElement === 3) {
 
-    document.getElementById("arabicEnglishElement2Page")
-        .classList.remove("hidden");
+        document.getElementById("arabicEnglishElement3Page")
+            .classList.remove("hidden");
 
-} else {
+    } else if (currentArabicEnglishElement === 2) {
 
-    document.getElementById("arabicEnglishElement1Page")
-        .classList.remove("hidden");
+        document.getElementById("arabicEnglishElement2Page")
+            .classList.remove("hidden");
 
-}
+    } else {
+
+        document.getElementById("arabicEnglishElement1Page")
+            .classList.remove("hidden");
+
+    }
 }
      
 function backToArabicEnglishElement1() {
