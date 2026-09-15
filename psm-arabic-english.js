@@ -13111,6 +13111,65 @@ element3: {
 }
 
     ]
-}
+},
+element4: {
 
+    title: "Fire and Explosion Protection",
+    titleArabic: "الحماية من الحريق والانفجار",
+
+    introduction: `
+        <p>
+            تتناول هذه الوحدة المبادئ الأساسية المتعلقة بمخاطر الحريق والانفجار
+            ووسائل التحكم فيها، إضافة إلى انفجارات الغبار والاستعداد للطوارئ.
+        </p>
+    `,
+
+    topics: [
+
+        {
+            number: "4.1",
+            title: "Fire hazards",
+            titleArabic: "مخاطر الحريق",
+            content: `
+                <p style="text-align:center;">
+                    سيتم إضافة محتوى الموضوع 4.1 قريبًا.
+                </p>
+            `
+        },
+
+        {
+            number: "4.2",
+            title: "Fire and explosion control",
+            titleArabic: "التحكم في الحريق والانفجار",
+            content: `
+                <p style="text-align:center;">
+                    سيتم إضافة محتوى الموضوع 4.2 قريبًا.
+                </p>
+            `
+        },
+
+        {
+            number: "4.3",
+            title: "Dust explosions",
+            titleArabic: "انفجارات الغبار",
+            content: `
+                <p style="text-align:center;">
+                    سيتم إضافة محتوى الموضوع 4.3 قريبًا.
+                </p>
+            `
+        },
+
+        {
+            number: "4.4",
+            title: "Emergency preparedness",
+            titleArabic: "الاستعداد للطوارئ",
+            content: `
+                <p style="text-align:center;">
+                    سيتم إضافة محتوى الموضوع 4.4 قريبًا.
+                </p>
+            `
+        }
+
+    ]
+}
 };
