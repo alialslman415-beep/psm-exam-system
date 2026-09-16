@@ -15020,16 +15020,520 @@ element4: {
     `
 },
 
-        {
-            number: "4.3",
-            title: "Dust explosions",
-            titleArabic: "انفجارات الغبار",
-            content: `
-                <p style="text-align:center;">
-                    سيتم إضافة محتوى الموضوع 4.3 قريبًا.
+       {
+    number: "4.3",
+    title: "Dust explosions",
+    titleArabic: "انفجارات الغبار",
+
+    content: `
+        <div style="text-align:right; line-height:1.9;">
+
+            <p>
+                يمكن أن تحدث <strong>انفجارات الغبار (Dust Explosions)</strong>
+                عندما يتواجد غبار قابل للاحتراق في صورة جسيمات دقيقة ومعلّقة في الهواء
+                بتركيز مناسب، مع وجود مصدر اشتعال وظروف تسمح بتطور الانفجار.
+                ويمكن أن توجد هذه المخاطر في صناعات عديدة مثل معالجة الحبوب،
+                وصوامع التخزين، وأنظمة الاستخلاص، ومصانع السكر والدقيق والخشب والفحم.
+            </p>
+
+
+            <!-- 1 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">1</span>
+                Why Dust Explosions Occur
+            </h3>
+
+            <h4>لماذا تحدث انفجارات الغبار؟</h4>
+
+            <p>
+                لكي يصبح الغبار قابلًا للانفجار، يجب أن تتوافر مجموعة من الظروف
+                المناسبة. ولا يكفي مجرد وجود مادة قابلة للاحتراق؛ بل تؤثر خصائص
+                الغبار وطريقة انتشاره ومصدر الاشتعال والبيئة المحيطة في إمكانية
+                حدوث الانفجار.
+            </p>
+
+            <h4>Particle Size – حجم الجسيمات</h4>
+
+            <p>
+                يجب أن تكون جسيمات الغبار دقيقة بدرجة كافية لزيادة مساحة السطح
+                المعرضة للهواء. وكلما ازدادت مساحة السطح المتاحة للاحتراق،
+                أصبح الغبار قادرًا على الاحتراق بسرعة أكبر.
+            </p>
+
+            <h4>Dispersion – انتشار الغبار</h4>
+
+            <p>
+                يجب أن ينتشر الغبار القابل للاحتراق في الهواء ليكوّن
+                <strong>Dust Cloud</strong> بتركيز يسمح بحدوث الاحتراق أو الانفجار.
+            </p>
+
+            <h4>Explosive Concentration – التركيز الانفجاري</h4>
+
+            <p>
+                على عكس الأبخرة القابلة للاشتعال، لا توجد لجميع أنواع الغبار
+                حدود ثابتة ومحددة مثل <strong>LEL</strong> و<strong>UEL</strong>.
+                ويشير المصدر إلى أن نطاقًا تقريبيًا يبلغ
+                <strong>25–50 g/m³</strong> لكل متر مكعب من الهواء يمكن أن يمثل
+                تركيزًا انفجاريًا لبعض أنواع الغبار، بينما قد يصل الحد الأعلى
+                إلى نحو عشرة أضعاف الحد الأدنى.
+            </p>
+
+            <h4>Ignition Energy – طاقة الاشتعال</h4>
+
+            <p>
+                لكل نوع من الغبار حد أدنى من طاقة الاشتعال يسمى
+                <strong>Minimum Ignition Energy (MIE)</strong>.
+                بعض أنواع الغبار الدقيقة تحتاج إلى طاقة صغيرة جدًا للاشتعال،
+                ولذلك تعد مصادر الشرر والحرارة والكهرباء الساكنة عوامل مهمة
+                عند تقييم مخاطر الانفجار.
+            </p>
+
+            <h4>Heat and Humidity – الحرارة والرطوبة</h4>
+
+            <p>
+                يمكن لارتفاع درجة الحرارة أن يزيد احتمال اشتعال الغبار،
+                لأن الأسطح الساخنة قد توفر طاقة كافية تتجاوز
+                <strong>MIE</strong>.
+                أما الرطوبة العالية فقد تقلل قابلية بعض أنواع الغبار للانفجار
+                لأنها تجعل الجسيمات أقل سهولة في الانتشار، وقد تتطلب عندها
+                طاقة اشتعال أكبر.
+            </p>
+
+            <h4>The Dust Pentagon – خماسي انفجار الغبار</h4>
+
+            <p>
+                يحتاج الحريق التقليدي إلى <strong>Fuel + Oxygen + Ignition</strong>.
+                أما انفجار الغبار فيحتاج إلى عنصرين إضافيين:
+                <strong>Dispersion</strong> و<strong>Confinement</strong>.
+                ويعرف اجتماع العناصر الخمسة باسم
+                <strong>Dust Pentagon</strong>.
+            </p>
+
+            <ul>
+                <li><strong>Fuel:</strong> غبار قابل للاحتراق.</li>
+                <li><strong>Oxygen:</strong> الأكسجين الموجود في الهواء.</li>
+                <li><strong>Ignition:</strong> مصدر حرارة أو شرارة قادر على إشعال الغبار.</li>
+                <li><strong>Dispersion:</strong> انتشار الغبار وتكوّن سحابة في الهواء.</li>
+                <li><strong>Confinement:</strong> وجود الغبار داخل حيز أو مبنى أو معدة يسمح بتراكم الضغط.</li>
+            </ul>
+
+            <div style="
+                background:#e8f4fd;
+                border-right:5px solid #2196f3;
+                padding:15px;
+                margin:20px 0;
+                border-radius:8px;
+            ">
+                <strong>📌 Key Learning Point</strong><br>
+                منع أو إزالة أحد عناصر <strong>Dust Pentagon</strong>
+                يمكن أن يمنع الظروف اللازمة لانفجار الغبار.
+            </div>
+
+            <img src="element4-dust-explosion-pentagon-primary-secondary.png"
+                 alt="Dust Pentagon and Primary and Secondary Dust Explosions"
+                 style="
+                    width:100%;
+                    max-width:1100px;
+                    display:block;
+                    margin:25px auto;
+                    border-radius:12px;
+                    box-shadow:0 4px 14px rgba(0,0,0,0.18);
+                 ">
+
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1565c0;
+                padding:16px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>🎯 ACTIVITY</strong>
+                <p>
+                    فكر في أنواع الغبار القابل للاحتراق الموجودة في مكان عملك.
+                    ماذا عن المطبخ في منزلك؟
                 </p>
-            `
-        },
+                <p>
+                    حدّد أنواع الغبار الموجودة، وكيف يتم التعامل معها،
+                    ولماذا لا تحدث انفجارات غبار في المنازل كل يوم رغم وجود
+                    بعض المواد القابلة للاحتراق.
+                </p>
+            </div>
+
+
+            <!-- 2 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">2</span>
+                Primary and Secondary Explosions
+            </h3>
+
+            <h4>الانفجارات الأولية والثانوية</h4>
+
+            <p>
+                غالبًا ما يحدث <strong>Primary Explosion</strong>
+                داخل المعدات أو العمليات التي تتوافر فيها الظروف اللازمة
+                للانفجار، مثل أنظمة استخلاص الغبار أو الصوامع أو بعض معدات
+                المناولة والمعالجة.
+            </p>
+
+            <p>
+                قد يؤدي الانفجار الأولي إلى اضطراب طبقات الغبار المترسبة
+                على الأرضيات والعوارض والأسطح والمعدات، مما يؤدي إلى انتشارها
+                في الهواء وتكوين سحابة غبار جديدة.
+            </p>
+
+            <p>
+                إذا اشتعلت هذه السحابة، فقد يحدث
+                <strong>Secondary Explosion</strong>.
+                ويمكن أن يكون الانفجار الثانوي أكثر شدة وانتشارًا من الانفجار
+                الأولي، وقد يتكرر عبر مناطق مختلفة من المنشأة إذا استمرت
+                طبقات الغبار في الانتشار والاشتعال.
+            </p>
+
+            <div style="
+                background:#fff3e0;
+                border-right:6px solid #fb8c00;
+                padding:16px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>⚠️ مهم</strong><br>
+                تراكم الغبار على الأسطح ليس مجرد مشكلة
+                <strong>Housekeeping</strong>؛ فقد يوفر الوقود اللازم
+                لانفجارات ثانوية شديدة.
+            </div>
+
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1565c0;
+                padding:16px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>🎯 ACTIVITY – Watch the Video</strong>
+
+                <p>
+                    شاهد الفيديو:
+                    <strong>Inferno: Dust Explosion at Imperial Sugar</strong>
+                    الصادر عن <strong>Chemical Safety Board (CSB)</strong>.
+                </p>
+
+                <p><strong>أثناء المشاهدة ركّز على:</strong></p>
+
+                <ul>
+                    <li>مصادر الاشتعال المحتملة.</li>
+                    <li>كيفية تراكم وانتشار الغبار.</li>
+                    <li>العوامل التي ساهمت في تطور الحادث.</li>
+                    <li>كيف يمكن أن يؤدي الانفجار الأولي إلى انفجارات ثانوية.</li>
+                </ul>
+            </div>
+
+
+            <!-- 3 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">3</span>
+                Prevention of Dust Explosions
+            </h3>
+
+            <h4>منع انفجارات الغبار</h4>
+
+            <h4>Risk Assessment – تقييم المخاطر</h4>
+
+            <p>
+                يبدأ منع انفجارات الغبار بفهم الظروف اللازمة لحدوث الانفجار
+                وتقييم المخاطر بصورة مناسبة، ثم اختيار وسائل التحكم الملائمة.
+            </p>
+
+            <p>
+                يوضح المصدر تسلسلًا مبسطًا للتعامل مع المخاطر:
+            </p>
+
+            <ol>
+                <li><strong>Eliminate the risk</strong> – إزالة الخطر إن أمكن.</li>
+                <li><strong>Use controls to prevent explosions</strong> – تطبيق وسائل تحكم لمنع الانفجار.</li>
+                <li><strong>Provide controls to mitigate the risk</strong> – تطبيق وسائل لتخفيف آثار الانفجار إذا وقع.</li>
+            </ol>
+
+            <h4>Elimination and Reduction of Dusts at Source</h4>
+
+            <p>
+                الخطوة الأولى هي تحديد مصادر الغبار المحتملة.
+                والأكثر فعالية هو منع تكوّن الغبار من الأصل كلما كان ذلك ممكنًا،
+                مثل استخدام مواد أو تقنيات بديلة، أو استبدال المواد الجافة
+                بمخاليط رطبة مثل <strong>Slurries, Pastes or Emulsions</strong>.
+            </p>
+
+            <p>
+                وإذا كان التعامل مع المواد الجافة ضروريًا، فيجب تقليل
+                تكوّن وانتشار الغبار قدر الإمكان.
+            </p>
+
+            <div style="
+                background:#e0f7fa;
+                border-right:6px solid #00acc1;
+                padding:16px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>💭 THOUGHT PROVOKER</strong>
+
+                <p>
+                    يشير المصدر إلى حادث انفجار غبار بسيط أثناء شحن
+                    مادة محفزة إلى خلاط.
+                </p>
+
+                <p>
+                    بعد دراسة العديد من وسائل التحكم التقنية لمنع تكوين
+                    خليط قابل للانفجار، تم اختيار حل أبسط:
+                    استخدام المادة في صورة <strong>Slurry</strong>.
+                    أدى ذلك إلى إزالة الحاجة إلى العديد من وسائل التحكم
+                    الإضافية.
+                </p>
+
+                <p>
+                    <strong>الدرس:</strong>
+                    ليس بالضرورة أن يكون أفضل حل للسلامة هو الأكثر تعقيدًا؛
+                    فقد يكون التحكم في الخطر من المصدر هو الحل الأكثر فعالية.
+                </p>
+            </div>
+
+            <h4>Inerting – استخدام الغاز الخامل</h4>
+
+            <p>
+                <strong>Inerting</strong> هو استبدال أو تخفيض تركيز الأكسجين
+                داخل الوعاء أو العملية باستخدام غاز خامل مثل
+                <strong>Nitrogen</strong>، بحيث لا تتوافر كمية كافية من
+                الأكسجين لتكوين جو قابل للاشتعال أو الانفجار.
+            </p>
+
+            <p>
+                يجب تطبيق هذه الطريقة بحذر، لأن الغاز الخامل قد يؤدي إلى
+                تكوين جو غير صالح للتنفس، خصوصًا أثناء أعمال الصيانة
+                أو عند احتمال دخول الأشخاص إلى المنطقة.
+            </p>
+
+            <h4>Dust Extraction Systems – أنظمة استخلاص الغبار</h4>
+
+            <p>
+                تستخدم أنظمة استخلاص مناسبة لإزالة الغبار واحتوائه عند المصدر
+                وتقليل انطلاقه إلى مناطق العمل.
+                ويجب أن تكون هذه الأنظمة مصممة للغرض، مع مرشحات مناسبة
+                أو وسائل تنقية أخرى، وألا تحتوي على مصادر يمكن أن تشعل
+                جوًا قابلًا للاشتعال.
+            </p>
+
+            <h4>Good Housekeeping – النظافة والترتيب الجيد</h4>
+
+            <p>
+                يساعد منع تراكم طبقات الغبار على الأسطح في تقليل احتمال
+                الانفجارات الثانوية.
+                ويشمل ذلك احتواء العمليات التي ينتج عنها الغبار،
+                وتحسين طرق التنظيف، والوصول إلى المناطق التي يصعب تنظيفها.
+            </p>
+
+            <p>
+                وعند التنظيف يجب تجنب الأساليب التي تعيد نشر الغبار
+                وتكوين سحابة غبار جديدة. ويمكن استخدام طرق مناسبة مثل
+                <strong>Damp Dusting</strong> أو أنظمة
+                <strong>Vacuuming</strong> المناسبة للبيئة.
+            </p>
+
+            <h4>Avoidance of Ignition Sources – تجنب مصادر الاشتعال</h4>
+
+            <p>
+                يجب اختيار المعدات الكهربائية والميكانيكية المناسبة للمناطق
+                التي قد تحتوي على غبار قابل للانفجار، والتحكم في مصادر
+                الشرر والأسطح الساخنة والكهرباء الساكنة والاحتكاك.
+            </p>
+
+            <p>
+                كما يجب التحكم في <strong>Hot Work</strong>
+                وأي أعمال أخرى قد تولد شررًا أو حرارة داخل المناطق المصنفة.
+            </p>
+
+
+            <!-- 4 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">4</span>
+                Mitigation of Dust Explosions
+            </h3>
+
+            <h4>التخفيف من آثار انفجارات الغبار</h4>
+
+            <p>
+                تفترض إجراءات <strong>Mitigation</strong> أن احتمال حدوث
+                الانفجار ما زال قائمًا، ولذلك يتم تطبيق وسائل تهدف إلى
+                تقليل تأثير الانفجار والضغط الناتج عنه، أو منع انتشار
+                الانفجار إلى أجزاء أخرى من المنشأة.
+            </p>
+
+            <h4>Explosion Relief Venting – تنفيس ضغط الانفجار</h4>
+
+            <p>
+                يعتمد <strong>Explosion Relief Venting</strong>
+                على توفير نقاط ضعف محسوبة في المعدات أو العملية تسمح،
+                عند حدوث الانفجار، بتنفيس الضغط إلى مكان آمن.
+            </p>
+
+            <p>
+                يجب توجيه اللهب والضغط والمواد المتطايرة بعيدًا عن المناطق
+                المشغولة، كما يجب تحديد مساحة التنفيس المناسبة من خلال
+                حسابات وتصميم بواسطة أشخاص مختصين.
+            </p>
+
+            <h4>Explosion Suppression and Containment</h4>
+
+            <p>
+                يعني <strong>Explosion Containment</strong>
+                تصميم المعدات أو المنشأة بحيث تكون قوية بما يكفي لتحمل
+                الضغط الناتج عن انفجار الغبار.
+            </p>
+
+            <p>
+                أما <strong>Explosion Suppression</strong>
+                فيعتمد على اكتشاف بداية الانفجار بسرعة ثم حقن مادة مثبطة
+                لإيقاف تطوره. وغالبًا تكون المادة المستخدمة مسحوقًا جافًا
+                مشابهًا للمواد الموجودة في بعض طفايات الحريق.
+            </p>
+
+            <h4>Plant Siting and Construction – موقع وتصميم المنشأة</h4>
+
+            <p>
+                عندما يبقى احتمال انفجار الغبار قائمًا، يمكن أن يقلل
+                اختيار موقع المنشأة وتصميمها من العواقب.
+                وقد يكون من الأفضل وضع العمليات عالية الخطورة بعيدًا
+                عن المناطق المشغولة.
+            </p>
+
+            <p>
+                كما يمكن استخدام إنشاءات مناسبة تتحمل الضغط أو تسمح
+                بانهيار أو تنفيس أجزاء محددة بصورة مسيطر عليها،
+                بحيث يتم تخفيف الضغط دون انهيار كامل للمنشأة.
+            </p>
+
+            <p>
+                وعندما تكون العمليات متصلة ببعضها بواسطة
+                <strong>Ducts, Conveyors, Hoppers or Vessels</strong>,
+                يجب مراعاة إمكانية انتقال الانفجار من جزء إلى آخر
+                واستخدام وسائل مناسبة لمنع انتشار اللهب والضغط.
+            </p>
+
+            <img src="element4-dust-explosion-prevention-mitigation.png"
+                 alt="Dust Explosion Prevention and Mitigation"
+                 style="
+                    width:100%;
+                    max-width:1100px;
+                    display:block;
+                    margin:25px auto;
+                    border-radius:12px;
+                    box-shadow:0 4px 14px rgba(0,0,0,0.18);
+                 ">
+
+
+            <!-- EXAM FOCUS -->
+            <div style="
+                background:#fff8e1;
+                border-right:6px solid #f9a825;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+                <strong>🎯 Exam Focus</strong>
+
+                <ul>
+                    <li>
+                        احفظ عناصر <strong>Dust Pentagon</strong> الخمسة:
+                        Fuel, Oxygen, Ignition, Dispersion and Confinement.
+                    </li>
+
+                    <li>
+                        افهم الفرق بين
+                        <strong>Primary Explosion</strong>
+                        و<strong>Secondary Explosion</strong>.
+                    </li>
+
+                    <li>
+                        فرّق بين
+                        <strong>Prevention</strong> التي تهدف إلى منع حدوث الانفجار،
+                        و<strong>Mitigation</strong> التي تهدف إلى تقليل آثاره إذا حدث.
+                    </li>
+
+                    <li>
+                        راجع دور
+                        <strong>MIE, Inerting, Dust Extraction,
+                        Housekeeping and Ignition Control</strong>.
+                    </li>
+
+                    <li>
+                        افهم وظيفة
+                        <strong>Explosion Relief Venting,
+                        Suppression and Containment</strong>.
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- SUMMARY -->
+            <div style="
+                background:#eef6ff;
+                border:1px solid #90caf9;
+                padding:18px;
+                margin:25px 0;
+                border-radius:10px;
+            ">
+                <strong>📘 Summary | الخلاصة</strong>
+
+                <p>
+                    يحدث انفجار الغبار عندما تتجمع الظروف المناسبة
+                    الممثلة في <strong>Dust Pentagon</strong>.
+                    وقد يؤدي انفجار أولي محدود إلى نشر الغبار المترسب
+                    وتكوين انفجار ثانوي أشد خطورة.
+                </p>
+
+                <p>
+                    لذلك تعتمد السيطرة الفعالة على الجمع بين
+                    <strong>Prevention</strong> مثل إزالة الغبار،
+                    والاستخلاص، والنظافة، والتحكم في مصادر الاشتعال،
+                    واستخدام الغاز الخامل؛ وبين
+                    <strong>Mitigation</strong> مثل تنفيس الضغط،
+                    وكبح الانفجار واحتوائه، والتصميم والموقع المناسبين للمنشأة.
+                </p>
+            </div>
+
+        </div>
+    `
+},
 
         {
             number: "4.4",
