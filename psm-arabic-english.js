@@ -21,10 +21,11 @@ const psmArabicEnglish = {
             </p>
        `,
 topics: [
-    {
-        number: "1.1",
-        title: "Process Safety Management Meaning",
-       titleArabic: "معنى إدارة سلامة العمليات",
+   {
+    number: "1.1",
+    title: "Process Safety Management Meaning",
+    titleArabic: "معنى إدارة سلامة العمليات",
+
 content: `
 <div style="text-align:right; line-height:1.9;">
 
@@ -37,7 +38,19 @@ content: `
 <strong>السلامة الشخصية (Personal Safety)</strong>.
 </p>
 
+<img src="element1-1-personal-vs-process-safety.png"
+     alt="Personal Safety vs Process Safety"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <hr>
+
 <h3>1️⃣ التمييز بين سلامة العمليات والسلامة الشخصية | Process Safety vs Personal Safety</h3>
 
 <p>
@@ -54,6 +67,7 @@ content: `
 فتركز على منع الحوادث الكبرى ذات الاحتمالية الأقل ولكن العواقب الأعلى،
 خصوصًا في الصناعات عالية الخطورة مثل النفط والغاز والصناعات الكيميائية.
 </p>
+
 <p>
 على الرغم من أن حوادث سلامة العمليات
 <strong>(Process Safety Events)</strong>
@@ -64,6 +78,17 @@ content: `
 وقد يؤدي وقوع حادث كبير واحد إلى عواقب كارثية تشمل الحرائق والانفجارات والإطلاقات السامة وفقدان الاحتواء.
 </p>
 
+<img src="element1-1-major-process-safety-event.png"
+     alt="Major Process Safety Event"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <p>
 لذلك تتطلب سلامة العمليات ضوابط فنية متقدمة
 <strong>(Complex Technical Controls)</strong>
@@ -72,6 +97,18 @@ content: `
 بالإضافة إلى مهارات متخصصة في الهندسة والإدارة
 <strong>(Engineering and Management Skills)</strong>.
 </p>
+
+<img src="element1-1-process-safety-controls.png"
+     alt="Process Safety Controls"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <ul>
 <li>
 <strong>Personal Safety:</strong>
@@ -84,6 +121,7 @@ content: `
 وفقدان الاحتواء.
 </li>
 </ul>
+
 <h3>📊 مقارنة سريعة | Quick Comparison</h3>
 
 <div style="overflow-x:auto; margin:18px 0;">
@@ -126,6 +164,18 @@ content: `
     </tr>
 </table>
 </div>
+
+<img src="element1-1-frequency-consequence-comparison.png"
+     alt="Personal Safety vs Process Safety Quick Comparison"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Difference</strong><br><br>
 قد يكون لدى المنشأة سجل ممتاز في الإصابات الشخصية،
@@ -158,6 +208,17 @@ content: `
 <li>⚠️ فقدان الاحتواء – <strong>Loss of Containment (LOC)</strong></li>
 </ul>
 
+<img src="element1-1-process-safety-major-hazards.png"
+     alt="Types of Major Process Safety Events"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Learning Point</strong><br><br>
 Process Safety لا تركز فقط على إصابة عامل واحد،
@@ -167,7 +228,7 @@ Process Safety لا تركز فقط على إصابة عامل واحد،
 
 </div>
 `,
-    },
+},
     {
         number: "1.2",
         title: "Process Safety Leadership",
