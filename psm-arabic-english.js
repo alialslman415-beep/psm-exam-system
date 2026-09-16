@@ -601,11 +601,12 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 </div>
 `,
 },
-    {
-        number: "1.3",
-        title: "Organisational Learning",
-       titleArabic: "التعلّم التنظيمي",
- content: `
+   {
+    number: "1.3",
+    title: "Organisational Learning",
+    titleArabic: "التعلّم التنظيمي",
+
+content: `
 <div style="text-align:right; line-height:1.9;">
 
 <h3>🎯 الهدف التعليمي | Learning Objective</h3>
@@ -644,6 +645,17 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 وتحديد أسبابها والتعلّم منها قبل أن تتكرر بعواقب أشد.
 </p>
 
+<img src="element1-3-learning-from-incidents.png"
+     alt="The Significance of Learning Lessons from Incidences of Actual or Potential Consequence"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>🧠 Corporate Amnesia | فقدان الذاكرة المؤسسية</strong><br><br>
 قد تكرر المنظمة أخطاء حدثت قبل سنوات عندما تفشل في الاحتفاظ
@@ -671,14 +683,20 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 <th style="border:1px solid #ccc; padding:10px;">Term</th>
 <th style="border:1px solid #ccc; padding:10px;">المعنى</th>
 </tr>
+
 <tr>
-<td style="border:1px solid #ccc; padding:10px;"><strong>Immediate Cause</strong></td>
+<td style="border:1px solid #ccc; padding:10px;">
+<strong>Immediate Cause</strong>
+</td>
 <td style="border:1px solid #ccc; padding:10px;">
 الفعل أو الحالة غير الآمنة المرتبطة مباشرة بوقوع الحدث أو النتيجة.
 </td>
 </tr>
+
 <tr>
-<td style="border:1px solid #ccc; padding:10px;"><strong>Root Cause</strong></td>
+<td style="border:1px solid #ccc; padding:10px;">
+<strong>Root Cause</strong>
+</td>
 <td style="border:1px solid #ccc; padding:10px;">
 السبب الأساسي أو الخلل التنظيمي أو الإداري الذي سمح بوجود الحالة أو الفعل غير الآمن.
 </td>
@@ -697,6 +715,7 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 <li>اكتشاف الأنماط والاتجاهات – <strong>Patterns and Trends</strong>.</li>
 <li>إظهار التزام المنظمة بالتعلّم والتحسين.</li>
 </ul>
+
 <h4>✅ فوائد التحقيق الفعّال | Benefits of Effective Investigation</h4>
 
 <ul>
@@ -723,6 +742,18 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 يؤدي إلى إجراءات وتحسينات فعلية.
 </li>
 </ul>
+
+<img src="element1-3-accident-incident-investigation.png"
+     alt="The Reasons for and Benefits of Accident and Incident Investigation"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Learning Point</strong><br><br>
 التحقيق الجيد لا يتوقف عند السؤال:
@@ -754,6 +785,7 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 وسجلات التعديلات التي أُجريت على المنشأة والعمليات
 <strong>Plant Modifications</strong>.
 </p>
+
 <p>
 ولا يكفي أن تعرف المنظمة ما القرار الذي تم اتخاذه أو ما التعديل الذي تم تنفيذه،
 بل يجب أيضًا الاحتفاظ بالأساس الفني والمنطقي الذي بُني عليه القرار
@@ -761,6 +793,18 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 فهذا يساعد العاملين والمهندسين في المستقبل على فهم سبب اتخاذ القرار،
 ويمنع تغيير أو إزالة ضوابط مهمة دون فهم الأسباب الأصلية وراءها.
 </p>
+
+<img src="element1-3-retain-corporate-knowledge.png"
+     alt="Documented Management Processes to Retain Corporate Knowledge"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <hr>
 
 <h3>4️⃣ مشاركة الدروس المستفادة مع المنظمات ذات العلاقة | Arrangements with Other Relevant Organisations in Sharing Lessons Learnt</h3>
@@ -778,6 +822,17 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 يساعد القطاع ككل على اكتشاف أوجه الضعف واتخاذ إجراءات وقائية
 قبل تكرار نفس الحادث في منشأة أخرى.
 </p>
+
+<img src="element1-3-sharing-lessons-learnt.png"
+     alt="Arrangements with Other Relevant Organisations in Sharing Lessons Learnt"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Learning from Others</strong><br><br>
@@ -810,6 +865,17 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 و
 <strong>Permit to Work (PTW)</strong>.
 </p>
+
+<img src="element1-3-benchmarking.png"
+     alt="Purpose and Use of Benchmarking"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <hr>
 
@@ -847,6 +913,17 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 والمؤسسات الدولية ذات العلاقة بسلامة العمليات.
 </p>
 
+<img src="element1-3-psm-information-sources.png"
+     alt="Sources of Process Safety Management Information"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Learning Point</strong><br><br>
 معلومة Process Safety قد تكون صحيحة ولكنها غير مفيدة إذا كانت
@@ -856,8 +933,8 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 </div>
 
 </div>
-`,       
-    },
+`,
+},
     {
         number: "1.4",
         title: "Management of Change",
