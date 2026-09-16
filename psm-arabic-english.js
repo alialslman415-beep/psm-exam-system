@@ -13117,12 +13117,45 @@ element4: {
     title: "Fire and Explosion Protection",
     titleArabic: "الحماية من الحريق والانفجار",
 
-    introduction: `
+   introduction: `
+    <div style="text-align:right; line-height:1.9;">
+
+        <img src="element4-fire-explosion-protection.png"
+             alt="Fire and Explosion Protection"
+             style="
+                width:100%;
+                max-width:1100px;
+                display:block;
+                margin:20px auto 30px;
+                border-radius:12px;
+                box-shadow:0 4px 14px rgba(0,0,0,0.18);
+             ">
+
         <p>
             تتناول هذه الوحدة المبادئ الأساسية المتعلقة بمخاطر الحريق والانفجار
-            ووسائل التحكم فيها، إضافة إلى انفجارات الغبار والاستعداد للطوارئ.
+            ووسائل التحكم فيها، إضافة إلى اعتبارات العزل والاستعداد للطوارئ.
         </p>
-    `,
+
+        <h3 style="margin-top:30px;">
+            🎬 Buncefield Oil Depot Fire and Explosion – 2005
+        </h3>
+
+        <video controls
+               style="
+                  width:100%;
+                  max-width:1000px;
+                  display:block;
+                  margin:20px auto;
+                  border-radius:12px;
+                  box-shadow:0 4px 14px rgba(0,0,0,0.18);
+               ">
+            <source src="BUNCEFIELD OIL DEPOT FIRE AND EXPLOSION 2005 (2).mp4"
+                    type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+    </div>
+`,
 
     topics: [
 
