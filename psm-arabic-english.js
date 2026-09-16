@@ -15535,16 +15535,748 @@ element4: {
     `
 },
 
-        {
-            number: "4.4",
-            title: "Emergency preparedness",
-            titleArabic: "الاستعداد للطوارئ",
-            content: `
-                <p style="text-align:center;">
-                    سيتم إضافة محتوى الموضوع 4.4 قريبًا.
+       {
+    number: "4.4",
+    title: "Emergency preparedness",
+    titleArabic: "الاستعداد للطوارئ",
+
+    content: `
+        <div style="text-align:right; line-height:1.9;">
+
+            <p>
+                يعد <strong>الاستعداد للطوارئ (Emergency Preparedness)</strong>
+                جزءًا أساسيًا من إدارة سلامة العمليات. فحتى مع وجود إجراءات
+                الوقاية والسيطرة، يجب أن تكون المنشأة مستعدة للاستجابة
+                للحوادث الكبرى بطريقة منظمة وسريعة وفعالة.
+            </p>
+
+            <p>
+                تعتمد الاستجابة الفعالة على وجود خطة مناسبة، وتحديد واضح
+                للمسؤوليات، وتوفير الموارد والمعلومات، وتدريب فرق الاستجابة،
+                وإجراء اختبارات وتمارين دورية للتحقق من أن الخطة قابلة
+                للتطبيق في الظروف الحقيقية.
+            </p>
+
+
+            <!-- 1 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">1</span>
+                Purpose of an Emergency Plan
+            </h3>
+
+            <h4>الغرض من خطة الطوارئ</h4>
+
+            <p>
+                الغرض الأساسي من <strong>Emergency Plan</strong> هو تحديد
+                الإجراءات المنظمة التي يجب اتخاذها عند وقوع حالة طارئة،
+                بهدف حماية الأشخاص والمنشأة والبيئة والمجتمع المحيط،
+                وتقليل آثار الحادث قدر الإمكان.
+            </p>
+
+            <p>يجب أن تساعد الخطة على:</p>
+
+            <ul>
+                <li>الاستجابة السريعة والمنظمة للحادث.</li>
+                <li>حماية العاملين والزوار والمقاولين والجمهور.</li>
+                <li>السيطرة على الحادث والحد من تصاعده.</li>
+                <li>تقليل الأضرار التي قد تلحق بالمعدات والمنشأة.</li>
+                <li>تقليل التأثيرات البيئية خارج الموقع.</li>
+                <li>تنسيق الاستجابة مع خدمات الطوارئ الخارجية.</li>
+                <li>دعم العودة الآمنة إلى العمليات بعد السيطرة على الحادث.</li>
+            </ul>
+
+
+            <!-- 2 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">2</span>
+                Development of an Emergency Plan
+            </h3>
+
+            <h4>تطوير خطة الطوارئ</h4>
+
+            <p>
+                يجب تطوير خطة الطوارئ بناءً على المخاطر الفعلية الموجودة
+                في المنشأة والسيناريوهات المحتملة، وليس باستخدام خطة عامة
+                لا تعكس طبيعة العمليات والمواد والمعدات الموجودة في الموقع.
+            </p>
+
+            <h4>
+                Identification of Possible Scenarios and Response
+                – تحديد السيناريوهات المحتملة والاستجابة
+            </h4>
+
+            <p>
+                تبدأ عملية التخطيط بتحديد حالات الطوارئ المحتملة التي يمكن
+                أن تحدث، ثم تحديد الاستجابة المطلوبة لكل حالة.
+                وقد تشمل السيناريوهات المحتملة:
+            </p>
+
+            <ul>
+                <li>Fire – الحريق.</li>
+                <li>Explosion – الانفجار.</li>
+                <li>Loss of Containment – فقدان الاحتواء.</li>
+                <li>Release of toxic or flammable substances – تسرب مواد سامة أو قابلة للاشتعال.</li>
+                <li>Major equipment or utility failure – فشل المعدات أو المرافق الرئيسية.</li>
+                <li>Natural events where relevant – الأحداث الطبيعية ذات الصلة بالموقع.</li>
+            </ul>
+
+            <p>
+                يجب أن تكون الاستجابة متناسبة مع طبيعة الحادث وحجمه،
+                وأن تحدد الموارد والأشخاص والمعدات اللازمة للسيطرة عليه.
+            </p>
+
+            <h4>
+                Selection of Those Involved in Plan Development
+                – اختيار المشاركين في تطوير الخطة
+            </h4>
+
+            <p>
+                لا ينبغي إعداد خطة الطوارئ بواسطة شخص واحد فقط.
+                يجب إشراك الأشخاص الذين يمتلكون المعرفة والخبرة المناسبة
+                بالعمليات والمخاطر والاستجابة للطوارئ.
+            </p>
+
+            <p>قد يشمل المشاركون:</p>
+
+            <ul>
+                <li>Management – الإدارة.</li>
+                <li>Operations – التشغيل.</li>
+                <li>Maintenance – الصيانة.</li>
+                <li>Process Safety / HSE – سلامة العمليات والسلامة والصحة المهنية.</li>
+                <li>Emergency response personnel – أفراد الاستجابة للطوارئ.</li>
+                <li>Medical personnel – الطاقم الطبي.</li>
+                <li>Security – الأمن.</li>
+                <li>External emergency services where appropriate – خدمات الطوارئ الخارجية عند الحاجة.</li>
+            </ul>
+
+            <h4>External Emergency Response – الاستجابة الخارجية للطوارئ</h4>
+
+            <p>
+                يجب تحديد الخدمات الخارجية التي قد تكون مطلوبة أثناء
+                الطوارئ، مثل فرق الإطفاء والإسعاف والشرطة والجهات المحلية
+                أو الجهات المختصة الأخرى.
+            </p>
+
+            <p>
+                ويجب التأكد من أن هذه الجهات تحصل على المعلومات اللازمة
+                لفهم المخاطر الموجودة في المنشأة والوصول إلى الموقع
+                والاستجابة بصورة فعالة.
+            </p>
+
+            <h4>On-Site Medical Facilities – المرافق الطبية داخل الموقع</h4>
+
+            <p>
+                يجب تقييم مستوى الخدمات الطبية المطلوبة وفقًا لطبيعة
+                المخاطر وعدد الأشخاص والموقع وبعد المنشأة عن الخدمات
+                الطبية الخارجية.
+            </p>
+
+            <p>
+                وقد يشمل ذلك الإسعافات الأولية، والعيادات داخل الموقع،
+                ووسائل نقل المصابين، والتنسيق المسبق مع المستشفيات
+                والخدمات الطبية الخارجية.
+            </p>
+
+            <img src="element4-emergency-plan-development-response.png"
+                 alt="Emergency Plan Development and Response"
+                 style="
+                    width:100%;
+                    max-width:1100px;
+                    display:block;
+                    margin:25px auto;
+                    border-radius:12px;
+                    box-shadow:0 4px 14px rgba(0,0,0,0.18);
+                 ">
+
+
+            <!-- 3 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">3</span>
+                Content of an Emergency Plan
+            </h3>
+
+            <h4>محتويات خطة الطوارئ</h4>
+
+            <p>
+                يجب أن تحتوي خطة الطوارئ على معلومات وإجراءات واضحة
+                يمكن استخدامها بسرعة أثناء الحادث، وأن تكون متاحة
+                للأشخاص الذين يحتاجون إليها.
+            </p>
+
+
+            <!-- KEY TERMS -->
+            <div style="
+                background:#e8f5e9;
+                border-right:6px solid #2e7d32;
+                padding:16px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>🔑 KEY TERMS</strong>
+
+                <p>
+                    <strong>On-site Plan:</strong>
+                    خطة تحدد الإجراءات التي يتم اتخاذها داخل المنشأة
+                    للسيطرة على حالة الطوارئ وتقليل آثارها.
                 </p>
-            `
-        }
+
+                <p>
+                    <strong>Off-site Plan:</strong>
+                    خطة تتعامل مع الاستجابة للآثار التي قد تمتد خارج
+                    حدود المنشأة، وتتطلب التنسيق مع الجهات وخدمات
+                    الطوارئ والمجتمع الخارجي.
+                </p>
+            </div>
+
+
+            <h4>Alerting and Warning – التنبيه والتحذير</h4>
+
+            <p>
+                يجب أن تحدد الخطة كيفية اكتشاف حالة الطوارئ وإطلاق
+                الإنذار وتحذير الأشخاص الموجودين في الموقع.
+            </p>
+
+            <p>
+                يجب أن تكون أنظمة التحذير مفهومة وقابلة للتمييز،
+                وأن يعرف العاملون معنى كل إنذار والإجراء المطلوب منهم.
+            </p>
+
+
+            <h4>Responsibilities – المسؤوليات</h4>
+
+            <p>
+                يجب تحديد المسؤوليات بوضوح قبل حدوث الطوارئ،
+                بما في ذلك من يتولى قيادة الاستجابة، ومن يتصل
+                بخدمات الطوارئ، ومن ينسق عمليات الإخلاء والإنقاذ
+                والاتصال والإغلاق الآمن.
+            </p>
+
+
+            <h4>Evacuation and Shelter – الإخلاء والاحتماء</h4>
+
+            <p>
+                يجب تحديد متى يكون <strong>Evacuation</strong> هو الخيار
+                المناسب، ومتى يكون <strong>Shelter / Shelter-in-Place</strong>
+                أكثر أمانًا.
+            </p>
+
+            <p>
+                يجب تحديد طرق الإخلاء ونقاط التجمع
+                <strong>(Muster Points)</strong> بوضوح، مع مراعاة
+                اتجاهات الرياح وطبيعة المواد الخطرة والسيناريو المحتمل.
+            </p>
+
+
+            <h4>Emergency Shutdown – الإيقاف في حالات الطوارئ</h4>
+
+            <p>
+                قد تتطلب بعض حالات الطوارئ إيقاف العمليات أو عزل مصادر
+                الطاقة أو المواد لمنع استمرار تغذية الحريق أو التسرب
+                أو الانفجار.
+            </p>
+
+            <p>
+                يجب تحديد من يملك صلاحية تنفيذ
+                <strong>Emergency Shutdown</strong> وكيف يتم ذلك بطريقة
+                لا تؤدي إلى خلق مخاطر إضافية.
+            </p>
+
+
+            <h4>Vulnerable People – الأشخاص الأكثر احتياجًا للمساعدة</h4>
+
+            <p>
+                يجب أن تراعي خطة الطوارئ الأشخاص الذين قد يحتاجون
+                إلى مساعدة إضافية أثناء الإخلاء أو الاستجابة،
+                مثل المصابين أو الأشخاص ذوي القدرة المحدودة على الحركة
+                أو الزوار الذين لا يعرفون الموقع.
+            </p>
+
+
+            <!-- ROLL CALL KEY TERM -->
+            <div style="
+                background:#e8f5e9;
+                border-right:6px solid #2e7d32;
+                padding:16px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>🔑 KEY TERM – Roll Call</strong>
+
+                <p>
+                    <strong>Roll Call</strong> هو عملية التحقق من وجود
+                    جميع الأشخاص في مكان آمن بعد الإخلاء،
+                    وتحديد ما إذا كان أي شخص ما زال مفقودًا
+                    أو يحتمل وجوده داخل المنطقة المتأثرة.
+                </p>
+            </div>
+
+            <p>
+                يجب أن تكون هناك وسيلة فعالة لمعرفة من كان موجودًا
+                في الموقع وقت الحادث، بما في ذلك العاملون والمقاولون
+                والزوار، حتى تكون عملية المحاسبة عن الأشخاص دقيقة.
+            </p>
+
+
+            <!-- SOURCE EXAMPLE -->
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1565c0;
+                padding:18px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>📘 EXAMPLE – Emergency Plan Content</strong>
+
+                <p>
+                    يوضح المصدر أن خطط الطوارئ في المنشآت ذات المخاطر
+                    الكبرى يجب أن تتناول بصورة منظمة موضوعات مثل:
+                </p>
+
+                <ul>
+                    <li>الأشخاص المخولين بتفعيل إجراءات الطوارئ.</li>
+                    <li>الأشخاص المسؤولين عن توجيه وتنسيق إجراءات الموقع.</li>
+                    <li>ترتيبات الإنذار والاتصال داخل المنشأة.</li>
+                    <li>التواصل مع خدمات الطوارئ والجهات الخارجية.</li>
+                    <li>الإجراءات الخاصة بالسيطرة على الحادث وتقليل آثاره.</li>
+                    <li>ترتيبات الإخلاء والإنقاذ والإسعافات والعلاج.</li>
+                    <li>توفير المعلومات الضرورية للجهات المسؤولة عن الخطة خارج الموقع.</li>
+                    <li>التدريب والاختبار والمراجعة الدورية للخطة.</li>
+                </ul>
+            </div>
+
+            <img src="element4-emergency-response-evacuation-accountability.png"
+                 alt="Emergency Response Evacuation and Accountability"
+                 style="
+                    width:100%;
+                    max-width:1100px;
+                    display:block;
+                    margin:25px auto;
+                    border-radius:12px;
+                    box-shadow:0 4px 14px rgba(0,0,0,0.18);
+                 ">
+
+
+            <!-- 4 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">4</span>
+                Information Management and Media Liaison
+            </h3>
+
+            <h4>إدارة المعلومات والتواصل مع وسائل الإعلام</h4>
+
+            <p>
+                أثناء الحوادث الكبرى، يجب إدارة المعلومات بعناية.
+                فالمعلومات غير الدقيقة أو المتضاربة قد تسبب الارتباك
+                للعاملين وخدمات الطوارئ والجمهور.
+            </p>
+
+            <p>
+                يجب تحديد الأشخاص المخولين بإصدار المعلومات الرسمية
+                والتواصل مع وسائل الإعلام والجهات الخارجية.
+                وينبغي أن تكون المعلومات دقيقة، ومحدثة، ومتسقة،
+                وأن تراعي احتياجات الأشخاص المتأثرين بالحادث.
+            </p>
+
+            <div style="
+                background:#fff3e0;
+                border-right:6px solid #fb8c00;
+                padding:17px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>💭 THOUGHT PROVOKER – Bhopal</strong>
+
+                <p>
+                    يلفت المصدر الانتباه إلى أهمية التواصل مع الجمهور
+                    باستخدام حادثة <strong>Bhopal</strong> كمثال على
+                    العواقب الخطيرة التي قد تنتج عندما لا يحصل السكان
+                    المتأثرون على تحذير ومعلومات مناسبة في الوقت المناسب.
+                </p>
+
+                <p>
+                    <strong>فكّر:</strong>
+                    ما المعلومات التي يحتاجها الجمهور أثناء حادث كبير؟
+                    ومن المسؤول عن إصدارها؟ وكيف يمكن التأكد من وصولها
+                    بسرعة ووضوح؟
+                </p>
+            </div>
+
+
+            <!-- 5 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">5</span>
+                Theoretical Training
+            </h3>
+
+            <h4>التدريب النظري</h4>
+
+            <p>
+                يحتاج الأشخاص المشاركون في الاستجابة للطوارئ إلى تدريب
+                نظري مناسب لفهم الخطة والمخاطر والأدوار والمسؤوليات
+                والإجراءات التي يجب اتباعها أثناء الحادث.
+            </p>
+
+            <p>
+                ويمكن استخدام التدريب النظري لمناقشة سيناريوهات مختلفة
+                وتقييم القرارات قبل تنفيذ تدريبات عملية واسعة النطاق.
+            </p>
+
+
+            <!-- TABLETOP KEY TERM -->
+            <div style="
+                background:#e8f5e9;
+                border-right:6px solid #2e7d32;
+                padding:16px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>🔑 KEY TERM – Tabletop Exercise</strong>
+
+                <p>
+                    <strong>Tabletop Exercise</strong> هو تمرين قائم
+                    على المناقشة يتم فيه عرض سيناريو طارئ على المشاركين
+                    ومناقشة كيفية استجابتهم له، والأدوار التي سيقومون بها،
+                    والقرارات والاتصالات والموارد التي ستكون مطلوبة.
+                </p>
+            </div>
+
+            <p>
+                تساعد تمارين <strong>Tabletop</strong> على اكتشاف
+                الثغرات في الخطة وفهم الأدوار وتحسين التنسيق،
+                قبل الانتقال إلى الاختبارات العملية الأكثر تعقيدًا.
+            </p>
+
+
+            <!-- 6 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">6</span>
+                Competency of Response Team and Commanders
+            </h3>
+
+            <h4>كفاءة فريق الاستجابة وقادة الطوارئ</h4>
+
+            <p>
+                لا يكفي تعيين الأشخاص في أدوار الطوارئ؛ بل يجب التأكد
+                من امتلاكهم المعرفة والمهارات والخبرة والقدرة على اتخاذ
+                القرارات المناسبة تحت الضغط.
+            </p>
+
+            <p>
+                يجب أن يكون قادة الطوارئ قادرين على فهم المعلومات
+                المتاحة، وتحديد الأولويات، وتوجيه الموارد،
+                والتواصل بوضوح، والتنسيق مع الفرق الداخلية
+                وخدمات الطوارئ الخارجية.
+            </p>
+
+            <div style="
+                background:#fff3e0;
+                border-right:6px solid #fb8c00;
+                padding:17px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>💭 THOUGHT PROVOKER</strong>
+
+                <p>
+                    هل اختيار الشخص لدور قيادي أثناء الطوارئ يجب أن يعتمد
+                    فقط على منصبه الوظيفي؟
+                </p>
+
+                <p>
+                    فكّر في الصفات والكفاءات المطلوبة للشخص الذي سيتخذ
+                    قرارات مهمة أثناء حادث سريع التطور وتحت ضغط شديد.
+                </p>
+            </div>
+
+
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1565c0;
+                padding:17px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>🎯 ACTIVITY – Incident Leadership</strong>
+
+                <p>
+                    ناقش الصفات التي يحتاجها قائد الاستجابة للطوارئ.
+                    كيف يمكن للمنظمة التأكد من أن الشخص المختار
+                    قادر على قيادة الفريق أثناء حادث حقيقي؟
+                </p>
+
+                <p><strong>ركّز على:</strong></p>
+
+                <ul>
+                    <li>Decision-making – اتخاذ القرار.</li>
+                    <li>Communication – التواصل.</li>
+                    <li>Leadership – القيادة.</li>
+                    <li>Knowledge of hazards – معرفة المخاطر.</li>
+                    <li>Ability to work under pressure – القدرة على العمل تحت الضغط.</li>
+                </ul>
+            </div>
+
+
+            <!-- 7 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">7</span>
+                Practical Emergency-Scenario Testing
+            </h3>
+
+            <h4>الاختبارات العملية لسيناريوهات الطوارئ</h4>
+
+            <p>
+                يجب اختبار خطة الطوارئ بصورة عملية للتأكد من أن الإجراءات
+                والموارد والاتصالات والأشخاص قادرون على العمل معًا
+                كما هو مخطط لهم.
+            </p>
+
+            <p>
+                قد تبدأ الاختبارات بتمارين محدودة ثم تتطور إلى
+                <strong>Full-Scale Exercises</strong> تشمل فرقًا متعددة
+                وربما خدمات طوارئ خارجية.
+            </p>
+
+            <p>
+                يجب أن يكون لكل تمرين أهداف واضحة، وأن تتم مراقبة الأداء
+                وتسجيل الملاحظات، ثم إجراء مراجعة بعد التمرين
+                لتحديد نقاط القوة وفرص التحسين.
+            </p>
+
+            <div style="
+                background:#e3f2fd;
+                border-right:6px solid #1565c0;
+                padding:17px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>🎯 ACTIVITY – Emergency Drill Review</strong>
+
+                <p>
+                    فكّر في آخر <strong>Emergency Drill</strong>
+                    شاركت فيه أو شاهدته.
+                </p>
+
+                <ul>
+                    <li>هل تم إطلاق الإنذار بصورة واضحة؟</li>
+                    <li>هل عرف الأشخاص أين يذهبون؟</li>
+                    <li>هل تمت عملية Roll Call بصورة فعالة؟</li>
+                    <li>هل كانت الأدوار والمسؤوليات واضحة؟</li>
+                    <li>هل تم تحديد إجراءات تحسين بعد انتهاء التمرين؟</li>
+                </ul>
+            </div>
+
+
+            <!-- 8 -->
+            <h3>
+                <span style="
+                    background:#2196f3;
+                    color:white;
+                    padding:3px 9px;
+                    border-radius:5px;
+                    font-weight:bold;
+                    display:inline-block;
+                    margin-left:6px;
+                ">8</span>
+                Provision of Information to the Public
+            </h3>
+
+            <h4>توفير المعلومات للجمهور</h4>
+
+            <p>
+                في المنشآت التي يمكن أن تؤثر حوادثها الكبرى على المناطق
+                خارج الموقع، يجب توفير المعلومات المناسبة للأشخاص
+                الذين قد يتأثرون.
+            </p>
+
+            <p>
+                يجب أن تساعد هذه المعلومات الجمهور على فهم طبيعة الخطر
+                ومعرفة ما يجب القيام به عند سماع التحذير،
+                مثل البقاء داخل المباني أو إغلاق الأبواب والنوافذ
+                أو اتباع تعليمات الإخلاء عند إصدارها.
+            </p>
+
+            <p>
+                كما يجب أن تكون ترتيبات التواصل مع الجمهور جزءًا من
+                التخطيط للطوارئ قبل وقوع الحادث، وليس قرارًا يتم اتخاذه
+                لأول مرة أثناء الأزمة.
+            </p>
+
+            <img src="element4-emergency-training-drills-communication.png"
+                 alt="Emergency Training Drills and Communication"
+                 style="
+                    width:100%;
+                    max-width:1100px;
+                    display:block;
+                    margin:25px auto;
+                    border-radius:12px;
+                    box-shadow:0 4px 14px rgba(0,0,0,0.18);
+                 ">
+
+
+            <!-- KEY LEARNING POINT -->
+            <div style="
+                background:#e8f4fd;
+                border-right:5px solid #2196f3;
+                padding:16px;
+                margin:22px 0;
+                border-radius:8px;
+            ">
+                <strong>📌 Key Learning Point</strong>
+
+                <p>
+                    خطة الطوارئ لا تصبح فعالة بمجرد كتابتها.
+                    يجب أن تكون <strong>مفهومة، ومدعومة بالموارد،
+                    ومطبقة بواسطة أشخاص أكفاء، ومختبرة بانتظام،
+                    ومراجعة بعد التدريبات والحوادث الفعلية.</strong>
+                </p>
+            </div>
+
+
+            <!-- EXAM FOCUS -->
+            <div style="
+                background:#fff8e1;
+                border-right:6px solid #f9a825;
+                padding:18px;
+                margin:25px 0;
+                border-radius:8px;
+            ">
+                <strong>🎯 Exam Focus</strong>
+
+                <ul>
+                    <li>
+                        افهم <strong>Purpose of an Emergency Plan</strong>
+                        وليس فقط محتويات الخطة.
+                    </li>
+
+                    <li>
+                        فرّق بين
+                        <strong>On-site Plan</strong>
+                        و<strong>Off-site Plan</strong>.
+                    </li>
+
+                    <li>
+                        تذكّر أهمية
+                        <strong>Alarm, Evacuation, Muster Point,
+                        Roll Call and Emergency Shutdown</strong>.
+                    </li>
+
+                    <li>
+                        افهم أهمية إدارة المعلومات والتواصل مع
+                        <strong>Media and Public</strong>.
+                    </li>
+
+                    <li>
+                        فرّق بين التدريب النظري،
+                        <strong>Tabletop Exercise</strong>
+                        والاختبار العملي لسيناريوهات الطوارئ.
+                    </li>
+
+                    <li>
+                        تذكّر أن كفاءة
+                        <strong>Emergency Response Team and Commanders</strong>
+                        عنصر أساسي في نجاح الاستجابة.
+                    </li>
+
+                    <li>
+                        يجب مراجعة نتائج التدريبات وتحويل الدروس المستفادة
+                        إلى تحسينات فعلية في الخطة.
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- SUMMARY -->
+            <div style="
+                background:#eef6ff;
+                border:1px solid #90caf9;
+                padding:18px;
+                margin:25px 0;
+                border-radius:10px;
+            ">
+                <strong>📘 Summary | الخلاصة</strong>
+
+                <p>
+                    يبدأ الاستعداد للطوارئ بتحديد السيناريوهات المحتملة
+                    وتطوير خطة مناسبة بمشاركة الأشخاص والجهات ذات العلاقة.
+                    ويجب أن تحدد الخطة طرق الإنذار والقيادة والإخلاء
+                    والمحاسبة عن الأشخاص والإغلاق الآمن والتنسيق
+                    مع خدمات الطوارئ.
+                </p>
+
+                <p>
+                    ويعتمد نجاح الخطة على إدارة المعلومات بصورة صحيحة،
+                    وتدريب فرق الاستجابة، واختيار قادة أكفاء،
+                    وتنفيذ تمارين نظرية وعملية منتظمة،
+                    وتوفير المعلومات المناسبة للجمهور عند وجود
+                    احتمال لتأثير الحادث خارج حدود المنشأة.
+                </p>
+
+                <p>
+                    <strong>
+                        Plan → Train → Test → Review → Improve
+                    </strong>
+                </p>
+            </div>
+
+        </div>
+    `
+}
 
     ]
 }
