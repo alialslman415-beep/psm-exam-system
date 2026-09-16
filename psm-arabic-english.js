@@ -230,10 +230,11 @@ Process Safety لا تركز فقط على إصابة عامل واحد،
 `,
 },
     {
-        number: "1.2",
-        title: "Process Safety Leadership",
-        titleArabic: "قيادة سلامة العمليات",
-  content: `
+    number: "1.2",
+    title: "Process Safety Leadership",
+    titleArabic: "قيادة سلامة العمليات",
+
+content: `
 <div style="text-align:right; line-height:1.9;">
 
 <h3>🎯 الهدف التعليمي | Learning Objective</h3>
@@ -273,6 +274,7 @@ Process Safety لا تركز فقط على إصابة عامل واحد،
 إلى التشغيل ثم إيقاف التشغيل وإخراج المنشأة من الخدمة
 <strong>Decommissioning</strong>.
 </p>
+
 <p>
 كما يجب على فرق القيادة فهم أهمية
 <strong>طبقات الوقاية والحماية (Layers of Prevention and Protection)</strong>
@@ -287,6 +289,18 @@ Process Safety لا تركز فقط على إصابة عامل واحد،
 لذلك يجب على القيادة التأكد من أن هذه الطبقات مناسبة للمخاطر،
 ومتوفرة، ويتم فحصها وصيانتها ومراقبة فعاليتها بصورة مستمرة.
 </p>
+
+<img src="element1-2-hazard-risk-awareness-leadership.png"
+     alt="Hazard and Risk Awareness of Leadership Teams"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Learning Point</strong><br><br>
 عدم وقوع حادث كبير في الماضي لا يعني أن مخاطر الحوادث الكبرى غير موجودة.
@@ -315,6 +329,17 @@ Process Safety لا تركز فقط على إصابة عامل واحد،
 <li>توفير الموارد اللازمة للسلامة.</li>
 <li>المشاركة الشخصية في مبادرات تحسين Process Safety.</li>
 </ul>
+
+<img src="element1-2-board-level-visibility.png"
+     alt="Board Level Visibility and Promotion of Process Safety Leadership"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Leadership Message</strong><br><br>
@@ -349,6 +374,17 @@ Process Safety لا تركز فقط على إصابة عامل واحد،
 <strong>(Competence)</strong>.
 </p>
 
+<img src="element1-2-process-safety-responsibilities.png"
+     alt="The Need to Define Process Safety Responsibilities"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <hr>
 
 <h3>4️⃣ مساءلة الأشخاص ذوي مسؤوليات PSM | Holding Individuals with PSM Responsibility to Account</h3>
@@ -376,12 +412,24 @@ Process Safety لا تركز فقط على إصابة عامل واحد،
 والمشاركة في تحسين أنظمة العمل دون خوف غير مبرر من العقوبة.
 </p>
 
+<img src="element1-2-psm-accountability.png"
+     alt="Holding Individuals with PSM Responsibility to Account"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>⚠️ Important</strong><br><br>
 <strong>Accountability ≠ Blame</strong><br>
 المساءلة مهمة، لكن التحقيق الفعال يبحث أيضًا عن الأسباب الجذرية
 والإخفاقات التنظيمية التي سمحت بحدوث الحدث.
 </div>
+
 <h4>مسؤوليات القيادة الرئيسية | Key Leadership Responsibilities</h4>
 
 <ul>
@@ -413,6 +461,7 @@ Process Safety لا تركز فقط على إصابة عامل واحد،
 في الأعمال التي قد تؤثر على سلامة العمليات.
 </li>
 </ul>
+
 <hr>
 
 <h3>5️⃣ توفير الموارد الكافية | The Provision of Adequate Resources</h3>
@@ -453,6 +502,17 @@ Process Safety لا تركز فقط على إصابة عامل واحد،
 قد يضعف الضوابط ويزيد احتمالية حدوث حادث كبير.
 </p>
 
+<img src="element1-2-adequate-resources.png"
+     alt="The Provision of Adequate Resources"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <hr>
 
 <h3>6️⃣ أسباب وضع أهداف وغايات سلامة العمليات | Reasons for Establishing Process Safety Objectives and Targets</h3>
@@ -476,6 +536,17 @@ Process Safety لا تركز فقط على إصابة عامل واحد،
 <strong>Safety Critical Controls</strong>
 ومراجعة المؤشرات والأهداف بصورة منتظمة.
 </p>
+
+<img src="element1-2-objectives-targets.png"
+     alt="Reasons for Establishing Process Safety Objectives and Targets"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Learning Point</strong><br><br>
@@ -510,6 +581,17 @@ Process Safety لا تركز فقط على إصابة عامل واحد،
 <li>المقارنة مع المنظمات الأخرى – <strong>Benchmarking</strong>.</li>
 </ul>
 
+<img src="element1-2-continuous-improvement.png"
+     alt="Commitment to Continuous Improvement"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>🔄 Continuous Improvement</strong><br><br>
 Process Safety ليست هدفًا يتم الوصول إليه ثم التوقف،
@@ -517,8 +599,8 @@ Process Safety ليست هدفًا يتم الوصول إليه ثم التوق�
 </div>
 
 </div>
-`,      
-    },
+`,
+},
     {
         number: "1.3",
         title: "Organisational Learning",
