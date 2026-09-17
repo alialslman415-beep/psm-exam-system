@@ -936,10 +936,11 @@ content: `
 `,
 },
     {
-        number: "1.4",
-        title: "Management of Change",
-       titleArabic: "إدارة التغيير",
- content: `
+    number: "1.4",
+    title: "Management of Change",
+    titleArabic: "إدارة التغيير",
+
+content: `
 <div style="text-align:right; line-height:1.9;">
 
 <h3>🎯 الهدف التعليمي | Learning Objective</h3>
@@ -969,6 +970,17 @@ content: `
 أهمية ذلك؛ حيث أدت تعديلات أُجريت دون تقييم هندسي ومخاطر كافٍ
 إلى فشل خطير وانفجار كارثي.
 </p>
+
+<img src="element1-4-moc-control-measures.png"
+     alt="Management of Change Control Measures"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Learning Point</strong><br><br>
@@ -1006,6 +1018,17 @@ content: `
 <li>إضعاف الأنظمة أو الأجهزة الحرجة للسلامة.</li>
 </ul>
 
+<img src="element1-4-hazard-risk-analysis.png"
+     alt="Requirement for Hazard and Risk Analysis"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <p>
 ويجب أن تشمل عملية MOC التغييرات
 <strong>Permanent</strong>
@@ -1014,13 +1037,15 @@ content: `
 وكذلك تغييرات الأجهزة والبرامج
 <strong>Hardware and Software Changes</strong>.
 </p>
+
 <p>
 ولا تقتصر إدارة التغيير على التغييرات الفنية فقط؛ فقد تتطلب بعض
 <strong>التغييرات التنظيمية (Organisational Changes)</strong>
 أيضًا تطبيق عملية MOC، خاصة عندما يمكن أن تؤثر على سلامة العمليات،
 مثل تغيير أعداد العاملين
-<strong>(Staffing Levels)</strong>
+<strong>(Staffing Levels)</strong>.
 </p>
+
 <h4>📝 Supporting Documentation | الوثائق الداعمة</h4>
 
 <p>
@@ -1042,6 +1067,7 @@ content: `
 وينبغي أن يتم تقديم طلب التغيير مسبقًا ومراجعته من الجهات ذات العلاقة،
 مثل الهندسة والتشغيل والصيانة والصحة والسلامة.
 </p>
+
 <p>
 يجب أن يُقدَّم طلب التغيير مسبقًا من الشخص الذي يقترح التعديل
 <strong>(Person Proposing the Modification)</strong>
@@ -1049,6 +1075,7 @@ content: `
 <strong>(Relevant Stakeholders)</strong>
 للمراجعة وإبداء الملاحظات قبل الحصول على الموافقة النهائية والتنفيذ.
 </p>
+
 <p>
 كما يجب أن يحصل التغيير على
 <strong>Final Approval</strong>
@@ -1056,6 +1083,17 @@ content: `
 وخاصة في التغييرات المهمة التي تؤثر على
 <strong>Safety Critical Systems</strong>.
 </p>
+
+<img src="element1-4-change-authorisation.png"
+     alt="Process for All Changes to be Authorised"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <h4>📚 Changes Documented | توثيق التغييرات</h4>
 
@@ -1102,6 +1140,17 @@ content: `
 المناسبة لاتخاذ القرار.
 </p>
 
+<img src="element1-4-moc-summary.png"
+     alt="Management of Change Summary"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>🔄 MOC Summary</strong><br><br>
 <strong>Propose → Assess → Consult → Authorise → Implement → Document → Train</strong><br><br>
@@ -1109,8 +1158,8 @@ content: `
 </div>
 
 </div>
-`,       
-    },
+`,
+},
     {
         number: "1.5",
         title: "Worker Engagement",
