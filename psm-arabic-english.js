@@ -1404,10 +1404,11 @@ content: `
 </div>
 `,
 },
-    {
-        number: "1.6",
-        title: "Competence",
-      titleArabic: "الكفاءة",
+   {
+    number: "1.6",
+    title: "Competence",
+    titleArabic: "الكفاءة",
+
 content: `
 <div style="text-align:right; line-height:1.9;">
 
@@ -1436,6 +1437,17 @@ content: `
 <li>القدرة على أداء المهمة بالمستوى المطلوب بصورة منتظمة.</li>
 </ul>
 
+<img src="element1-6-meaning-of-competence.png"
+     alt="The Meaning of Competence"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Term – Competence</strong><br><br>
 الكفاءة هي القدرة على تنفيذ المسؤوليات والمهام وفق
@@ -1460,6 +1472,17 @@ content: `
 <li><strong>Safe Operating Procedures</strong></li>
 <li>التعامل مع الظروف التشغيلية غير الطبيعية.</li>
 </ul>
+
+<img src="element1-6-safe-working-behaviours.png"
+     alt="Competence in Safe Working and Behaviours"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <p>
 عندما تكون المعايير واضحة والعاملون مؤهلين،
@@ -1494,6 +1517,7 @@ content: `
 لتقسيم المهمة إلى خطوات وتحديد الأخطاء البشرية المحتملة
 والمهارات المطلوبة لتنفيذ كل خطوة بصورة آمنة.
 </p>
+
 <p>
 كما يجب أن تراعي متطلبات الكفاءة المرحلة التي تمر بها المنشأة خلال
 <strong>Plant Life Cycle</strong>؛
@@ -1505,6 +1529,7 @@ content: `
 <strong>Normal Operation</strong>.
 لذلك يجب مراجعة متطلبات الكفاءة عند انتقال المنشأة من مرحلة إلى أخرى.
 </p>
+
 <h4>📊 Training Matrix | مصفوفة التدريب</h4>
 
 <p>
@@ -1513,6 +1538,17 @@ content: `
 لتحديد التدريب والكفاءة المطلوبة لكل وظيفة،
 مثل التدريب على PTW والعزل وتقييم المخاطر وMOC ومكافحة الحريق.
 </p>
+
+<img src="element1-6-competency-management-systems.png"
+     alt="Competency Management Systems"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <h4>🧩 Competence Management Framework</h4>
 
@@ -1577,6 +1613,17 @@ content: `
 <li>التمارين والتطبيقات العملية عند الحاجة.</li>
 </ul>
 
+<img src="element1-6-training-development-programmes.png"
+     alt="Training and Development Programmes Applicable to Process Safety Risk"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>🎓 Competence Summary</strong><br><br>
 <strong>Define → Train → Practice → Assess → Re-assess → Improve</strong><br><br>
@@ -1586,10 +1633,10 @@ content: `
 </div>
 
 </div>
-`,        
-    }
-] 
-    },
+`,
+}
+]
+},
 
      element2: {
         title: "Element 2 – Management of Process Risk",
