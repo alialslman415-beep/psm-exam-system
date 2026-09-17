@@ -1160,11 +1160,12 @@ content: `
 </div>
 `,
 },
-    {
-        number: "1.5",
-        title: "Worker Engagement",
-        titleArabic: "مشاركة العاملين",
-  content: `
+   {
+    number: "1.5",
+    title: "Worker Engagement",
+    titleArabic: "مشاركة العاملين",
+
+content: `
 <div style="text-align:right; line-height:1.9;">
 
 <h3>🎯 الهدف التعليمي | Learning Objective</h3>
@@ -1213,6 +1214,17 @@ content: `
 <li>الاجتماعات سيئة الإدارة قد تتحول إلى نقاشات غير فعالة بعيدًا عن مخاطر Process Safety الأساسية.</li>
 </ul>
 
+<img src="element1-5-benefits-limitations.png"
+     alt="Worker Engagement Benefits and Limitations"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Term – Consultation</strong><br><br>
 التشاور هو
@@ -1229,6 +1241,7 @@ content: `
 يمكن للمنظمة استخدام عدة وسائل لإشراك العاملين في قضايا السلامة،
 ويجب اختيار الوسيلة التي تحقق تواصلًا فعليًا وليس مجرد نقل معلومات.
 </p>
+
 <p>
 ويجب ألا يقتصر التشاور على العاملين المباشرين فقط؛ ففي صناعات العمليات يتم استخدام
 <strong>Contractors</strong>
@@ -1240,6 +1253,7 @@ content: `
 تساعد مشاركة المقاولين على الاستفادة من خبرتهم العملية، وتجنب المشكلات التي قد تنتج عن
 ضعف التواصل أو عدم فهم المخاطر والضوابط المشتركة بين المنظمة والمقاول.
 </p>
+
 <ul>
 <li>
 <strong>Safety Committees</strong> – لجان السلامة التي تجمع ممثلي العاملين والإدارة.
@@ -1261,6 +1275,17 @@ content: `
 <strong>Email and Web-Based Forums</strong> – وسائل التواصل الإلكترونية التي تتيح للعاملين طرح الملاحظات والمخاوف.
 </li>
 </ul>
+
+<img src="element1-5-consultees-consultation-methods.png"
+     alt="Types of Consultees and Consultation Methods"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <p>
 يجب أن تضمن هذه الوسائل وصول ملاحظات العاملين إلى الإدارة
@@ -1296,6 +1321,17 @@ content: `
 <li>مراجعة المخاطر والضوابط.</li>
 <li>تطوير وتحسين إجراءات التشغيل.</li>
 </ul>
+
+<img src="element1-5-necessity-including-workers.png"
+     alt="Necessity of Including Workers"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Learning Point</strong><br><br>
@@ -1347,6 +1383,17 @@ content: `
 <li>مدى وصول المعلومات إلى العاملين وفعالية التواصل.</li>
 </ul>
 
+<img src="element1-5-worker-engagement-priority.png"
+     alt="Engagement with Workers Should Be a Priority"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>🤝 Worker Engagement Summary</strong><br><br>
 <strong>Consult → Listen → Involve → Act → Feedback</strong><br><br>
@@ -1355,8 +1402,8 @@ content: `
 </div>
 
 </div>
-`,      
-    },
+`,
+},
     {
         number: "1.6",
         title: "Competence",
