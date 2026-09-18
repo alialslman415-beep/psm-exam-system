@@ -1661,7 +1661,8 @@ content: `
     number: "2.1",
     title: "Establishing a Process Safety Management System",
     titleArabic: "إنشاء نظام إدارة سلامة العمليات",
-    content: `
+
+content: `
 <div style="text-align:right; line-height:1.9;">
 
 <h3>🎯 الهدف التعليمي | Learning Objective</h3>
@@ -1742,6 +1743,7 @@ Reasons for Developing an Integrated and Comprehensive Process Safety Management
 </div>
 
 <hr>
+
 <h3>2️⃣ عناصر نظام إدارة سلامة العمليات |
 Elements of a Process Safety Management System</h3>
 
@@ -1757,6 +1759,17 @@ Elements of a Process Safety Management System</h3>
 <strong>Plan – Do – Check – Act (PDCA)</strong>
 التي توفر منهجًا مستمرًا لإدارة وتحسين أداء سلامة العمليات.
 </p>
+
+<img src="element2-1-psms-elements.png"
+     alt="Elements of a Process Safety Management System"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <h4>🟦 Plan | التخطيط</h4>
 
@@ -1822,6 +1835,17 @@ Elements of a Process Safety Management System</h3>
 <strong>Continual Improvement</strong>.
 </p>
 
+<img src="element2-1-pdca-management-cycle.png"
+     alt="Process Safety Management PDCA Cycle"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>🔄 PDCA Summary</strong><br><br>
 <strong>Plan → Do → Check → Act</strong><br><br>
@@ -1839,6 +1863,7 @@ Elements of a Process Safety Management System</h3>
 </div>
 
 <hr>
+
 <h3>3️⃣ الترخيص للتشغيل | Licence to Operate</h3>
 
 <p>
@@ -1865,6 +1890,7 @@ Elements of a Process Safety Management System</h3>
 </p>
 
 <ul>
+
 <li>
 تم تحديد جميع الأخطار التي يمكن أن تؤدي إلى
 <strong>Major Accident</strong>.
@@ -1884,6 +1910,7 @@ Elements of a Process Safety Management System</h3>
 تم تخفيض المخاطر إلى مستوى
 <strong>As Low As Reasonably Practicable (ALARP)</strong>.
 </li>
+
 </ul>
 
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
@@ -1895,6 +1922,7 @@ Elements of a Process Safety Management System</h3>
 </div>
 
 <hr>
+
 <h3>4️⃣ سياسة منع الحوادث الكبرى |
 Purpose and Typical Content of a Major Accident Prevention Policy (MAPP)</h3>
 
@@ -1959,6 +1987,17 @@ Purpose and Typical Content of a Major Accident Prevention Policy (MAPP)</h3>
 
 </ul>
 
+<img src="element2-1-mapp-licence-to-operate.png"
+     alt="Major Accident Prevention Policy and Licence to Operate"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Learning Point</strong><br><br>
 <strong>MAPP</strong>
@@ -2002,6 +2041,7 @@ Leading and Lagging Process Safety Performance Indicators</h3>
 </p>
 
 <ul>
+
 <li>
 نسبة فحص المعدات الحرجة للسلامة
 <strong>(Safety Critical Equipment)</strong>
@@ -2024,6 +2064,7 @@ Leading and Lagging Process Safety Performance Indicators</h3>
 مراقبة تنفيذ عمليات التفتيش والاختبارات المطلوبة
 للأنظمة الحرجة للسلامة.
 </li>
+
 </ul>
 
 <h4>🔴 Lagging Indicators | المؤشرات المتأخرة</h4>
@@ -2040,6 +2081,7 @@ Leading and Lagging Process Safety Performance Indicators</h3>
 </p>
 
 <ul>
+
 <li>
 عدد حوادث
 <strong>Loss of Containment (LOC)</strong>.
@@ -2062,6 +2104,7 @@ Leading and Lagging Process Safety Performance Indicators</h3>
 <strong>Near Misses</strong>
 المرتبطة بسلامة العمليات.
 </li>
+
 </ul>
 
 <h4>⚖️ استخدام المؤشرين معًا | Using Leading and Lagging Indicators Together</h4>
@@ -2078,6 +2121,17 @@ Leading and Lagging Process Safety Performance Indicators</h3>
 <strong>Leading + Lagging Indicators</strong>
 يعطي الإدارة صورة أكثر توازنًا عن مستوى أداء سلامة العمليات.
 </p>
+
+<img src="element2-1-leading-lagging-indicators.png"
+     alt="Leading and Lagging Process Safety Indicators"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <h4>🔍 Developing Effective Process Safety Indicators</h4>
 
@@ -2107,6 +2161,7 @@ Leading and Lagging Process Safety Performance Indicators</h3>
 </div>
 
 <hr>
+
 <h3>6️⃣ تدقيق الالتزام وتحديد فرص التحسين |
 Auditing Compliance and Identifying Improvement Opportunities</h3>
 
@@ -2151,7 +2206,10 @@ Auditing Compliance and Identifying Improvement Opportunities</h3>
 </p>
 
 <ul>
-<li>مدى الالتزام بالسياسات والإجراءات المعتمدة.</li>
+
+<li>
+مدى الالتزام بالسياسات والإجراءات المعتمدة.
+</li>
 
 <li>
 فعالية أنظمة التحكم في المخاطر
@@ -2170,6 +2228,7 @@ Auditing Compliance and Identifying Improvement Opportunities</h3>
 <li>
 مدى الالتزام بالمتطلبات القانونية والتنظيمية ذات العلاقة.
 </li>
+
 </ul>
 
 <h4>🔄 Auditing and Continual Improvement | التدقيق والتحسين المستمر</h4>
@@ -2188,6 +2247,17 @@ Auditing Compliance and Identifying Improvement Opportunities</h3>
 <strong>Corrective Actions</strong>
 ثم متابعة هذه الإجراءات حتى الإغلاق.
 </p>
+
+<img src="element2-1-auditing-improvement.png"
+     alt="Auditing Compliance and Identifying Improvement Opportunities"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
 
 <div style="padding:14px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 <strong>💡 Key Learning Point</strong><br><br>
@@ -2220,6 +2290,7 @@ Moral, Legal & Financial Reasons
 </div>
 
 <hr>
+
 </div>
 `
 },
