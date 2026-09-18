@@ -2349,11 +2349,45 @@ Purpose and Use of Risk Assessment</h3>
 <strong>(Severity / Consequence)</strong>.
 </div>
 
+
+<img src="2-2-risk-assessment.png"
+     alt="Risk Assessment Process"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
+
+<h4>🔄 General Risk Assessment | تقييم المخاطر العام</h4>
+
+<p>
+يُستخدم <strong>General Risk Assessment</strong> كمنهج بسيط ومنظم
+لتقييم الأنشطة والعمليات الأقل تعقيدًا. ويساعد على تحديد الأخطار،
+ومعرفة من قد يتعرض للضرر، وتقييم مستوى المخاطر، ثم اختيار الضوابط
+المناسبة وتسجيل النتائج ومراجعتها.
+</p>
+
 <h4>🔄 Five-Step Risk Assessment | خطوات تقييم المخاطر الخمس</h4>
 
 <p>
 يمكن تنفيذ تقييم المخاطر البسيط من خلال خمس خطوات رئيسية:
 </p>
+
+<img src="2-2-general-risk.png"
+     alt="General Risk Assessment Five-Step Process"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 
 <div style="padding:16px; border:1px solid #ccc; border-radius:10px; margin:18px 0;">
 
@@ -2385,6 +2419,37 @@ Purpose and Use of Risk Assessment</h3>
 قد تحتوي على أخطار أكثر تعقيدًا وعواقب محتملة كبيرة،
 ولذلك قد تكون هناك حاجة إلى تقنيات أكثر تفصيلًا.
 </p>
+
+<h4>⚙️ Advanced Risk Assessment | تقييم المخاطر المتقدم</h4>
+
+<p>
+عندما تكون العملية أكثر تعقيدًا أو تكون العواقب المحتملة كبيرة،
+فقد لا يكون التقييم العام كافيًا. عندها نستخدم
+<strong>Advanced Risk Assessment</strong>
+لإجراء تحليل أكثر تفصيلًا يبدأ بتحديد الأخطار
+<strong>(Hazard Identification)</strong>،
+ثم تقدير وترتيب المخاطر
+<strong>(Risk Estimation and Ranking)</strong>،
+وتقييمها وتنفيذ إجراءات خفض المخاطر، وتحديد أي ضوابط إضافية مطلوبة،
+ثم مراجعة النتائج بصورة دورية.
+</p>
+
+<p>
+الفكرة الأساسية بسيطة:
+<strong>كلما زاد مستوى الخطر وتعقيد العملية، زادت الحاجة إلى تقييم أكثر تفصيلًا وصرامة.</strong>
+</p>
+
+<img src="2-2-advanced-risk.png"
+     alt="Advanced Risk Assessment Process"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 
 <h4>🔁 Process Risk Assessment Cycle | دورة تقييم مخاطر العمليات</h4>
 
@@ -2434,6 +2499,18 @@ Qualitative, Semi-Quantitative and Quantitative Risk Assessments</h3>
 <p>
 وبصورة عامة يمكن تقسيم أساليب تقييم المخاطر إلى ثلاثة مستويات:
 </p>
+
+<img src="2-2-risk-types.png"
+     alt="Qualitative Semi-Quantitative and Quantitative Risk Assessments"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 
 <h4>🟢 Qualitative Risk Assessment (Q) | التقييم النوعي</h4>
 
@@ -2641,6 +2718,25 @@ Increasing Detail and Rigour →
 عبر جميع الحواجز والوصول إلى النتيجة غير المرغوبة.
 </p>
 
+<p>
+يوضح <strong>Swiss Cheese Model</strong> أن كل حاجز قد يحتوي على
+نقطة ضعف. وجود نقطة ضعف واحدة لا يعني بالضرورة وقوع الحادث؛
+لكن إذا توافقت نقاط الضعف في عدة حواجز، فقد يمر الخطر عبر جميع
+طبقات الحماية ويتحول إلى حادث.
+</p>
+
+<img src="2-2-swiss-cheese.png"
+     alt="Swiss Cheese Barrier Model"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
+
 <div style="padding:18px; border:1px solid #ccc; border-radius:10px; margin:18px 0; text-align:center;">
 <strong>
 Hazard
@@ -2680,6 +2776,25 @@ Application of Risk Management Tools to Identify and Assess Process Safety Risk<
 ويعتمد اختيار الأداة المناسبة على مرحلة المشروع،
 وطبيعة العملية، وتعقيدها، وحجم المخاطر المحتملة.
 </p>
+
+<p>
+من أهم الأدوات التي سنتناولها في هذا الموضوع:
+<strong>HAZOP</strong> و<strong>HAZID</strong> و<strong>FMEA</strong>
+و<strong>ETA</strong>. لكل أداة غرض وطريقة مختلفة، لذلك لا توجد
+أداة واحدة مناسبة لجميع الحالات.
+</p>
+
+<img src="2-2-risk-tools.png"
+     alt="Process Risk Assessment Tools HAZID FMEA ETA"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 
 <p>
 يجب أن تبدأ عملية إدارة المخاطر في مرحلة مبكرة مثل
@@ -2815,6 +2930,27 @@ Application of Risk Management Tools to Identify and Assess Process Safety Risk<
 </p>
 
 <p>
+اقرأ النموذج من اليسار إلى اليمين:
+<strong>Threats</strong> هي الأسباب المحتملة،
+ثم تأتي <strong>Prevention Barriers</strong> لمنع الوصول إلى
+<strong>Top Event</strong>. وإذا وقع الحدث المركزي، تعمل
+<strong>Mitigation Barriers</strong> على تقليل شدة
+<strong>Consequences</strong>.
+</p>
+
+<img src="2-2-bowtie.png"
+     alt="Bow-Tie Risk Model"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
+
+<p>
 يساعد النموذج على التمييز بين نوعين رئيسيين من الحواجز:
 </p>
 
@@ -2920,6 +3056,27 @@ Hazard and Operability Study (HAZOP)</h3>
 <strong>Design Intent</strong>
 وتؤدي إلى مخاطر أو مشاكل تشغيلية.
 </p>
+
+<p>
+الفكرة الأساسية في <strong>HAZOP</strong> هي تقسيم العملية إلى
+<strong>Nodes</strong>، ثم دمج <strong>Parameters</strong>
+مثل Flow وPressure وTemperature وLevel مع
+<strong>Guide Words</strong> مثل No وLess وMore لتكوين
+<strong>Deviations</strong>، ثم دراسة الأسباب والعواقب والضوابط
+والإجراءات المطلوبة.
+</p>
+
+<img src="2-2-hazop.png"
+     alt="HAZOP Process"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 
 <p>
 يتم تنفيذ دراسة
@@ -4213,6 +4370,24 @@ As Low As Is Reasonably Practicable (ALARP)</h3>
 </p>
 
 <p>
+لا يعني <strong>ALARP</strong> الوصول إلى صفر مخاطر.
+المطلوب هو الاستمرار في خفض المخاطر حتى تصبح أي إجراءات إضافية
+غير متناسبة بصورة واضحة مع الفائدة الإضافية التي ستحققها في خفض الخطر.
+</p>
+
+<img src="2-2-alarp.png"
+     alt="ALARP Risk Concept"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
+
+<p>
 يعني مبدأ
 <strong>ALARP</strong>
 أن المخاطر لا يتم تخفيضها فقط، بل يتم الاستمرار في البحث عن وسائل
@@ -4410,6 +4585,25 @@ Hierarchy of Risk Controls</h3>
 <strong>(Risk Controls)</strong>
 توجد مجموعة من الخيارات التي يجب النظر إليها وفق ترتيب للأفضلية.
 </p>
+
+<p>
+ابدأ دائمًا بالضوابط الأعلى فاعلية التي تعالج الخطر من المصدر،
+ثم انتقل إلى الضوابط الأقل فاعلية عند الحاجة. وفي سلامة العمليات
+يفضّل الاعتماد على <strong>Inherent Safety</strong> ووسائل التحكم
+الهندسية قبل الاعتماد على الإجراءات والسلوك البشري وحدهما.
+</p>
+
+<img src="2-2-controls.png"
+     alt="Hierarchy of Process Risk Controls"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 
 <p>
 تكون الإجراءات الموجودة في أعلى التسلسل الهرمي
