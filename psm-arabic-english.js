@@ -6016,6 +6016,24 @@ content: `
 ومتى قد لا يكون تصريح العمل مطلوبًا.
 </p>
 
+<p>
+يوضح الشكل التالي التطبيق الميداني لنظام
+<strong>Permit-to-Work (PTW)</strong>،
+حيث تتم مراجعة العمل والأخطار وعمليات العزل ومتطلبات الاختبار
+ووسائل الوقاية والتصريح قبل السماح ببدء النشاط.
+</p>
+
+<img src="element2-4-permit-to-work-system.png"
+     alt="Permit-to-Work System Field Verification"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <hr>
 
 <h3>1️⃣ الغرض والاستخدام الفعال |
@@ -6797,6 +6815,7 @@ another suitable Safe System of Work must still be used.
 </div>
 `    
 },
+
 {
     number: "2.5",
     title: "Safe Shift Handover",
