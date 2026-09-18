@@ -5294,6 +5294,24 @@ content: `
 والصيانة والفحص واختيار المعدات المناسبة وعمليات المعايرة.
 </p>
 
+<p>
+يوضح الشكل التالي الصورة الشاملة لموضوع
+<strong>Asset Management and Maintenance Strategies</strong>،
+بدءًا من معايير سلامة الأصول واختيار المعدات المناسبة، مرورًا بدورة حياة الأصل
+واستراتيجيات الصيانة، وصولًا إلى مراقبة الحالة ومعايرة أجهزة القياس.
+</p>
+
+<img src="element2-3-asset-management-maintenance-strategies.png"
+     alt="Asset Management and Maintenance Strategies"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <hr>
 
 <h3>1️⃣ مراعاة معايير سلامة الأصول |
@@ -5980,6 +5998,7 @@ Safe Operating Envelope.
 </div>
 `
 },
+
 {
     number: "2.4",
     title: "Role, Purpose and Features of a Permit-to-Work System",
