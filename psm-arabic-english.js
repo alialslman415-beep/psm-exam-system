@@ -6833,6 +6833,27 @@ another suitable Safe System of Work must still be used.
 والمعلومات الأساسية التي يجب نقلها أثناء عملية التسليم والاستلام.
 </p>
 
+<p>
+يوضح الشكل التالي تطبيقًا عمليًا لعملية
+<strong>Safe Shift Handover</strong>
+بين الشفت المغادر <strong>(Outgoing Shift)</strong>
+والشفت القادم <strong>(Incoming Shift)</strong>.
+تتم المناقشة وجهًا لوجه مع مراجعة حالة المنشأة،
+والتصاريح المفتوحة، والعزلات، وأعمال الصيانة الجارية،
+وحالة أنظمة السلامة وأي ظروف غير طبيعية قبل انتقال المسؤولية.
+</p>
+
+<img src="element2-5-safe-shift-handover.png"
+     alt="Safe Shift Handover between Outgoing and Incoming Shifts"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <hr>
 
 <h3>🔄 مقدمة | Introduction to Safe Shift Handover</h3>
