@@ -205,18 +205,7 @@ button:hover {
     🔒 Complete PSM English Book Before Examination
 </button>
 <br><br>
-<button id="element1PracticeButton" onclick="startElement1Practice()">
-  📝 Element 1 Practice Test
-</button>
-<button id="element2PracticeButton" onclick="startElement2Practice()">
-    📝 Element 2 Practice Test
-</button>  
-  <button id="element3PracticeButton" onclick="startElement3Practice()">
-    📝 Element 3 Practice Test
-</button>  
-    <button id="element4PracticeButton" onclick="startElement4Practice()">
-    📝 Element 4 Practice Test
-</button>
+
    <button onclick="showBookCenter()">📘 PSM ENGLISH</button>
 <button onclick="showArabicEnglishBook()">🇸🇦 PSM ARABIC + TECHNICAL ENGLISH 🇬🇧</button>
 
@@ -950,17 +939,6 @@ const selectedQuestions =
 }
 function startElement1Practice() {
 
-  const name =
-    document.getElementById("candidateName").value.trim();
-
-  const id =
-    document.getElementById("candidateID").value.trim();
-
-  if (!name || !id) {
-    alert("Please enter Candidate Name and ID.");
-    return;
-  }
-
   if (typeof getElement1ExamQuestions !== "function") {
     alert("Element 1 question bank is not loaded.");
     return;
@@ -983,17 +961,6 @@ function startElement1Practice() {
 }  
         
 function startElement2Practice() {
-
-    const name =
-        document.getElementById("candidateName").value.trim();
-
-    const id =
-        document.getElementById("candidateID").value.trim();
-
-    if (!name || !id) {
-        alert("Please enter Candidate Name and ID.");
-        return;
-    }
 
     if (typeof element2Questions === "undefined") {
         alert("Element 2 question bank is not loaded.");
@@ -1019,17 +986,6 @@ function startElement2Practice() {
 }
 function startElement3Practice() {
 
-    const name =
-        document.getElementById("candidateName").value.trim();
-
-    const id =
-        document.getElementById("candidateID").value.trim();
-
-    if (!name || !id) {
-        alert("Please enter Candidate Name and ID.");
-        return;
-    }
-
     if (typeof element3Questions === "undefined") {
         alert("Element 3 question bank is not loaded.");
         return;
@@ -1054,17 +1010,6 @@ function startElement3Practice() {
 }        
 
 function startElement4Practice() {
-
-    const name =
-        document.getElementById("candidateName").value.trim();
-
-    const id =
-        document.getElementById("candidateID").value.trim();
-
-    if (!name || !id) {
-        alert("Please enter Candidate Name and ID.");
-        return;
-    }
 
     if (typeof element4Questions === "undefined") {
         alert("Element 4 question bank is not loaded.");
