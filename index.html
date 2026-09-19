@@ -976,7 +976,7 @@ function startElement2Practice() {
     score = 0;
     candidateAnswers = [];
 
-    document.getElementById("loginPage")
+   document.getElementById("arabicEnglishElement2Page")
         .classList.add("hidden");
 
     document.getElementById("examPage")
@@ -1000,7 +1000,7 @@ function startElement3Practice() {
     score = 0;
     candidateAnswers = [];
 
-    document.getElementById("loginPage")
+   document.getElementById("arabicEnglishElement3Page")
         .classList.add("hidden");
 
     document.getElementById("examPage")
@@ -1025,7 +1025,7 @@ function startElement4Practice() {
     score = 0;
     candidateAnswers = [];
 
-    document.getElementById("loginPage")
+    document.getElementById("arabicEnglishElement4Page")
         .classList.add("hidden");
 
     document.getElementById("examPage")
@@ -1301,30 +1301,39 @@ function openCertificate() {
 
   window.open("certificate.html?" + params.toString(), "_blank");
 }        
-        function backToMainPage() {
+      function backToMainPage() {
 
-  document.getElementById("resultPage")
-    .classList.add("hidden");
+    document.getElementById("resultPage").classList.add("hidden");
+    document.getElementById("reviewPage").classList.add("hidden");
+    document.getElementById("examPage").classList.add("hidden");
+    document.getElementById("bookPage").classList.add("hidden");
+    document.getElementById("aboutDeveloperPage").classList.add("hidden");
+    document.getElementById("arabicEnglishBookPage").classList.add("hidden");
+    document.getElementById("arabicEnglishElement1Page").classList.add("hidden");
+    document.getElementById("arabicEnglishElement2Page").classList.add("hidden");
+    document.getElementById("arabicEnglishElement3Page").classList.add("hidden");
+    document.getElementById("arabicEnglishElement4Page").classList.add("hidden");
+    document.getElementById("arabicEnglishTopicPage").classList.add("hidden");
+    document.getElementById("bookContentPage").classList.add("hidden");
 
-  document.getElementById("reviewPage")
-    .classList.add("hidden");
-
-  document.getElementById("examPage")
-    .classList.add("hidden");
-
-  document.getElementById("bookPage")
-    .classList.add("hidden");
-
-  document.getElementById("loginPage")
-    .classList.remove("hidden");
-} 
+    document.getElementById("loginPage").classList.remove("hidden");
+}
 function showAboutDeveloper() {
 
-    document.getElementById("loginPage")
-        .classList.add("hidden");
+    document.getElementById("loginPage").classList.add("hidden");
+    document.getElementById("examPage").classList.add("hidden");
+    document.getElementById("resultPage").classList.add("hidden");
+    document.getElementById("reviewPage").classList.add("hidden");
+    document.getElementById("bookPage").classList.add("hidden");
+    document.getElementById("arabicEnglishBookPage").classList.add("hidden");
+    document.getElementById("arabicEnglishElement1Page").classList.add("hidden");
+    document.getElementById("arabicEnglishElement2Page").classList.add("hidden");
+    document.getElementById("arabicEnglishElement3Page").classList.add("hidden");
+    document.getElementById("arabicEnglishElement4Page").classList.add("hidden");
+    document.getElementById("arabicEnglishTopicPage").classList.add("hidden");
+    document.getElementById("bookContentPage").classList.add("hidden");
 
-    document.getElementById("aboutDeveloperPage")
-        .classList.remove("hidden");
+    document.getElementById("aboutDeveloperPage").classList.remove("hidden");
 }
 
 function closeAboutDeveloper() {
