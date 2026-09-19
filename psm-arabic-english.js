@@ -7378,6 +7378,26 @@ Right Information + Right People + Right Time + Clear Communication
 وتسليم الأعمال والمعلومات إلى العميل بعد الانتهاء.
 </p>
 
+<p>
+يوضح الشكل التالي بصورة عملية دورة
+<strong>Contractor Management</strong>
+من بداية اختيار المقاول والتأكد من كفاءته، مرورًا بالتعريف بمخاطر الموقع
+<strong>(Induction)</strong> والإشراف والمتابعة أثناء تنفيذ العمل،
+وحتى مراجعة الأداء وتسليم الأعمال والمعلومات إلى العميل
+<strong>(Handover)</strong>.
+</p>
+
+<img src="element2-6-contractor-management.png"
+     alt="Contractor Management – Selection, Induction, Supervision, Performance Review and Handover"
+     style="
+        width:100%;
+        max-width:1100px;
+        display:block;
+        margin:25px auto;
+        border-radius:12px;
+        box-shadow:0 4px 14px rgba(0,0,0,0.18);
+     ">
+
 <hr>
 
 <h3>1️⃣ حجم استخدام المقاولين في صناعات العمليات |
