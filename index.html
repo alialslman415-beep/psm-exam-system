@@ -187,7 +187,179 @@ button:hover {
 </button>
 
 </div>
+<!-- Initiative Button -->
+<div style="text-align:center; margin:20px auto;">
+    <button
+        type="button"
+        onclick="openKnowledgeInitiative()"
+        style="
+            background:#17653a;
+            color:white;
+            border:none;
+            border-radius:10px;
+            padding:14px 22px;
+            font-size:17px;
+            font-weight:bold;
+            cursor:pointer;
+            max-width:100%;
+        ">
+        🌱 مبادرة المعرفة للجميع | مساهمة اختيارية
+    </button>
+</div>
+<!-- End Initiative Button -->
+<!-- Knowledge Initiative Page -->
+<div id="knowledgeInitiativePage"
+     style="display:none; max-width:850px; margin:25px auto;
+            padding:24px; background:#f3f8f5;
+            border:1px solid #c9e4d3;
+            border-top:5px solid #25834b;
+            border-radius:14px;
+            font-family:Arial,sans-serif;
+            line-height:1.9; color:#243b30;
+            text-align:right; direction:rtl;">
 
+    <h2 style="text-align:center; color:#17653a; margin-top:0;">
+        🌱 مبادرة المعرفة للجميع
+    </h2>
+
+    <p>
+        انطلاقًا من إيماننا بأهمية نشر ثقافة السلامة والصحة
+        والبيئة المهنية، أُطلقت هذه المبادرة لإتاحة الحقائب
+        التدريبية للتعلّم الذاتي، ومساعدة المتعلمين على اكتساب
+        المعرفة وفهم مفاهيم السلامة وتطبيقها في بيئة العمل.
+    </p>
+
+    <p>
+        يمكن لمن يرغب دعم استمرارية المبادرة وتطوير محتواها
+        بمساهمة <strong>اختيارية، المبلغ المقترح لها ريال سعودي واحد</strong>.
+        ومن يرغب في المساهمة بمبلغ أكبر فله ذلك، دون أي التزام.
+    </p>
+
+    <div style="
+        background:white;
+        padding:15px;
+        border-radius:10px;
+        border:1px solid #c9e4d3;
+        margin:18px 0;">
+
+        <strong style="color:#17653a;">
+            💚 المساهمة اختيارية تمامًا
+        </strong>
+
+        <p style="margin-bottom:0;">
+            لا يُشترط التحويل المالي للدخول إلى الحقيبة التدريبية
+            أو دراسة محتواها أو أداء الاختبارات أو إصدار شهادة الإتمام.
+            ويحصل جميع المتعلمين على الفرص نفسها، سواء ساهموا
+            في المبادرة أم لم يساهموا.
+        </p>
+    </div>
+
+    <p>
+        نؤمن بأن <strong>القيمة الجوهرية للتعلّم هي المعرفة والفهم
+        والقدرة على تطبيق ما نتعلمه، وليست مجرد الحصول على الشهادة.</strong>
+        فالشهادة توثّق إتمام البرنامج، أما الأثر الحقيقي
+        فيظهر في الممارسة اليومية والعمل الآمن.
+    </p>
+
+    <h3 style="color:#17653a;">
+        🔄 تطوير مستمر على الرابط نفسه
+    </h3>
+
+    <p>
+        سيستمر، بإذن الله، تطوير هذه المنصة وإضافة حقائب
+        ودورات تدريبية جديدة في مجالات السلامة والصحة
+        والبيئة المهنية (HSE). ويمكنكم العودة إلى الرابط نفسه
+        للاطلاع على المحتوى والتحديثات الجديدة.
+    </p>
+
+    <div style="
+        background:#fff;
+        border:1px solid #c9e4d3;
+        border-radius:10px;
+        padding:18px;
+        margin:20px 0;
+        text-align:center;">
+
+        <h3 style="color:#17653a; margin-top:0;">
+            💳 بيانات المساهمة الاختيارية
+        </h3>
+
+        <p>
+            <strong>البنك: STC Bank</strong>
+        </p>
+
+        <p style="margin-bottom:5px;">
+            <strong>التحويل عبر الآيبان (IBAN):</strong>
+        </p>
+
+        <p dir="ltr" style="
+            overflow-wrap:anywhere;
+            font-size:17px;
+            font-weight:bold;
+            color:#0b2345;">
+            SA39780000000001097107447
+        </p>
+
+        <button type="button"
+                onclick="copyInitiativeDetails('SA39780000000001097107447', this)"
+                style="padding:9px 16px; border:0;
+                       border-radius:7px; background:#17653a;
+                       color:white; cursor:pointer;">
+            📋 نسخ الآيبان
+        </button>
+
+        <p style="margin:20px 0 5px;">
+            <strong>أو التحويل باستخدام رقم الجوال:</strong>
+        </p>
+
+        <p dir="ltr" style="
+            font-size:20px;
+            font-weight:bold;
+            color:#0b2345;">
+            0508435211
+        </p>
+
+        <button type="button"
+                onclick="copyInitiativeDetails('0508435211', this)"
+                style="padding:9px 16px; border:0;
+                       border-radius:7px; background:#17653a;
+                       color:white; cursor:pointer;">
+            📋 نسخ رقم الجوال
+        </button>
+
+        <p style="font-size:13px; color:#596b61; margin-bottom:0;">
+            يرجى التأكد من بيانات المستفيد داخل تطبيق البنك قبل تأكيد التحويل.
+        </p>
+    </div>
+
+    <p style="
+        font-size:13px;
+        color:#596b61;
+        border-top:1px solid #c9e4d3;
+        padding-top:12px;">
+        هذه مبادرة تعليمية مستقلة للتعلّم الذاتي،
+        وشهادة إتمام الحقيبة توثّق اجتياز البرنامج،
+        ولا تُعدّ مؤهلًا مهنيًا أو اعتمادًا رسميًا.
+    </p>
+
+    <div style="text-align:center; margin-top:22px;">
+        <button type="button"
+                onclick="closeKnowledgeInitiative()"
+                style="
+                    background:#0b2345;
+                    color:white;
+                    border:none;
+                    border-radius:9px;
+                    padding:12px 24px;
+                    font-size:16px;
+                    font-weight:bold;
+                    cursor:pointer;">
+            🏠 العودة إلى الصفحة الرئيسية
+        </button>
+    </div>
+
+</div>
+<!-- End Knowledge Initiative Page --> 
 <div id="psmTrainingPackage" style="display:none;"> 
 <h2>Candidate Information</h2>
 
@@ -5367,6 +5539,35 @@ if (percentage >= 100) {
 
     
 </script>
+<script>
+function openKnowledgeInitiative() {
+    const page = document.getElementById('knowledgeInitiativePage');
+    if (!page) return;
 
+    page.style.display = 'block';
+    page.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function closeKnowledgeInitiative() {
+    const page = document.getElementById('knowledgeInitiativePage');
+    if (!page) return;
+
+    page.style.display = 'none';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+async function copyInitiativeDetails(value, button) {
+    try {
+        await navigator.clipboard.writeText(value);
+        const originalText = button.textContent;
+        button.textContent = '✓ تم النسخ';
+        setTimeout(() => {
+            button.textContent = originalText;
+        }, 2000);
+    } catch (error) {
+        window.prompt('انسخ البيانات التالية:', value);
+    }
+}
+</script>
 </body>
 </html>
