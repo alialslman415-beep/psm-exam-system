@@ -157,6 +157,38 @@ button:hover {
          alt="Process Safety Management"
          style="width:100%; height:auto; object-fit:contain; border-radius:16px; box-shadow:0 6px 18px rgba(0,0,0,0.20);">
 </div>   
+<!-- PSM TRAINING PACKAGE MAIN BUTTON -->
+
+<div style="text-align:center; margin:30px 0;">
+
+<button onclick="togglePSMPackage()"
+        style="
+            width:100%;
+            max-width:850px;
+            padding:24px 20px;
+            background:linear-gradient(135deg,#0b3558,#126782);
+            color:white;
+            border:none;
+            border-radius:18px;
+            font-size:22px;
+            font-weight:bold;
+            cursor:pointer;
+            box-shadow:0 6px 18px rgba(0,0,0,0.25);
+        ">
+    ⚙️ PROCESS SAFETY MANAGEMENT (PSM)
+    <br>
+    <span style="font-size:18px;">PSM Training Package</span>
+    <br>
+    <span style="font-size:17px;">حقيبة تدريب إدارة سلامة العمليات</span>
+    <br>
+    <span style="font-size:14px; font-weight:normal;">
+        ENTER TRAINING PACKAGE | الدخول إلى الحقيبة
+    </span>
+</button>
+
+</div>
+
+<div id="psmTrainingPackage" style="display:none;"> 
 <h2>Candidate Information</h2>
 
 <label>Candidate Name</label>
@@ -189,6 +221,7 @@ button:hover {
 <button onclick="showArabicEnglishBook()">🇸🇦 PSM ARABIC + TECHNICAL ENGLISH 🇬🇧</button>
 <button onclick="showAboutDeveloper()">👤 نبذة عن مُعِدّ البرنامج</button>
 </div>  
+ </div> <!-- END PSM TRAINING PACKAGE -->
 <!-- ABOUT PROGRAM DEVELOPER -->
 
 <div id="aboutDeveloperPage" class="hidden" dir="rtl">
@@ -1262,7 +1295,28 @@ function closeAboutDeveloper() {
 
     document.getElementById("loginPage")
         .classList.remove("hidden");
-}        
+}   
+/* PSM TRAINING PACKAGE */
+
+function togglePSMPackage() {
+
+    const packageBox = document.getElementById("psmTrainingPackage");
+
+    if (packageBox.style.display === "none" || packageBox.style.display === "") {
+
+        packageBox.style.display = "block";
+
+        packageBox.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+
+    } else {
+
+        packageBox.style.display = "none";
+
+    }
+}     
 /* BOOK CENTER */
 
 function showBookCenter() {
