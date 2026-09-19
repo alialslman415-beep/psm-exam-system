@@ -198,7 +198,7 @@ button:hover {
 <input type="text" id="candidateID" placeholder="Enter your ID">
 
 <p><strong>Number of Questions:</strong> 40</p>
-<p><strong>Pass Mark:</strong> 80%</p>
+<p><strong>Pass Mark:</strong> 85%</p>
 <p><strong>Timer:</strong> No time limit</p>
 
 <button id="startExamButton" onclick="startExam()" disabled>
@@ -843,15 +843,14 @@ Element 4 – Fire and Explosion Protection
     <script>
 
 const QUESTIONS_PER_EXAM = 40;
-const PASS_MARK = 80;
+const PASS_MARK = 85;
 
 const questionBank = [
-...element1Questions.map(q => ({ ...q, elementNumber: 1 })),
-  ...element2Questions,
-  ...element3Questions,
-  ...element4Questions
+    ...element1Questions.map(q => ({ ...q, elementNumber: 1 })),
+    ...element2Questions.map(q => ({ ...q, elementNumber: 2 })),
+    ...element3Questions.map(q => ({ ...q, elementNumber: 3 })),
+    ...element4Questions.map(q => ({ ...q, elementNumber: 4 }))
 ];
-
  function shuffle(array) {
 
     const newArray = [...array];
