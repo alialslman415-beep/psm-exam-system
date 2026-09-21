@@ -2500,7 +2500,7 @@ Qualitative, Semi-Quantitative and Quantitative Risk Assessments</h3>
 وبصورة عامة يمكن تقسيم أساليب تقييم المخاطر إلى ثلاثة مستويات:
 </p>
 
-<img src="2-2-risk-types.png"
+<img src="2-2-risk-types.png?v=2"
      alt="Qualitative Semi-Quantitative and Quantitative Risk Assessments"
      style="
         width:100%;
