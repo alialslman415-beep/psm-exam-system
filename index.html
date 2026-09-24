@@ -1550,6 +1550,8 @@ function backToResult() {
 function openCertificate() {
   const name = document.getElementById("candidateName").value.trim();
   const id = document.getElementById("candidateID").value.trim();
+  const email = document.getElementById("candidateEmail").value.trim();
+  const recommendedBy = document.getElementById("recommendedBy").value.trim();
 
   const percentage = Math.round((score / questions.length) * 100);
 
@@ -1558,16 +1560,57 @@ function openCertificate() {
     return;
   }
 
+  if (!name || !id || !email) {
+    alert("Please enter your name, candidate ID, and email address.");
+    return;
+  }
+
+  const emailField = document.getElementById("candidateEmail");
+  if (!emailField.checkValidity()) {
+    alert("Please enter a valid email address.");
+    emailField.focus();
+    return;
+  }
+
+  // Create the certificate details once so both records match.
+  const now = new Date();
+  const issueDate = now.toLocaleDateString("en-GB");
+  const certificateNumber = "PSM-" + now.getFullYear() + "-" + id;
+
   const params = new URLSearchParams({
     name: name,
     id: id,
     score: score,
     total: questions.length,
-    percentage: percentage
+    percentage: percentage,
+    cert: certificateNumber,
+    date: issueDate
   });
 
+  // Open the certificate using the existing design.
   window.open("certificate.html?" + params.toString(), "_blank");
-}        
+
+  // Send the certificate record to the private Google Sheet.
+  fetch(
+    "https://script.google.com/macros/s/AKfycbydpViGXhrERFP-wFCapLYcNJZtpmc8XyqOKxlT5djwj3WAH2Tecv2EJO9MLfDSviwSLg/exec",
+    {
+      method: "POST",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8"
+      },
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        certificateNumber: certificateNumber,
+        issueDate: issueDate,
+        recommendedBy: recommendedBy
+      })
+    }
+  ).catch(function (error) {
+    console.error("Certificate registration request failed:", error);
+  });
+}
       function backToMainPage() {
 
     document.getElementById("resultPage").classList.add("hidden");
