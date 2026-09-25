@@ -9,7 +9,7 @@
   body{margin:0;background:#eef1f5;font-family:Georgia,'Times New Roman',serif;color:#0b2345;padding:24px}
   .toolbar{max-width:1120px;margin:0 auto 14px;display:flex;gap:10px;justify-content:flex-end;font-family:Arial,sans-serif}
   .toolbar button{border:0;border-radius:8px;padding:10px 16px;background:#0b2345;color:#fff;font-weight:700;cursor:pointer}
-.certificate {
+padding: 42px 70px 32px;
   width: 1120px;
   min-height: 790px;
   margin: auto;
@@ -40,6 +40,32 @@
   .developer{text-align:right}
   .note{text-align:center;font:11px Arial,sans-serif;color:#777;margin-top:30px}
   @media print{body{background:#fff;padding:0}.toolbar{display:none}.certificate{box-shadow:none;margin:0;width:100%;min-height:100vh;page-break-after:avoid}}
+ /* Certificate text readability */
+.certificate .statement,
+.certificate .details,
+.certificate .footer {
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 8px;
+  padding: 10px 16px;
+}
+
+.certificate .detail b,
+.certificate .detail span,
+.certificate .source,
+.certificate .developer {
+  color: #0b2345;
+}
+
+.certificate .note {
+  position: relative;
+  z-index: 2;
+  background: #0b2345;
+  color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-top: 18px;
+  font-size: 11px;
+}
 </style>
 </head>
 <body>
