@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PSM Connection Test</title>
+</head>
+<body>
+  <h2>PSM Server Connection Test</h2>
+  <p id="status">Click the button to test the connection.</p>
+  <button onclick="testConnection()">Test Connection</button>
+
+  <script>
+    const API_URL =
+      "https://script.google.com/macros/s/AKfycbydpViGXhrERFP-wFCapLYcNJZtpmc8XyqOKxlT5djwj3WAH2Tecv2EJO9MLfDSviwSLg/exec";
+
+    async function testConnection() {
+      const status = document.getElementById("status");
+      status.textContent = "Connecting...";
+
+      try {
+        const response = await fetch(
+          API_URL + "?action=startExam"
+        );
+
+        if (!response.ok) {
+          throw new Error("HTTP " + response.status);
+        }
+
+        const data = await response.json();
+
+        if (
+          data.sessionId &&
+          Array.isArray(data.questions) &&
+          data.questions.length === 40
+        ) {
+          status.textContent =
+            "SUCCESS: Received 40 questions from the server.";
+        } else {
+          status.textContent =
+            "Server responded, but the exam data is incomplete.";
+        }
+      } catch (error) {
+        status.textContent =
+          "Connection failed: " + error.message;
+        console.error(error);
+      }
+    }
+  </script>
+</body>
+</html>
