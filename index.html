@@ -1361,50 +1361,47 @@ function selectAnswer(index) {
 /* NEXT QUESTION */
 
 function nextQuestion() {
+  if (selectedAnswer === null) {
+    alert("Please select an answer.");
+    return;
+  }
 
-    if (selectedAnswer === null) {
+  const q = questions[currentQuestion];
 
-        alert("Please select an answer.");
-
-        return;
-    }
-
-    const q = questions[currentQuestion];
-
-    const isCorrect =
-        selectedAnswer === q.answer;
+  // Final exam: save answers for server-side grading.
+  if (secureExamSessionId) {
+    candidateAnswers.push({
+      key: q.key,
+      selected: selectedAnswer
+    });
+  } else {
+    // Practice exams: keep existing local grading.
+    const isCorrect = selectedAnswer === q.answer;
 
     if (isCorrect) {
-        score++;
+      score++;
     }
 
     candidateAnswers.push({
-
-        question: q.question,
-
-        options: q.options,
-
-        selected: selectedAnswer,
-
-        correct: q.answer,
-
-        explanation: q.explanation,
-element: q.element,
-topic: q.topic,
-page: q.page,
-        isCorrect: isCorrect
+      question: q.question,
+      options: q.options,
+      selected: selectedAnswer,
+      correct: q.answer,
+      explanation: q.explanation,
+      element: q.element,
+      topic: q.topic,
+      page: q.page,
+      isCorrect: isCorrect
     });
+  }
 
-    currentQuestion++;
+  currentQuestion++;
 
-    if (currentQuestion < questions.length) {
-
-        showQuestion();
-
-    } else {
-
-        finishExam();
-    }
+  if (currentQuestion < questions.length) {
+    showQuestion();
+  } else {
+    finishExam();
+  }
 }
 
 
