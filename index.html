@@ -1653,7 +1653,10 @@ function openCertificate() {
     emailField.focus();
     return;
   }
-
+if (!window.securePassToken) {
+  alert("Your examination must be verified before issuing a certificate.");
+  return;
+}
   // Create the certificate details once so both records match.
   const now = new Date();
   const issueDate = now.toLocaleDateString("en-GB");
@@ -1686,7 +1689,8 @@ function openCertificate() {
         email: email,
         certificateNumber: certificateNumber,
         issueDate: issueDate,
-        recommendedBy: recommendedBy
+       recommendedBy: recommendedBy,
+passToken: window.securePassToken
       })
     }
   ).catch(function (error) {
