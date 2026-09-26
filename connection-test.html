@@ -10,6 +10,7 @@
   <p id="status">Click the button to test the connection.</p>
   <button onclick="testConnection()">Test Connection</button>
 <button onclick="testExamSubmission()">Test Exam Submission</button>
+  <button onclick="testFullExamSubmission()">Test 40 Answers</button>
   <script>
     const API_URL =
       "https://script.google.com/macros/s/AKfycbydpViGXhrERFP-wFCapLYcNJZtpmc8XyqOKxlT5djwj3WAH2Tecv2EJO9MLfDSviwSLg/exec";
@@ -100,6 +101,73 @@
       "Submission test failed: " + error.message;
     console.error(error);
   }
+async function testFullExamSubmission() {
+  const status = document.getElementById("status");
+  status.textContent = "Testing 40-answer submission...";
+
+  try {
+    // Start a new examination session.
+    const startResponse = await fetch(
+      API_URL + "?action=startExam"
+    );
+
+    if (!startResponse.ok) {
+      throw new Error("Unable to start examination.");
+    }
+
+    const exam = await startResponse.json();
+
+    if (
+      !exam.sessionId ||
+      !Array.isArray(exam.questions) ||
+      exam.questions.length !== 40
+    ) {
+      throw new Error("Invalid examination data.");
+    }
+
+    // Submit one test answer for every question.
+    const answers = exam.questions.map(q => ({
+      key: q.key,
+      selected: 0
+    }));
+
+    const response = await fetch(API_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8"
+      },
+      body: JSON.stringify({
+        action: "submitExam",
+        sessionId: exam.sessionId,
+        answers: answers
+      })
+    });
+
+    if (!response.ok) {
+      throw new Error("HTTP " + response.status);
+    }
+
+    const result = await response.json();
+
+    if (
+      result.success === true &&
+      result.total === 40 &&
+      Number.isInteger(result.score)
+    ) {
+      status.textContent =
+        "SUCCESS: Server graded 40 answers. Score: " +
+        result.score + "/40. Passed: " + result.passed;
+    } else {
+      status.textContent =
+        "FAILED: " + (result.message || "Invalid result.");
+    }
+
+  } catch (error) {
+    status.textContent = "Test failed: " + error.message;
+    console.error(error);
+  }
+}
+     
 } 
   </script>
 </body>
