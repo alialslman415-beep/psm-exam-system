@@ -9,7 +9,7 @@
   <h2>PSM Server Connection Test</h2>
   <p id="status">Click the button to test the connection.</p>
   <button onclick="testConnection()">Test Connection</button>
-
+<button onclick="testExamSubmission()">Test Exam Submission</button>
   <script>
     const API_URL =
       "https://script.google.com/macros/s/AKfycbydpViGXhrERFP-wFCapLYcNJZtpmc8XyqOKxlT5djwj3WAH2Tecv2EJO9MLfDSviwSLg/exec";
@@ -46,6 +46,61 @@
         console.error(error);
       }
     }
+   async function testExamSubmission() {
+  const status = document.getElementById("status");
+  status.textContent = "Testing exam submission...";
+
+  try {
+    // Create a new exam session.
+    const startResponse = await fetch(
+      API_URL + "?action=startExam"
+    );
+
+    if (!startResponse.ok) {
+      throw new Error("Unable to start exam.");
+    }
+
+    const exam = await startResponse.json();
+
+    if (!exam.sessionId || exam.questions?.length !== 40) {
+      throw new Error("Invalid exam session.");
+    }
+
+    // Submit a deliberately invalid answer set.
+    // The server must reject an incomplete examination.
+    const response = await fetch(API_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8"
+      },
+      body: JSON.stringify({
+        action: "submitExam",
+        sessionId: exam.sessionId,
+        answers: []
+      })
+    });
+
+    if (!response.ok) {
+      throw new Error("HTTP " + response.status);
+    }
+
+    const result = await response.json();
+
+    if (result.success === false) {
+      status.textContent =
+        "SUCCESS: Server rejected incomplete answers. " +
+        (result.message || "");
+    } else {
+      status.textContent =
+        "WARNING: Server did not reject incomplete answers.";
+    }
+
+  } catch (error) {
+    status.textContent =
+      "Submission test failed: " + error.message;
+    console.error(error);
+  }
+} 
   </script>
 </body>
 </html>
