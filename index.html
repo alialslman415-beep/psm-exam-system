@@ -1524,29 +1524,24 @@ window.secureCertificate =
   document.getElementById("scoreResult").innerText =
     "Score: " + finalScore + " / " + finalTotal;
 
- if (
-  finalTotal === 40 &&
-  window.secureCertificate &&
-  window.secureCertificate.certificateNumber &&
-  window.secureCertificate.issueDate
-) {
-  certificateButton.style.display = "inline-block";
-}
+if (passed) {
+  statusElement.innerText = "PASS";
+  statusElement.className = "pass";
 
-    // Only a server-verified final exam can unlock the certificate.
-    if (
-      finalTotal === 40 &&
-      window.securePassToken
-    ) {
-      certificateButton.style.display = "inline-block";
-    }
-  } else {
-    statusElement.innerText = "FAIL";
-    statusElement.className = "fail";
+  if (
+    finalTotal === 40 &&
+    window.secureCertificate &&
+    window.secureCertificate.certificateNumber &&
+    window.secureCertificate.issueDate
+  ) {
+    certificateButton.style.display = "inline-block";
   }
+} else {
+  statusElement.innerText = "FAIL";
+  statusElement.className = "fail";
 }
-
-
+}
+     
 /* REVIEW ANSWERS */
 
 function showReview() {
