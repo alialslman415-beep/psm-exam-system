@@ -1155,54 +1155,62 @@ function prepareQuestion(q) {
 
 /* START EXAM */
 
-function startExam() {
+/* START EXAM */
 
-    const name =
-    document.getElementById("candidateName").value.trim();
+let secureExamSessionId = "";
 
-    const id =
-    document.getElementById("candidateID").value.trim();
+async function startExam() {
+  const name = document.getElementById("candidateName").value.trim();
+  const id = document.getElementById("candidateID").value.trim();
 
-    if (!name || !id) {
+  if (!name || !id) {
+    alert("Please enter Candidate Name and ID.");
+    return;
+  }
 
-        alert("Please enter Candidate Name and ID.");
+  const API_URL =
+    "https://script.google.com/macros/s/AKfycbydpViGXhrERFP-wFCapLYcNJZtpmc8XyqOKxlT5djwj3WAH2Tecv2EJO9MLfDSviwSLg/exec";
 
-        return;
+  try {
+    const response = await fetch(API_URL + "?action=startExam");
+
+    if (!response.ok) {
+      throw new Error("Server connection failed.");
     }
 
-  const e1 = shuffle(
-    questionBank.filter(q => q.elementNumber === 1)
-).slice(0, 10);
+    const data = await response.json();
 
-const e2 = shuffle(
-    questionBank.filter(q => q.elementNumber === 2)
-).slice(0, 10);
+    if (
+      !data.sessionId ||
+      !Array.isArray(data.questions) ||
+      data.questions.length !== 40
+    ) {
+      throw new Error("Invalid examination data.");
+    }
 
-const e3 = shuffle(
-    questionBank.filter(q => q.elementNumber === 3)
-).slice(0, 10);
+    secureExamSessionId = data.sessionId;
 
-const e4 = shuffle(
-    questionBank.filter(q => q.elementNumber === 4)
-).slice(0, 10);
-
-const selectedQuestions =
-    shuffle([...e1, ...e2, ...e3, ...e4]);
-
-    questions =
-        selectedQuestions.map(q => prepareQuestion(q));
+    questions = data.questions.map(q => ({
+      ...q,
+      options: [...q.options]
+    }));
 
     currentQuestion = 0;
     score = 0;
     candidateAnswers = [];
 
     document.getElementById("loginPage")
-        .classList.add("hidden");
+      .classList.add("hidden");
 
     document.getElementById("examPage")
-        .classList.remove("hidden");
+      .classList.remove("hidden");
 
     showQuestion();
+
+  } catch (error) {
+    console.error(error);
+    alert("Unable to start the examination. Please try again.");
+  }
 }
 function startElement1Practice() {
 
