@@ -142,20 +142,64 @@
 </section>
 
 <script>
-(function () {
-  const p = new URLSearchParams(window.location.search);
-  const name = p.get('name');
-  const id = p.get('id');
-  const score = p.get('score');
-  const percentage = p.get('percentage');
-  const cert = p.get('cert');
-  const date = p.get('date');
+(async function () {
+  const API_URL =
+    "https://script.google.com/macros/s/AKfycbydpViGXhrERFP-wFCapLYcNJZtpmc8XyqOKxlT5djwj3WAH2Tecv2EJO9MLfDSviwSLg/exec";
 
-  if (name) document.getElementById('studentName').textContent = name;
-  if (id) document.getElementById('candidateId').textContent = id;
-  if (percentage) document.getElementById('score').textContent = percentage + '%';
-  document.getElementById('issueDate').textContent = date || new Date().toLocaleDateString('en-GB');
-  document.getElementById('certificateNo').textContent = cert || ('PSM-' + new Date().getFullYear() + '-' + id); 
+  const params = new URLSearchParams(window.location.search);
+  const cert = params.get("cert");
+
+  // Hide certificate until its record has been verified.
+  const certificate = document.getElementById("certificate");
+  certificate.style.visibility = "hidden";
+
+  const printButton = document.querySelector(".toolbar button");
+  printButton.disabled = true;
+
+  if (!cert) {
+    alert("Certificate number is missing.");
+    return;
+  }
+
+  try {
+    const url = API_URL +
+      "?action=verifyCertificate&cert=" +
+      encodeURIComponent(cert);
+
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error("Unable to contact verification service.");
+    }
+
+    const data = await response.json();
+
+    if (
+      !data.success ||
+      data.certificateNumber !== cert ||
+      data.result !== "PASS"
+    ) {
+      throw new Error("Certificate could not be verified.");
+    }
+
+    document.getElementById("studentName").textContent = data.name;
+    document.getElementById("score").textContent = data.percentage;
+    document.getElementById("issueDate").textContent = data.issueDate;
+    document.getElementById("certificateNo").textContent =
+      data.certificateNumber;
+
+    // The ID is not included in the public verification response.
+    document.querySelector(".id").style.display = "none";
+
+    certificate.style.visibility = "visible";
+    printButton.disabled = false;
+
+  } catch (error) {
+    console.error(error);
+    alert(
+      "Certificate verification failed. Please try again later."
+    );
+  }
 })();
 </script>
 </body>
