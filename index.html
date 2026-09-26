@@ -1162,17 +1162,30 @@ let secureExamSessionId = "";
 async function startExam() {
   const name = document.getElementById("candidateName").value.trim();
   const id = document.getElementById("candidateID").value.trim();
+const email = document.getElementById("candidateEmail").value.trim();
+if (!name || !id || !email) {
+  alert("Please enter your name, candidate ID, and email address.");
+  return;
+}
 
-  if (!name || !id) {
-    alert("Please enter Candidate Name and ID.");
-    return;
-  }
+if (!document.getElementById("candidateEmail").checkValidity()) {
+  alert("Please enter a valid email address.");
+  return;
+}
 
   const API_URL =
     "https://script.google.com/macros/s/AKfycbydpViGXhrERFP-wFCapLYcNJZtpmc8XyqOKxlT5djwj3WAH2Tecv2EJO9MLfDSviwSLg/exec";
 
   try {
-    const response = await fetch(API_URL + "?action=startExam");
+   const params = new URLSearchParams({
+  action: "startExam",
+  name: name,
+  email: email
+});
+
+const response = await fetch(
+  API_URL + "?" + params.toString()
+);
 
     if (!response.ok) {
       throw new Error("Server connection failed.");
