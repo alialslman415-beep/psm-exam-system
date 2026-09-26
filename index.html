@@ -1407,61 +1407,120 @@ function nextQuestion() {
 
 /* FINISH EXAM */
 
-function finishExam() {
+async function finishExam() {
+  const examPage = document.getElementById("examPage");
+  const resultPage = document.getElementById("resultPage");
+  const statusElement = document.getElementById("statusResult");
+  const certificateButton =
+    document.getElementById("certificateButton");
 
-    document.getElementById("examPage")
-        .classList.add("hidden");
-
-    document.getElementById("resultPage")
-        .classList.remove("hidden");
-
-    const name =
-        document.getElementById("candidateName").value;
-
-    const id =
-        document.getElementById("candidateID").value;
-
-    const percentage =
-        Math.round((score / questions.length) * 100);
-
-    document.getElementById("candidateResult").innerText =
-        name + " | ID: " + id;
-
-    document.getElementById("scoreResult").innerText =
-        "Score: " +
-        score +
-        " / " +
-        questions.length;
-
-    document.getElementById("percentageResult").innerText =
-        "Percentage: " +
-        percentage +
-        "%";
-
-    const statusElement =
-        document.getElementById("statusResult");
-
-    if (percentage >= PASS_MARK) {
-
-        statusElement.innerText = "PASS";
-
-        statusElement.className = "pass";
-
-        const certificateButton = document.getElementById("certificateButton");
-
-if (questions.length === 40) {
-  certificateButton.style.display = "inline-block";
-} else {
   certificateButton.style.display = "none";
-}
 
-    } else {
+  let finalScore = score;
+  let finalTotal = questions.length;
+  let finalPercentage = Math.round(
+    (finalScore / finalTotal) * 100
+  );
+  let passed = finalPercentage >= PASS_MARK;
 
-        statusElement.innerText = "FAIL";
+  // Final examination: the server is responsible for grading.
+  if (secureExamSessionId) {
+    statusElement.innerText = "Submitting examination...";
+    statusElement.className = "";
 
-        statusElement.className = "fail";
-  document.getElementById("certificateButton").style.display = "none";      
+    examPage.classList.add("hidden");
+    resultPage.classList.remove("hidden");
+
+    try {
+      const API_URL =
+        "https://script.google.com/macros/s/AKfycbydpViGXhrERFP-wFCapLYcNJZtpmc8XyqOKxlT5djwj3WAH2Tecv2EJO9MLfDSviwSLg/exec";
+
+      const response = await fetch(API_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "text/plain;charset=utf-8"
+        },
+        body: JSON.stringify({
+          action: "submitExam",
+          sessionId: secureExamSessionId,
+          answers: candidateAnswers.map(a => ({
+            key: a.key,
+            selected: a.selected
+          }))
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error("Server returned HTTP " + response.status);
+      }
+
+      const result = await response.json();
+
+      if (
+        result.success !== true ||
+        !Number.isInteger(result.score) ||
+        result.total !== 40 ||
+        typeof result.passed !== "boolean"
+      ) {
+        throw new Error(result.message || "Invalid server result.");
+      }
+
+      finalScore = result.score;
+      finalTotal = result.total;
+      finalPercentage = Math.round(
+        (finalScore / finalTotal) * 100
+      );
+      passed = result.passed;
+
+      score = finalScore;
+      window.securePassToken =
+        passed ? (result.passToken || "") : "";
+
+      // The completed session must not be reused.
+      secureExamSessionId = "";
+
+    } catch (error) {
+      console.error(error);
+      statusElement.innerText =
+        "Unable to verify your examination. Please contact support.";
+      statusElement.className = "fail";
+      return;
     }
+  } else {
+    // Practice examinations retain their existing local grading.
+    examPage.classList.add("hidden");
+    resultPage.classList.remove("hidden");
+  }
+
+  const name =
+    document.getElementById("candidateName").value;
+  const id =
+    document.getElementById("candidateID").value;
+
+  document.getElementById("candidateResult").innerText =
+    name + " | ID: " + id;
+
+  document.getElementById("scoreResult").innerText =
+    "Score: " + finalScore + " / " + finalTotal;
+
+  document.getElementById("percentageResult").innerText =
+    "Percentage: " + finalPercentage + "%";
+
+  if (passed) {
+    statusElement.innerText = "PASS";
+    statusElement.className = "pass";
+
+    // Only a server-verified final exam can unlock the certificate.
+    if (
+      finalTotal === 40 &&
+      window.securePassToken
+    ) {
+      certificateButton.style.display = "inline-block";
+    }
+  } else {
+    statusElement.innerText = "FAIL";
+    statusElement.className = "fail";
+  }
 }
 
 
