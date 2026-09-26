@@ -1523,7 +1523,11 @@ window.secureCertificate =
 
   document.getElementById("scoreResult").innerText =
     "Score: " + finalScore + " / " + finalTotal;
-
+document.getElementById("percentageResult").innerText =
+  "Percentage: " +
+  ((finalScore / finalTotal) * 100).toFixed(1) +
+  "%";
+ 
 if (passed) {
   statusElement.innerText = "PASS";
   statusElement.className = "pass";
