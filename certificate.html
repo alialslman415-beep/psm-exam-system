@@ -40,31 +40,37 @@
   .developer{text-align:right}
   .note{text-align:center;font:11px Arial,sans-serif;color:#777;margin-top:30px}
   @media print{body{background:#fff;padding:0}.toolbar{display:none}.certificate{box-shadow:none;margin:0;width:100%;min-height:100vh;page-break-after:avoid}}
- /* Certificate text readability */
+/* Clean certificate design */
 .certificate .statement,
 .certificate .details,
 .certificate .footer {
-  background: rgba(255, 255, 255, 0.88);
-  border-radius: 8px;
-  padding: 10px 16px;
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+
+.certificate .statement,
+.certificate .detail,
+.certificate .source,
+.certificate .developer {
+  color: #0b2345;
+  text-shadow: 0 1px 3px rgba(255,255,255,0.9);
 }
 
 .certificate .detail b,
-.certificate .detail span,
-.certificate .source,
-.certificate .developer {
+.certificate .detail span {
   color: #0b2345;
 }
 
 .certificate .note {
   position: relative;
   z-index: 2;
-  background: #0b2345;
+  background: transparent;
   color: #ffffff;
-  padding: 8px 12px;
-  border-radius: 4px;
+  padding: 0;
   margin-top: 18px;
-  font-size: 11px;
+  font-size: 12px;
+  text-shadow: 0 1px 3px #0b2345;
 }
 </style>
 </head>
