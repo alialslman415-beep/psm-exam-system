@@ -1527,7 +1527,12 @@ async function finishExam() {
 /* REVIEW ANSWERS */
 
 function showReview() {
-
+ if (candidateAnswers.some(a => typeof a.correct !== "number")) {
+    alert(
+      "Detailed answer review is available for practice tests only."
+    );
+    return;
+  }
     document.getElementById("resultPage")
         .classList.add("hidden");
 
