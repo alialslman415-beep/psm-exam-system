@@ -4,172 +4,510 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Certificate of Completion - PSM</title>
+
 <style>
-  *{box-sizing:border-box}
-  body{margin:0;background:#eef1f5;font-family:Georgia,'Times New Roman',serif;color:#0b2345;padding:24px}
-  .toolbar{max-width:1120px;margin:0 auto 14px;display:flex;gap:10px;justify-content:flex-end;font-family:Arial,sans-serif}
-  .toolbar button{border:0;border-radius:8px;padding:10px 16px;background:#0b2345;color:#fff;font-weight:700;cursor:pointer}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background: #edf0f5;
+  color: #10294c;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.toolbar {
+  max-width: 1120px;
+  margin: 0 auto 14px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.toolbar button {
+  padding: 11px 20px;
+  border: 0;
+  border-radius: 7px;
+  background: #10294c;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.toolbar button:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.message {
+  max-width: 1120px;
+  margin: 20px auto;
+  text-align: center;
+  font: 16px Arial, sans-serif;
+}
+
 .certificate {
   width: 1120px;
-  min-height: 790px;
+  height: 790px;
   margin: auto;
-  background: #fff url("psm-certificate-bg.png") center center / 100% 100% no-repeat;
-  border: none;
-  outline: none;
-  padding: 42px 70px 32px;
+  padding: 46px 75px 35px;
   position: relative;
-  box-shadow: 0 12px 35px rgba(0,0,0,.12);
   overflow: hidden;
-}
-  .eyebrow{text-align:center;letter-spacing:4px;font:700 14px Arial,sans-serif;color:#c18c22;text-transform:uppercase}
-  h1{text-align:center;font-size:48px;margin:12px 0 4px;letter-spacing:2px}
-  .arabic-title{text-align:center;font-family:Arial,sans-serif;font-size:24px;font-weight:700;direction:rtl;margin-bottom:28px}
-  .rule{width:180px;height:3px;background:#c99a32;margin:0 auto 32px}
-  .presented{text-align:center;font:16px Arial,sans-serif;color:#56606f;letter-spacing:1px}
-  .name{text-align:center;font-size:42px;font-style:italic;margin:12px auto 6px;border-bottom:1px solid #c99a32;max-width:720px;padding-bottom:8px}
-  .id{text-align:center;font:15px Arial,sans-serif;color:#555;margin-bottom:28px}
-  .statement{text-align:center;max-width:850px;margin:0 auto;font:18px/1.7 Arial,sans-serif;color:#26374c}
-  .course{text-align:center;font-size:31px;font-weight:700;margin:14px 0 4px}
-  .course-ar{text-align:center;font:700 21px Arial,sans-serif;direction:rtl;margin-bottom:30px}
-  .details{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:34px 0 28px}
-  .detail{border-top:2px solid #c99a32;padding-top:10px;text-align:center;font-family:Arial,sans-serif}
-  .detail b{display:block;color:#0b2345;margin-bottom:5px}.detail span{color:#555}
-  .footer{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:42px;align-items:end}
-  .source,.developer{font:14px/1.55 Arial,sans-serif;color:#4a5565}
-  .source b,.developer b{color:#0b2345}
-  .developer{text-align:right}
-  .note{text-align:center;font:11px Arial,sans-serif;color:#777;margin-top:30px}
-  @media print{body{background:#fff;padding:0}.toolbar{display:none}.certificate{box-shadow:none;margin:0;width:100%;min-height:100vh;page-break-after:avoid}}
-/* Clean certificate design and improve readability */
-
-/* Slightly fade the refinery background */
-.certificate {
-  background-image:
+  background:
     linear-gradient(
-      rgba(255,255,255,0.10),
-      rgba(255,255,255,0.30)
+      rgba(255,255,255,.12),
+      rgba(255,255,255,.22)
     ),
-    url("psm-certificate-bg.png");
-  background-position: center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+    url("psm-certificate-bg.png")
+    center / 100% 100% no-repeat;
+  box-shadow: 0 12px 35px rgba(0,0,0,.15);
+  visibility: hidden;
 }
 
-/* Remove white rectangles */
-.certificate .statement,
-.certificate .details,
-.certificate .footer {
-  background: transparent;
-  border-radius: 0;
-  padding: 0;
-}
+/* HEADER */
 
-/* Improve text clarity */
-.certificate .statement,
-.certificate .detail,
-.certificate .source,
-.certificate .developer {
-  color: #0b2345;
-  text-shadow: 0 1px 3px rgba(255,255,255,0.95);
-}
-
-.certificate .detail b,
-.certificate .detail span {
-  color: #0b2345;
-}
-
-/* Make the side information clearer */
-.certificate .source,
-.certificate .developer {
-  font-size: 16px;
-  font-weight: 600;
-}
-
-/* Legal disclaimer at the bottom */
-.certificate .note {
-  position: absolute;
-  bottom: 30px;
-  left: 100px;
-  right: 100px;
-  z-index: 2;
-  background: transparent;
-  color: #ffffff;
+.eyebrow {
   text-align: center;
-  font: 600 14px/1.4 Arial, sans-serif;
-  text-shadow: 0 1px 3px #0b2345;
-  padding: 0;
+  font: bold 13px Arial, sans-serif;
+  letter-spacing: 4px;
+  color: #b78522;
+}
+
+h1 {
+  text-align: center;
+  font-size: 44px;
+  letter-spacing: 1px;
+  margin: 10px 0 2px;
+}
+
+.arabic-title {
+  text-align: center;
+  direction: rtl;
+  font: bold 21px Arial, sans-serif;
+}
+
+.rule {
+  width: 170px;
+  height: 3px;
+  background: #c99a32;
+  margin: 18px auto 20px;
+}
+
+/* CANDIDATE */
+
+.presented {
+  text-align: center;
+  font: 15px Arial, sans-serif;
+  letter-spacing: 1px;
+  color: #45566e;
+}
+
+.name {
+  text-align: center;
+  font-size: 39px;
+  font-style: italic;
+  margin: 12px auto 10px;
+  max-width: 750px;
+  border-bottom: 1px solid #c99a32;
+  padding-bottom: 7px;
+}
+
+/* COURSE */
+
+.statement {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font: 16px/1.45 Arial, sans-serif;
+}
+
+.course {
+  text-align: center;
+  font-size: 29px;
+  font-weight: bold;
+  margin: 12px 0 2px;
+}
+
+.course-ar {
+  text-align: center;
+  direction: rtl;
+  font: bold 18px Arial, sans-serif;
+}
+
+/* PROGRAM COVERAGE */
+
+.coverage {
+  margin-top: 22px;
+}
+
+.coverage-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.coverage-title::before,
+.coverage-title::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: #c99a32;
+}
+
+.coverage-title span {
+  padding: 8px 26px;
+  border-radius: 25px;
+  background: linear-gradient(
+    90deg,
+    #f5e5b7,
+    #dba840,
+    #f5e5b7
+  );
+  font-size: 17px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.elements {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 66px;
+  padding: 6px 9px;
+  border-right: 1px solid #c99a32;
+}
+
+.element:last-child {
+  border-right: none;
+}
+
+.element-icon {
+  flex: 0 0 33px;
+  width: 33px;
+  height: 33px;
+  color: #b78522;
+}
+
+.element-text {
+  font: bold 13px/1.35 Arial, sans-serif;
+  color: #10294c;
+}
+
+.element-number {
+  display: block;
+  margin-bottom: 3px;
+  font: bold 10px Arial, sans-serif;
+  letter-spacing: 1px;
+  color: #a2731e;
+}
+
+/* CERTIFICATE DETAILS */
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.detail {
+  text-align: center;
+  border-top: 2px solid #c99a32;
+  padding-top: 9px;
+  font-family: Arial, sans-serif;
+}
+
+.detail b {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.detail span {
+  display: block;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.duration {
+  text-align: center;
+  font: 13px Arial, sans-serif;
+  margin-top: 13px;
+}
+
+/* FOOTER */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  margin-top: 24px;
+  font: bold 13px/1.5 Arial, sans-serif;
+}
+
+.developer {
+  text-align: right;
+}
+
+.note {
+  position: absolute;
+  bottom: 24px;
+  left: 105px;
+  right: 105px;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font: bold 12px/1.3 Arial, sans-serif;
+  text-shadow: 0 1px 3px #10294c;
+}
+
+/* PRINT AND PDF */
+
+@page {
+  size: A4 landscape;
   margin: 0;
 }
-}</style>
+
+@media print {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .toolbar,
+  .message {
+    display: none !important;
+  }
+
+  .certificate {
+    width: 297mm;
+    height: 210mm;
+    min-height: 0;
+    margin: 0;
+    box-shadow: none;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+</style>
 </head>
+
 <body>
-<div class="toolbar"><button onclick="window.print()">Download / Print PDF</button></div>
+
+<div class="toolbar">
+  <button id="printButton" onclick="window.print()" disabled>
+    Download / Print PDF
+  </button>
+</div>
+
+<div class="message" id="message">
+  Verifying certificate...
+</div>
+
 <section class="certificate" id="certificate">
-  <div class="eyebrow">E-Learning Program</div>
+
+  <div class="eyebrow">E-LEARNING PROGRAM</div>
+
   <h1>CERTIFICATE OF COMPLETION</h1>
-  <div class="arabic-title">شهادة إتمام دورة توعوية</div>
-  <div class="rule"></div>
 
-  <div class="presented">THIS CERTIFICATE IS PRESENTED TO</div>
-  <div class="name" id="studentName">Candidate Name</div>
-  <div class="id">ID / Iqama No.: <span id="candidateId">—</span></div>
-
-  <div class="statement">For successfully completing the e-learning awareness program and passing the final 40-question assessment:</div>
-  <div class="course">Process Safety Management Concepts</div>
-  <div class="course-ar">مفاهيم إدارة سلامة العمليات</div>
-
- <div class="details">
-  <div class="detail"><b>Final Score</b><span id="score">—</span></div>
-  <div class="detail"><b>Issue Date</b><span id="issueDate">—</span></div>
-  <div class="detail"><b>Certificate No.</b><span id="certificateNo">—</span></div>
-  <div class="detail"><b>Delivery</b><span>E-Learning</span></div>
-</div>
-
-<div style="text-align:center; font:15px Arial,sans-serif;
-            color:#0b2345; margin:-10px 0 20px;">
-  <strong>Recommended Self-Study Duration:</strong> 30 Hours
-</div>
-
-  <div class="footer">
-   <div class="source">
-  <b>Training Program:</b><br>
-  Independent Process Safety Management (PSM)
-</div>
-    <div class="developer"><b>Program prepared and developed by:</b><br>Ali Omran Al-Salman</div>
+  <div class="arabic-title">
+    شهادة إتمام دورة توعوية
   </div>
 
-  <div class="note">Certificate of completion for this training program. It does not represent an official NEBOSH qualification or accreditation.</div>
+  <div class="rule"></div>
+
+  <div class="presented">
+    THIS CERTIFICATE IS PRESENTED TO
+  </div>
+
+  <div class="name" id="studentName"></div>
+
+  <div class="statement">
+    For successfully completing the e-learning
+    awareness program and passing the final
+    40-question assessment:
+  </div>
+
+  <div class="course">
+    Process Safety Management Concepts
+  </div>
+
+  <div class="course-ar">
+    مفاهيم إدارة سلامة العمليات
+  </div>
+
+  <div class="coverage">
+
+    <div class="coverage-title">
+      <span>PROGRAM COVERAGE</span>
+    </div>
+
+    <div class="elements">
+
+      <div class="element">
+        <svg class="element-icon" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor"
+             stroke-width="1.6" aria-hidden="true">
+          <circle cx="12" cy="5" r="2"/>
+          <circle cx="5" cy="12" r="2"/>
+          <circle cx="19" cy="12" r="2"/>
+          <path d="M8 19v-2c0-2 2-3 4-3s4 1 4 3v2M12 7v4M7 12h10"/>
+        </svg>
+        <div class="element-text">
+          <span class="element-number">ELEMENT 1</span>
+          Process Safety<br>Leadership
+        </div>
+      </div>
+
+      <div class="element">
+        <svg class="element-icon" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor"
+             stroke-width="1.6" aria-hidden="true">
+          <rect x="4" y="3" width="14" height="18" rx="1"/>
+          <path d="M7 7h8M7 11h5M7 15h4"/>
+          <path d="m17 13 4 7h-8z"/>
+          <path d="M17 16v2M17 19h.01"/>
+        </svg>
+        <div class="element-text">
+          <span class="element-number">ELEMENT 2</span>
+          Management of<br>Process Risk
+        </div>
+      </div>
+
+      <div class="element">
+        <svg class="element-icon" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor"
+             stroke-width="1.6" aria-hidden="true">
+          <path d="M12 2 21 6v6c0 5-4 8-9 10-5-2-9-5-9-10V6z"/>
+          <path d="m8 12 3 3 5-6"/>
+        </svg>
+        <div class="element-text">
+          <span class="element-number">ELEMENT 3</span>
+          Process Safety<br>Hazard Control
+        </div>
+      </div>
+
+      <div class="element">
+        <svg class="element-icon" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor"
+             stroke-width="1.6" aria-hidden="true">
+          <path d="M12 2c2 4-1 5 2 8 1-3 4-3 4-6 4 5 4 10 2 14-2 3-5 4-8 4s-7-3-7-8c0-4 3-6 4-9 0 4 2 5 3 6 1-3 0-6 0-9z"/>
+        </svg>
+        <div class="element-text">
+          <span class="element-number">ELEMENT 4</span>
+          Fire and Explosion<br>Protection
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="details">
+
+    <div class="detail">
+      <b>Final Score</b>
+      <span id="score">—</span>
+    </div>
+
+    <div class="detail">
+      <b>Issue Date</b>
+      <span id="issueDate">—</span>
+    </div>
+
+    <div class="detail">
+      <b>Certificate No.</b>
+      <span id="certificateNo">—</span>
+    </div>
+
+    <div class="detail">
+      <b>Delivery</b>
+      <span>E-Learning</span>
+    </div>
+
+  </div>
+
+  <div class="duration">
+    <b>Recommended Self-Study Duration:</b> 30 Hours
+  </div>
+
+  <div class="footer">
+
+    <div>
+      <b>Training Program:</b><br>
+      Independent Process Safety Management (PSM)
+    </div>
+
+    <div class="developer">
+      <b>Program prepared and developed by:</b><br>
+      Ali Omran Al-Salman
+    </div>
+
+  </div>
+
+  <div class="note">
+    Certificate of completion for this training program.
+    It does not represent an official NEBOSH
+    qualification or accreditation.
+  </div>
+
 </section>
 
 <script>
 (async function () {
+
   const API_URL =
     "https://script.google.com/macros/s/AKfycbydpViGXhrERFP-wFCapLYcNJZtpmc8XyqOKxlT5djwj3WAH2Tecv2EJO9MLfDSviwSLg/exec";
 
-  const params = new URLSearchParams(window.location.search);
+  const params = new URLSearchParams(
+    window.location.search
+  );
+
   const cert = params.get("cert");
 
-  // Hide certificate until its record has been verified.
-  const certificate = document.getElementById("certificate");
-  certificate.style.visibility = "hidden";
+  const certificate = document.getElementById(
+    "certificate"
+  );
 
-  const printButton = document.querySelector(".toolbar button");
-  printButton.disabled = true;
+  const printButton = document.getElementById(
+    "printButton"
+  );
+
+  const message = document.getElementById(
+    "message"
+  );
 
   if (!cert) {
-    alert("Certificate number is missing.");
+    message.textContent =
+      "Certificate number is missing.";
     return;
   }
 
   try {
-    const url = API_URL +
+
+    const url =
+      API_URL +
       "?action=verifyCertificate&cert=" +
       encodeURIComponent(cert);
 
     const response = await fetch(url);
 
     if (!response.ok) {
-      throw new Error("Unable to contact verification service.");
+      throw new Error("Verification service unavailable.");
     }
 
     const data = await response.json();
@@ -177,30 +515,49 @@
     if (
       !data.success ||
       data.certificateNumber !== cert ||
-      data.result !== "PASS"
+      data.result !== "PASS" ||
+      !data.name ||
+      !data.percentage ||
+      !data.issueDate
     ) {
-      throw new Error("Certificate could not be verified.");
+      throw new Error(
+        "Certificate could not be verified."
+      );
     }
 
-    document.getElementById("studentName").textContent = data.name;
-    document.getElementById("score").textContent = data.percentage;
-    document.getElementById("issueDate").textContent = data.issueDate;
-    document.getElementById("certificateNo").textContent =
-      data.certificateNumber;
+    document.getElementById(
+      "studentName"
+    ).textContent = data.name;
 
-    // The ID is not included in the public verification response.
-    document.querySelector(".id").style.display = "none";
+    document.getElementById(
+      "score"
+    ).textContent = data.percentage;
+
+    document.getElementById(
+      "issueDate"
+    ).textContent = data.issueDate;
+
+    document.getElementById(
+      "certificateNo"
+    ).textContent = data.certificateNumber;
 
     certificate.style.visibility = "visible";
     printButton.disabled = false;
+    message.style.display = "none";
 
   } catch (error) {
+
     console.error(error);
-    alert(
-      "Certificate verification failed. Please try again later."
-    );
+
+    message.textContent =
+      "Certificate verification failed. " +
+      "Please check the certificate number " +
+      "or try again later.";
+
   }
+
 })();
 </script>
+
 </body>
 </html>
