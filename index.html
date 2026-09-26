@@ -1485,9 +1485,17 @@ async function finishExam() {
       );
       passed = result.passed;
 
-      score = finalScore;
-      window.securePassToken =
-        passed ? (result.passToken || "") : "";
+     score = finalScore;
+
+window.secureCertificate =
+  passed &&
+  result.certificateNumber &&
+  result.issueDate
+    ? {
+        certificateNumber: result.certificateNumber,
+        issueDate: result.issueDate
+      }
+    : null;
 
       // The completed session must not be reused.
       secureExamSessionId = "";
@@ -1516,12 +1524,14 @@ async function finishExam() {
   document.getElementById("scoreResult").innerText =
     "Score: " + finalScore + " / " + finalTotal;
 
-  document.getElementById("percentageResult").innerText =
-    "Percentage: " + finalPercentage + "%";
-
-  if (passed) {
-    statusElement.innerText = "PASS";
-    statusElement.className = "pass";
+ if (
+  finalTotal === 40 &&
+  window.secureCertificate &&
+  window.secureCertificate.certificateNumber &&
+  window.secureCertificate.issueDate
+) {
+  certificateButton.style.display = "inline-block";
+}
 
     // Only a server-verified final exam can unlock the certificate.
     if (
@@ -1633,12 +1643,16 @@ function openCertificate() {
   const name = document.getElementById("candidateName").value.trim();
   const id = document.getElementById("candidateID").value.trim();
   const email = document.getElementById("candidateEmail").value.trim();
-  const recommendedBy = document.getElementById("recommendedBy").value.trim();
 
-  const percentage = Math.round((score / questions.length) * 100);
+  const certificate = window.secureCertificate;
 
-  if (questions.length !== 40 || percentage < PASS_MARK) {
-    alert("Certificate is available only after passing the 40-question final examination.");
+  if (
+    questions.length !== 40 ||
+    !certificate ||
+    !certificate.certificateNumber ||
+    !certificate.issueDate
+  ) {
+    alert("Your examination must be verified before issuing a certificate.");
     return;
   }
 
@@ -1648,54 +1662,24 @@ function openCertificate() {
   }
 
   const emailField = document.getElementById("candidateEmail");
+
   if (!emailField.checkValidity()) {
     alert("Please enter a valid email address.");
     emailField.focus();
     return;
   }
-if (!window.securePassToken) {
-  alert("Your examination must be verified before issuing a certificate.");
-  return;
-}
-  // Create the certificate details once so both records match.
-  const now = new Date();
-  const issueDate = now.toLocaleDateString("en-GB");
-  const certificateNumber = "PSM-" + now.getFullYear() + "-" + id;
 
   const params = new URLSearchParams({
     name: name,
     id: id,
     score: score,
     total: questions.length,
-    percentage: percentage,
-    cert: certificateNumber,
-    date: issueDate
+    percentage: Math.round((score / questions.length) * 100),
+    cert: certificate.certificateNumber,
+    date: certificate.issueDate
   });
 
-  // Open the certificate using the existing design.
   window.open("certificate.html?" + params.toString(), "_blank");
-
-  // Send the certificate record to the private Google Sheet.
-  fetch(
-    "https://script.google.com/macros/s/AKfycbydpViGXhrERFP-wFCapLYcNJZtpmc8XyqOKxlT5djwj3WAH2Tecv2EJO9MLfDSviwSLg/exec",
-    {
-      method: "POST",
-      mode: "no-cors",
-      headers: {
-        "Content-Type": "text/plain;charset=utf-8"
-      },
-      body: JSON.stringify({
-        name: name,
-        email: email,
-        certificateNumber: certificateNumber,
-        issueDate: issueDate,
-       recommendedBy: recommendedBy,
-passToken: window.securePassToken
-      })
-    }
-  ).catch(function (error) {
-    console.error("Certificate registration request failed:", error);
-  });
 }
       function backToMainPage() {
 
