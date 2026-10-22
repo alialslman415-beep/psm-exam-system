@@ -323,8 +323,8 @@ are what give your certificate real value.
 فمعرفتك وقدرتك على تطبيق ما تعلمته هما ما يمنحان شهادتك قيمتها الحقيقية.
 </p>
 </div>
-<button id="startExamButton" onclick="startExam()" disabled>
-    🔒 Complete PSM English Book Before Examination
+<button id="startExamButton" onclick="startExam()">
+    📝 Start NEBOSH PSM Practice Exam
 </button>
 <br><br>
 
@@ -5593,17 +5593,8 @@ function updateReadingProgress() {
         percentage + "% Completed";
 const startButton = document.getElementById("startExamButton");
 
-if (percentage >= 100) {
-
-    startButton.disabled = false;
-    startButton.innerText = "✅ Start Examination";
-
-} else {
-
-    startButton.disabled = true;
-    startButton.innerText =
-        "🔒 Complete Reading Before Examination";
-}    
+startButton.disabled = false;
+startButton.innerText = "📝 Start NEBOSH PSM Practice Exam";
 }
         
     function backToBookCenter() {
