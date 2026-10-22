@@ -5614,38 +5614,7 @@ if (percentage >= 100) {
     document.getElementById("bookPage")
         .classList.remove("hidden");
 }
-
     
-</script>
-<script>
-function openKnowledgeInitiative() {
-    const page = document.getElementById('knowledgeInitiativePage');
-    if (!page) return;
-
-    page.style.display = 'block';
-    page.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
-
-function closeKnowledgeInitiative() {
-    const page = document.getElementById('knowledgeInitiativePage');
-    if (!page) return;
-
-    page.style.display = 'none';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-async function copyInitiativeDetails(value, button) {
-    try {
-        await navigator.clipboard.writeText(value);
-        const originalText = button.textContent;
-        button.textContent = '✓ تم النسخ';
-        setTimeout(() => {
-            button.textContent = originalText;
-        }, 2000);
-    } catch (error) {
-        window.prompt('انسخ البيانات التالية:', value);
-    }
-}
 </script>
 <script>
 function toggleLanguageHelp() {
